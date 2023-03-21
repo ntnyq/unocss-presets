@@ -1,0 +1,15 @@
+{
+  "name": "playground",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "unocss": "^0.50.6",
+    "unocss-preset-animate": "workspace:*",
+    "vite": "^4.2.1"
+  }
+}

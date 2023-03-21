@@ -1,0 +1,40 @@
+{
+  "name": "@ntnyq/unocss-preset",
+  "private": true,
+  "packageManager": "pnpm@7.30.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "run-s clean build:lib",
+    "build:lib": "pnpm -r --filter=./packages/* run build",
+    "clean": "rimraf packages/*/dist",
+    "coverage": "vitest --coverage",
+    "dev": "pnpm -r --filter=./packages/* --parallel run dev",
+    "lint": "eslint . --cache",
+    "play": "pnpm -C playground run dev",
+    "prepare": "husky install",
+    "publish": "pnpm build && changeset publish",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.0",
+    "@ntnyq/eslint-config": "^1.6.0",
+    "@ntnyq/prettier-config": "^1.6.0",
+    "@vitest/coverage-c8": "^0.29.7",
+    "eslint": "^8.36.0",
+    "husky": "^8.0.3",
+    "nano-staged": "^0.8.0",
+    "npm-run-all": "^4.1.5",
+    "pnpm": "^7.30.0",
+    "prettier": "^2.8.5",
+    "rimraf": "^4.4.0",
+    "typescript": "^5.0.2",
+    "unbuild": "^1.1.2",
+    "vitest": "^0.29.7"
+  },
+  "prettier": "@ntnyq/prettier-config",
+  "nano-staged": {
+    "*.{js,ts,json,md,yml,yaml}": "eslint --fix"
+  }
+}

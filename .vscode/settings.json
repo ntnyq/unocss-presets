@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.validate": [
+    "vue",
+    "yaml",
+    "html",
+    "json",
+    "jsonc",
+    "json5",
+    "markdown",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "cSpell.words": ["bumpp", "changelogithub", "kekab", "lcov", "pnpm", "tada", "vite", "vitest"],
+  "cSpell.allowCompoundWords": true
+}
