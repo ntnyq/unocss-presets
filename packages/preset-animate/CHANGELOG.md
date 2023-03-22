@@ -1,5 +1,11 @@
 # unocss-preset-animate
 
+## 0.1.0
+
+### Minor Changes
+
+- [`bdc43bb`](https://github.com/ntnyq/unocss-preset/commit/bdc43bb80bf18d6b892368277af399ed3ecbd7f6) Thanks [@ntnyq](https://github.com/ntnyq)! - export types and utils
+
 ## 0.0.1
 
 ### Patch Changes
