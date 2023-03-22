@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const tada: Animation = {
+export const tada: AnimationObject = {
   name: 'tada',
   keyframes: `@keyframes %ANIMATION_NAME% {
     from {

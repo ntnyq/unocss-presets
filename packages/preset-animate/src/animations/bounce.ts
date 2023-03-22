@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const bounce: Animation = {
+export const bounce: AnimationObject = {
   name: 'bounce',
   extraStyle: `transform-origin: center bottom;`,
   keyframes: `@keyframes %ANIMATION_NAME% {

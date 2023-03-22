@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const headShake: Animation = {
+export const headShake: AnimationObject = {
   name: 'headShake',
   extraStyle: 'animation-timing-function: ease-in-out;',
   keyframes: `@keyframes %ANIMATION_NAME% {

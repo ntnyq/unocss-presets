@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const slideInUp: Animation = {
+export const slideInUp: AnimationObject = {
   name: 'slideInUp',
   keyframes: `@keyframes %ANIMATION_NAME% {
     from {

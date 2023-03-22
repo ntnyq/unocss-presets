@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const pulse: Animation = {
+export const pulse: AnimationObject = {
   name: 'pulse',
   extraStyle: 'animation-timing-function: ease-in-out;',
   keyframes: `@keyframes %ANIMATION_NAME% {

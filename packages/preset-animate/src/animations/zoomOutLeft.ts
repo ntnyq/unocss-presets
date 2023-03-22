@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const zoomOutLeft: Animation = {
+export const zoomOutLeft: AnimationObject = {
   name: 'zoomOutLeft',
   extraStyle: 'transform-origin: left center;',
   keyframes: `@keyframes %ANIMATION_NAME% {
