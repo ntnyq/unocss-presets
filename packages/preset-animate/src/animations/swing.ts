@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const swing: Animation = {
+export const swing: AnimationObject = {
   name: 'swing',
   extraStyle: 'transform-origin: top center;',
   keyframes: `@keyframes %ANIMATION_NAME% {

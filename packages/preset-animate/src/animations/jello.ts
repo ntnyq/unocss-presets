@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const jello: Animation = {
+export const jello: AnimationObject = {
   name: 'jello',
   extraStyle: 'transform-origin: center;',
   keyframes: `@keyframes %ANIMATION_NAME% {

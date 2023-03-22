@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const rotateOutDownRight: Animation = {
+export const rotateOutDownRight: AnimationObject = {
   name: 'rotateOutDownRight',
   extraStyle: 'transform-origin: right bottom;',
   keyframes: `@keyframes %ANIMATION_NAME% {

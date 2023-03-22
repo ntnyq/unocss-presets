@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const rubberBand: Animation = {
+export const rubberBand: AnimationObject = {
   name: 'rubberBand',
   keyframes: `@keyframes %ANIMATION_NAME% {
     from {

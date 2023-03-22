@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const flipInX: Animation = {
+export const flipInX: AnimationObject = {
   name: 'flipInX',
   extraStyle: 'backface-visibility: visible; !important',
   keyframes: `@keyframes %ANIMATION_NAME% {

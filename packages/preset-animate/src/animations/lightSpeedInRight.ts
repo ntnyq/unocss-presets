@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const lightSpeedInRight: Animation = {
+export const lightSpeedInRight: AnimationObject = {
   name: 'lightSpeedInRight',
   extraStyle: 'animation-timing-function: ease-out;',
   keyframes: `@keyframes %ANIMATION_NAME% {

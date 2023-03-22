@@ -1,6 +1,6 @@
-import type { Animation } from '../types'
+import type { AnimationObject } from '../types'
 
-export const shake: Animation = {
+export const shake: AnimationObject = {
   name: 'shake',
   keyframes: `@keyframes %ANIMATION_NAME% {
     from,
