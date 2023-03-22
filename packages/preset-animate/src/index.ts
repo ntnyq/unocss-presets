@@ -13,18 +13,11 @@ export const presetAnimate = (options: PresetAnimateOptions = {}): Preset => {
 
     rules: [...createBaseRules(options), ...createAnimationRules(options)],
 
-    prefix: options.prefix,
-
     preflights: options.preflight ? createPreflights(options) : [],
-
-    postprocess(util) {
-      util.entries.forEach(([, val]) => {
-        if (typeof val === 'string') {
-          //
-        }
-      })
-    },
   }
 }
+
+export * from './types'
+export * from './utils'
 
 export default presetAnimate

@@ -1,6 +1,4 @@
 export interface PresetAnimateOptions {
-  prefix?: string
-
   /**
    * @default 'un-animate-'
    */
