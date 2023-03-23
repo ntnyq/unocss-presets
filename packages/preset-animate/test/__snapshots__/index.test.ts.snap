@@ -1,10 +1,7 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`animation selectors > animation backInDown 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-in-down {
         animation-name: unAnimationBackInDown;
@@ -32,10 +29,7 @@ exports[`animation selectors > animation backInDown 1`] = `
 `;
 
 exports[`animation selectors > animation backInDown with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-in-down {
         animation-name: unAnimationBackInDown;
@@ -63,10 +57,7 @@ exports[`animation selectors > animation backInDown with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation backInLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-in-left {
         animation-name: unAnimationBackInLeft;
@@ -94,10 +85,7 @@ exports[`animation selectors > animation backInLeft 1`] = `
 `;
 
 exports[`animation selectors > animation backInLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-in-left {
         animation-name: unAnimationBackInLeft;
@@ -125,10 +113,7 @@ exports[`animation selectors > animation backInLeft with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation backInRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-in-right {
         animation-name: unAnimationBackInRight;
@@ -156,10 +141,7 @@ exports[`animation selectors > animation backInRight 1`] = `
 `;
 
 exports[`animation selectors > animation backInRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-in-right {
         animation-name: unAnimationBackInRight;
@@ -187,10 +169,7 @@ exports[`animation selectors > animation backInRight with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation backInUp 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-in-up {
         animation-name: unAnimationBackInUp;
@@ -218,10 +197,7 @@ exports[`animation selectors > animation backInUp 1`] = `
 `;
 
 exports[`animation selectors > animation backInUp with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-in-up {
         animation-name: unAnimationBackInUp;
@@ -249,10 +225,7 @@ exports[`animation selectors > animation backInUp with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation backOutDown 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-out-down {
         animation-name: unAnimationBackOutDown;
@@ -280,10 +253,7 @@ exports[`animation selectors > animation backOutDown 1`] = `
 `;
 
 exports[`animation selectors > animation backOutDown with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-out-down {
         animation-name: unAnimationBackOutDown;
@@ -311,10 +281,7 @@ exports[`animation selectors > animation backOutDown with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation backOutLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-out-left {
         animation-name: unAnimationBackOutLeft;
@@ -342,10 +309,7 @@ exports[`animation selectors > animation backOutLeft 1`] = `
 `;
 
 exports[`animation selectors > animation backOutLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-out-left {
         animation-name: unAnimationBackOutLeft;
@@ -373,10 +337,7 @@ exports[`animation selectors > animation backOutLeft with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation backOutRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-out-right {
         animation-name: unAnimationBackOutRight;
@@ -404,10 +365,7 @@ exports[`animation selectors > animation backOutRight 1`] = `
 `;
 
 exports[`animation selectors > animation backOutRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-out-right {
         animation-name: unAnimationBackOutRight;
@@ -435,10 +393,7 @@ exports[`animation selectors > animation backOutRight with variablePrefix 1`] = 
 `;
 
 exports[`animation selectors > animation backOutUp 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-out-up {
         animation-name: unAnimationBackOutUp;
@@ -466,10 +421,7 @@ exports[`animation selectors > animation backOutUp 1`] = `
 `;
 
 exports[`animation selectors > animation backOutUp with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-back-out-up {
         animation-name: unAnimationBackOutUp;
@@ -497,10 +449,7 @@ exports[`animation selectors > animation backOutUp with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation bounce 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce {
         animation-name: unAnimationBounce;
@@ -541,10 +490,7 @@ exports[`animation selectors > animation bounce 1`] = `
 `;
 
 exports[`animation selectors > animation bounce with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce {
         animation-name: unAnimationBounce;
@@ -585,10 +531,7 @@ exports[`animation selectors > animation bounce with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation bounceIn 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-in {
         animation-name: unAnimationBounceIn;
@@ -637,10 +580,7 @@ exports[`animation selectors > animation bounceIn 1`] = `
 `;
 
 exports[`animation selectors > animation bounceIn with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-in {
         animation-name: unAnimationBounceIn;
@@ -689,10 +629,7 @@ exports[`animation selectors > animation bounceIn with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation bounceInDown 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-in-down {
         animation-name: unAnimationBounceInDown;
@@ -735,10 +672,7 @@ exports[`animation selectors > animation bounceInDown 1`] = `
 `;
 
 exports[`animation selectors > animation bounceInDown with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-in-down {
         animation-name: unAnimationBounceInDown;
@@ -781,10 +715,7 @@ exports[`animation selectors > animation bounceInDown with variablePrefix 1`] = 
 `;
 
 exports[`animation selectors > animation bounceInLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-in-left {
         animation-name: unAnimationBounceInLeft;
@@ -827,10 +758,7 @@ exports[`animation selectors > animation bounceInLeft 1`] = `
 `;
 
 exports[`animation selectors > animation bounceInLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-in-left {
         animation-name: unAnimationBounceInLeft;
@@ -873,10 +801,7 @@ exports[`animation selectors > animation bounceInLeft with variablePrefix 1`] = 
 `;
 
 exports[`animation selectors > animation bounceInRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-in-right {
         animation-name: unAnimationBounceInRight;
@@ -919,10 +844,7 @@ exports[`animation selectors > animation bounceInRight 1`] = `
 `;
 
 exports[`animation selectors > animation bounceInRight 2`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-in-right {
         animation-name: unAnimationBounceInRight;
@@ -965,10 +887,7 @@ exports[`animation selectors > animation bounceInRight 2`] = `
 `;
 
 exports[`animation selectors > animation bounceInRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-in-right {
         animation-name: unAnimationBounceInRight;
@@ -1011,10 +930,7 @@ exports[`animation selectors > animation bounceInRight with variablePrefix 1`] =
 `;
 
 exports[`animation selectors > animation bounceInRight with variablePrefix 2`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-in-right {
         animation-name: unAnimationBounceInRight;
@@ -1057,10 +973,7 @@ exports[`animation selectors > animation bounceInRight with variablePrefix 2`] =
 `;
 
 exports[`animation selectors > animation bounceInUp 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-in-up {
         animation-name: unAnimationBounceInUp;
@@ -1103,10 +1016,7 @@ exports[`animation selectors > animation bounceInUp 1`] = `
 `;
 
 exports[`animation selectors > animation bounceInUp with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-in-up {
         animation-name: unAnimationBounceInUp;
@@ -1149,10 +1059,7 @@ exports[`animation selectors > animation bounceInUp with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation bounceOut 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-out {
         animation-name: unAnimationBounceOut;
@@ -1180,10 +1087,7 @@ exports[`animation selectors > animation bounceOut 1`] = `
 `;
 
 exports[`animation selectors > animation bounceOut with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-out {
         animation-name: unAnimationBounceOut;
@@ -1211,10 +1115,7 @@ exports[`animation selectors > animation bounceOut with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation bounceOutDown 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-out-down {
         animation-name: unAnimationBounceOutDown;
@@ -1242,10 +1143,7 @@ exports[`animation selectors > animation bounceOutDown 1`] = `
 `;
 
 exports[`animation selectors > animation bounceOutDown with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-out-down {
         animation-name: unAnimationBounceOutDown;
@@ -1273,10 +1171,7 @@ exports[`animation selectors > animation bounceOutDown with variablePrefix 1`] =
 `;
 
 exports[`animation selectors > animation bounceOutLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-out-left {
         animation-name: unAnimationBounceOutLeft;
@@ -1299,10 +1194,7 @@ exports[`animation selectors > animation bounceOutLeft 1`] = `
 `;
 
 exports[`animation selectors > animation bounceOutLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-out-left {
         animation-name: unAnimationBounceOutLeft;
@@ -1325,10 +1217,7 @@ exports[`animation selectors > animation bounceOutLeft with variablePrefix 1`] =
 `;
 
 exports[`animation selectors > animation bounceOutUp 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-out-up {
         animation-name: unAnimationBounceOutUp;
@@ -1356,10 +1245,7 @@ exports[`animation selectors > animation bounceOutUp 1`] = `
 `;
 
 exports[`animation selectors > animation bounceOutUp with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-bounce-out-up {
         animation-name: unAnimationBounceOutUp;
@@ -1387,10 +1273,7 @@ exports[`animation selectors > animation bounceOutUp with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation fadeIn 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in {
         animation-name: unAnimationFadeIn;
@@ -1411,10 +1294,7 @@ exports[`animation selectors > animation fadeIn 1`] = `
 `;
 
 exports[`animation selectors > animation fadeIn with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in {
         animation-name: unAnimationFadeIn;
@@ -1435,10 +1315,7 @@ exports[`animation selectors > animation fadeIn with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInBottomLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-bottom-left {
         animation-name: unAnimationFadeInBottomLeft;
@@ -1460,10 +1337,7 @@ exports[`animation selectors > animation fadeInBottomLeft 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInBottomLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-bottom-left {
         animation-name: unAnimationFadeInBottomLeft;
@@ -1485,10 +1359,7 @@ exports[`animation selectors > animation fadeInBottomLeft with variablePrefix 1`
 `;
 
 exports[`animation selectors > animation fadeInBottomRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-bottom-right {
         animation-name: unAnimationFadeInBottomRight;
@@ -1510,10 +1381,7 @@ exports[`animation selectors > animation fadeInBottomRight 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInBottomRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-bottom-right {
         animation-name: unAnimationFadeInBottomRight;
@@ -1535,10 +1403,7 @@ exports[`animation selectors > animation fadeInBottomRight with variablePrefix 1
 `;
 
 exports[`animation selectors > animation fadeInDown 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-down {
         animation-name: unAnimationFadeInDown;
@@ -1561,10 +1426,7 @@ exports[`animation selectors > animation fadeInDown 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInDown with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-down {
         animation-name: unAnimationFadeInDown;
@@ -1587,10 +1449,7 @@ exports[`animation selectors > animation fadeInDown with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInDownBig 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-down-big {
         animation-name: unAnimationFadeInDownBig;
@@ -1613,10 +1472,7 @@ exports[`animation selectors > animation fadeInDownBig 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInDownBig with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-down-big {
         animation-name: unAnimationFadeInDownBig;
@@ -1639,10 +1495,7 @@ exports[`animation selectors > animation fadeInDownBig with variablePrefix 1`] =
 `;
 
 exports[`animation selectors > animation fadeInLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-left {
         animation-name: unAnimationFadeInLeft;
@@ -1665,10 +1518,7 @@ exports[`animation selectors > animation fadeInLeft 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-left {
         animation-name: unAnimationFadeInLeft;
@@ -1691,10 +1541,7 @@ exports[`animation selectors > animation fadeInLeft with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInLeftBig 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-left-big {
         animation-name: unAnimationFadeInLeftBig;
@@ -1717,10 +1564,7 @@ exports[`animation selectors > animation fadeInLeftBig 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInLeftBig with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-left-big {
         animation-name: unAnimationFadeInLeftBig;
@@ -1743,10 +1587,7 @@ exports[`animation selectors > animation fadeInLeftBig with variablePrefix 1`] =
 `;
 
 exports[`animation selectors > animation fadeInRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-right {
         animation-name: unAnimationFadeInRight;
@@ -1769,10 +1610,7 @@ exports[`animation selectors > animation fadeInRight 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-right {
         animation-name: unAnimationFadeInRight;
@@ -1795,10 +1633,7 @@ exports[`animation selectors > animation fadeInRight with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInRightBig 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-right-big {
         animation-name: unAnimationFadeInRightBig;
@@ -1821,10 +1656,7 @@ exports[`animation selectors > animation fadeInRightBig 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInRightBig with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-right-big {
         animation-name: unAnimationFadeInRightBig;
@@ -1847,10 +1679,7 @@ exports[`animation selectors > animation fadeInRightBig with variablePrefix 1`] 
 `;
 
 exports[`animation selectors > animation fadeInRightUp 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-right-up {
         animation-name: unAnimationFadeInRightUp;
@@ -1873,10 +1702,7 @@ exports[`animation selectors > animation fadeInRightUp 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInRightUp with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-right-up {
         animation-name: unAnimationFadeInRightUp;
@@ -1899,10 +1725,7 @@ exports[`animation selectors > animation fadeInRightUp with variablePrefix 1`] =
 `;
 
 exports[`animation selectors > animation fadeInRightUpBig 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-right-up-big {
         animation-name: unAnimationFadeInRightUpBig;
@@ -1925,10 +1748,7 @@ exports[`animation selectors > animation fadeInRightUpBig 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInRightUpBig with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-right-up-big {
         animation-name: unAnimationFadeInRightUpBig;
@@ -1951,10 +1771,7 @@ exports[`animation selectors > animation fadeInRightUpBig with variablePrefix 1`
 `;
 
 exports[`animation selectors > animation fadeInTopLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-top-left {
         animation-name: unAnimationFadeInTopLeft;
@@ -1976,10 +1793,7 @@ exports[`animation selectors > animation fadeInTopLeft 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInTopLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-top-left {
         animation-name: unAnimationFadeInTopLeft;
@@ -2001,10 +1815,7 @@ exports[`animation selectors > animation fadeInTopLeft with variablePrefix 1`] =
 `;
 
 exports[`animation selectors > animation fadeInTopRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-top-right {
         animation-name: unAnimationFadeInTopRight;
@@ -2026,10 +1837,7 @@ exports[`animation selectors > animation fadeInTopRight 1`] = `
 `;
 
 exports[`animation selectors > animation fadeInTopRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-in-top-right {
         animation-name: unAnimationFadeInTopRight;
@@ -2051,10 +1859,7 @@ exports[`animation selectors > animation fadeInTopRight with variablePrefix 1`] 
 `;
 
 exports[`animation selectors > animation fadeOut 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out {
         animation-name: unAnimationFadeOut;
@@ -2075,10 +1880,7 @@ exports[`animation selectors > animation fadeOut 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOut with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out {
         animation-name: unAnimationFadeOut;
@@ -2099,10 +1901,7 @@ exports[`animation selectors > animation fadeOut with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutBottomLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-bottom-left {
         animation-name: unAnimationFadeOutBottomLeft;
@@ -2124,10 +1923,7 @@ exports[`animation selectors > animation fadeOutBottomLeft 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutBottomLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-bottom-left {
         animation-name: unAnimationFadeOutBottomLeft;
@@ -2149,10 +1945,7 @@ exports[`animation selectors > animation fadeOutBottomLeft with variablePrefix 1
 `;
 
 exports[`animation selectors > animation fadeOutBottomRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-bottom-right {
         animation-name: unAnimationFadeOutBottomRight;
@@ -2174,10 +1967,7 @@ exports[`animation selectors > animation fadeOutBottomRight 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutBottomRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-bottom-right {
         animation-name: unAnimationFadeOutBottomRight;
@@ -2199,10 +1989,7 @@ exports[`animation selectors > animation fadeOutBottomRight with variablePrefix 
 `;
 
 exports[`animation selectors > animation fadeOutDown 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-down {
         animation-name: unAnimationFadeOutDown;
@@ -2224,10 +2011,7 @@ exports[`animation selectors > animation fadeOutDown 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutDown with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-down {
         animation-name: unAnimationFadeOutDown;
@@ -2249,10 +2033,7 @@ exports[`animation selectors > animation fadeOutDown with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutDownBig 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-down-big {
         animation-name: unAnimationFadeOutDownBig;
@@ -2274,10 +2055,7 @@ exports[`animation selectors > animation fadeOutDownBig 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutDownBig with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-down-big {
         animation-name: unAnimationFadeOutDownBig;
@@ -2299,10 +2077,7 @@ exports[`animation selectors > animation fadeOutDownBig with variablePrefix 1`] 
 `;
 
 exports[`animation selectors > animation fadeOutLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-left {
         animation-name: unAnimationFadeOutLeft;
@@ -2324,10 +2099,7 @@ exports[`animation selectors > animation fadeOutLeft 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-left {
         animation-name: unAnimationFadeOutLeft;
@@ -2349,10 +2121,7 @@ exports[`animation selectors > animation fadeOutLeft with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutLeftBig 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-left-big {
         animation-name: unAnimationFadeOutLeftBig;
@@ -2374,10 +2143,7 @@ exports[`animation selectors > animation fadeOutLeftBig 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutLeftBig with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-left-big {
         animation-name: unAnimationFadeOutLeftBig;
@@ -2399,10 +2165,7 @@ exports[`animation selectors > animation fadeOutLeftBig with variablePrefix 1`] 
 `;
 
 exports[`animation selectors > animation fadeOutRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-right {
         animation-name: unAnimationFadeOutRight;
@@ -2424,10 +2187,7 @@ exports[`animation selectors > animation fadeOutRight 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-right {
         animation-name: unAnimationFadeOutRight;
@@ -2449,10 +2209,7 @@ exports[`animation selectors > animation fadeOutRight with variablePrefix 1`] = 
 `;
 
 exports[`animation selectors > animation fadeOutRightBig 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-right-big {
         animation-name: unAnimationFadeOutRightBig;
@@ -2474,10 +2231,7 @@ exports[`animation selectors > animation fadeOutRightBig 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutRightBig with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-right-big {
         animation-name: unAnimationFadeOutRightBig;
@@ -2499,10 +2253,7 @@ exports[`animation selectors > animation fadeOutRightBig with variablePrefix 1`]
 `;
 
 exports[`animation selectors > animation fadeOutTopLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-top-left {
         animation-name: unAnimationFadeOutTopLeft;
@@ -2524,10 +2275,7 @@ exports[`animation selectors > animation fadeOutTopLeft 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutTopLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-top-left {
         animation-name: unAnimationFadeOutTopLeft;
@@ -2549,10 +2297,7 @@ exports[`animation selectors > animation fadeOutTopLeft with variablePrefix 1`] 
 `;
 
 exports[`animation selectors > animation fadeOutTopRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-top-right {
         animation-name: unAnimationFadeOutTopRight;
@@ -2574,10 +2319,7 @@ exports[`animation selectors > animation fadeOutTopRight 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutTopRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-top-right {
         animation-name: unAnimationFadeOutTopRight;
@@ -2599,10 +2341,7 @@ exports[`animation selectors > animation fadeOutTopRight with variablePrefix 1`]
 `;
 
 exports[`animation selectors > animation fadeOutUp 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-up {
         animation-name: unAnimationFadeOutUp;
@@ -2624,10 +2363,7 @@ exports[`animation selectors > animation fadeOutUp 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutUp with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-up {
         animation-name: unAnimationFadeOutUp;
@@ -2649,10 +2385,7 @@ exports[`animation selectors > animation fadeOutUp with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutUpBig 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-up-big {
         animation-name: unAnimationFadeOutUpBig;
@@ -2674,10 +2407,7 @@ exports[`animation selectors > animation fadeOutUpBig 1`] = `
 `;
 
 exports[`animation selectors > animation fadeOutUpBig with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-fade-out-up-big {
         animation-name: unAnimationFadeOutUpBig;
@@ -2699,10 +2429,7 @@ exports[`animation selectors > animation fadeOutUpBig with variablePrefix 1`] = 
 `;
 
 exports[`animation selectors > animation flash 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-flash {
         animation-name: unAnimationFlash;
@@ -2726,10 +2453,7 @@ exports[`animation selectors > animation flash 1`] = `
 `;
 
 exports[`animation selectors > animation flash with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-flash {
         animation-name: unAnimationFlash;
@@ -2753,10 +2477,7 @@ exports[`animation selectors > animation flash with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation flip 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-flip {
         animation-name: unAnimationFlip;
@@ -2797,10 +2518,7 @@ exports[`animation selectors > animation flip 1`] = `
 `;
 
 exports[`animation selectors > animation flip with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-flip {
         animation-name: unAnimationFlip;
@@ -2841,10 +2559,7 @@ exports[`animation selectors > animation flip with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation flipInX 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-flip-in-x {
         animation-name: unAnimationFlipInX;
@@ -2881,10 +2596,7 @@ exports[`animation selectors > animation flipInX 1`] = `
 `;
 
 exports[`animation selectors > animation flipInX with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-flip-in-x {
         animation-name: unAnimationFlipInX;
@@ -2921,10 +2633,7 @@ exports[`animation selectors > animation flipInX with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation flipInY 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-flip-in-y {
         animation-name: unAnimationFlipInY;
@@ -2961,10 +2670,7 @@ exports[`animation selectors > animation flipInY 1`] = `
 `;
 
 exports[`animation selectors > animation flipInY with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-flip-in-y {
         animation-name: unAnimationFlipInY;
@@ -3001,10 +2707,7 @@ exports[`animation selectors > animation flipInY with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation flipOutX 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-flip-out-x {
         animation-name: unAnimationFlipOutX;
@@ -3034,10 +2737,7 @@ exports[`animation selectors > animation flipOutX 1`] = `
 `;
 
 exports[`animation selectors > animation flipOutX with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-flip-out-x {
         animation-name: unAnimationFlipOutX;
@@ -3067,10 +2767,7 @@ exports[`animation selectors > animation flipOutX with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation flipOutY 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-flip-out-y {
         animation-name: unAnimationFlipOutY;
@@ -3100,10 +2797,7 @@ exports[`animation selectors > animation flipOutY 1`] = `
 `;
 
 exports[`animation selectors > animation flipOutY with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-flip-out-y {
         animation-name: unAnimationFlipOutY;
@@ -3133,10 +2827,7 @@ exports[`animation selectors > animation flipOutY with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation headShake 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-head-shake {
         animation-name: unAnimationHeadShake;
@@ -3173,10 +2864,7 @@ exports[`animation selectors > animation headShake 1`] = `
 `;
 
 exports[`animation selectors > animation headShake with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-head-shake {
         animation-name: unAnimationHeadShake;
@@ -3213,10 +2901,7 @@ exports[`animation selectors > animation headShake with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation heartBeat 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-heart-beat {
         animation-name: unAnimationHeartBeat;
@@ -3252,10 +2937,7 @@ exports[`animation selectors > animation heartBeat 1`] = `
 `;
 
 exports[`animation selectors > animation heartBeat with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-heart-beat {
         animation-name: unAnimationHeartBeat;
@@ -3291,10 +2973,7 @@ exports[`animation selectors > animation heartBeat with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation hinge 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-hinge {
         animation-name: unAnimationHinge;
@@ -3332,10 +3011,7 @@ exports[`animation selectors > animation hinge 1`] = `
 `;
 
 exports[`animation selectors > animation hinge with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-hinge {
         animation-name: unAnimationHinge;
@@ -3373,10 +3049,7 @@ exports[`animation selectors > animation hinge with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation jackInTheBox 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-jack-in-the-box {
         animation-name: unAnimationJackInTheBox;
@@ -3408,10 +3081,7 @@ exports[`animation selectors > animation jackInTheBox 1`] = `
 `;
 
 exports[`animation selectors > animation jackInTheBox with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-jack-in-the-box {
         animation-name: unAnimationJackInTheBox;
@@ -3443,10 +3113,7 @@ exports[`animation selectors > animation jackInTheBox with variablePrefix 1`] = 
 `;
 
 exports[`animation selectors > animation jello 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-jello {
         animation-name: unAnimationJello;
@@ -3493,10 +3160,7 @@ exports[`animation selectors > animation jello 1`] = `
 `;
 
 exports[`animation selectors > animation jello with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-jello {
         animation-name: unAnimationJello;
@@ -3543,10 +3207,7 @@ exports[`animation selectors > animation jello with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation lightSpeedInLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-light-speed-in-left {
         animation-name: unAnimationLightSpeedInLeft;
@@ -3577,10 +3238,7 @@ exports[`animation selectors > animation lightSpeedInLeft 1`] = `
 `;
 
 exports[`animation selectors > animation lightSpeedInLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-light-speed-in-left {
         animation-name: unAnimationLightSpeedInLeft;
@@ -3611,10 +3269,7 @@ exports[`animation selectors > animation lightSpeedInLeft with variablePrefix 1`
 `;
 
 exports[`animation selectors > animation lightSpeedInRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-light-speed-in-right {
         animation-name: unAnimationLightSpeedInRight;
@@ -3645,10 +3300,7 @@ exports[`animation selectors > animation lightSpeedInRight 1`] = `
 `;
 
 exports[`animation selectors > animation lightSpeedInRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-light-speed-in-right {
         animation-name: unAnimationLightSpeedInRight;
@@ -3679,10 +3331,7 @@ exports[`animation selectors > animation lightSpeedInRight with variablePrefix 1
 `;
 
 exports[`animation selectors > animation lightSpeedOutLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-light-speed-out-left {
         animation-name: unAnimationLightSpeedOutLeft;
@@ -3704,10 +3353,7 @@ exports[`animation selectors > animation lightSpeedOutLeft 1`] = `
 `;
 
 exports[`animation selectors > animation lightSpeedOutLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-light-speed-out-left {
         animation-name: unAnimationLightSpeedOutLeft;
@@ -3729,10 +3375,7 @@ exports[`animation selectors > animation lightSpeedOutLeft with variablePrefix 1
 `;
 
 exports[`animation selectors > animation lightSpeedOutRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-light-speed-out-right {
         animation-name: unAnimationLightSpeedOutRight;
@@ -3754,10 +3397,7 @@ exports[`animation selectors > animation lightSpeedOutRight 1`] = `
 `;
 
 exports[`animation selectors > animation lightSpeedOutRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-light-speed-out-right {
         animation-name: unAnimationLightSpeedOutRight;
@@ -3779,10 +3419,7 @@ exports[`animation selectors > animation lightSpeedOutRight with variablePrefix 
 `;
 
 exports[`animation selectors > animation pulse 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-pulse {
         animation-name: unAnimationPulse;
@@ -3807,10 +3444,7 @@ exports[`animation selectors > animation pulse 1`] = `
 `;
 
 exports[`animation selectors > animation pulse with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-pulse {
         animation-name: unAnimationPulse;
@@ -3835,10 +3469,7 @@ exports[`animation selectors > animation pulse with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation rollIn 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-roll-in {
         animation-name: unAnimationRollIn;
@@ -3861,10 +3492,7 @@ exports[`animation selectors > animation rollIn 1`] = `
 `;
 
 exports[`animation selectors > animation rollIn with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-roll-in {
         animation-name: unAnimationRollIn;
@@ -3887,10 +3515,7 @@ exports[`animation selectors > animation rollIn with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation rollOut 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-roll-out {
         animation-name: unAnimationRollOut;
@@ -3912,10 +3537,7 @@ exports[`animation selectors > animation rollOut 1`] = `
 `;
 
 exports[`animation selectors > animation rollOut with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-roll-out {
         animation-name: unAnimationRollOut;
@@ -3937,10 +3559,7 @@ exports[`animation selectors > animation rollOut with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation rotateIn 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-in {
         animation-name: unAnimationRotateIn;
@@ -3963,10 +3582,7 @@ exports[`animation selectors > animation rotateIn 1`] = `
 `;
 
 exports[`animation selectors > animation rotateIn with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-in {
         animation-name: unAnimationRotateIn;
@@ -3989,10 +3605,7 @@ exports[`animation selectors > animation rotateIn with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation rotateInDownLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-in-down-left {
         animation-name: unAnimationRotateInDownLeft;
@@ -4015,10 +3628,7 @@ exports[`animation selectors > animation rotateInDownLeft 1`] = `
 `;
 
 exports[`animation selectors > animation rotateInDownLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-in-down-left {
         animation-name: unAnimationRotateInDownLeft;
@@ -4041,10 +3651,7 @@ exports[`animation selectors > animation rotateInDownLeft with variablePrefix 1`
 `;
 
 exports[`animation selectors > animation rotateInDownRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-in-down-right {
         animation-name: unAnimationRotateInDownRight;
@@ -4067,10 +3674,7 @@ exports[`animation selectors > animation rotateInDownRight 1`] = `
 `;
 
 exports[`animation selectors > animation rotateInDownRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-in-down-right {
         animation-name: unAnimationRotateInDownRight;
@@ -4093,10 +3697,7 @@ exports[`animation selectors > animation rotateInDownRight with variablePrefix 1
 `;
 
 exports[`animation selectors > animation rotateInUpLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-in-up-left {
         animation-name: unAnimationRotateInUpLeft;
@@ -4119,10 +3720,7 @@ exports[`animation selectors > animation rotateInUpLeft 1`] = `
 `;
 
 exports[`animation selectors > animation rotateInUpLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-in-up-left {
         animation-name: unAnimationRotateInUpLeft;
@@ -4145,10 +3743,7 @@ exports[`animation selectors > animation rotateInUpLeft with variablePrefix 1`] 
 `;
 
 exports[`animation selectors > animation rotateInUpRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-in-up-right {
         animation-name: unAnimationRotateInUpRight;
@@ -4171,10 +3766,7 @@ exports[`animation selectors > animation rotateInUpRight 1`] = `
 `;
 
 exports[`animation selectors > animation rotateInUpRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-in-up-right {
         animation-name: unAnimationRotateInUpRight;
@@ -4197,10 +3789,7 @@ exports[`animation selectors > animation rotateInUpRight with variablePrefix 1`]
 `;
 
 exports[`animation selectors > animation rotateOut 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-out {
         animation-name: unAnimationRotateOut;
@@ -4222,10 +3811,7 @@ exports[`animation selectors > animation rotateOut 1`] = `
 `;
 
 exports[`animation selectors > animation rotateOut with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-out {
         animation-name: unAnimationRotateOut;
@@ -4247,10 +3833,7 @@ exports[`animation selectors > animation rotateOut with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation rotateOutDownLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-out-down-left {
         animation-name: unAnimationRotateOutDownLeft;
@@ -4272,10 +3855,7 @@ exports[`animation selectors > animation rotateOutDownLeft 1`] = `
 `;
 
 exports[`animation selectors > animation rotateOutDownLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-out-down-left {
         animation-name: unAnimationRotateOutDownLeft;
@@ -4297,10 +3877,7 @@ exports[`animation selectors > animation rotateOutDownLeft with variablePrefix 1
 `;
 
 exports[`animation selectors > animation rotateOutDownRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-out-down-right {
         animation-name: unAnimationRotateOutDownRight;
@@ -4322,10 +3899,7 @@ exports[`animation selectors > animation rotateOutDownRight 1`] = `
 `;
 
 exports[`animation selectors > animation rotateOutDownRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-out-down-right {
         animation-name: unAnimationRotateOutDownRight;
@@ -4347,10 +3921,7 @@ exports[`animation selectors > animation rotateOutDownRight with variablePrefix 
 `;
 
 exports[`animation selectors > animation rotateOutUpLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-out-up-left {
         animation-name: unAnimationRotateOutUpLeft;
@@ -4372,10 +3943,7 @@ exports[`animation selectors > animation rotateOutUpLeft 1`] = `
 `;
 
 exports[`animation selectors > animation rotateOutUpLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-out-up-left {
         animation-name: unAnimationRotateOutUpLeft;
@@ -4397,10 +3965,7 @@ exports[`animation selectors > animation rotateOutUpLeft with variablePrefix 1`]
 `;
 
 exports[`animation selectors > animation rotateOutUpRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-out-up-right {
         animation-name: unAnimationRotateOutUpRight;
@@ -4422,10 +3987,7 @@ exports[`animation selectors > animation rotateOutUpRight 1`] = `
 `;
 
 exports[`animation selectors > animation rotateOutUpRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rotate-out-up-right {
         animation-name: unAnimationRotateOutUpRight;
@@ -4447,10 +4009,7 @@ exports[`animation selectors > animation rotateOutUpRight with variablePrefix 1`
 `;
 
 exports[`animation selectors > animation rubberBand 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rubber-band {
         animation-name: unAnimationRubberBand;
@@ -4491,10 +4050,7 @@ exports[`animation selectors > animation rubberBand 1`] = `
 `;
 
 exports[`animation selectors > animation rubberBand with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-rubber-band {
         animation-name: unAnimationRubberBand;
@@ -4535,10 +4091,7 @@ exports[`animation selectors > animation rubberBand with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation shake 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-shake {
         animation-name: unAnimationShake;
@@ -4571,10 +4124,7 @@ exports[`animation selectors > animation shake 1`] = `
 `;
 
 exports[`animation selectors > animation shake with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-shake {
         animation-name: unAnimationShake;
@@ -4607,10 +4157,7 @@ exports[`animation selectors > animation shake with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation shakeX 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-shake-x {
         animation-name: unAnimationShakeX;
@@ -4643,10 +4190,7 @@ exports[`animation selectors > animation shakeX 1`] = `
 `;
 
 exports[`animation selectors > animation shakeX with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-shake-x {
         animation-name: unAnimationShakeX;
@@ -4679,10 +4223,7 @@ exports[`animation selectors > animation shakeX with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation shakeY 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-shake-y {
         animation-name: unAnimationShakeY;
@@ -4715,10 +4256,7 @@ exports[`animation selectors > animation shakeY 1`] = `
 `;
 
 exports[`animation selectors > animation shakeY with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-shake-y {
         animation-name: unAnimationShakeY;
@@ -4751,10 +4289,7 @@ exports[`animation selectors > animation shakeY with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation slideInDown 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-in-down {
         animation-name: unAnimationSlideInDown;
@@ -4776,10 +4311,7 @@ exports[`animation selectors > animation slideInDown 1`] = `
 `;
 
 exports[`animation selectors > animation slideInDown with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-in-down {
         animation-name: unAnimationSlideInDown;
@@ -4801,10 +4333,7 @@ exports[`animation selectors > animation slideInDown with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation slideInLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-in-left {
         animation-name: unAnimationSlideInLeft;
@@ -4826,10 +4355,7 @@ exports[`animation selectors > animation slideInLeft 1`] = `
 `;
 
 exports[`animation selectors > animation slideInLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-in-left {
         animation-name: unAnimationSlideInLeft;
@@ -4851,10 +4377,7 @@ exports[`animation selectors > animation slideInLeft with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation slideInRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-in-right {
         animation-name: unAnimationSlideInRight;
@@ -4876,10 +4399,7 @@ exports[`animation selectors > animation slideInRight 1`] = `
 `;
 
 exports[`animation selectors > animation slideInRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-in-right {
         animation-name: unAnimationSlideInRight;
@@ -4901,10 +4421,7 @@ exports[`animation selectors > animation slideInRight with variablePrefix 1`] = 
 `;
 
 exports[`animation selectors > animation slideInUp 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-in-up {
         animation-name: unAnimationSlideInUp;
@@ -4926,10 +4443,7 @@ exports[`animation selectors > animation slideInUp 1`] = `
 `;
 
 exports[`animation selectors > animation slideInUp with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-in-up {
         animation-name: unAnimationSlideInUp;
@@ -4951,10 +4465,7 @@ exports[`animation selectors > animation slideInUp with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation slideOutDown 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-out-down {
         animation-name: unAnimationSlideOutDown;
@@ -4976,10 +4487,7 @@ exports[`animation selectors > animation slideOutDown 1`] = `
 `;
 
 exports[`animation selectors > animation slideOutDown with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-out-down {
         animation-name: unAnimationSlideOutDown;
@@ -5001,10 +4509,7 @@ exports[`animation selectors > animation slideOutDown with variablePrefix 1`] = 
 `;
 
 exports[`animation selectors > animation slideOutLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-out-left {
         animation-name: unAnimationSlideOutLeft;
@@ -5026,10 +4531,7 @@ exports[`animation selectors > animation slideOutLeft 1`] = `
 `;
 
 exports[`animation selectors > animation slideOutLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-out-left {
         animation-name: unAnimationSlideOutLeft;
@@ -5051,10 +4553,7 @@ exports[`animation selectors > animation slideOutLeft with variablePrefix 1`] = 
 `;
 
 exports[`animation selectors > animation slideOutRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-out-right {
         animation-name: unAnimationSlideOutRight;
@@ -5076,10 +4575,7 @@ exports[`animation selectors > animation slideOutRight 1`] = `
 `;
 
 exports[`animation selectors > animation slideOutRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-out-right {
         animation-name: unAnimationSlideOutRight;
@@ -5101,10 +4597,7 @@ exports[`animation selectors > animation slideOutRight with variablePrefix 1`] =
 `;
 
 exports[`animation selectors > animation slideOutUp 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-out-up {
         animation-name: unAnimationSlideOutUp;
@@ -5126,10 +4619,7 @@ exports[`animation selectors > animation slideOutUp 1`] = `
 `;
 
 exports[`animation selectors > animation slideOutUp with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-slide-out-up {
         animation-name: unAnimationSlideOutUp;
@@ -5151,10 +4641,7 @@ exports[`animation selectors > animation slideOutUp with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation swing 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-swing {
         animation-name: unAnimationSwing;
@@ -5187,10 +4674,7 @@ exports[`animation selectors > animation swing 1`] = `
 `;
 
 exports[`animation selectors > animation swing with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-swing {
         animation-name: unAnimationSwing;
@@ -5223,10 +4707,7 @@ exports[`animation selectors > animation swing with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation tada 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-tada {
         animation-name: unAnimationTada;
@@ -5265,10 +4746,7 @@ exports[`animation selectors > animation tada 1`] = `
 `;
 
 exports[`animation selectors > animation tada with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-tada {
         animation-name: unAnimationTada;
@@ -5307,10 +4785,7 @@ exports[`animation selectors > animation tada with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation wobble 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-wobble {
         animation-name: unAnimationWobble;
@@ -5351,10 +4826,7 @@ exports[`animation selectors > animation wobble 1`] = `
 `;
 
 exports[`animation selectors > animation wobble with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-wobble {
         animation-name: unAnimationWobble;
@@ -5395,10 +4867,7 @@ exports[`animation selectors > animation wobble with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation zoomIn 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-in {
         animation-name: unAnimationZoomIn;
@@ -5420,10 +4889,7 @@ exports[`animation selectors > animation zoomIn 1`] = `
 `;
 
 exports[`animation selectors > animation zoomIn with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-in {
         animation-name: unAnimationZoomIn;
@@ -5445,10 +4911,7 @@ exports[`animation selectors > animation zoomIn with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation zoomInDown 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-in-down {
         animation-name: unAnimationZoomInDown;
@@ -5473,10 +4936,7 @@ exports[`animation selectors > animation zoomInDown 1`] = `
 `;
 
 exports[`animation selectors > animation zoomInDown with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-in-down {
         animation-name: unAnimationZoomInDown;
@@ -5501,10 +4961,7 @@ exports[`animation selectors > animation zoomInDown with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation zoomInLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-in-left {
         animation-name: unAnimationZoomInLeft;
@@ -5529,10 +4986,7 @@ exports[`animation selectors > animation zoomInLeft 1`] = `
 `;
 
 exports[`animation selectors > animation zoomInLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-in-left {
         animation-name: unAnimationZoomInLeft;
@@ -5557,10 +5011,7 @@ exports[`animation selectors > animation zoomInLeft with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation zoomInRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-in-right {
         animation-name: unAnimationZoomInRight;
@@ -5585,10 +5036,7 @@ exports[`animation selectors > animation zoomInRight 1`] = `
 `;
 
 exports[`animation selectors > animation zoomInRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-in-right {
         animation-name: unAnimationZoomInRight;
@@ -5613,10 +5061,7 @@ exports[`animation selectors > animation zoomInRight with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation zoomInUp 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-in-up {
         animation-name: unAnimationZoomInUp;
@@ -5641,10 +5086,7 @@ exports[`animation selectors > animation zoomInUp 1`] = `
 `;
 
 exports[`animation selectors > animation zoomInUp with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-in-up {
         animation-name: unAnimationZoomInUp;
@@ -5669,10 +5111,7 @@ exports[`animation selectors > animation zoomInUp with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation zoomOut 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-out {
         animation-name: unAnimationZoomOut;
@@ -5698,10 +5137,7 @@ exports[`animation selectors > animation zoomOut 1`] = `
 `;
 
 exports[`animation selectors > animation zoomOut with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-out {
         animation-name: unAnimationZoomOut;
@@ -5727,10 +5163,7 @@ exports[`animation selectors > animation zoomOut with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation zoomOutDown 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-out-down {
         animation-name: unAnimationZoomOutDown;
@@ -5755,10 +5188,7 @@ exports[`animation selectors > animation zoomOutDown 1`] = `
 `;
 
 exports[`animation selectors > animation zoomOutDown with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-out-down {
         animation-name: unAnimationZoomOutDown;
@@ -5783,10 +5213,7 @@ exports[`animation selectors > animation zoomOutDown with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation zoomOutLeft 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-out-left {
         animation-name: unAnimationZoomOutLeft;
@@ -5809,10 +5236,7 @@ exports[`animation selectors > animation zoomOutLeft 1`] = `
 `;
 
 exports[`animation selectors > animation zoomOutLeft with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-out-left {
         animation-name: unAnimationZoomOutLeft;
@@ -5835,10 +5259,7 @@ exports[`animation selectors > animation zoomOutLeft with variablePrefix 1`] = `
 `;
 
 exports[`animation selectors > animation zoomOutRight 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-out-right {
         animation-name: unAnimationZoomOutRight;
@@ -5861,10 +5282,7 @@ exports[`animation selectors > animation zoomOutRight 1`] = `
 `;
 
 exports[`animation selectors > animation zoomOutRight with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-out-right {
         animation-name: unAnimationZoomOutRight;
@@ -5887,10 +5305,7 @@ exports[`animation selectors > animation zoomOutRight with variablePrefix 1`] = 
 `;
 
 exports[`animation selectors > animation zoomOutUp 1`] = `
-"/* layer: preflights */
-:root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-out-up {
         animation-name: unAnimationZoomOutUp;
@@ -5915,10 +5330,7 @@ exports[`animation selectors > animation zoomOutUp 1`] = `
 `;
 
 exports[`animation selectors > animation zoomOutUp with variablePrefix 1`] = `
-"/* layer: preflights */
-:root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-@mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
-/* layer: default */
+"/* layer: default */
 
       .animation-zoom-out-up {
         animation-name: unAnimationZoomOutUp;

@@ -10,8 +10,11 @@ describe('default', () => {
     const { css } = await generator.generate('')
     expect(css).toMatchInlineSnapshot(`
       "/* layer: preflights */
-      :root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-      @mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}"
+      :root { --un-animate-duration: 1s; --un-animate-delay: 1s; --un-animate-repeat: 1; }
+      @media print, (prefers-reduced-motion: reduce) {
+              .animated { animation-duration: 1ms !important; transition-duration: 1ms !important; animation-iteration-count: 1 !important; }
+              .animated[class*='out'] { opacity: 0; }
+            }"
     `)
   })
 })
@@ -40,7 +43,7 @@ describe('preset-animate options', () => {
     const { css } = await generator.generate('')
     expect(css).toMatchInlineSnapshot(`
       "/* layer: preflights */
-      :root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}"
+      :root { --un-animate-duration: 1s; --un-animate-delay: 1s; --un-animate-repeat: 1; }"
     `)
   })
 
@@ -55,8 +58,11 @@ describe('preset-animate options', () => {
     const { css } = await generator.generate('')
     expect(css).toMatchInlineSnapshot(`
       "/* layer: preflights */
-      :root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-      @mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}"
+      :root { --foo-bar-duration: 1s; --foo-bar-delay: 1s; --foo-bar-repeat: 1; }
+      @media print, (prefers-reduced-motion: reduce) {
+              .animated { animation-duration: 1ms !important; transition-duration: 1ms !important; animation-iteration-count: 1 !important; }
+              .animated[class*='out'] { opacity: 0; }
+            }"
     `)
   })
 })
@@ -70,8 +76,11 @@ describe('base selectors', () => {
     const { css } = await generator.generate(targets.join('\n'))
     expect(css).toMatchInlineSnapshot(`
       "/* layer: preflights */
-      :root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-      @mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
+      :root { --un-animate-duration: 1s; --un-animate-delay: 1s; --un-animate-repeat: 1; }
+      @media print, (prefers-reduced-motion: reduce) {
+              .animated { animation-duration: 1ms !important; transition-duration: 1ms !important; animation-iteration-count: 1 !important; }
+              .animated[class*='out'] { opacity: 0; }
+            }
       /* layer: default */
       .animated{animation-duration:var(--un-animate-duration);animation-fill-mode:both;}
       .animate-fast{animation-duration:calc(var(--un-animate-duration) * 0.8);}
@@ -92,8 +101,11 @@ describe('base selectors', () => {
     const { css } = await generator.generate(targets.join('\n'))
     expect(css).toMatchInlineSnapshot(`
       "/* layer: preflights */
-      :root{--foo-bar-duration:1s;--foo-bar-delay:1s;--foo-bar-repeat:1;}
-      @mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
+      :root { --foo-bar-duration: 1s; --foo-bar-delay: 1s; --foo-bar-repeat: 1; }
+      @media print, (prefers-reduced-motion: reduce) {
+              .animated { animation-duration: 1ms !important; transition-duration: 1ms !important; animation-iteration-count: 1 !important; }
+              .animated[class*='out'] { opacity: 0; }
+            }
       /* layer: default */
       .animated{animation-duration:var(--foo-bar-duration);animation-fill-mode:both;}
       .animate-repeat-2{animation-iteration-count:calc(var(--foo-bar-repeat) * 2);}
@@ -116,8 +128,11 @@ describe('base selectors', () => {
     const { css } = await generator.generate(targets.join('\n'))
     expect(css).toMatchInlineSnapshot(`
       "/* layer: preflights */
-      :root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
-      @mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
+      :root { --un-animate-duration: 1s; --un-animate-delay: 1s; --un-animate-repeat: 1; }
+      @media print, (prefers-reduced-motion: reduce) {
+              .animated { animation-duration: 1ms !important; transition-duration: 1ms !important; animation-iteration-count: 1 !important; }
+              .animated[class*='out'] { opacity: 0; }
+            }
       /* layer: default */
       .animated{animation-duration:var(--un-animate-duration);animation-fill-mode:both;}"
     `)
@@ -241,11 +256,16 @@ describe('animation selectors', () => {
     'slideOutUp',
   ]
   const generator = createGenerator({
-    presets: [presetAnimate()],
+    presets: [
+      presetAnimate({
+        preflight: false,
+      }),
+    ],
   })
   const generatorWithVariablePrefix = createGenerator({
     presets: [
       presetAnimate({
+        preflight: false,
         variablePrefix: 'foo-bar-',
       }),
     ],
