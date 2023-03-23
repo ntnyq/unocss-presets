@@ -1,97 +1,60 @@
-import { minify } from '../utils'
 import type { PresetAnimateOptions } from '../types'
 import type { Rule } from '@unocss/core'
+
+const durationShortcuts = {
+  faster: 0.5,
+  fast: 0.8,
+  slow: 2,
+  slower: 3,
+}
 
 export const createBaseRules = (options: PresetAnimateOptions) => {
   const rules: Rule[] = [
     [
-      /^animated$/,
-      () => {
-        return minify(`
-        .animated {
-          animation-duration: var(--${options.variablePrefix}duration);
-          animation-fill-mode: both;
-        }`)
+      'animated',
+      {
+        'animation-duration': `var(--${options.variablePrefix}duration)`,
+        'animation-fill-mode': 'both',
       },
     ],
     [
-      /^animate-infinate$/,
-      () => {
-        return minify(`
-        .animate-infinate {
-          animation-iteration-count: infinite;
-        }`)
+      'animate-infinate',
+      {
+        'animation-iteration-count': 'infinite',
       },
     ],
     [
-      /^animate-faster$/,
-      () =>
-        minify(`
-        .animate-faster {
-          animation-duration: calc(var(--${options.variablePrefix}duration) * 0.5);
-        }`),
-    ],
-    [
-      /^animate-fast$/,
-      () =>
-        minify(`
-        .animate-fast {
-          animation-duration: calc(var(--${options.variablePrefix}duration) * 0.8);
-        }`),
-    ],
-    [
-      /^animate-slow$/,
-      () =>
-        minify(`
-        .animate-slow {
-          animation-duration: calc(var(--${options.variablePrefix}duration) * 2);
-        }`),
-    ],
-    [
-      /^animate-slower$/,
-      () =>
-        minify(`
-        .animate-slower {
-          animation-duration: calc(var(--${options.variablePrefix}duration) * 3);
-        }`),
-    ],
-    [
-      /^animate-repeat-(.+)$/,
-      ([, count]) => {
-        const num = Number.parseInt(count)
-
-        if (Number.isNaN(num)) return ''
-
-        return minify(`
-        .animate-repeat-${num} {
-          animation-iteration-count: calc(var(--${options.variablePrefix}repeat) * ${num});
-        }`)
+      /^animate-(fast|faster|slow|slower)$/,
+      ([, shortcut]) => {
+        return {
+          'animation-duration': `calc(var(--${options.variablePrefix}duration) * ${
+            durationShortcuts[shortcut as keyof typeof durationShortcuts]
+          })`,
+        }
       },
     ],
     [
-      /^animate-delay-(.+)$/,
-      ([, count]) => {
-        const num = Number.parseFloat(count)
-
-        if (Number.isNaN(num)) return ''
-
-        return minify(`
-        .animate-delay-${num} {
-          animation-delay: calc(var(--${options.variablePrefix}delay) * ${num});
-        }`)
+      /^animate-repeat-(\d+)$/,
+      ([, n]) => {
+        return {
+          'animation-iteration-count': `calc(var(--${options.variablePrefix}repeat) * ${n})`,
+        }
       },
     ],
     [
-      /^animate-duration-(.+)$/,
-      ([, count]) => {
-        const num = Number.parseFloat(count)
-
-        if (Number.isNaN(num)) return ''
-
-        return minify(`
-        .animate-duration-${num} {
-          animation-duration: calc(var(--${options.variablePrefix}duration) * ${num});
-        }`)
+      /^animate-delay-(\d+(\.\d+)?)$/,
+      ([, n]) => {
+        return {
+          'animation-delay': `calc(var(--${options.variablePrefix}delay) * ${n})`,
+        }
+      },
+    ],
+    [
+      /^animate-duration-(\d+(\.\d+)?)$/,
+      ([, n]) => {
+        return {
+          'animation-duration': `calc(var(--${options.variablePrefix}duration) * ${n})`,
+        }
       },
     ],
   ]

@@ -1,7 +1,7 @@
 import { animations as builtInAnimations } from '../animations'
 import { capitalize, kekabCase } from '../utils'
 import type { PresetAnimateOptions } from '../types'
-import type { Rule } from '@unocss/core'
+import type { DynamicRule } from '@unocss/core'
 
 export const createAnimationRules = (options: PresetAnimateOptions) => {
   const extendAnimations = Array.isArray(options.extendAnimations) ? options.extendAnimations : []
@@ -9,7 +9,7 @@ export const createAnimationRules = (options: PresetAnimateOptions) => {
   const normalizedAnimation = animations.map(animation =>
     typeof animation === 'function' ? animation(options) : animation,
   )
-  const rules: Rule[] = normalizedAnimation.map(animation => [
+  const rules = normalizedAnimation.map<DynamicRule>(animation => [
     new RegExp(`^animation-${kekabCase(animation.name)}$`),
     () => `
       .animation-${kekabCase(animation.name)} {
@@ -20,6 +20,9 @@ export const createAnimationRules = (options: PresetAnimateOptions) => {
         ${animation.keyframes}
       }
     `,
+    {
+      autocomplete: [`animation-${kekabCase(animation.name)}`],
+    },
   ])
   return rules
 }

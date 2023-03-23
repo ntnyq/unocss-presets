@@ -74,9 +74,9 @@ describe('base selectors', () => {
       @mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
       /* layer: default */
       .animated{animation-duration:var(--un-animate-duration);animation-fill-mode:both;}
-      .animate-fast{animation-duration:calc(var(--un-animate-duration)*0.8);}
-      .animate-repeat-2{animation-iteration-count:calc(var(--un-animate-repeat)*2);}
-      .animate-delay-0.5{animation-delay:calc(var(--un-animate-delay)*0.5);}"
+      .animate-fast{animation-duration:calc(var(--un-animate-duration) * 0.8);}
+      .animate-repeat-2{animation-iteration-count:calc(var(--un-animate-repeat) * 2);}
+      .animate-delay-0\\\\.5{animation-delay:calc(var(--un-animate-delay) * 0.5);}"
     `)
   })
 
@@ -96,9 +96,9 @@ describe('base selectors', () => {
       @mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
       /* layer: default */
       .animated{animation-duration:var(--foo-bar-duration);animation-fill-mode:both;}
-      .animate-repeat-2{animation-iteration-count:calc(var(--foo-bar-repeat)*2);}
-      .animate-delay-2{animation-delay:calc(var(--foo-bar-delay)*2);}
-      .animate-duration-2{animation-duration:calc(var(--foo-bar-duration)*2);}"
+      .animate-repeat-2{animation-iteration-count:calc(var(--foo-bar-repeat) * 2);}
+      .animate-delay-2{animation-delay:calc(var(--foo-bar-delay) * 2);}
+      .animate-duration-2{animation-duration:calc(var(--foo-bar-duration) * 2);}"
     `)
   })
 
