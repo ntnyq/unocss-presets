@@ -11,29 +11,30 @@ describe('selectors', () => {
     const { css } = await generator.generate(targets.join('\n'))
     expect(css).toMatchInlineSnapshot(`
       "/* layer: default */
-      .easing-in-back{transition-timing-function:cubic-bezier(0.6, -0.28, 0.735, 0.045);}
-      .easing-in-circ{transition-timing-function:cubic-bezier(0.6, 0.04, 0.98, 0.335);}
-      .easing-in-cubic{transition-timing-function:cubic-bezier(0.55, 0.055, 0.675, 0.19);}
-      .easing-in-expo{transition-timing-function:cubic-bezier(0.95, 0.05, 0.795, 0.035);}
-      .easing-in-out-back{transition-timing-function:cubic-bezier(0.68, -0.55, 0.265, 1.55);}
-      .easing-in-out-circ{transition-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);}
-      .easing-in-out-cubic{transition-timing-function:cubic-bezier(0.645, 0.045, 0.355, 1);}
-      .easing-in-out-expo{transition-timing-function:cubic-bezier(1, 0, 0, 1);}
-      .easing-in-out-quad{transition-timing-function:cubic-bezier(0.455, 0.03, 0.515, 0.955);}
-      .easing-in-out-quart{transition-timing-function:cubic-bezier(0.77, 0, 0.175, 1);}
-      .easing-in-out-quint{transition-timing-function:cubic-bezier(0.86, 0, 0.07, 1);}
-      .easing-in-out-sine{transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);}
-      .easing-in-quad{transition-timing-function:cubic-bezier(0.55, 0.085, 0.68, 0.53);}
-      .easing-in-quart{transition-timing-function:cubic-bezier(0.895, 0.03, 0.685, 0.22);}
-      .easing-in-quint{transition-timing-function:cubic-bezier(0.755, 0.05, 0.855, 0.06);}
-      .easing-in-sine{transition-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);}
-      .easing-out-back{transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);}
-      .easing-out-circ{transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);}
-      .easing-out-cubic{transition-timing-function:cubic-bezier(0.215, 0.61, 0.355, 1);}
-      .easing-out-expo{transition-timing-function:cubic-bezier(0.19, 1, 0.22, 1);}
-      .easing-out-quad{transition-timing-function:cubic-bezier(0.25, 0.46, 0.45, 0.94);}
-      .easing-out-quint{transition-timing-function:cubic-bezier(0.23, 1, 0.32, 1);}
-      .easing-out-sine{transition-timing-function:cubic-bezier(0.39, 0.575, 0.565, 1);}"
+      .easing-in-back{transition-timing-function:cubic-bezier(0.36, 0, 0.66, -0.56);}
+      .easing-in-circ{transition-timing-function:cubic-bezier(0.55, 0, 1, 0.45);}
+      .easing-in-cubic{transition-timing-function:cubic-bezier(0.32, 0, 0.67, 0);}
+      .easing-in-expo{transition-timing-function:cubic-bezier(0.7, 0, 0.84, 0);}
+      .easing-in-out-back{transition-timing-function:cubic-bezier(0.68, -0.6, 0.32, 1.6);}
+      .easing-in-out-circ{transition-timing-function:cubic-bezier(0.85, 0, 0.15, 1);}
+      .easing-in-out-cubic{transition-timing-function:cubic-bezier(0.65, 0, 0.35, 1);}
+      .easing-in-out-expo{transition-timing-function:cubic-bezier(0.87, 0, 0.13, 1);}
+      .easing-in-out-quad{transition-timing-function:cubic-bezier(0.45, 0, 0.55, 1);}
+      .easing-in-out-quart{transition-timing-function:cubic-bezier(0.76, 0, 0.24, 1);}
+      .easing-in-out-quint{transition-timing-function:cubic-bezier(0.83, 0, 0.17, 1);}
+      .easing-in-out-sine{transition-timing-function:cubic-bezier(0.37, 0, 0.63, 1);}
+      .easing-in-quad{transition-timing-function:cubic-bezier(0.11, 0, 0.5, 0);}
+      .easing-in-quart{transition-timing-function:cubic-bezier(0.5, 0, 0.75, 0);}
+      .easing-in-quint{transition-timing-function:cubic-bezier(0.64, 0, 0.78, 0);}
+      .easing-in-sine{transition-timing-function:cubic-bezier(0.12, 0, 0.39, 0);}
+      .easing-out-back{transition-timing-function:cubic-bezier(0.34, 1.56, 0.64, 1);}
+      .easing-out-circ{transition-timing-function:cubic-bezier(0, 0.55, 0.45, 1);}
+      .easing-out-cubic{transition-timing-function:cubic-bezier(0.33, 1, 0.68, 1);}
+      .easing-out-expo{transition-timing-function:cubic-bezier(0.16, 1, 0.3, 1);}
+      .easing-out-quad{transition-timing-function:cubic-bezier(0.5, 1, 0.89, 1);}
+      .easing-out-quart{transition-timing-function:cubic-bezier(0.25, 1, 0.5, 1);}
+      .easing-out-quint{transition-timing-function:cubic-bezier(0.22, 1, 0.36, 1);}
+      .easing-out-sine{transition-timing-function:cubic-bezier(0.61, 1, 0.88, 1);}"
     `)
   })
 
@@ -45,29 +46,30 @@ describe('selectors', () => {
     const { css } = await generator.generate(targets.join('\n'))
     expect(css).toMatchInlineSnapshot(`
       "/* layer: default */
-      .e-in-back{transition-timing-function:cubic-bezier(0.6, -0.28, 0.735, 0.045);}
-      .e-in-circ{transition-timing-function:cubic-bezier(0.6, 0.04, 0.98, 0.335);}
-      .e-in-cubic{transition-timing-function:cubic-bezier(0.55, 0.055, 0.675, 0.19);}
-      .e-in-expo{transition-timing-function:cubic-bezier(0.95, 0.05, 0.795, 0.035);}
-      .e-in-out-back{transition-timing-function:cubic-bezier(0.68, -0.55, 0.265, 1.55);}
-      .e-in-out-circ{transition-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);}
-      .e-in-out-cubic{transition-timing-function:cubic-bezier(0.645, 0.045, 0.355, 1);}
-      .e-in-out-expo{transition-timing-function:cubic-bezier(1, 0, 0, 1);}
-      .e-in-out-quad{transition-timing-function:cubic-bezier(0.455, 0.03, 0.515, 0.955);}
-      .e-in-out-quart{transition-timing-function:cubic-bezier(0.77, 0, 0.175, 1);}
-      .e-in-out-quint{transition-timing-function:cubic-bezier(0.86, 0, 0.07, 1);}
-      .e-in-out-sine{transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);}
-      .e-in-quad{transition-timing-function:cubic-bezier(0.55, 0.085, 0.68, 0.53);}
-      .e-in-quart{transition-timing-function:cubic-bezier(0.895, 0.03, 0.685, 0.22);}
-      .e-in-quint{transition-timing-function:cubic-bezier(0.755, 0.05, 0.855, 0.06);}
-      .e-in-sine{transition-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);}
-      .e-out-back{transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);}
-      .e-out-circ{transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);}
-      .e-out-cubic{transition-timing-function:cubic-bezier(0.215, 0.61, 0.355, 1);}
-      .e-out-expo{transition-timing-function:cubic-bezier(0.19, 1, 0.22, 1);}
-      .e-out-quad{transition-timing-function:cubic-bezier(0.25, 0.46, 0.45, 0.94);}
-      .e-out-quint{transition-timing-function:cubic-bezier(0.23, 1, 0.32, 1);}
-      .e-out-sine{transition-timing-function:cubic-bezier(0.39, 0.575, 0.565, 1);}"
+      .e-in-back{transition-timing-function:cubic-bezier(0.36, 0, 0.66, -0.56);}
+      .e-in-circ{transition-timing-function:cubic-bezier(0.55, 0, 1, 0.45);}
+      .e-in-cubic{transition-timing-function:cubic-bezier(0.32, 0, 0.67, 0);}
+      .e-in-expo{transition-timing-function:cubic-bezier(0.7, 0, 0.84, 0);}
+      .e-in-out-back{transition-timing-function:cubic-bezier(0.68, -0.6, 0.32, 1.6);}
+      .e-in-out-circ{transition-timing-function:cubic-bezier(0.85, 0, 0.15, 1);}
+      .e-in-out-cubic{transition-timing-function:cubic-bezier(0.65, 0, 0.35, 1);}
+      .e-in-out-expo{transition-timing-function:cubic-bezier(0.87, 0, 0.13, 1);}
+      .e-in-out-quad{transition-timing-function:cubic-bezier(0.45, 0, 0.55, 1);}
+      .e-in-out-quart{transition-timing-function:cubic-bezier(0.76, 0, 0.24, 1);}
+      .e-in-out-quint{transition-timing-function:cubic-bezier(0.83, 0, 0.17, 1);}
+      .e-in-out-sine{transition-timing-function:cubic-bezier(0.37, 0, 0.63, 1);}
+      .e-in-quad{transition-timing-function:cubic-bezier(0.11, 0, 0.5, 0);}
+      .e-in-quart{transition-timing-function:cubic-bezier(0.5, 0, 0.75, 0);}
+      .e-in-quint{transition-timing-function:cubic-bezier(0.64, 0, 0.78, 0);}
+      .e-in-sine{transition-timing-function:cubic-bezier(0.12, 0, 0.39, 0);}
+      .e-out-back{transition-timing-function:cubic-bezier(0.34, 1.56, 0.64, 1);}
+      .e-out-circ{transition-timing-function:cubic-bezier(0, 0.55, 0.45, 1);}
+      .e-out-cubic{transition-timing-function:cubic-bezier(0.33, 1, 0.68, 1);}
+      .e-out-expo{transition-timing-function:cubic-bezier(0.16, 1, 0.3, 1);}
+      .e-out-quad{transition-timing-function:cubic-bezier(0.5, 1, 0.89, 1);}
+      .e-out-quart{transition-timing-function:cubic-bezier(0.25, 1, 0.5, 1);}
+      .e-out-quint{transition-timing-function:cubic-bezier(0.22, 1, 0.36, 1);}
+      .e-out-sine{transition-timing-function:cubic-bezier(0.61, 1, 0.88, 1);}"
     `)
   })
 })
