@@ -7,6 +7,7 @@ export const presetAnimate = (options: PresetAnimateOptions = {}): Preset => {
   options.preflight = options.preflight ?? true
   options.injectMediaQuery = options.injectMediaQuery ?? true
   options.variablePrefix = options.variablePrefix ?? 'un-animate-'
+  options.extendAnimations = options.extendAnimations ?? []
 
   return {
     name: 'unocss-preset-animate',

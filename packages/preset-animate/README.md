@@ -62,7 +62,30 @@ export interface PresetAnimateOptions {
    * @default true
    */
   injectMediaQuery?: boolean
+
+  /**
+   * user custom animations
+   *
+   * @default []
+   */
+  extendAnimations?: Animation[]
 }
+```
+
+## Interfaces
+
+See [src/types](./src/types.ts) for detail.
+
+```ts
+export interface AnimationObject {
+  name: string
+  extraStyle?: string
+  keyframes: string
+}
+
+export type AnimationCreator = (options: PresetAnimateOptions) => AnimationObject
+
+export type Animation = AnimationObject | AnimationCreator
 ```
 
 ## Selectors
@@ -83,7 +106,7 @@ customize `animation-iteration-count` based on `var(--un-animate-repeat)`.
 
 customize `animation-delay` based on `var(--un-animate-delay)`.
 
-## Animation List
+## Animations
 
 All animation from [animate.css](https://github.com/animate-css/animate.css) are supported.
 

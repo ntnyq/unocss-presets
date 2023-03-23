@@ -13,6 +13,11 @@ export interface PresetAnimateOptions {
    * @default true
    */
   injectMediaQuery?: boolean
+
+  /**
+   * @default []
+   */
+  extendAnimations?: Animation[]
 }
 
 export interface AnimationObject {
