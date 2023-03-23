@@ -1,5 +1,11 @@
 # unocss-preset-animate
 
+## 0.2.0
+
+### Minor Changes
+
+- [`1cba61c`](https://github.com/ntnyq/unocss-preset/commit/1cba61cca5085ee5a5ba5f7ae74c791bd3c2e9a0) Thanks [@ntnyq](https://github.com/ntnyq)! - add options `extendAnimations`
+
 ## 0.1.0
 
 ### Minor Changes
