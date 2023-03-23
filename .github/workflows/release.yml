@@ -27,8 +27,8 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          commit: 'chore: release'
-          title: 'chore: release'
+          commit: 'chore: bump versions'
+          title: 'chore: bump versions'
           publish: pnpm run publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
