@@ -63,7 +63,7 @@ describe('preset-animate options', () => {
 
 describe('base selectors', () => {
   it('base selectors', async () => {
-    const targets = ['animated', 'animate-fast', 'animate-repeat-2', 'animate-delay-2s']
+    const targets = ['animated', 'animate-fast', 'animate-repeat-2', 'animate-delay-0.5']
     const generator = createGenerator({
       presets: [presetAnimate()],
     })
@@ -76,12 +76,12 @@ describe('base selectors', () => {
       .animated{animation-duration:var(--un-animate-duration);animation-fill-mode:both;}
       .animate-fast{animation-duration:calc(var(--un-animate-duration)*0.8);}
       .animate-repeat-2{animation-iteration-count:calc(var(--un-animate-repeat)*2);}
-      .animate-delay-2s{animation-delay:calc(var(--un-animate-delay)*2);}"
+      .animate-delay-0.5{animation-delay:calc(var(--un-animate-delay)*0.5);}"
     `)
   })
 
   it('base selectors with variablePrefix', async () => {
-    const targets = ['animated', 'animate-fast', 'animate-repeat-2', 'animate-delay-1s']
+    const targets = ['animated', 'animate-fast', 'animate-repeat-2', 'animate-delay-2']
     const generator = createGenerator({
       presets: [
         presetAnimate({
@@ -98,7 +98,7 @@ describe('base selectors', () => {
       .animated{animation-duration:var(--foo-bar-duration);animation-fill-mode:both;}
       .animate-fast{animation-duration:calc(var(--foo-bar-duration)*0.8);}
       .animate-repeat-2{animation-iteration-count:calc(var(--foo-bar-repeat)*2);}
-      .animate-delay-1s{animation-delay:calc(var(--foo-bar-delay)*1);}"
+      .animate-delay-2{animation-delay:calc(var(--foo-bar-delay)*2);}"
     `)
   })
 })

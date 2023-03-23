@@ -69,14 +69,14 @@ export const createBaseRules = (options: PresetAnimateOptions) => {
       },
     ],
     [
-      /^animate-delay-(.+)s$/,
+      /^animate-delay-(.+)$/,
       ([, count]) => {
         const num = Number.parseFloat(count) ?? 0
 
         if (!num) return ''
 
         return minify(`
-        .animate-delay-${num}s {
+        .animate-delay-${num} {
           animation-delay: calc(var(--${options.variablePrefix}delay) * ${num});
         }`)
       },

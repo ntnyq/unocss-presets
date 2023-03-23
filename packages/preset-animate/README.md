@@ -65,12 +65,23 @@ export interface PresetAnimateOptions {
 }
 ```
 
-## Utilities
+## Selectors
 
-- `animated` core rule
-- `animate-{faster,fast,slow,slower}` customize `animation-duration`
-- `animate-repeat-<number> | animate-infinate` customize `animation-iteration-count`
-- `animate-delay-<number>s` customize `animation-delay`
+### `animated`
+
+core selector
+
+### `animate-{faster,fast,slow,slower}`
+
+customize `animation-duration` based on `var(--un-animate-duration)`.
+
+### `animate-repeat-<number> | animate-infinate`
+
+customize `animation-iteration-count` based on `var(--un-animate-repeat)`.
+
+### `animate-delay-<number>`
+
+customize `animation-delay` based on `var(--un-animate-delay)`.
 
 ## Animation List
 
