@@ -1,5 +1,13 @@
 # unocss-preset-animate
 
+## 0.2.1
+
+### Patch Changes
+
+- [`27fbbcd`](https://github.com/ntnyq/unocss-preset/commit/27fbbcd637f38b7780590839b77f498db13fd599) Thanks [@ntnyq](https://github.com/ntnyq)! - fix: strict base rule selector
+
+- [`c3012ad`](https://github.com/ntnyq/unocss-preset/commit/c3012add4f9980d83e8c89c1381f8106e95bd4ff) Thanks [@ntnyq](https://github.com/ntnyq)! - fix: cleanup utils minify
+
 ## 0.2.0
 
 ### Minor Changes
