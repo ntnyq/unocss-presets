@@ -1,0 +1,57 @@
+{
+  "name": "unocss-preset-easing",
+  "version": "0.0.0",
+  "description": "unocss preset for easing transition cubic-bezier function",
+  "keywords": [
+    "unocss",
+    "unocss-preset",
+    "unocss-preset-easing",
+    "transition",
+    "cubic-bezier"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "ntnyq",
+    "email": "ntnyq13@gmail.com"
+  },
+  "homepage": "https://github.com/ntnyq/unocss-preset/tree/main/packages/preset-easing#readme",
+  "bugs": {
+    "url": "https://github.com/ntnyq/unocss-preset/issues"
+  },
+  "repository": {
+    "type": "github",
+    "url": "ntnyq/unocss-preset",
+    "directory": "packages/preset-easing"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    },
+    "./*": "./*"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist",
+    "*.css"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub"
+  },
+  "dependencies": {
+    "@unocss/core": "^0.50.6"
+  }
+}

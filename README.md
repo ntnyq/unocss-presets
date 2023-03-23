@@ -6,6 +6,7 @@
 ## packages
 
 - [unocss-preset-animate](./packages/preset-animate)
+- [unocss-preset-easing](./packages/preset-easing)
 
 ## License
 

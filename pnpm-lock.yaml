@@ -48,16 +48,24 @@ importers:
     dependencies:
       '@unocss/core': 0.50.6
 
+  packages/preset-easing:
+    specifiers:
+      '@unocss/core': ^0.50.6
+    dependencies:
+      '@unocss/core': 0.50.6
+
   playground:
     specifiers:
       typescript: ^5.0.2
       unocss: ^0.50.6
       unocss-preset-animate: workspace:*
+      unocss-preset-easing: workspace:*
       vite: ^4.2.1
     devDependencies:
       typescript: 5.0.2
       unocss: 0.50.6_vite@4.2.1
       unocss-preset-animate: link:../packages/preset-animate
+      unocss-preset-easing: link:../packages/preset-easing
       vite: 4.2.1
 
 packages:

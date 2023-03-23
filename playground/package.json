@@ -10,6 +10,7 @@
     "typescript": "^5.0.2",
     "unocss": "^0.50.6",
     "unocss-preset-animate": "workspace:*",
+    "unocss-preset-easing": "workspace:*",
     "vite": "^4.2.1"
   }
 }

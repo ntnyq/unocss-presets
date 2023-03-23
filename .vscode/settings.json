@@ -13,6 +13,17 @@
     "javascriptreact",
     "typescriptreact"
   ],
-  "cSpell.words": ["bumpp", "changelogithub", "kekab", "lcov", "pnpm", "tada", "vite", "vitest"],
+  "cSpell.words": [
+    "bezier",
+    "bumpp",
+    "changelogithub",
+    "easings",
+    "kekab",
+    "lcov",
+    "pnpm",
+    "tada",
+    "vite",
+    "vitest"
+  ],
   "cSpell.allowCompoundWords": true
 }
