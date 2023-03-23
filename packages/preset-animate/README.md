@@ -76,10 +76,23 @@ export interface PresetAnimateOptions {
 
 See [src/types](./src/types.ts) for detail.
 
+See [src/animations](./src/animations) for custom animations examples.
+
 ```ts
 export interface AnimationObject {
+  /**
+   * animationName
+   */
   name: string
+
+  /**
+   * extra animation style e.g. `transform-origin`
+   */
   extraStyle?: string
+
+  /**
+   * keyframes content
+   */
   keyframes: string
 }
 
