@@ -71,15 +71,15 @@ export interface PresetAnimateOptions {
 
 core selector
 
-### `animate-duration-<number> | animate-{faster,fast,slow,slower}`
+### `animate-duration-<float_number> | animate-{faster,fast,slow,slower}`
 
 customize `animation-duration` based on `var(--un-animate-duration)`.
 
-### `animate-repeat-<number> | animate-infinate`
+### `animate-repeat-<integer_number> | animate-infinate`
 
 customize `animation-iteration-count` based on `var(--un-animate-repeat)`.
 
-### `animate-delay-<number>`
+### `animate-delay-<float_number>`
 
 customize `animation-delay` based on `var(--un-animate-delay)`.
 
