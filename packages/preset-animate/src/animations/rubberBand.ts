@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const rubberBand: AnimationObject = {
   name: 'rubberBand',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       transform: scale3d(1, 1, 1);
     }
@@ -30,5 +30,5 @@ export const rubberBand: AnimationObject = {
     to {
       transform: scale3d(1, 1, 1);
     }
-  }`,
+  `,
 }

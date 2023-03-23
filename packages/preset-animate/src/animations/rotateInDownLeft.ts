@@ -3,7 +3,7 @@ import type { AnimationObject } from '../types'
 export const rotateInDownLeft: AnimationObject = {
   name: 'rotateInDownLeft',
   extraStyle: 'transform-origin: left bottom;',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       transform: rotate3d(0, 0, 1, -45deg);
       opacity: 0;
@@ -13,5 +13,5 @@ export const rotateInDownLeft: AnimationObject = {
       transform: translate3d(0, 0, 0);
       opacity: 1;
     }
-  }`,
+  `,
 }

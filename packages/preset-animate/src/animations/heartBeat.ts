@@ -6,7 +6,7 @@ export const heartBeat: AnimationCreator = (options: PresetAnimateOptions) => ({
     animation-timing-function: ease-in-out;
     animation-duration: calc(var(--${options.variablePrefix}duration) * 1.3);
   `,
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     0% {
       transform: scale(1);
     }
@@ -26,5 +26,5 @@ export const heartBeat: AnimationCreator = (options: PresetAnimateOptions) => ({
     70% {
       transform: scale(1);
     }
-  }`,
+  `,
 })

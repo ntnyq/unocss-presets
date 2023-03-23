@@ -3,7 +3,7 @@ import type { AnimationObject } from '../types'
 export const bounce: AnimationObject = {
   name: 'bounce',
   extraStyle: `transform-origin: center bottom;`,
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from,
     20%,
     53%,
@@ -31,5 +31,5 @@ export const bounce: AnimationObject = {
     90% {
       transform: translate3d(0, -4px, 0) scaleY(1.02);
     }
-  }`,
+  `,
 }

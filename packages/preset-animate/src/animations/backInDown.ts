@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const backInDown: AnimationObject = {
   name: 'backInDown',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     0% {
       transform: translateY(-1200px) scale(0.7);
       opacity: 0.7;
@@ -17,5 +17,5 @@ export const backInDown: AnimationObject = {
       transform: scale(1);
       opacity: 1;
     }
-  }`,
+  `,
 }

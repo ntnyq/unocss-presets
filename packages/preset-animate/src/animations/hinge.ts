@@ -6,7 +6,7 @@ export const hinge: AnimationCreator = options => ({
     transform-origin: top left;
     animation-duration: calc(var(--${options.variablePrefix}duration) * 2);
   `,
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     0% {
       animation-timing-function: ease-in-out;
     }
@@ -28,5 +28,5 @@ export const hinge: AnimationCreator = options => ({
       transform: translate3d(0, 700px, 0);
       opacity: 0;
     }
-  }`,
+  `,
 })

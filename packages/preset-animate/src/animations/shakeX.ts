@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const shakeX: AnimationObject = {
   name: 'shakeX',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from,
     to {
       transform: translate3d(0, 0, 0);
@@ -22,5 +22,5 @@ export const shakeX: AnimationObject = {
     80% {
       transform: translate3d(10px, 0, 0);
     }
-  }`,
+  `,
 }

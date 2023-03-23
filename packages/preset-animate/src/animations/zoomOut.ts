@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const zoomOut: AnimationObject = {
   name: 'zoomOut',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       opacity: 1;
     }
@@ -15,5 +15,5 @@ export const zoomOut: AnimationObject = {
     to {
       opacity: 0;
     }
-  }`,
+  `,
 }

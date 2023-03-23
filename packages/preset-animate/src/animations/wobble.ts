@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const wobble: AnimationObject = {
   name: 'wobble',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       transform: translate3d(0, 0, 0);
     }
@@ -30,5 +30,5 @@ export const wobble: AnimationObject = {
     to {
       transform: translate3d(0, 0, 0);
     }
-  }`,
+  `,
 }

@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const bounceInLeft: AnimationObject = {
   name: 'bounceInLeft',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from,
     60%,
     75%,
@@ -32,5 +32,5 @@ export const bounceInLeft: AnimationObject = {
     to {
       transform: translate3d(0, 0, 0);
     }
-  }`,
+  `,
 }

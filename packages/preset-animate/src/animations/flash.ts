@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const flash: AnimationObject = {
   name: 'flash',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from,
     50%,
     to {
@@ -13,5 +13,5 @@ export const flash: AnimationObject = {
     75% {
       opacity: 0;
     }
-  }`,
+  `,
 }

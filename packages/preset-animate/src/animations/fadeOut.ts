@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const fadeOut: AnimationObject = {
   name: 'fadeOut',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       opacity: 1;
     }
@@ -10,5 +10,5 @@ export const fadeOut: AnimationObject = {
     to {
       opacity: 0;
     }
-  }`,
+  `,
 }

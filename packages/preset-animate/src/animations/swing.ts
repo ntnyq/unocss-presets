@@ -3,7 +3,7 @@ import type { AnimationObject } from '../types'
 export const swing: AnimationObject = {
   name: 'swing',
   extraStyle: 'transform-origin: top center;',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     20% {
       transform: rotate3d(0, 0, 1, 15deg);
     }
@@ -23,5 +23,5 @@ export const swing: AnimationObject = {
     to {
       transform: rotate3d(0, 0, 1, 0deg);
     }
-  }`,
+  `,
 }

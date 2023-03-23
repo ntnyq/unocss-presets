@@ -3,7 +3,7 @@ import type { AnimationCreator } from '../types'
 export const bounceIn: AnimationCreator = options => ({
   name: 'bounceIn',
   extraStyle: `animation-duration: calc(var(--${options.variablePrefix}duration) * 0.75);`,
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from,
     20%,
     40%,
@@ -39,5 +39,5 @@ export const bounceIn: AnimationCreator = options => ({
       opacity: 1;
       transform: scale3d(1, 1, 1);
     }
-  }`,
+  `,
 })

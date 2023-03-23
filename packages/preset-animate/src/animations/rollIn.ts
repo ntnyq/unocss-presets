@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const rollIn: AnimationObject = {
   name: 'rollIn',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       opacity: 0;
       transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
@@ -12,5 +12,5 @@ export const rollIn: AnimationObject = {
       opacity: 1;
       transform: translate3d(0, 0, 0);
     }
-  }`,
+  `,
 }

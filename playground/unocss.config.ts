@@ -8,7 +8,7 @@ export default defineConfig({
       extendAnimations: [
         {
           name: 'fooBar',
-          keyframes: `@keyframes %ANIMATION_NAME% {
+          keyframes: `
             from {
               transform: rotate(0deg);
             }
@@ -16,7 +16,7 @@ export default defineConfig({
             to {
               transform: rotate(360deg);
             }
-          }`,
+          `,
         },
       ],
     }),

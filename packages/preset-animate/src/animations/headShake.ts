@@ -3,7 +3,7 @@ import type { AnimationObject } from '../types'
 export const headShake: AnimationObject = {
   name: 'headShake',
   extraStyle: 'animation-timing-function: ease-in-out;',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     0% {
       transform: translateX(0);
     }
@@ -27,5 +27,5 @@ export const headShake: AnimationObject = {
     50% {
       transform: translateX(0);
     }
-  }`,
+  `,
 }

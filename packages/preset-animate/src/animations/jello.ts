@@ -3,7 +3,7 @@ import type { AnimationObject } from '../types'
 export const jello: AnimationObject = {
   name: 'jello',
   extraStyle: 'transform-origin: center;',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from,
     11.1%,
     to {
@@ -37,5 +37,5 @@ export const jello: AnimationObject = {
     88.8% {
       transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
     }
-  }`,
+  `,
 }

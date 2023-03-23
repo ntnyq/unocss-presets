@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const backOutLeft: AnimationObject = {
   name: 'backOutLeft',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     0% {
       transform: scale(1);
       opacity: 1;
@@ -17,5 +17,5 @@ export const backOutLeft: AnimationObject = {
       transform: translateX(-2000px) scale(0.7);
       opacity: 0.7;
     }
-  }`,
+  `,
 }

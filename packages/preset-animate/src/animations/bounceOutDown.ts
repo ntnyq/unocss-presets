@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const bounceOutDown: AnimationObject = {
   name: 'bounceOutDown',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     20% {
       transform: translate3d(0, 10px, 0) scaleY(0.985);
     }
@@ -17,5 +17,5 @@ export const bounceOutDown: AnimationObject = {
       opacity: 0;
       transform: translate3d(0, 2000px, 0) scaleY(3);
     }
-  }`,
+  `,
 }

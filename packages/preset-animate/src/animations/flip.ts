@@ -3,7 +3,7 @@ import type { AnimationObject } from '../types'
 export const flip: AnimationObject = {
   name: 'flip',
   extraStyle: 'backface-visibility: visible;',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
       animation-timing-function: ease-out;
@@ -31,5 +31,5 @@ export const flip: AnimationObject = {
       transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
       animation-timing-function: ease-in;
     }
-  }`,
+  `,
 }

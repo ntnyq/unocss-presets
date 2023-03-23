@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const backInRight: AnimationObject = {
   name: 'backInRight',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     0% {
       transform: translateX(2000px) scale(0.7);
       opacity: 0.7;
@@ -17,5 +17,5 @@ export const backInRight: AnimationObject = {
       transform: scale(1);
       opacity: 1;
     }
-  }`,
+  `,
 }

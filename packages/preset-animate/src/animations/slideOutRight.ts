@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const slideOutRight: AnimationObject = {
   name: 'slideOutRight',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       transform: translate3d(0, 0, 0);
     }
@@ -11,5 +11,5 @@ export const slideOutRight: AnimationObject = {
       visibility: hidden;
       transform: translate3d(100%, 0, 0);
     }
-  }`,
+  `,
 }

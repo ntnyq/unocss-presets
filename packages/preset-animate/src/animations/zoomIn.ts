@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const zoomIn: AnimationObject = {
   name: 'zoomIn',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       opacity: 0;
       transform: scale3d(0.3, 0.3, 0.3);
@@ -11,5 +11,5 @@ export const zoomIn: AnimationObject = {
     50% {
       opacity: 1;
     }
-  }`,
+  `,
 }

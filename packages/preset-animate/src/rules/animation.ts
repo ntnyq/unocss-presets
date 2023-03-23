@@ -12,12 +12,14 @@ export const createAnimationRules = (options: PresetAnimateOptions) => {
   const rules: Rule[] = normalizedAnimation.map(animation => [
     new RegExp(`^animation-${kekabCase(animation.name)}$`),
     () => `
-    .animation-${kekabCase(animation.name)} {
-      animation-name: unAnimation${capitalize(animation.name)};
-      ${animation.extraStyle ?? ''}
-    }
-    ${animation.keyframes.replace('%ANIMATION_NAME%', `unAnimation${capitalize(animation.name)}`)}
-  `,
+      .animation-${kekabCase(animation.name)} {
+        animation-name: unAnimation${capitalize(animation.name)};
+        ${animation.extraStyle ?? ''}
+      }
+      @keyframes unAnimation${capitalize(animation.name)} {
+        ${animation.keyframes}
+      }
+    `,
   ])
   return rules
 }

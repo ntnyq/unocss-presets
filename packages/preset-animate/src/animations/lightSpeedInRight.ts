@@ -3,7 +3,7 @@ import type { AnimationObject } from '../types'
 export const lightSpeedInRight: AnimationObject = {
   name: 'lightSpeedInRight',
   extraStyle: 'animation-timing-function: ease-out;',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       transform: translate3d(100%, 0, 0) skewX(-30deg);
       opacity: 0;
@@ -21,5 +21,5 @@ export const lightSpeedInRight: AnimationObject = {
     to {
       transform: translate3d(0, 0, 0);
     }
-  }`,
+  `,
 }

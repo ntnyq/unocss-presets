@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const jackInTheBox: AnimationObject = {
   name: 'jackInTheBox',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       opacity: 0;
       transform: scale(0.1) rotate(30deg);
@@ -21,5 +21,5 @@ export const jackInTheBox: AnimationObject = {
       opacity: 1;
       transform: scale(1);
     }
-  }`,
+  `,
 }

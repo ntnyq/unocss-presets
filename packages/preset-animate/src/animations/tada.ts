@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const tada: AnimationObject = {
   name: 'tada',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       transform: scale3d(1, 1, 1);
     }
@@ -28,5 +28,5 @@ export const tada: AnimationObject = {
     to {
       transform: scale3d(1, 1, 1);
     }
-  }`,
+  `,
 }

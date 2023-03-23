@@ -6,7 +6,7 @@ export const flipOutY: AnimationCreator = options => ({
     animation-duration: calc(var(--${options.variablePrefix}duration) * 0.75);
     backface-visibility: visible; !important
   `,
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       transform: perspective(400px);
     }
@@ -20,5 +20,5 @@ export const flipOutY: AnimationCreator = options => ({
       transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
       opacity: 0;
     }
-  }`,
+  `,
 })

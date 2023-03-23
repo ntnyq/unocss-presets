@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const fadeOutRightBig: AnimationObject = {
   name: 'fadeOutRightBig',
-  keyframes: `@keyframes %ANIMATION_NAME% {
+  keyframes: `
     from {
       opacity: 1;
     }
@@ -11,5 +11,5 @@ export const fadeOutRightBig: AnimationObject = {
       opacity: 0;
       transform: translate3d(2000px, 0, 0);
     }
-  }`,
+  `,
 }
