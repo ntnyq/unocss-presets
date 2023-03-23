@@ -58,9 +58,9 @@ export const createBaseRules = (options: PresetAnimateOptions) => {
     [
       /^animate-repeat-(.+)$/,
       ([, count]) => {
-        const num = Number.parseInt(count) ?? 0
+        const num = Number.parseInt(count)
 
-        if (!num) return ''
+        if (Number.isNaN(num)) return ''
 
         return minify(`
         .animate-repeat-${num} {
@@ -71,9 +71,9 @@ export const createBaseRules = (options: PresetAnimateOptions) => {
     [
       /^animate-delay-(.+)$/,
       ([, count]) => {
-        const num = Number.parseFloat(count) ?? 0
+        const num = Number.parseFloat(count)
 
-        if (!num) return ''
+        if (Number.isNaN(num)) return ''
 
         return minify(`
         .animate-delay-${num} {

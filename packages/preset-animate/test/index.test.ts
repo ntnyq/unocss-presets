@@ -101,6 +101,21 @@ describe('base selectors', () => {
       .animate-delay-2{animation-delay:calc(var(--foo-bar-delay)*2);}"
     `)
   })
+
+  it('invalid selectors', async () => {
+    const targets = ['animated', 'animate-foobar', 'animate-repeat-foo', 'animate-delay-bar']
+    const generator = createGenerator({
+      presets: [presetAnimate()],
+    })
+    const { css } = await generator.generate(targets.join('\n'))
+    expect(css).toMatchInlineSnapshot(`
+      "/* layer: preflights */
+      :root{--un-animate-duration:1s;--un-animate-delay:1s;--un-animate-repeat:1;}
+      @mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
+      /* layer: default */
+      .animated{animation-duration:var(--un-animate-duration);animation-fill-mode:both;}"
+    `)
+  })
 })
 
 describe('animation selectors', () => {
