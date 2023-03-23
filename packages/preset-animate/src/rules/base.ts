@@ -81,6 +81,19 @@ export const createBaseRules = (options: PresetAnimateOptions) => {
         }`)
       },
     ],
+    [
+      /^animate-duration-(.+)$/,
+      ([, count]) => {
+        const num = Number.parseFloat(count)
+
+        if (Number.isNaN(num)) return ''
+
+        return minify(`
+        .animate-duration-${num} {
+          animation-duration: calc(var(--${options.variablePrefix}duration) * ${num});
+        }`)
+      },
+    ],
   ]
   return rules
 }

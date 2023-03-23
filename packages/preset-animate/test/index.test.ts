@@ -81,7 +81,7 @@ describe('base selectors', () => {
   })
 
   it('base selectors with variablePrefix', async () => {
-    const targets = ['animated', 'animate-fast', 'animate-repeat-2', 'animate-delay-2']
+    const targets = ['animated', 'animate-duration-2', 'animate-repeat-2', 'animate-delay-2']
     const generator = createGenerator({
       presets: [
         presetAnimate({
@@ -96,14 +96,20 @@ describe('base selectors', () => {
       @mediaprint,(prefers-reduced-motion:reduce){.animated{animation-duration:1ms!important;transition-duration:1ms!important;animation-iteration-count:1!important;}.animated[class*='out']{opacity:0;}}
       /* layer: default */
       .animated{animation-duration:var(--foo-bar-duration);animation-fill-mode:both;}
-      .animate-fast{animation-duration:calc(var(--foo-bar-duration)*0.8);}
       .animate-repeat-2{animation-iteration-count:calc(var(--foo-bar-repeat)*2);}
-      .animate-delay-2{animation-delay:calc(var(--foo-bar-delay)*2);}"
+      .animate-delay-2{animation-delay:calc(var(--foo-bar-delay)*2);}
+      .animate-duration-2{animation-duration:calc(var(--foo-bar-duration)*2);}"
     `)
   })
 
   it('invalid selectors', async () => {
-    const targets = ['animated', 'animate-foobar', 'animate-repeat-foo', 'animate-delay-bar']
+    const targets = [
+      'animated',
+      'animate-foobar',
+      'animate-repeat-foo',
+      'animate-delay-bar',
+      'animate-duration-baz',
+    ]
     const generator = createGenerator({
       presets: [presetAnimate()],
     })

@@ -71,7 +71,7 @@ export interface PresetAnimateOptions {
 
 core selector
 
-### `animate-{faster,fast,slow,slower}`
+### `animate-duration-<number> | animate-{faster,fast,slow,slower}`
 
 customize `animation-duration` based on `var(--un-animate-duration)`.
 
