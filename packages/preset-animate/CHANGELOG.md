@@ -1,5 +1,11 @@
 # unocss-preset-animate
 
+## 0.2.2
+
+### Patch Changes
+
+- [`2628558`](https://github.com/ntnyq/unocss-preset/commit/26285582d9ff20766a7bce553aa249b0d1726635) Thanks [@ntnyq](https://github.com/ntnyq)! - refactor: use external utils
+
 ## 0.2.1
 
 ### Patch Changes
