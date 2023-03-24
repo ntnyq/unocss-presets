@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@changesets/changelog-github': ^0.4.8
-      '@changesets/cli': ^2.26.0
+      '@changesets/cli': ^2.26.1
       '@ntnyq/eslint-config': ^1.6.0
       '@ntnyq/prettier-config': ^1.6.0
       '@types/fs-extra': ^11.0.1
@@ -18,13 +18,13 @@ importers:
       picocolors: ^1.0.0
       pnpm: ^7.30.0
       prettier: ^2.8.6
-      rimraf: ^4.4.0
+      rimraf: ^4.4.1
       typescript: ^5.0.2
       unbuild: ^1.1.2
       vitest: ^0.29.7
     devDependencies:
       '@changesets/changelog-github': 0.4.8
-      '@changesets/cli': 2.26.0
+      '@changesets/cli': 2.26.1
       '@ntnyq/eslint-config': 1.6.0_ctxmzhq3xstovqjsllvgpoxqru
       '@ntnyq/prettier-config': 1.6.0
       '@types/fs-extra': 11.0.1
@@ -37,21 +37,25 @@ importers:
       picocolors: 1.0.0
       pnpm: 7.30.0
       prettier: 2.8.6
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       typescript: 5.0.2
       unbuild: 1.1.2
       vitest: 0.29.7
 
   packages/preset-animate:
     specifiers:
+      '@ntnyq/utils': ^0.0.0
       '@unocss/core': ^0.50.6
     dependencies:
+      '@ntnyq/utils': 0.0.0
       '@unocss/core': 0.50.6
 
   packages/preset-easing:
     specifiers:
+      '@ntnyq/utils': ^0.0.0
       '@unocss/core': ^0.50.6
     dependencies:
+      '@ntnyq/utils': 0.0.0
       '@unocss/core': 0.50.6
 
   playground:
@@ -349,8 +353,8 @@ packages:
       - encoding
     dev: true
 
-  /@changesets/cli/2.26.0:
-    resolution: {integrity: sha512-0cbTiDms+ICTVtEwAFLNW0jBNex9f5+fFv3I771nBvdnV/mOjd1QJ4+f8KtVSOrwD9SJkk9xbDkWFb0oXd8d1Q==}
+  /@changesets/cli/2.26.1:
+    resolution: {integrity: sha512-XnTa+b51vt057fyAudvDKGB0Sh72xutQZNAdXkCqPBKO2zvs2yYZx5hFZj1u9cbtpwM6Sxtcr02/FQJfZOzemQ==}
     hasBin: true
     dependencies:
       '@babel/runtime': 7.21.0
@@ -962,6 +966,10 @@ packages:
   /@ntnyq/prettier-config/1.6.0:
     resolution: {integrity: sha512-Cry942WfdmknS31ig/hnl5x8Hbs1Jo6UkjhZufCNv3xQrKfiod+ab8yggucS0gttt7qfX4Tc6yKSdVkHRlnvag==}
     dev: true
+
+  /@ntnyq/utils/0.0.0:
+    resolution: {integrity: sha512-mwg70YwFGBtF1SlFPHb8Z/KmChAuJhOIZn7pIf8vFZZ8WFiIp8NVRTA6Uze+M2xHNAiVSxz/J4zwSZQvHnyDjQ==}
+    dev: false
 
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
@@ -4349,8 +4357,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rimraf/4.4.0:
-    resolution: {integrity: sha512-X36S+qpCUR0HjXlkDe4NAOhS//aHH0Z+h8Ckf2auGJk3PTnx5rLmrHkwNdbVQuCSUhOyFrlRvFEllZOYE+yZGQ==}
+  /rimraf/4.4.1:
+    resolution: {integrity: sha512-Gk8NlF062+T9CqNGn6h4tls3k6T1+/nXdOcSZVikNVtlRdYpA7wRJJMoXmuvOnLW844rPjdQ7JgXCYM6PPC/og==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:

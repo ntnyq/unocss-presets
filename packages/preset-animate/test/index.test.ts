@@ -1,6 +1,7 @@
 import { createGenerator } from '@unocss/core'
 import { describe, expect, it } from 'vitest'
-import { kekabCase, presetAnimate } from '../src'
+import { kekabCase } from '@ntnyq/utils'
+import { presetAnimate } from '../src'
 
 describe('default', () => {
   it('default preflight', async () => {

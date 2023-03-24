@@ -1,5 +1,5 @@
+import { capitalize, kekabCase } from '@ntnyq/utils'
 import { animations as builtInAnimations } from '../animations'
-import { capitalize, kekabCase } from '../utils'
 import type { PresetAnimateOptions } from '../types'
 import type { DynamicRule } from '@unocss/core'
 

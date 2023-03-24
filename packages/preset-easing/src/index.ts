@@ -1,5 +1,5 @@
+import { camelCase, kekabCase } from '@ntnyq/utils'
 import { easings } from './easings'
-import { camelCase, kekabCase } from './utils'
 import type { PresetEasingOptions } from './types'
 import type { Preset } from '@unocss/core'
 
@@ -26,7 +26,6 @@ export const presetEasing = ({ prefix = 'easing-' }: PresetEasingOptions = {}): 
 }
 
 export * from './types'
-export * from './utils'
 export * from './easings'
 
 export default presetEasing

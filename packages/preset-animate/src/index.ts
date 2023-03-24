@@ -19,6 +19,5 @@ export const presetAnimate = (options: PresetAnimateOptions = {}): Preset => {
 }
 
 export * from './types'
-export * from './utils'
 
 export default presetAnimate

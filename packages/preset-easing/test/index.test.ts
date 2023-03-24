@@ -1,6 +1,7 @@
 import { createGenerator } from '@unocss/core'
 import { describe, expect, it } from 'vitest'
-import { easings, kekabCase, presetEasing } from '../src'
+import { kekabCase } from '@ntnyq/utils'
+import { easings, presetEasing } from '../src'
 
 describe('selectors', () => {
   it('base selectors', async () => {
