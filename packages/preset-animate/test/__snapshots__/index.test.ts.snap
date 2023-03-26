@@ -2,12 +2,11 @@
 
 exports[`animation selectors > animation backInDown 1`] = `
 "/* layer: default */
-
-      .animation-back-in-down {
-        animation-name: unAnimationBackInDown;
-        
+.animation-back-in-down {
+         animation-name: unAnimationBackInDown;
+          
       }
-      @keyframes unAnimationBackInDown {
+@keyframes unAnimationBackInDown {
         
     0% {
       transform: translateY(-1200px) scale(0.7);
@@ -24,18 +23,16 @@ exports[`animation selectors > animation backInDown 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backInDown with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-back-in-down {
-        animation-name: unAnimationBackInDown;
-        
+.animation-back-in-down {
+         animation-name: unAnimationBackInDown;
+          
       }
-      @keyframes unAnimationBackInDown {
+@keyframes unAnimationBackInDown {
         
     0% {
       transform: translateY(-1200px) scale(0.7);
@@ -52,18 +49,16 @@ exports[`animation selectors > animation backInDown with variablePrefix 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backInLeft 1`] = `
 "/* layer: default */
-
-      .animation-back-in-left {
-        animation-name: unAnimationBackInLeft;
-        
+.animation-back-in-left {
+         animation-name: unAnimationBackInLeft;
+          
       }
-      @keyframes unAnimationBackInLeft {
+@keyframes unAnimationBackInLeft {
         
     0% {
       transform: translateX(-2000px) scale(0.7);
@@ -80,18 +75,16 @@ exports[`animation selectors > animation backInLeft 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backInLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-back-in-left {
-        animation-name: unAnimationBackInLeft;
-        
+.animation-back-in-left {
+         animation-name: unAnimationBackInLeft;
+          
       }
-      @keyframes unAnimationBackInLeft {
+@keyframes unAnimationBackInLeft {
         
     0% {
       transform: translateX(-2000px) scale(0.7);
@@ -108,18 +101,16 @@ exports[`animation selectors > animation backInLeft with variablePrefix 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backInRight 1`] = `
 "/* layer: default */
-
-      .animation-back-in-right {
-        animation-name: unAnimationBackInRight;
-        
+.animation-back-in-right {
+         animation-name: unAnimationBackInRight;
+          
       }
-      @keyframes unAnimationBackInRight {
+@keyframes unAnimationBackInRight {
         
     0% {
       transform: translateX(2000px) scale(0.7);
@@ -136,18 +127,16 @@ exports[`animation selectors > animation backInRight 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backInRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-back-in-right {
-        animation-name: unAnimationBackInRight;
-        
+.animation-back-in-right {
+         animation-name: unAnimationBackInRight;
+          
       }
-      @keyframes unAnimationBackInRight {
+@keyframes unAnimationBackInRight {
         
     0% {
       transform: translateX(2000px) scale(0.7);
@@ -164,18 +153,16 @@ exports[`animation selectors > animation backInRight with variablePrefix 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backInUp 1`] = `
 "/* layer: default */
-
-      .animation-back-in-up {
-        animation-name: unAnimationBackInUp;
-        
+.animation-back-in-up {
+         animation-name: unAnimationBackInUp;
+          
       }
-      @keyframes unAnimationBackInUp {
+@keyframes unAnimationBackInUp {
         
     0% {
       transform: translateY(1200px) scale(0.7);
@@ -192,18 +179,16 @@ exports[`animation selectors > animation backInUp 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backInUp with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-back-in-up {
-        animation-name: unAnimationBackInUp;
-        
+.animation-back-in-up {
+         animation-name: unAnimationBackInUp;
+          
       }
-      @keyframes unAnimationBackInUp {
+@keyframes unAnimationBackInUp {
         
     0% {
       transform: translateY(1200px) scale(0.7);
@@ -220,18 +205,16 @@ exports[`animation selectors > animation backInUp with variablePrefix 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backOutDown 1`] = `
 "/* layer: default */
-
-      .animation-back-out-down {
-        animation-name: unAnimationBackOutDown;
-        
+.animation-back-out-down {
+         animation-name: unAnimationBackOutDown;
+          
       }
-      @keyframes unAnimationBackOutDown {
+@keyframes unAnimationBackOutDown {
         
     0% {
       transform: scale(1);
@@ -248,18 +231,16 @@ exports[`animation selectors > animation backOutDown 1`] = `
       opacity: 0.7;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backOutDown with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-back-out-down {
-        animation-name: unAnimationBackOutDown;
-        
+.animation-back-out-down {
+         animation-name: unAnimationBackOutDown;
+          
       }
-      @keyframes unAnimationBackOutDown {
+@keyframes unAnimationBackOutDown {
         
     0% {
       transform: scale(1);
@@ -276,18 +257,16 @@ exports[`animation selectors > animation backOutDown with variablePrefix 1`] = `
       opacity: 0.7;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backOutLeft 1`] = `
 "/* layer: default */
-
-      .animation-back-out-left {
-        animation-name: unAnimationBackOutLeft;
-        
+.animation-back-out-left {
+         animation-name: unAnimationBackOutLeft;
+          
       }
-      @keyframes unAnimationBackOutLeft {
+@keyframes unAnimationBackOutLeft {
         
     0% {
       transform: scale(1);
@@ -304,18 +283,16 @@ exports[`animation selectors > animation backOutLeft 1`] = `
       opacity: 0.7;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backOutLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-back-out-left {
-        animation-name: unAnimationBackOutLeft;
-        
+.animation-back-out-left {
+         animation-name: unAnimationBackOutLeft;
+          
       }
-      @keyframes unAnimationBackOutLeft {
+@keyframes unAnimationBackOutLeft {
         
     0% {
       transform: scale(1);
@@ -332,18 +309,16 @@ exports[`animation selectors > animation backOutLeft with variablePrefix 1`] = `
       opacity: 0.7;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backOutRight 1`] = `
 "/* layer: default */
-
-      .animation-back-out-right {
-        animation-name: unAnimationBackOutRight;
-        
+.animation-back-out-right {
+         animation-name: unAnimationBackOutRight;
+          
       }
-      @keyframes unAnimationBackOutRight {
+@keyframes unAnimationBackOutRight {
         
     0% {
       transform: scale(1);
@@ -360,18 +335,16 @@ exports[`animation selectors > animation backOutRight 1`] = `
       opacity: 0.7;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backOutRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-back-out-right {
-        animation-name: unAnimationBackOutRight;
-        
+.animation-back-out-right {
+         animation-name: unAnimationBackOutRight;
+          
       }
-      @keyframes unAnimationBackOutRight {
+@keyframes unAnimationBackOutRight {
         
     0% {
       transform: scale(1);
@@ -388,18 +361,16 @@ exports[`animation selectors > animation backOutRight with variablePrefix 1`] = 
       opacity: 0.7;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backOutUp 1`] = `
 "/* layer: default */
-
-      .animation-back-out-up {
-        animation-name: unAnimationBackOutUp;
-        
+.animation-back-out-up {
+         animation-name: unAnimationBackOutUp;
+          
       }
-      @keyframes unAnimationBackOutUp {
+@keyframes unAnimationBackOutUp {
         
     0% {
       transform: scale(1);
@@ -416,18 +387,16 @@ exports[`animation selectors > animation backOutUp 1`] = `
       opacity: 0.7;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation backOutUp with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-back-out-up {
-        animation-name: unAnimationBackOutUp;
-        
+.animation-back-out-up {
+         animation-name: unAnimationBackOutUp;
+          
       }
-      @keyframes unAnimationBackOutUp {
+@keyframes unAnimationBackOutUp {
         
     0% {
       transform: scale(1);
@@ -444,18 +413,16 @@ exports[`animation selectors > animation backOutUp with variablePrefix 1`] = `
       opacity: 0.7;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounce 1`] = `
 "/* layer: default */
-
-      .animation-bounce {
-        animation-name: unAnimationBounce;
-        transform-origin: center bottom;
+.animation-bounce {
+         animation-name: unAnimationBounce;
+          transform-origin: center bottom;
       }
-      @keyframes unAnimationBounce {
+@keyframes unAnimationBounce {
         
     from,
     20%,
@@ -485,18 +452,16 @@ exports[`animation selectors > animation bounce 1`] = `
       transform: translate3d(0, -4px, 0) scaleY(1.02);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounce with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-bounce {
-        animation-name: unAnimationBounce;
-        transform-origin: center bottom;
+.animation-bounce {
+         animation-name: unAnimationBounce;
+          transform-origin: center bottom;
       }
-      @keyframes unAnimationBounce {
+@keyframes unAnimationBounce {
         
     from,
     20%,
@@ -526,18 +491,16 @@ exports[`animation selectors > animation bounce with variablePrefix 1`] = `
       transform: translate3d(0, -4px, 0) scaleY(1.02);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceIn 1`] = `
 "/* layer: default */
-
-      .animation-bounce-in {
-        animation-name: unAnimationBounceIn;
-        animation-duration: calc(var(--un-animate-duration) * 0.75);
+.animation-bounce-in {
+         animation-name: unAnimationBounceIn;
+          animation-duration: calc(var(--un-animate-duration) * 0.75);
       }
-      @keyframes unAnimationBounceIn {
+@keyframes unAnimationBounceIn {
         
     from,
     20%,
@@ -575,18 +538,16 @@ exports[`animation selectors > animation bounceIn 1`] = `
       transform: scale3d(1, 1, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceIn with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-bounce-in {
-        animation-name: unAnimationBounceIn;
-        animation-duration: calc(var(--foo-bar-duration) * 0.75);
+.animation-bounce-in {
+         animation-name: unAnimationBounceIn;
+          animation-duration: calc(var(--foo-bar-duration) * 0.75);
       }
-      @keyframes unAnimationBounceIn {
+@keyframes unAnimationBounceIn {
         
     from,
     20%,
@@ -624,18 +585,16 @@ exports[`animation selectors > animation bounceIn with variablePrefix 1`] = `
       transform: scale3d(1, 1, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceInDown 1`] = `
 "/* layer: default */
-
-      .animation-bounce-in-down {
-        animation-name: unAnimationBounceInDown;
-        
+.animation-bounce-in-down {
+         animation-name: unAnimationBounceInDown;
+          
       }
-      @keyframes unAnimationBounceInDown {
+@keyframes unAnimationBounceInDown {
         
     from,
     60%,
@@ -667,18 +626,16 @@ exports[`animation selectors > animation bounceInDown 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceInDown with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-bounce-in-down {
-        animation-name: unAnimationBounceInDown;
-        
+.animation-bounce-in-down {
+         animation-name: unAnimationBounceInDown;
+          
       }
-      @keyframes unAnimationBounceInDown {
+@keyframes unAnimationBounceInDown {
         
     from,
     60%,
@@ -710,18 +667,16 @@ exports[`animation selectors > animation bounceInDown with variablePrefix 1`] = 
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceInLeft 1`] = `
 "/* layer: default */
-
-      .animation-bounce-in-left {
-        animation-name: unAnimationBounceInLeft;
-        
+.animation-bounce-in-left {
+         animation-name: unAnimationBounceInLeft;
+          
       }
-      @keyframes unAnimationBounceInLeft {
+@keyframes unAnimationBounceInLeft {
         
     from,
     60%,
@@ -753,18 +708,16 @@ exports[`animation selectors > animation bounceInLeft 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceInLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-bounce-in-left {
-        animation-name: unAnimationBounceInLeft;
-        
+.animation-bounce-in-left {
+         animation-name: unAnimationBounceInLeft;
+          
       }
-      @keyframes unAnimationBounceInLeft {
+@keyframes unAnimationBounceInLeft {
         
     from,
     60%,
@@ -796,18 +749,16 @@ exports[`animation selectors > animation bounceInLeft with variablePrefix 1`] = 
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceInRight 1`] = `
 "/* layer: default */
-
-      .animation-bounce-in-right {
-        animation-name: unAnimationBounceInRight;
-        
+.animation-bounce-in-right {
+         animation-name: unAnimationBounceInRight;
+          
       }
-      @keyframes unAnimationBounceInRight {
+@keyframes unAnimationBounceInRight {
         
     from,
     60%,
@@ -839,18 +790,16 @@ exports[`animation selectors > animation bounceInRight 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceInRight 2`] = `
 "/* layer: default */
-
-      .animation-bounce-in-right {
-        animation-name: unAnimationBounceInRight;
-        
+.animation-bounce-in-right {
+         animation-name: unAnimationBounceInRight;
+          
       }
-      @keyframes unAnimationBounceInRight {
+@keyframes unAnimationBounceInRight {
         
     from,
     60%,
@@ -882,18 +831,16 @@ exports[`animation selectors > animation bounceInRight 2`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceInRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-bounce-in-right {
-        animation-name: unAnimationBounceInRight;
-        
+.animation-bounce-in-right {
+         animation-name: unAnimationBounceInRight;
+          
       }
-      @keyframes unAnimationBounceInRight {
+@keyframes unAnimationBounceInRight {
         
     from,
     60%,
@@ -925,18 +872,16 @@ exports[`animation selectors > animation bounceInRight with variablePrefix 1`] =
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceInRight with variablePrefix 2`] = `
 "/* layer: default */
-
-      .animation-bounce-in-right {
-        animation-name: unAnimationBounceInRight;
-        
+.animation-bounce-in-right {
+         animation-name: unAnimationBounceInRight;
+          
       }
-      @keyframes unAnimationBounceInRight {
+@keyframes unAnimationBounceInRight {
         
     from,
     60%,
@@ -968,18 +913,16 @@ exports[`animation selectors > animation bounceInRight with variablePrefix 2`] =
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceInUp 1`] = `
 "/* layer: default */
-
-      .animation-bounce-in-up {
-        animation-name: unAnimationBounceInUp;
-        
+.animation-bounce-in-up {
+         animation-name: unAnimationBounceInUp;
+          
       }
-      @keyframes unAnimationBounceInUp {
+@keyframes unAnimationBounceInUp {
         
     from,
     60%,
@@ -1011,18 +954,16 @@ exports[`animation selectors > animation bounceInUp 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceInUp with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-bounce-in-up {
-        animation-name: unAnimationBounceInUp;
-        
+.animation-bounce-in-up {
+         animation-name: unAnimationBounceInUp;
+          
       }
-      @keyframes unAnimationBounceInUp {
+@keyframes unAnimationBounceInUp {
         
     from,
     60%,
@@ -1054,18 +995,16 @@ exports[`animation selectors > animation bounceInUp with variablePrefix 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceOut 1`] = `
 "/* layer: default */
-
-      .animation-bounce-out {
-        animation-name: unAnimationBounceOut;
-        animation-duration: calc(var(--un-animate-duration) * 0.75);
+.animation-bounce-out {
+         animation-name: unAnimationBounceOut;
+          animation-duration: calc(var(--un-animate-duration) * 0.75);
       }
-      @keyframes unAnimationBounceOut {
+@keyframes unAnimationBounceOut {
         
     20% {
       transform: scale3d(0.9, 0.9, 0.9);
@@ -1082,18 +1021,16 @@ exports[`animation selectors > animation bounceOut 1`] = `
       transform: scale3d(0.3, 0.3, 0.3);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceOut with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-bounce-out {
-        animation-name: unAnimationBounceOut;
-        animation-duration: calc(var(--foo-bar-duration) * 0.75);
+.animation-bounce-out {
+         animation-name: unAnimationBounceOut;
+          animation-duration: calc(var(--foo-bar-duration) * 0.75);
       }
-      @keyframes unAnimationBounceOut {
+@keyframes unAnimationBounceOut {
         
     20% {
       transform: scale3d(0.9, 0.9, 0.9);
@@ -1110,18 +1047,16 @@ exports[`animation selectors > animation bounceOut with variablePrefix 1`] = `
       transform: scale3d(0.3, 0.3, 0.3);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceOutDown 1`] = `
 "/* layer: default */
-
-      .animation-bounce-out-down {
-        animation-name: unAnimationBounceOutDown;
-        
+.animation-bounce-out-down {
+         animation-name: unAnimationBounceOutDown;
+          
       }
-      @keyframes unAnimationBounceOutDown {
+@keyframes unAnimationBounceOutDown {
         
     20% {
       transform: translate3d(0, 10px, 0) scaleY(0.985);
@@ -1138,18 +1073,16 @@ exports[`animation selectors > animation bounceOutDown 1`] = `
       transform: translate3d(0, 2000px, 0) scaleY(3);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceOutDown with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-bounce-out-down {
-        animation-name: unAnimationBounceOutDown;
-        
+.animation-bounce-out-down {
+         animation-name: unAnimationBounceOutDown;
+          
       }
-      @keyframes unAnimationBounceOutDown {
+@keyframes unAnimationBounceOutDown {
         
     20% {
       transform: translate3d(0, 10px, 0) scaleY(0.985);
@@ -1166,18 +1099,16 @@ exports[`animation selectors > animation bounceOutDown with variablePrefix 1`] =
       transform: translate3d(0, 2000px, 0) scaleY(3);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceOutLeft 1`] = `
 "/* layer: default */
-
-      .animation-bounce-out-left {
-        animation-name: unAnimationBounceOutLeft;
-        
+.animation-bounce-out-left {
+         animation-name: unAnimationBounceOutLeft;
+          
       }
-      @keyframes unAnimationBounceOutLeft {
+@keyframes unAnimationBounceOutLeft {
         
     20% {
       opacity: 1;
@@ -1189,18 +1120,16 @@ exports[`animation selectors > animation bounceOutLeft 1`] = `
       transform: translate3d(-2000px, 0, 0) scaleX(2);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceOutLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-bounce-out-left {
-        animation-name: unAnimationBounceOutLeft;
-        
+.animation-bounce-out-left {
+         animation-name: unAnimationBounceOutLeft;
+          
       }
-      @keyframes unAnimationBounceOutLeft {
+@keyframes unAnimationBounceOutLeft {
         
     20% {
       opacity: 1;
@@ -1212,18 +1141,16 @@ exports[`animation selectors > animation bounceOutLeft with variablePrefix 1`] =
       transform: translate3d(-2000px, 0, 0) scaleX(2);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceOutUp 1`] = `
 "/* layer: default */
-
-      .animation-bounce-out-up {
-        animation-name: unAnimationBounceOutUp;
-        
+.animation-bounce-out-up {
+         animation-name: unAnimationBounceOutUp;
+          
       }
-      @keyframes unAnimationBounceOutUp {
+@keyframes unAnimationBounceOutUp {
         
     20% {
       transform: translate3d(0, -10px, 0) scaleY(0.985);
@@ -1240,18 +1167,16 @@ exports[`animation selectors > animation bounceOutUp 1`] = `
       transform: translate3d(0, -2000px, 0) scaleY(3);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation bounceOutUp with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-bounce-out-up {
-        animation-name: unAnimationBounceOutUp;
-        
+.animation-bounce-out-up {
+         animation-name: unAnimationBounceOutUp;
+          
       }
-      @keyframes unAnimationBounceOutUp {
+@keyframes unAnimationBounceOutUp {
         
     20% {
       transform: translate3d(0, -10px, 0) scaleY(0.985);
@@ -1268,18 +1193,16 @@ exports[`animation selectors > animation bounceOutUp with variablePrefix 1`] = `
       transform: translate3d(0, -2000px, 0) scaleY(3);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeIn 1`] = `
 "/* layer: default */
-
-      .animation-fade-in {
-        animation-name: unAnimationFadeIn;
-        
+.animation-fade-in {
+         animation-name: unAnimationFadeIn;
+          
       }
-      @keyframes unAnimationFadeIn {
+@keyframes unAnimationFadeIn {
         
     from {
       opacity: 0;
@@ -1289,18 +1212,16 @@ exports[`animation selectors > animation fadeIn 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeIn with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in {
-        animation-name: unAnimationFadeIn;
-        
+.animation-fade-in {
+         animation-name: unAnimationFadeIn;
+          
       }
-      @keyframes unAnimationFadeIn {
+@keyframes unAnimationFadeIn {
         
     from {
       opacity: 0;
@@ -1310,18 +1231,16 @@ exports[`animation selectors > animation fadeIn with variablePrefix 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInBottomLeft 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-bottom-left {
-        animation-name: unAnimationFadeInBottomLeft;
-        
+.animation-fade-in-bottom-left {
+         animation-name: unAnimationFadeInBottomLeft;
+          
       }
-      @keyframes unAnimationFadeInBottomLeft {
+@keyframes unAnimationFadeInBottomLeft {
         
     from {
       opacity: 0;
@@ -1332,18 +1251,16 @@ exports[`animation selectors > animation fadeInBottomLeft 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInBottomLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-bottom-left {
-        animation-name: unAnimationFadeInBottomLeft;
-        
+.animation-fade-in-bottom-left {
+         animation-name: unAnimationFadeInBottomLeft;
+          
       }
-      @keyframes unAnimationFadeInBottomLeft {
+@keyframes unAnimationFadeInBottomLeft {
         
     from {
       opacity: 0;
@@ -1354,18 +1271,16 @@ exports[`animation selectors > animation fadeInBottomLeft with variablePrefix 1`
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInBottomRight 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-bottom-right {
-        animation-name: unAnimationFadeInBottomRight;
-        
+.animation-fade-in-bottom-right {
+         animation-name: unAnimationFadeInBottomRight;
+          
       }
-      @keyframes unAnimationFadeInBottomRight {
+@keyframes unAnimationFadeInBottomRight {
         
     from {
       opacity: 0;
@@ -1376,18 +1291,16 @@ exports[`animation selectors > animation fadeInBottomRight 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInBottomRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-bottom-right {
-        animation-name: unAnimationFadeInBottomRight;
-        
+.animation-fade-in-bottom-right {
+         animation-name: unAnimationFadeInBottomRight;
+          
       }
-      @keyframes unAnimationFadeInBottomRight {
+@keyframes unAnimationFadeInBottomRight {
         
     from {
       opacity: 0;
@@ -1398,18 +1311,16 @@ exports[`animation selectors > animation fadeInBottomRight with variablePrefix 1
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInDown 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-down {
-        animation-name: unAnimationFadeInDown;
-        
+.animation-fade-in-down {
+         animation-name: unAnimationFadeInDown;
+          
       }
-      @keyframes unAnimationFadeInDown {
+@keyframes unAnimationFadeInDown {
         
     from {
       opacity: 0;
@@ -1421,18 +1332,16 @@ exports[`animation selectors > animation fadeInDown 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInDown with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-down {
-        animation-name: unAnimationFadeInDown;
-        
+.animation-fade-in-down {
+         animation-name: unAnimationFadeInDown;
+          
       }
-      @keyframes unAnimationFadeInDown {
+@keyframes unAnimationFadeInDown {
         
     from {
       opacity: 0;
@@ -1444,18 +1353,16 @@ exports[`animation selectors > animation fadeInDown with variablePrefix 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInDownBig 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-down-big {
-        animation-name: unAnimationFadeInDownBig;
-        
+.animation-fade-in-down-big {
+         animation-name: unAnimationFadeInDownBig;
+          
       }
-      @keyframes unAnimationFadeInDownBig {
+@keyframes unAnimationFadeInDownBig {
         
     from {
       opacity: 0;
@@ -1467,18 +1374,16 @@ exports[`animation selectors > animation fadeInDownBig 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInDownBig with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-down-big {
-        animation-name: unAnimationFadeInDownBig;
-        
+.animation-fade-in-down-big {
+         animation-name: unAnimationFadeInDownBig;
+          
       }
-      @keyframes unAnimationFadeInDownBig {
+@keyframes unAnimationFadeInDownBig {
         
     from {
       opacity: 0;
@@ -1490,18 +1395,16 @@ exports[`animation selectors > animation fadeInDownBig with variablePrefix 1`] =
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInLeft 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-left {
-        animation-name: unAnimationFadeInLeft;
-        
+.animation-fade-in-left {
+         animation-name: unAnimationFadeInLeft;
+          
       }
-      @keyframes unAnimationFadeInLeft {
+@keyframes unAnimationFadeInLeft {
         
     from {
       opacity: 0;
@@ -1513,18 +1416,16 @@ exports[`animation selectors > animation fadeInLeft 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-left {
-        animation-name: unAnimationFadeInLeft;
-        
+.animation-fade-in-left {
+         animation-name: unAnimationFadeInLeft;
+          
       }
-      @keyframes unAnimationFadeInLeft {
+@keyframes unAnimationFadeInLeft {
         
     from {
       opacity: 0;
@@ -1536,18 +1437,16 @@ exports[`animation selectors > animation fadeInLeft with variablePrefix 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInLeftBig 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-left-big {
-        animation-name: unAnimationFadeInLeftBig;
-        
+.animation-fade-in-left-big {
+         animation-name: unAnimationFadeInLeftBig;
+          
       }
-      @keyframes unAnimationFadeInLeftBig {
+@keyframes unAnimationFadeInLeftBig {
         
     from {
       opacity: 0;
@@ -1559,18 +1458,16 @@ exports[`animation selectors > animation fadeInLeftBig 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInLeftBig with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-left-big {
-        animation-name: unAnimationFadeInLeftBig;
-        
+.animation-fade-in-left-big {
+         animation-name: unAnimationFadeInLeftBig;
+          
       }
-      @keyframes unAnimationFadeInLeftBig {
+@keyframes unAnimationFadeInLeftBig {
         
     from {
       opacity: 0;
@@ -1582,18 +1479,16 @@ exports[`animation selectors > animation fadeInLeftBig with variablePrefix 1`] =
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInRight 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-right {
-        animation-name: unAnimationFadeInRight;
-        
+.animation-fade-in-right {
+         animation-name: unAnimationFadeInRight;
+          
       }
-      @keyframes unAnimationFadeInRight {
+@keyframes unAnimationFadeInRight {
         
     from {
       opacity: 0;
@@ -1605,18 +1500,16 @@ exports[`animation selectors > animation fadeInRight 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-right {
-        animation-name: unAnimationFadeInRight;
-        
+.animation-fade-in-right {
+         animation-name: unAnimationFadeInRight;
+          
       }
-      @keyframes unAnimationFadeInRight {
+@keyframes unAnimationFadeInRight {
         
     from {
       opacity: 0;
@@ -1628,18 +1521,16 @@ exports[`animation selectors > animation fadeInRight with variablePrefix 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInRightBig 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-right-big {
-        animation-name: unAnimationFadeInRightBig;
-        
+.animation-fade-in-right-big {
+         animation-name: unAnimationFadeInRightBig;
+          
       }
-      @keyframes unAnimationFadeInRightBig {
+@keyframes unAnimationFadeInRightBig {
         
     from {
       opacity: 0;
@@ -1651,18 +1542,16 @@ exports[`animation selectors > animation fadeInRightBig 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInRightBig with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-right-big {
-        animation-name: unAnimationFadeInRightBig;
-        
+.animation-fade-in-right-big {
+         animation-name: unAnimationFadeInRightBig;
+          
       }
-      @keyframes unAnimationFadeInRightBig {
+@keyframes unAnimationFadeInRightBig {
         
     from {
       opacity: 0;
@@ -1674,18 +1563,16 @@ exports[`animation selectors > animation fadeInRightBig with variablePrefix 1`] 
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInRightUp 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-right-up {
-        animation-name: unAnimationFadeInRightUp;
-        
+.animation-fade-in-right-up {
+         animation-name: unAnimationFadeInRightUp;
+          
       }
-      @keyframes unAnimationFadeInRightUp {
+@keyframes unAnimationFadeInRightUp {
         
     from {
       opacity: 0;
@@ -1697,18 +1584,16 @@ exports[`animation selectors > animation fadeInRightUp 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInRightUp with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-right-up {
-        animation-name: unAnimationFadeInRightUp;
-        
+.animation-fade-in-right-up {
+         animation-name: unAnimationFadeInRightUp;
+          
       }
-      @keyframes unAnimationFadeInRightUp {
+@keyframes unAnimationFadeInRightUp {
         
     from {
       opacity: 0;
@@ -1720,18 +1605,16 @@ exports[`animation selectors > animation fadeInRightUp with variablePrefix 1`] =
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInRightUpBig 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-right-up-big {
-        animation-name: unAnimationFadeInRightUpBig;
-        
+.animation-fade-in-right-up-big {
+         animation-name: unAnimationFadeInRightUpBig;
+          
       }
-      @keyframes unAnimationFadeInRightUpBig {
+@keyframes unAnimationFadeInRightUpBig {
         
     from {
       opacity: 0;
@@ -1743,18 +1626,16 @@ exports[`animation selectors > animation fadeInRightUpBig 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInRightUpBig with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-right-up-big {
-        animation-name: unAnimationFadeInRightUpBig;
-        
+.animation-fade-in-right-up-big {
+         animation-name: unAnimationFadeInRightUpBig;
+          
       }
-      @keyframes unAnimationFadeInRightUpBig {
+@keyframes unAnimationFadeInRightUpBig {
         
     from {
       opacity: 0;
@@ -1766,18 +1647,16 @@ exports[`animation selectors > animation fadeInRightUpBig with variablePrefix 1`
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInTopLeft 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-top-left {
-        animation-name: unAnimationFadeInTopLeft;
-        
+.animation-fade-in-top-left {
+         animation-name: unAnimationFadeInTopLeft;
+          
       }
-      @keyframes unAnimationFadeInTopLeft {
+@keyframes unAnimationFadeInTopLeft {
         
     from {
       opacity: 0;
@@ -1788,18 +1667,16 @@ exports[`animation selectors > animation fadeInTopLeft 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInTopLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-top-left {
-        animation-name: unAnimationFadeInTopLeft;
-        
+.animation-fade-in-top-left {
+         animation-name: unAnimationFadeInTopLeft;
+          
       }
-      @keyframes unAnimationFadeInTopLeft {
+@keyframes unAnimationFadeInTopLeft {
         
     from {
       opacity: 0;
@@ -1810,18 +1687,16 @@ exports[`animation selectors > animation fadeInTopLeft with variablePrefix 1`] =
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInTopRight 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-top-right {
-        animation-name: unAnimationFadeInTopRight;
-        
+.animation-fade-in-top-right {
+         animation-name: unAnimationFadeInTopRight;
+          
       }
-      @keyframes unAnimationFadeInTopRight {
+@keyframes unAnimationFadeInTopRight {
         
     from {
       opacity: 0;
@@ -1832,18 +1707,16 @@ exports[`animation selectors > animation fadeInTopRight 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeInTopRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-in-top-right {
-        animation-name: unAnimationFadeInTopRight;
-        
+.animation-fade-in-top-right {
+         animation-name: unAnimationFadeInTopRight;
+          
       }
-      @keyframes unAnimationFadeInTopRight {
+@keyframes unAnimationFadeInTopRight {
         
     from {
       opacity: 0;
@@ -1854,18 +1727,16 @@ exports[`animation selectors > animation fadeInTopRight with variablePrefix 1`] 
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOut 1`] = `
 "/* layer: default */
-
-      .animation-fade-out {
-        animation-name: unAnimationFadeOut;
-        
+.animation-fade-out {
+         animation-name: unAnimationFadeOut;
+          
       }
-      @keyframes unAnimationFadeOut {
+@keyframes unAnimationFadeOut {
         
     from {
       opacity: 1;
@@ -1875,18 +1746,16 @@ exports[`animation selectors > animation fadeOut 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOut with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out {
-        animation-name: unAnimationFadeOut;
-        
+.animation-fade-out {
+         animation-name: unAnimationFadeOut;
+          
       }
-      @keyframes unAnimationFadeOut {
+@keyframes unAnimationFadeOut {
         
     from {
       opacity: 1;
@@ -1896,18 +1765,16 @@ exports[`animation selectors > animation fadeOut with variablePrefix 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutBottomLeft 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-bottom-left {
-        animation-name: unAnimationFadeOutBottomLeft;
-        
+.animation-fade-out-bottom-left {
+         animation-name: unAnimationFadeOutBottomLeft;
+          
       }
-      @keyframes unAnimationFadeOutBottomLeft {
+@keyframes unAnimationFadeOutBottomLeft {
         
     from {
       opacity: 1;
@@ -1918,18 +1785,16 @@ exports[`animation selectors > animation fadeOutBottomLeft 1`] = `
       transform: translate3d(-100%, 100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutBottomLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-bottom-left {
-        animation-name: unAnimationFadeOutBottomLeft;
-        
+.animation-fade-out-bottom-left {
+         animation-name: unAnimationFadeOutBottomLeft;
+          
       }
-      @keyframes unAnimationFadeOutBottomLeft {
+@keyframes unAnimationFadeOutBottomLeft {
         
     from {
       opacity: 1;
@@ -1940,18 +1805,16 @@ exports[`animation selectors > animation fadeOutBottomLeft with variablePrefix 1
       transform: translate3d(-100%, 100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutBottomRight 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-bottom-right {
-        animation-name: unAnimationFadeOutBottomRight;
-        
+.animation-fade-out-bottom-right {
+         animation-name: unAnimationFadeOutBottomRight;
+          
       }
-      @keyframes unAnimationFadeOutBottomRight {
+@keyframes unAnimationFadeOutBottomRight {
         
     from {
       opacity: 1;
@@ -1962,18 +1825,16 @@ exports[`animation selectors > animation fadeOutBottomRight 1`] = `
       transform: translate3d(100%, 100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutBottomRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-bottom-right {
-        animation-name: unAnimationFadeOutBottomRight;
-        
+.animation-fade-out-bottom-right {
+         animation-name: unAnimationFadeOutBottomRight;
+          
       }
-      @keyframes unAnimationFadeOutBottomRight {
+@keyframes unAnimationFadeOutBottomRight {
         
     from {
       opacity: 1;
@@ -1984,18 +1845,16 @@ exports[`animation selectors > animation fadeOutBottomRight with variablePrefix 
       transform: translate3d(100%, 100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutDown 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-down {
-        animation-name: unAnimationFadeOutDown;
-        
+.animation-fade-out-down {
+         animation-name: unAnimationFadeOutDown;
+          
       }
-      @keyframes unAnimationFadeOutDown {
+@keyframes unAnimationFadeOutDown {
         
     from {
       opacity: 1;
@@ -2006,18 +1865,16 @@ exports[`animation selectors > animation fadeOutDown 1`] = `
       transform: translate3d(0, 100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutDown with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-down {
-        animation-name: unAnimationFadeOutDown;
-        
+.animation-fade-out-down {
+         animation-name: unAnimationFadeOutDown;
+          
       }
-      @keyframes unAnimationFadeOutDown {
+@keyframes unAnimationFadeOutDown {
         
     from {
       opacity: 1;
@@ -2028,18 +1885,16 @@ exports[`animation selectors > animation fadeOutDown with variablePrefix 1`] = `
       transform: translate3d(0, 100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutDownBig 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-down-big {
-        animation-name: unAnimationFadeOutDownBig;
-        
+.animation-fade-out-down-big {
+         animation-name: unAnimationFadeOutDownBig;
+          
       }
-      @keyframes unAnimationFadeOutDownBig {
+@keyframes unAnimationFadeOutDownBig {
         
     from {
       opacity: 1;
@@ -2050,18 +1905,16 @@ exports[`animation selectors > animation fadeOutDownBig 1`] = `
       transform: translate3d(0, 2000px, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutDownBig with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-down-big {
-        animation-name: unAnimationFadeOutDownBig;
-        
+.animation-fade-out-down-big {
+         animation-name: unAnimationFadeOutDownBig;
+          
       }
-      @keyframes unAnimationFadeOutDownBig {
+@keyframes unAnimationFadeOutDownBig {
         
     from {
       opacity: 1;
@@ -2072,18 +1925,16 @@ exports[`animation selectors > animation fadeOutDownBig with variablePrefix 1`] 
       transform: translate3d(0, 2000px, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutLeft 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-left {
-        animation-name: unAnimationFadeOutLeft;
-        
+.animation-fade-out-left {
+         animation-name: unAnimationFadeOutLeft;
+          
       }
-      @keyframes unAnimationFadeOutLeft {
+@keyframes unAnimationFadeOutLeft {
         
     from {
       opacity: 1;
@@ -2094,18 +1945,16 @@ exports[`animation selectors > animation fadeOutLeft 1`] = `
       transform: translate3d(-100%, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-left {
-        animation-name: unAnimationFadeOutLeft;
-        
+.animation-fade-out-left {
+         animation-name: unAnimationFadeOutLeft;
+          
       }
-      @keyframes unAnimationFadeOutLeft {
+@keyframes unAnimationFadeOutLeft {
         
     from {
       opacity: 1;
@@ -2116,18 +1965,16 @@ exports[`animation selectors > animation fadeOutLeft with variablePrefix 1`] = `
       transform: translate3d(-100%, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutLeftBig 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-left-big {
-        animation-name: unAnimationFadeOutLeftBig;
-        
+.animation-fade-out-left-big {
+         animation-name: unAnimationFadeOutLeftBig;
+          
       }
-      @keyframes unAnimationFadeOutLeftBig {
+@keyframes unAnimationFadeOutLeftBig {
         
     from {
       opacity: 1;
@@ -2138,18 +1985,16 @@ exports[`animation selectors > animation fadeOutLeftBig 1`] = `
       transform: translate3d(-2000px, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutLeftBig with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-left-big {
-        animation-name: unAnimationFadeOutLeftBig;
-        
+.animation-fade-out-left-big {
+         animation-name: unAnimationFadeOutLeftBig;
+          
       }
-      @keyframes unAnimationFadeOutLeftBig {
+@keyframes unAnimationFadeOutLeftBig {
         
     from {
       opacity: 1;
@@ -2160,18 +2005,16 @@ exports[`animation selectors > animation fadeOutLeftBig with variablePrefix 1`] 
       transform: translate3d(-2000px, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutRight 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-right {
-        animation-name: unAnimationFadeOutRight;
-        
+.animation-fade-out-right {
+         animation-name: unAnimationFadeOutRight;
+          
       }
-      @keyframes unAnimationFadeOutRight {
+@keyframes unAnimationFadeOutRight {
         
     from {
       opacity: 1;
@@ -2182,18 +2025,16 @@ exports[`animation selectors > animation fadeOutRight 1`] = `
       transform: translate3d(100%, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-right {
-        animation-name: unAnimationFadeOutRight;
-        
+.animation-fade-out-right {
+         animation-name: unAnimationFadeOutRight;
+          
       }
-      @keyframes unAnimationFadeOutRight {
+@keyframes unAnimationFadeOutRight {
         
     from {
       opacity: 1;
@@ -2204,18 +2045,16 @@ exports[`animation selectors > animation fadeOutRight with variablePrefix 1`] = 
       transform: translate3d(100%, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutRightBig 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-right-big {
-        animation-name: unAnimationFadeOutRightBig;
-        
+.animation-fade-out-right-big {
+         animation-name: unAnimationFadeOutRightBig;
+          
       }
-      @keyframes unAnimationFadeOutRightBig {
+@keyframes unAnimationFadeOutRightBig {
         
     from {
       opacity: 1;
@@ -2226,18 +2065,16 @@ exports[`animation selectors > animation fadeOutRightBig 1`] = `
       transform: translate3d(2000px, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutRightBig with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-right-big {
-        animation-name: unAnimationFadeOutRightBig;
-        
+.animation-fade-out-right-big {
+         animation-name: unAnimationFadeOutRightBig;
+          
       }
-      @keyframes unAnimationFadeOutRightBig {
+@keyframes unAnimationFadeOutRightBig {
         
     from {
       opacity: 1;
@@ -2248,18 +2085,16 @@ exports[`animation selectors > animation fadeOutRightBig with variablePrefix 1`]
       transform: translate3d(2000px, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutTopLeft 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-top-left {
-        animation-name: unAnimationFadeOutTopLeft;
-        
+.animation-fade-out-top-left {
+         animation-name: unAnimationFadeOutTopLeft;
+          
       }
-      @keyframes unAnimationFadeOutTopLeft {
+@keyframes unAnimationFadeOutTopLeft {
         
     from {
       opacity: 1;
@@ -2270,18 +2105,16 @@ exports[`animation selectors > animation fadeOutTopLeft 1`] = `
       transform: translate3d(-100%, -100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutTopLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-top-left {
-        animation-name: unAnimationFadeOutTopLeft;
-        
+.animation-fade-out-top-left {
+         animation-name: unAnimationFadeOutTopLeft;
+          
       }
-      @keyframes unAnimationFadeOutTopLeft {
+@keyframes unAnimationFadeOutTopLeft {
         
     from {
       opacity: 1;
@@ -2292,18 +2125,16 @@ exports[`animation selectors > animation fadeOutTopLeft with variablePrefix 1`] 
       transform: translate3d(-100%, -100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutTopRight 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-top-right {
-        animation-name: unAnimationFadeOutTopRight;
-        
+.animation-fade-out-top-right {
+         animation-name: unAnimationFadeOutTopRight;
+          
       }
-      @keyframes unAnimationFadeOutTopRight {
+@keyframes unAnimationFadeOutTopRight {
         
     from {
       opacity: 1;
@@ -2314,18 +2145,16 @@ exports[`animation selectors > animation fadeOutTopRight 1`] = `
       transform: translate3d(100%, -100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutTopRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-top-right {
-        animation-name: unAnimationFadeOutTopRight;
-        
+.animation-fade-out-top-right {
+         animation-name: unAnimationFadeOutTopRight;
+          
       }
-      @keyframes unAnimationFadeOutTopRight {
+@keyframes unAnimationFadeOutTopRight {
         
     from {
       opacity: 1;
@@ -2336,18 +2165,16 @@ exports[`animation selectors > animation fadeOutTopRight with variablePrefix 1`]
       transform: translate3d(100%, -100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutUp 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-up {
-        animation-name: unAnimationFadeOutUp;
-        
+.animation-fade-out-up {
+         animation-name: unAnimationFadeOutUp;
+          
       }
-      @keyframes unAnimationFadeOutUp {
+@keyframes unAnimationFadeOutUp {
         
     from {
       opacity: 1;
@@ -2358,18 +2185,16 @@ exports[`animation selectors > animation fadeOutUp 1`] = `
       transform: translate3d(0, -100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutUp with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-up {
-        animation-name: unAnimationFadeOutUp;
-        
+.animation-fade-out-up {
+         animation-name: unAnimationFadeOutUp;
+          
       }
-      @keyframes unAnimationFadeOutUp {
+@keyframes unAnimationFadeOutUp {
         
     from {
       opacity: 1;
@@ -2380,18 +2205,16 @@ exports[`animation selectors > animation fadeOutUp with variablePrefix 1`] = `
       transform: translate3d(0, -100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutUpBig 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-up-big {
-        animation-name: unAnimationFadeOutUpBig;
-        
+.animation-fade-out-up-big {
+         animation-name: unAnimationFadeOutUpBig;
+          
       }
-      @keyframes unAnimationFadeOutUpBig {
+@keyframes unAnimationFadeOutUpBig {
         
     from {
       opacity: 1;
@@ -2402,18 +2225,16 @@ exports[`animation selectors > animation fadeOutUpBig 1`] = `
       transform: translate3d(0, -2000px, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation fadeOutUpBig with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-fade-out-up-big {
-        animation-name: unAnimationFadeOutUpBig;
-        
+.animation-fade-out-up-big {
+         animation-name: unAnimationFadeOutUpBig;
+          
       }
-      @keyframes unAnimationFadeOutUpBig {
+@keyframes unAnimationFadeOutUpBig {
         
     from {
       opacity: 1;
@@ -2424,18 +2245,16 @@ exports[`animation selectors > animation fadeOutUpBig with variablePrefix 1`] = 
       transform: translate3d(0, -2000px, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation flash 1`] = `
 "/* layer: default */
-
-      .animation-flash {
-        animation-name: unAnimationFlash;
-        
+.animation-flash {
+         animation-name: unAnimationFlash;
+          
       }
-      @keyframes unAnimationFlash {
+@keyframes unAnimationFlash {
         
     from,
     50%,
@@ -2448,18 +2267,16 @@ exports[`animation selectors > animation flash 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation flash with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-flash {
-        animation-name: unAnimationFlash;
-        
+.animation-flash {
+         animation-name: unAnimationFlash;
+          
       }
-      @keyframes unAnimationFlash {
+@keyframes unAnimationFlash {
         
     from,
     50%,
@@ -2472,18 +2289,16 @@ exports[`animation selectors > animation flash with variablePrefix 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation flip 1`] = `
 "/* layer: default */
-
-      .animation-flip {
-        animation-name: unAnimationFlip;
-        backface-visibility: visible;
+.animation-flip {
+         animation-name: unAnimationFlip;
+          backface-visibility: visible;
       }
-      @keyframes unAnimationFlip {
+@keyframes unAnimationFlip {
         
     from {
       transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
@@ -2513,18 +2328,16 @@ exports[`animation selectors > animation flip 1`] = `
       animation-timing-function: ease-in;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation flip with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-flip {
-        animation-name: unAnimationFlip;
-        backface-visibility: visible;
+.animation-flip {
+         animation-name: unAnimationFlip;
+          backface-visibility: visible;
       }
-      @keyframes unAnimationFlip {
+@keyframes unAnimationFlip {
         
     from {
       transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
@@ -2554,18 +2367,16 @@ exports[`animation selectors > animation flip with variablePrefix 1`] = `
       animation-timing-function: ease-in;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation flipInX 1`] = `
 "/* layer: default */
-
-      .animation-flip-in-x {
-        animation-name: unAnimationFlipInX;
-        backface-visibility: visible; !important
+.animation-flip-in-x {
+         animation-name: unAnimationFlipInX;
+          backface-visibility: visible; !important
       }
-      @keyframes unAnimationFlipInX {
+@keyframes unAnimationFlipInX {
         
     from {
       transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
@@ -2591,18 +2402,16 @@ exports[`animation selectors > animation flipInX 1`] = `
       transform: perspective(400px);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation flipInX with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-flip-in-x {
-        animation-name: unAnimationFlipInX;
-        backface-visibility: visible; !important
+.animation-flip-in-x {
+         animation-name: unAnimationFlipInX;
+          backface-visibility: visible; !important
       }
-      @keyframes unAnimationFlipInX {
+@keyframes unAnimationFlipInX {
         
     from {
       transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
@@ -2628,18 +2437,16 @@ exports[`animation selectors > animation flipInX with variablePrefix 1`] = `
       transform: perspective(400px);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation flipInY 1`] = `
 "/* layer: default */
-
-      .animation-flip-in-y {
-        animation-name: unAnimationFlipInY;
-        backface-visibility: visible; !important
+.animation-flip-in-y {
+         animation-name: unAnimationFlipInY;
+          backface-visibility: visible; !important
       }
-      @keyframes unAnimationFlipInY {
+@keyframes unAnimationFlipInY {
         
     from {
       transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
@@ -2665,18 +2472,16 @@ exports[`animation selectors > animation flipInY 1`] = `
       transform: perspective(400px);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation flipInY with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-flip-in-y {
-        animation-name: unAnimationFlipInY;
-        backface-visibility: visible; !important
+.animation-flip-in-y {
+         animation-name: unAnimationFlipInY;
+          backface-visibility: visible; !important
       }
-      @keyframes unAnimationFlipInY {
+@keyframes unAnimationFlipInY {
         
     from {
       transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
@@ -2702,21 +2507,19 @@ exports[`animation selectors > animation flipInY with variablePrefix 1`] = `
       transform: perspective(400px);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation flipOutX 1`] = `
 "/* layer: default */
-
-      .animation-flip-out-x {
-        animation-name: unAnimationFlipOutX;
-        
+.animation-flip-out-x {
+         animation-name: unAnimationFlipOutX;
+          
     animation-duration: calc(var(--un-animate-duration) * 0.75);
     backface-visibility: visible; !important
   
       }
-      @keyframes unAnimationFlipOutX {
+@keyframes unAnimationFlipOutX {
         
     from {
       transform: perspective(400px);
@@ -2732,21 +2535,19 @@ exports[`animation selectors > animation flipOutX 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation flipOutX with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-flip-out-x {
-        animation-name: unAnimationFlipOutX;
-        
+.animation-flip-out-x {
+         animation-name: unAnimationFlipOutX;
+          
     animation-duration: calc(var(--foo-bar-duration) * 0.75);
     backface-visibility: visible; !important
   
       }
-      @keyframes unAnimationFlipOutX {
+@keyframes unAnimationFlipOutX {
         
     from {
       transform: perspective(400px);
@@ -2762,21 +2563,19 @@ exports[`animation selectors > animation flipOutX with variablePrefix 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation flipOutY 1`] = `
 "/* layer: default */
-
-      .animation-flip-out-y {
-        animation-name: unAnimationFlipOutY;
-        
+.animation-flip-out-y {
+         animation-name: unAnimationFlipOutY;
+          
     animation-duration: calc(var(--un-animate-duration) * 0.75);
     backface-visibility: visible; !important
   
       }
-      @keyframes unAnimationFlipOutY {
+@keyframes unAnimationFlipOutY {
         
     from {
       transform: perspective(400px);
@@ -2792,21 +2591,19 @@ exports[`animation selectors > animation flipOutY 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation flipOutY with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-flip-out-y {
-        animation-name: unAnimationFlipOutY;
-        
+.animation-flip-out-y {
+         animation-name: unAnimationFlipOutY;
+          
     animation-duration: calc(var(--foo-bar-duration) * 0.75);
     backface-visibility: visible; !important
   
       }
-      @keyframes unAnimationFlipOutY {
+@keyframes unAnimationFlipOutY {
         
     from {
       transform: perspective(400px);
@@ -2822,18 +2619,16 @@ exports[`animation selectors > animation flipOutY with variablePrefix 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation headShake 1`] = `
 "/* layer: default */
-
-      .animation-head-shake {
-        animation-name: unAnimationHeadShake;
-        animation-timing-function: ease-in-out;
+.animation-head-shake {
+         animation-name: unAnimationHeadShake;
+          animation-timing-function: ease-in-out;
       }
-      @keyframes unAnimationHeadShake {
+@keyframes unAnimationHeadShake {
         
     0% {
       transform: translateX(0);
@@ -2859,18 +2654,16 @@ exports[`animation selectors > animation headShake 1`] = `
       transform: translateX(0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation headShake with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-head-shake {
-        animation-name: unAnimationHeadShake;
-        animation-timing-function: ease-in-out;
+.animation-head-shake {
+         animation-name: unAnimationHeadShake;
+          animation-timing-function: ease-in-out;
       }
-      @keyframes unAnimationHeadShake {
+@keyframes unAnimationHeadShake {
         
     0% {
       transform: translateX(0);
@@ -2896,21 +2689,19 @@ exports[`animation selectors > animation headShake with variablePrefix 1`] = `
       transform: translateX(0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation heartBeat 1`] = `
 "/* layer: default */
-
-      .animation-heart-beat {
-        animation-name: unAnimationHeartBeat;
-        
+.animation-heart-beat {
+         animation-name: unAnimationHeartBeat;
+          
     animation-timing-function: ease-in-out;
     animation-duration: calc(var(--un-animate-duration) * 1.3);
   
       }
-      @keyframes unAnimationHeartBeat {
+@keyframes unAnimationHeartBeat {
         
     0% {
       transform: scale(1);
@@ -2932,21 +2723,19 @@ exports[`animation selectors > animation heartBeat 1`] = `
       transform: scale(1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation heartBeat with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-heart-beat {
-        animation-name: unAnimationHeartBeat;
-        
+.animation-heart-beat {
+         animation-name: unAnimationHeartBeat;
+          
     animation-timing-function: ease-in-out;
     animation-duration: calc(var(--foo-bar-duration) * 1.3);
   
       }
-      @keyframes unAnimationHeartBeat {
+@keyframes unAnimationHeartBeat {
         
     0% {
       transform: scale(1);
@@ -2968,21 +2757,19 @@ exports[`animation selectors > animation heartBeat with variablePrefix 1`] = `
       transform: scale(1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation hinge 1`] = `
 "/* layer: default */
-
-      .animation-hinge {
-        animation-name: unAnimationHinge;
-        
+.animation-hinge {
+         animation-name: unAnimationHinge;
+          
     transform-origin: top left;
     animation-duration: calc(var(--un-animate-duration) * 2);
   
       }
-      @keyframes unAnimationHinge {
+@keyframes unAnimationHinge {
         
     0% {
       animation-timing-function: ease-in-out;
@@ -3006,21 +2793,19 @@ exports[`animation selectors > animation hinge 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation hinge with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-hinge {
-        animation-name: unAnimationHinge;
-        
+.animation-hinge {
+         animation-name: unAnimationHinge;
+          
     transform-origin: top left;
     animation-duration: calc(var(--foo-bar-duration) * 2);
   
       }
-      @keyframes unAnimationHinge {
+@keyframes unAnimationHinge {
         
     0% {
       animation-timing-function: ease-in-out;
@@ -3044,18 +2829,16 @@ exports[`animation selectors > animation hinge with variablePrefix 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation jackInTheBox 1`] = `
 "/* layer: default */
-
-      .animation-jack-in-the-box {
-        animation-name: unAnimationJackInTheBox;
-        
+.animation-jack-in-the-box {
+         animation-name: unAnimationJackInTheBox;
+          
       }
-      @keyframes unAnimationJackInTheBox {
+@keyframes unAnimationJackInTheBox {
         
     from {
       opacity: 0;
@@ -3076,18 +2859,16 @@ exports[`animation selectors > animation jackInTheBox 1`] = `
       transform: scale(1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation jackInTheBox with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-jack-in-the-box {
-        animation-name: unAnimationJackInTheBox;
-        
+.animation-jack-in-the-box {
+         animation-name: unAnimationJackInTheBox;
+          
       }
-      @keyframes unAnimationJackInTheBox {
+@keyframes unAnimationJackInTheBox {
         
     from {
       opacity: 0;
@@ -3108,18 +2889,16 @@ exports[`animation selectors > animation jackInTheBox with variablePrefix 1`] = 
       transform: scale(1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation jello 1`] = `
 "/* layer: default */
-
-      .animation-jello {
-        animation-name: unAnimationJello;
-        transform-origin: center;
+.animation-jello {
+         animation-name: unAnimationJello;
+          transform-origin: center;
       }
-      @keyframes unAnimationJello {
+@keyframes unAnimationJello {
         
     from,
     11.1%,
@@ -3155,18 +2934,16 @@ exports[`animation selectors > animation jello 1`] = `
       transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation jello with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-jello {
-        animation-name: unAnimationJello;
-        transform-origin: center;
+.animation-jello {
+         animation-name: unAnimationJello;
+          transform-origin: center;
       }
-      @keyframes unAnimationJello {
+@keyframes unAnimationJello {
         
     from,
     11.1%,
@@ -3202,18 +2979,16 @@ exports[`animation selectors > animation jello with variablePrefix 1`] = `
       transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation lightSpeedInLeft 1`] = `
 "/* layer: default */
-
-      .animation-light-speed-in-left {
-        animation-name: unAnimationLightSpeedInLeft;
-        animation-timing-function: ease-out;
+.animation-light-speed-in-left {
+         animation-name: unAnimationLightSpeedInLeft;
+          animation-timing-function: ease-out;
       }
-      @keyframes unAnimationLightSpeedInLeft {
+@keyframes unAnimationLightSpeedInLeft {
         
     from {
       transform: translate3d(-100%, 0, 0) skewX(30deg);
@@ -3233,18 +3008,16 @@ exports[`animation selectors > animation lightSpeedInLeft 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation lightSpeedInLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-light-speed-in-left {
-        animation-name: unAnimationLightSpeedInLeft;
-        animation-timing-function: ease-out;
+.animation-light-speed-in-left {
+         animation-name: unAnimationLightSpeedInLeft;
+          animation-timing-function: ease-out;
       }
-      @keyframes unAnimationLightSpeedInLeft {
+@keyframes unAnimationLightSpeedInLeft {
         
     from {
       transform: translate3d(-100%, 0, 0) skewX(30deg);
@@ -3264,18 +3037,16 @@ exports[`animation selectors > animation lightSpeedInLeft with variablePrefix 1`
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation lightSpeedInRight 1`] = `
 "/* layer: default */
-
-      .animation-light-speed-in-right {
-        animation-name: unAnimationLightSpeedInRight;
-        animation-timing-function: ease-out;
+.animation-light-speed-in-right {
+         animation-name: unAnimationLightSpeedInRight;
+          animation-timing-function: ease-out;
       }
-      @keyframes unAnimationLightSpeedInRight {
+@keyframes unAnimationLightSpeedInRight {
         
     from {
       transform: translate3d(100%, 0, 0) skewX(-30deg);
@@ -3295,18 +3066,16 @@ exports[`animation selectors > animation lightSpeedInRight 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation lightSpeedInRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-light-speed-in-right {
-        animation-name: unAnimationLightSpeedInRight;
-        animation-timing-function: ease-out;
+.animation-light-speed-in-right {
+         animation-name: unAnimationLightSpeedInRight;
+          animation-timing-function: ease-out;
       }
-      @keyframes unAnimationLightSpeedInRight {
+@keyframes unAnimationLightSpeedInRight {
         
     from {
       transform: translate3d(100%, 0, 0) skewX(-30deg);
@@ -3326,18 +3095,16 @@ exports[`animation selectors > animation lightSpeedInRight with variablePrefix 1
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation lightSpeedOutLeft 1`] = `
 "/* layer: default */
-
-      .animation-light-speed-out-left {
-        animation-name: unAnimationLightSpeedOutLeft;
-        animation-timing-function: ease-in;
+.animation-light-speed-out-left {
+         animation-name: unAnimationLightSpeedOutLeft;
+          animation-timing-function: ease-in;
       }
-      @keyframes unAnimationLightSpeedOutLeft {
+@keyframes unAnimationLightSpeedOutLeft {
         
     from {
       opacity: 1;
@@ -3348,18 +3115,16 @@ exports[`animation selectors > animation lightSpeedOutLeft 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation lightSpeedOutLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-light-speed-out-left {
-        animation-name: unAnimationLightSpeedOutLeft;
-        animation-timing-function: ease-in;
+.animation-light-speed-out-left {
+         animation-name: unAnimationLightSpeedOutLeft;
+          animation-timing-function: ease-in;
       }
-      @keyframes unAnimationLightSpeedOutLeft {
+@keyframes unAnimationLightSpeedOutLeft {
         
     from {
       opacity: 1;
@@ -3370,18 +3135,16 @@ exports[`animation selectors > animation lightSpeedOutLeft with variablePrefix 1
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation lightSpeedOutRight 1`] = `
 "/* layer: default */
-
-      .animation-light-speed-out-right {
-        animation-name: unAnimationLightSpeedOutRight;
-        animation-timing-function: ease-in;
+.animation-light-speed-out-right {
+         animation-name: unAnimationLightSpeedOutRight;
+          animation-timing-function: ease-in;
       }
-      @keyframes unAnimationLightSpeedOutRight {
+@keyframes unAnimationLightSpeedOutRight {
         
     from {
       opacity: 1;
@@ -3392,18 +3155,16 @@ exports[`animation selectors > animation lightSpeedOutRight 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation lightSpeedOutRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-light-speed-out-right {
-        animation-name: unAnimationLightSpeedOutRight;
-        animation-timing-function: ease-in;
+.animation-light-speed-out-right {
+         animation-name: unAnimationLightSpeedOutRight;
+          animation-timing-function: ease-in;
       }
-      @keyframes unAnimationLightSpeedOutRight {
+@keyframes unAnimationLightSpeedOutRight {
         
     from {
       opacity: 1;
@@ -3414,18 +3175,16 @@ exports[`animation selectors > animation lightSpeedOutRight with variablePrefix 
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation pulse 1`] = `
 "/* layer: default */
-
-      .animation-pulse {
-        animation-name: unAnimationPulse;
-        animation-timing-function: ease-in-out;
+.animation-pulse {
+         animation-name: unAnimationPulse;
+          animation-timing-function: ease-in-out;
       }
-      @keyframes unAnimationPulse {
+@keyframes unAnimationPulse {
         
     from {
       transform: scale3d(1, 1, 1);
@@ -3439,18 +3198,16 @@ exports[`animation selectors > animation pulse 1`] = `
       transform: scale3d(1, 1, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation pulse with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-pulse {
-        animation-name: unAnimationPulse;
-        animation-timing-function: ease-in-out;
+.animation-pulse {
+         animation-name: unAnimationPulse;
+          animation-timing-function: ease-in-out;
       }
-      @keyframes unAnimationPulse {
+@keyframes unAnimationPulse {
         
     from {
       transform: scale3d(1, 1, 1);
@@ -3464,18 +3221,16 @@ exports[`animation selectors > animation pulse with variablePrefix 1`] = `
       transform: scale3d(1, 1, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rollIn 1`] = `
 "/* layer: default */
-
-      .animation-roll-in {
-        animation-name: unAnimationRollIn;
-        
+.animation-roll-in {
+         animation-name: unAnimationRollIn;
+          
       }
-      @keyframes unAnimationRollIn {
+@keyframes unAnimationRollIn {
         
     from {
       opacity: 0;
@@ -3487,18 +3242,16 @@ exports[`animation selectors > animation rollIn 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rollIn with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-roll-in {
-        animation-name: unAnimationRollIn;
-        
+.animation-roll-in {
+         animation-name: unAnimationRollIn;
+          
       }
-      @keyframes unAnimationRollIn {
+@keyframes unAnimationRollIn {
         
     from {
       opacity: 0;
@@ -3510,18 +3263,16 @@ exports[`animation selectors > animation rollIn with variablePrefix 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rollOut 1`] = `
 "/* layer: default */
-
-      .animation-roll-out {
-        animation-name: unAnimationRollOut;
-        
+.animation-roll-out {
+         animation-name: unAnimationRollOut;
+          
       }
-      @keyframes unAnimationRollOut {
+@keyframes unAnimationRollOut {
         
     from {
       opacity: 1;
@@ -3532,18 +3283,16 @@ exports[`animation selectors > animation rollOut 1`] = `
       transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rollOut with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-roll-out {
-        animation-name: unAnimationRollOut;
-        
+.animation-roll-out {
+         animation-name: unAnimationRollOut;
+          
       }
-      @keyframes unAnimationRollOut {
+@keyframes unAnimationRollOut {
         
     from {
       opacity: 1;
@@ -3554,18 +3303,16 @@ exports[`animation selectors > animation rollOut with variablePrefix 1`] = `
       transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateIn 1`] = `
 "/* layer: default */
-
-      .animation-rotate-in {
-        animation-name: unAnimationRotateIn;
-        transform-origin: center;
+.animation-rotate-in {
+         animation-name: unAnimationRotateIn;
+          transform-origin: center;
       }
-      @keyframes unAnimationRotateIn {
+@keyframes unAnimationRotateIn {
         
     from {
       transform: rotate3d(0, 0, 1, -200deg);
@@ -3577,18 +3324,16 @@ exports[`animation selectors > animation rotateIn 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateIn with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-rotate-in {
-        animation-name: unAnimationRotateIn;
-        transform-origin: center;
+.animation-rotate-in {
+         animation-name: unAnimationRotateIn;
+          transform-origin: center;
       }
-      @keyframes unAnimationRotateIn {
+@keyframes unAnimationRotateIn {
         
     from {
       transform: rotate3d(0, 0, 1, -200deg);
@@ -3600,18 +3345,16 @@ exports[`animation selectors > animation rotateIn with variablePrefix 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateInDownLeft 1`] = `
 "/* layer: default */
-
-      .animation-rotate-in-down-left {
-        animation-name: unAnimationRotateInDownLeft;
-        transform-origin: left bottom;
+.animation-rotate-in-down-left {
+         animation-name: unAnimationRotateInDownLeft;
+          transform-origin: left bottom;
       }
-      @keyframes unAnimationRotateInDownLeft {
+@keyframes unAnimationRotateInDownLeft {
         
     from {
       transform: rotate3d(0, 0, 1, -45deg);
@@ -3623,18 +3366,16 @@ exports[`animation selectors > animation rotateInDownLeft 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateInDownLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-rotate-in-down-left {
-        animation-name: unAnimationRotateInDownLeft;
-        transform-origin: left bottom;
+.animation-rotate-in-down-left {
+         animation-name: unAnimationRotateInDownLeft;
+          transform-origin: left bottom;
       }
-      @keyframes unAnimationRotateInDownLeft {
+@keyframes unAnimationRotateInDownLeft {
         
     from {
       transform: rotate3d(0, 0, 1, -45deg);
@@ -3646,18 +3387,16 @@ exports[`animation selectors > animation rotateInDownLeft with variablePrefix 1`
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateInDownRight 1`] = `
 "/* layer: default */
-
-      .animation-rotate-in-down-right {
-        animation-name: unAnimationRotateInDownRight;
-        transform-origin: right bottom;
+.animation-rotate-in-down-right {
+         animation-name: unAnimationRotateInDownRight;
+          transform-origin: right bottom;
       }
-      @keyframes unAnimationRotateInDownRight {
+@keyframes unAnimationRotateInDownRight {
         
     from {
       transform: rotate3d(0, 0, 1, 45deg);
@@ -3669,18 +3408,16 @@ exports[`animation selectors > animation rotateInDownRight 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateInDownRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-rotate-in-down-right {
-        animation-name: unAnimationRotateInDownRight;
-        transform-origin: right bottom;
+.animation-rotate-in-down-right {
+         animation-name: unAnimationRotateInDownRight;
+          transform-origin: right bottom;
       }
-      @keyframes unAnimationRotateInDownRight {
+@keyframes unAnimationRotateInDownRight {
         
     from {
       transform: rotate3d(0, 0, 1, 45deg);
@@ -3692,18 +3429,16 @@ exports[`animation selectors > animation rotateInDownRight with variablePrefix 1
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateInUpLeft 1`] = `
 "/* layer: default */
-
-      .animation-rotate-in-up-left {
-        animation-name: unAnimationRotateInUpLeft;
-        transform-origin: left bottom;
+.animation-rotate-in-up-left {
+         animation-name: unAnimationRotateInUpLeft;
+          transform-origin: left bottom;
       }
-      @keyframes unAnimationRotateInUpLeft {
+@keyframes unAnimationRotateInUpLeft {
         
     from {
       transform: rotate3d(0, 0, 1, 45deg);
@@ -3715,18 +3450,16 @@ exports[`animation selectors > animation rotateInUpLeft 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateInUpLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-rotate-in-up-left {
-        animation-name: unAnimationRotateInUpLeft;
-        transform-origin: left bottom;
+.animation-rotate-in-up-left {
+         animation-name: unAnimationRotateInUpLeft;
+          transform-origin: left bottom;
       }
-      @keyframes unAnimationRotateInUpLeft {
+@keyframes unAnimationRotateInUpLeft {
         
     from {
       transform: rotate3d(0, 0, 1, 45deg);
@@ -3738,18 +3471,16 @@ exports[`animation selectors > animation rotateInUpLeft with variablePrefix 1`] 
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateInUpRight 1`] = `
 "/* layer: default */
-
-      .animation-rotate-in-up-right {
-        animation-name: unAnimationRotateInUpRight;
-        transform-origin: right bottom;
+.animation-rotate-in-up-right {
+         animation-name: unAnimationRotateInUpRight;
+          transform-origin: right bottom;
       }
-      @keyframes unAnimationRotateInUpRight {
+@keyframes unAnimationRotateInUpRight {
         
     from {
       transform: rotate3d(0, 0, 1, -90deg);
@@ -3761,18 +3492,16 @@ exports[`animation selectors > animation rotateInUpRight 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateInUpRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-rotate-in-up-right {
-        animation-name: unAnimationRotateInUpRight;
-        transform-origin: right bottom;
+.animation-rotate-in-up-right {
+         animation-name: unAnimationRotateInUpRight;
+          transform-origin: right bottom;
       }
-      @keyframes unAnimationRotateInUpRight {
+@keyframes unAnimationRotateInUpRight {
         
     from {
       transform: rotate3d(0, 0, 1, -90deg);
@@ -3784,18 +3513,16 @@ exports[`animation selectors > animation rotateInUpRight with variablePrefix 1`]
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateOut 1`] = `
 "/* layer: default */
-
-      .animation-rotate-out {
-        animation-name: unAnimationRotateOut;
-        transform-origin: center;
+.animation-rotate-out {
+         animation-name: unAnimationRotateOut;
+          transform-origin: center;
       }
-      @keyframes unAnimationRotateOut {
+@keyframes unAnimationRotateOut {
         
     from {
       opacity: 1;
@@ -3806,18 +3533,16 @@ exports[`animation selectors > animation rotateOut 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateOut with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-rotate-out {
-        animation-name: unAnimationRotateOut;
-        transform-origin: center;
+.animation-rotate-out {
+         animation-name: unAnimationRotateOut;
+          transform-origin: center;
       }
-      @keyframes unAnimationRotateOut {
+@keyframes unAnimationRotateOut {
         
     from {
       opacity: 1;
@@ -3828,18 +3553,16 @@ exports[`animation selectors > animation rotateOut with variablePrefix 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateOutDownLeft 1`] = `
 "/* layer: default */
-
-      .animation-rotate-out-down-left {
-        animation-name: unAnimationRotateOutDownLeft;
-        transform-origin: left bottom;
+.animation-rotate-out-down-left {
+         animation-name: unAnimationRotateOutDownLeft;
+          transform-origin: left bottom;
       }
-      @keyframes unAnimationRotateOutDownLeft {
+@keyframes unAnimationRotateOutDownLeft {
         
     from {
       opacity: 1;
@@ -3850,18 +3573,16 @@ exports[`animation selectors > animation rotateOutDownLeft 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateOutDownLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-rotate-out-down-left {
-        animation-name: unAnimationRotateOutDownLeft;
-        transform-origin: left bottom;
+.animation-rotate-out-down-left {
+         animation-name: unAnimationRotateOutDownLeft;
+          transform-origin: left bottom;
       }
-      @keyframes unAnimationRotateOutDownLeft {
+@keyframes unAnimationRotateOutDownLeft {
         
     from {
       opacity: 1;
@@ -3872,18 +3593,16 @@ exports[`animation selectors > animation rotateOutDownLeft with variablePrefix 1
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateOutDownRight 1`] = `
 "/* layer: default */
-
-      .animation-rotate-out-down-right {
-        animation-name: unAnimationRotateOutDownRight;
-        transform-origin: right bottom;
+.animation-rotate-out-down-right {
+         animation-name: unAnimationRotateOutDownRight;
+          transform-origin: right bottom;
       }
-      @keyframes unAnimationRotateOutDownRight {
+@keyframes unAnimationRotateOutDownRight {
         
     from {
       opacity: 1;
@@ -3894,18 +3613,16 @@ exports[`animation selectors > animation rotateOutDownRight 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateOutDownRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-rotate-out-down-right {
-        animation-name: unAnimationRotateOutDownRight;
-        transform-origin: right bottom;
+.animation-rotate-out-down-right {
+         animation-name: unAnimationRotateOutDownRight;
+          transform-origin: right bottom;
       }
-      @keyframes unAnimationRotateOutDownRight {
+@keyframes unAnimationRotateOutDownRight {
         
     from {
       opacity: 1;
@@ -3916,18 +3633,16 @@ exports[`animation selectors > animation rotateOutDownRight with variablePrefix 
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateOutUpLeft 1`] = `
 "/* layer: default */
-
-      .animation-rotate-out-up-left {
-        animation-name: unAnimationRotateOutUpLeft;
-        transform-origin: left bottom;
+.animation-rotate-out-up-left {
+         animation-name: unAnimationRotateOutUpLeft;
+          transform-origin: left bottom;
       }
-      @keyframes unAnimationRotateOutUpLeft {
+@keyframes unAnimationRotateOutUpLeft {
         
     from {
       opacity: 1;
@@ -3938,18 +3653,16 @@ exports[`animation selectors > animation rotateOutUpLeft 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateOutUpLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-rotate-out-up-left {
-        animation-name: unAnimationRotateOutUpLeft;
-        transform-origin: left bottom;
+.animation-rotate-out-up-left {
+         animation-name: unAnimationRotateOutUpLeft;
+          transform-origin: left bottom;
       }
-      @keyframes unAnimationRotateOutUpLeft {
+@keyframes unAnimationRotateOutUpLeft {
         
     from {
       opacity: 1;
@@ -3960,18 +3673,16 @@ exports[`animation selectors > animation rotateOutUpLeft with variablePrefix 1`]
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateOutUpRight 1`] = `
 "/* layer: default */
-
-      .animation-rotate-out-up-right {
-        animation-name: unAnimationRotateOutUpRight;
-        transform-origin: right bottom;
+.animation-rotate-out-up-right {
+         animation-name: unAnimationRotateOutUpRight;
+          transform-origin: right bottom;
       }
-      @keyframes unAnimationRotateOutUpRight {
+@keyframes unAnimationRotateOutUpRight {
         
     from {
       opacity: 1;
@@ -3982,18 +3693,16 @@ exports[`animation selectors > animation rotateOutUpRight 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rotateOutUpRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-rotate-out-up-right {
-        animation-name: unAnimationRotateOutUpRight;
-        transform-origin: right bottom;
+.animation-rotate-out-up-right {
+         animation-name: unAnimationRotateOutUpRight;
+          transform-origin: right bottom;
       }
-      @keyframes unAnimationRotateOutUpRight {
+@keyframes unAnimationRotateOutUpRight {
         
     from {
       opacity: 1;
@@ -4004,18 +3713,16 @@ exports[`animation selectors > animation rotateOutUpRight with variablePrefix 1`
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rubberBand 1`] = `
 "/* layer: default */
-
-      .animation-rubber-band {
-        animation-name: unAnimationRubberBand;
-        
+.animation-rubber-band {
+         animation-name: unAnimationRubberBand;
+          
       }
-      @keyframes unAnimationRubberBand {
+@keyframes unAnimationRubberBand {
         
     from {
       transform: scale3d(1, 1, 1);
@@ -4045,18 +3752,16 @@ exports[`animation selectors > animation rubberBand 1`] = `
       transform: scale3d(1, 1, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation rubberBand with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-rubber-band {
-        animation-name: unAnimationRubberBand;
-        
+.animation-rubber-band {
+         animation-name: unAnimationRubberBand;
+          
       }
-      @keyframes unAnimationRubberBand {
+@keyframes unAnimationRubberBand {
         
     from {
       transform: scale3d(1, 1, 1);
@@ -4086,18 +3791,16 @@ exports[`animation selectors > animation rubberBand with variablePrefix 1`] = `
       transform: scale3d(1, 1, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation shake 1`] = `
 "/* layer: default */
-
-      .animation-shake {
-        animation-name: unAnimationShake;
-        
+.animation-shake {
+         animation-name: unAnimationShake;
+          
       }
-      @keyframes unAnimationShake {
+@keyframes unAnimationShake {
         
     from,
     to {
@@ -4119,18 +3822,16 @@ exports[`animation selectors > animation shake 1`] = `
       transform: translate3d(10px, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation shake with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-shake {
-        animation-name: unAnimationShake;
-        
+.animation-shake {
+         animation-name: unAnimationShake;
+          
       }
-      @keyframes unAnimationShake {
+@keyframes unAnimationShake {
         
     from,
     to {
@@ -4152,18 +3853,16 @@ exports[`animation selectors > animation shake with variablePrefix 1`] = `
       transform: translate3d(10px, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation shakeX 1`] = `
 "/* layer: default */
-
-      .animation-shake-x {
-        animation-name: unAnimationShakeX;
-        
+.animation-shake-x {
+         animation-name: unAnimationShakeX;
+          
       }
-      @keyframes unAnimationShakeX {
+@keyframes unAnimationShakeX {
         
     from,
     to {
@@ -4185,18 +3884,16 @@ exports[`animation selectors > animation shakeX 1`] = `
       transform: translate3d(10px, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation shakeX with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-shake-x {
-        animation-name: unAnimationShakeX;
-        
+.animation-shake-x {
+         animation-name: unAnimationShakeX;
+          
       }
-      @keyframes unAnimationShakeX {
+@keyframes unAnimationShakeX {
         
     from,
     to {
@@ -4218,18 +3915,16 @@ exports[`animation selectors > animation shakeX with variablePrefix 1`] = `
       transform: translate3d(10px, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation shakeY 1`] = `
 "/* layer: default */
-
-      .animation-shake-y {
-        animation-name: unAnimationShakeY;
-        
+.animation-shake-y {
+         animation-name: unAnimationShakeY;
+          
       }
-      @keyframes unAnimationShakeY {
+@keyframes unAnimationShakeY {
         
     from,
     to {
@@ -4251,18 +3946,16 @@ exports[`animation selectors > animation shakeY 1`] = `
       transform: translate3d(0, 10px, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation shakeY with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-shake-y {
-        animation-name: unAnimationShakeY;
-        
+.animation-shake-y {
+         animation-name: unAnimationShakeY;
+          
       }
-      @keyframes unAnimationShakeY {
+@keyframes unAnimationShakeY {
         
     from,
     to {
@@ -4284,18 +3977,16 @@ exports[`animation selectors > animation shakeY with variablePrefix 1`] = `
       transform: translate3d(0, 10px, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideInDown 1`] = `
 "/* layer: default */
-
-      .animation-slide-in-down {
-        animation-name: unAnimationSlideInDown;
-        
+.animation-slide-in-down {
+         animation-name: unAnimationSlideInDown;
+          
       }
-      @keyframes unAnimationSlideInDown {
+@keyframes unAnimationSlideInDown {
         
     from {
       transform: translate3d(0, -100%, 0);
@@ -4306,18 +3997,16 @@ exports[`animation selectors > animation slideInDown 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideInDown with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-slide-in-down {
-        animation-name: unAnimationSlideInDown;
-        
+.animation-slide-in-down {
+         animation-name: unAnimationSlideInDown;
+          
       }
-      @keyframes unAnimationSlideInDown {
+@keyframes unAnimationSlideInDown {
         
     from {
       transform: translate3d(0, -100%, 0);
@@ -4328,18 +4017,16 @@ exports[`animation selectors > animation slideInDown with variablePrefix 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideInLeft 1`] = `
 "/* layer: default */
-
-      .animation-slide-in-left {
-        animation-name: unAnimationSlideInLeft;
-        
+.animation-slide-in-left {
+         animation-name: unAnimationSlideInLeft;
+          
       }
-      @keyframes unAnimationSlideInLeft {
+@keyframes unAnimationSlideInLeft {
         
     from {
       transform: translate3d(-100%, 0, 0);
@@ -4350,18 +4037,16 @@ exports[`animation selectors > animation slideInLeft 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideInLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-slide-in-left {
-        animation-name: unAnimationSlideInLeft;
-        
+.animation-slide-in-left {
+         animation-name: unAnimationSlideInLeft;
+          
       }
-      @keyframes unAnimationSlideInLeft {
+@keyframes unAnimationSlideInLeft {
         
     from {
       transform: translate3d(-100%, 0, 0);
@@ -4372,18 +4057,16 @@ exports[`animation selectors > animation slideInLeft with variablePrefix 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideInRight 1`] = `
 "/* layer: default */
-
-      .animation-slide-in-right {
-        animation-name: unAnimationSlideInRight;
-        
+.animation-slide-in-right {
+         animation-name: unAnimationSlideInRight;
+          
       }
-      @keyframes unAnimationSlideInRight {
+@keyframes unAnimationSlideInRight {
         
     from {
       transform: translate3d(100%, 0, 0);
@@ -4394,18 +4077,16 @@ exports[`animation selectors > animation slideInRight 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideInRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-slide-in-right {
-        animation-name: unAnimationSlideInRight;
-        
+.animation-slide-in-right {
+         animation-name: unAnimationSlideInRight;
+          
       }
-      @keyframes unAnimationSlideInRight {
+@keyframes unAnimationSlideInRight {
         
     from {
       transform: translate3d(100%, 0, 0);
@@ -4416,18 +4097,16 @@ exports[`animation selectors > animation slideInRight with variablePrefix 1`] = 
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideInUp 1`] = `
 "/* layer: default */
-
-      .animation-slide-in-up {
-        animation-name: unAnimationSlideInUp;
-        
+.animation-slide-in-up {
+         animation-name: unAnimationSlideInUp;
+          
       }
-      @keyframes unAnimationSlideInUp {
+@keyframes unAnimationSlideInUp {
         
     from {
       transform: translate3d(0, 100%, 0);
@@ -4438,18 +4117,16 @@ exports[`animation selectors > animation slideInUp 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideInUp with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-slide-in-up {
-        animation-name: unAnimationSlideInUp;
-        
+.animation-slide-in-up {
+         animation-name: unAnimationSlideInUp;
+          
       }
-      @keyframes unAnimationSlideInUp {
+@keyframes unAnimationSlideInUp {
         
     from {
       transform: translate3d(0, 100%, 0);
@@ -4460,18 +4137,16 @@ exports[`animation selectors > animation slideInUp with variablePrefix 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideOutDown 1`] = `
 "/* layer: default */
-
-      .animation-slide-out-down {
-        animation-name: unAnimationSlideOutDown;
-        
+.animation-slide-out-down {
+         animation-name: unAnimationSlideOutDown;
+          
       }
-      @keyframes unAnimationSlideOutDown {
+@keyframes unAnimationSlideOutDown {
         
     from {
       transform: translate3d(0, 0, 0);
@@ -4482,18 +4157,16 @@ exports[`animation selectors > animation slideOutDown 1`] = `
       transform: translate3d(0, 100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideOutDown with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-slide-out-down {
-        animation-name: unAnimationSlideOutDown;
-        
+.animation-slide-out-down {
+         animation-name: unAnimationSlideOutDown;
+          
       }
-      @keyframes unAnimationSlideOutDown {
+@keyframes unAnimationSlideOutDown {
         
     from {
       transform: translate3d(0, 0, 0);
@@ -4504,18 +4177,16 @@ exports[`animation selectors > animation slideOutDown with variablePrefix 1`] = 
       transform: translate3d(0, 100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideOutLeft 1`] = `
 "/* layer: default */
-
-      .animation-slide-out-left {
-        animation-name: unAnimationSlideOutLeft;
-        
+.animation-slide-out-left {
+         animation-name: unAnimationSlideOutLeft;
+          
       }
-      @keyframes unAnimationSlideOutLeft {
+@keyframes unAnimationSlideOutLeft {
         
     from {
       transform: translate3d(0, 0, 0);
@@ -4526,18 +4197,16 @@ exports[`animation selectors > animation slideOutLeft 1`] = `
       transform: translate3d(-100%, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideOutLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-slide-out-left {
-        animation-name: unAnimationSlideOutLeft;
-        
+.animation-slide-out-left {
+         animation-name: unAnimationSlideOutLeft;
+          
       }
-      @keyframes unAnimationSlideOutLeft {
+@keyframes unAnimationSlideOutLeft {
         
     from {
       transform: translate3d(0, 0, 0);
@@ -4548,18 +4217,16 @@ exports[`animation selectors > animation slideOutLeft with variablePrefix 1`] = 
       transform: translate3d(-100%, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideOutRight 1`] = `
 "/* layer: default */
-
-      .animation-slide-out-right {
-        animation-name: unAnimationSlideOutRight;
-        
+.animation-slide-out-right {
+         animation-name: unAnimationSlideOutRight;
+          
       }
-      @keyframes unAnimationSlideOutRight {
+@keyframes unAnimationSlideOutRight {
         
     from {
       transform: translate3d(0, 0, 0);
@@ -4570,18 +4237,16 @@ exports[`animation selectors > animation slideOutRight 1`] = `
       transform: translate3d(100%, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideOutRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-slide-out-right {
-        animation-name: unAnimationSlideOutRight;
-        
+.animation-slide-out-right {
+         animation-name: unAnimationSlideOutRight;
+          
       }
-      @keyframes unAnimationSlideOutRight {
+@keyframes unAnimationSlideOutRight {
         
     from {
       transform: translate3d(0, 0, 0);
@@ -4592,18 +4257,16 @@ exports[`animation selectors > animation slideOutRight with variablePrefix 1`] =
       transform: translate3d(100%, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideOutUp 1`] = `
 "/* layer: default */
-
-      .animation-slide-out-up {
-        animation-name: unAnimationSlideOutUp;
-        
+.animation-slide-out-up {
+         animation-name: unAnimationSlideOutUp;
+          
       }
-      @keyframes unAnimationSlideOutUp {
+@keyframes unAnimationSlideOutUp {
         
     from {
       transform: translate3d(0, 0, 0);
@@ -4614,18 +4277,16 @@ exports[`animation selectors > animation slideOutUp 1`] = `
       transform: translate3d(0, -100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation slideOutUp with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-slide-out-up {
-        animation-name: unAnimationSlideOutUp;
-        
+.animation-slide-out-up {
+         animation-name: unAnimationSlideOutUp;
+          
       }
-      @keyframes unAnimationSlideOutUp {
+@keyframes unAnimationSlideOutUp {
         
     from {
       transform: translate3d(0, 0, 0);
@@ -4636,18 +4297,16 @@ exports[`animation selectors > animation slideOutUp with variablePrefix 1`] = `
       transform: translate3d(0, -100%, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation swing 1`] = `
 "/* layer: default */
-
-      .animation-swing {
-        animation-name: unAnimationSwing;
-        transform-origin: top center;
+.animation-swing {
+         animation-name: unAnimationSwing;
+          transform-origin: top center;
       }
-      @keyframes unAnimationSwing {
+@keyframes unAnimationSwing {
         
     20% {
       transform: rotate3d(0, 0, 1, 15deg);
@@ -4669,18 +4328,16 @@ exports[`animation selectors > animation swing 1`] = `
       transform: rotate3d(0, 0, 1, 0deg);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation swing with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-swing {
-        animation-name: unAnimationSwing;
-        transform-origin: top center;
+.animation-swing {
+         animation-name: unAnimationSwing;
+          transform-origin: top center;
       }
-      @keyframes unAnimationSwing {
+@keyframes unAnimationSwing {
         
     20% {
       transform: rotate3d(0, 0, 1, 15deg);
@@ -4702,18 +4359,16 @@ exports[`animation selectors > animation swing with variablePrefix 1`] = `
       transform: rotate3d(0, 0, 1, 0deg);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation tada 1`] = `
 "/* layer: default */
-
-      .animation-tada {
-        animation-name: unAnimationTada;
-        
+.animation-tada {
+         animation-name: unAnimationTada;
+          
       }
-      @keyframes unAnimationTada {
+@keyframes unAnimationTada {
         
     from {
       transform: scale3d(1, 1, 1);
@@ -4741,18 +4396,16 @@ exports[`animation selectors > animation tada 1`] = `
       transform: scale3d(1, 1, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation tada with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-tada {
-        animation-name: unAnimationTada;
-        
+.animation-tada {
+         animation-name: unAnimationTada;
+          
       }
-      @keyframes unAnimationTada {
+@keyframes unAnimationTada {
         
     from {
       transform: scale3d(1, 1, 1);
@@ -4780,18 +4433,16 @@ exports[`animation selectors > animation tada with variablePrefix 1`] = `
       transform: scale3d(1, 1, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation wobble 1`] = `
 "/* layer: default */
-
-      .animation-wobble {
-        animation-name: unAnimationWobble;
-        
+.animation-wobble {
+         animation-name: unAnimationWobble;
+          
       }
-      @keyframes unAnimationWobble {
+@keyframes unAnimationWobble {
         
     from {
       transform: translate3d(0, 0, 0);
@@ -4821,18 +4472,16 @@ exports[`animation selectors > animation wobble 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation wobble with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-wobble {
-        animation-name: unAnimationWobble;
-        
+.animation-wobble {
+         animation-name: unAnimationWobble;
+          
       }
-      @keyframes unAnimationWobble {
+@keyframes unAnimationWobble {
         
     from {
       transform: translate3d(0, 0, 0);
@@ -4862,18 +4511,16 @@ exports[`animation selectors > animation wobble with variablePrefix 1`] = `
       transform: translate3d(0, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomIn 1`] = `
 "/* layer: default */
-
-      .animation-zoom-in {
-        animation-name: unAnimationZoomIn;
-        
+.animation-zoom-in {
+         animation-name: unAnimationZoomIn;
+          
       }
-      @keyframes unAnimationZoomIn {
+@keyframes unAnimationZoomIn {
         
     from {
       opacity: 0;
@@ -4884,18 +4531,16 @@ exports[`animation selectors > animation zoomIn 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomIn with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-zoom-in {
-        animation-name: unAnimationZoomIn;
-        
+.animation-zoom-in {
+         animation-name: unAnimationZoomIn;
+          
       }
-      @keyframes unAnimationZoomIn {
+@keyframes unAnimationZoomIn {
         
     from {
       opacity: 0;
@@ -4906,18 +4551,16 @@ exports[`animation selectors > animation zoomIn with variablePrefix 1`] = `
       opacity: 1;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomInDown 1`] = `
 "/* layer: default */
-
-      .animation-zoom-in-down {
-        animation-name: unAnimationZoomInDown;
-        
+.animation-zoom-in-down {
+         animation-name: unAnimationZoomInDown;
+          
       }
-      @keyframes unAnimationZoomInDown {
+@keyframes unAnimationZoomInDown {
         
     from {
       opacity: 0;
@@ -4931,18 +4574,16 @@ exports[`animation selectors > animation zoomInDown 1`] = `
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomInDown with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-zoom-in-down {
-        animation-name: unAnimationZoomInDown;
-        
+.animation-zoom-in-down {
+         animation-name: unAnimationZoomInDown;
+          
       }
-      @keyframes unAnimationZoomInDown {
+@keyframes unAnimationZoomInDown {
         
     from {
       opacity: 0;
@@ -4956,18 +4597,16 @@ exports[`animation selectors > animation zoomInDown with variablePrefix 1`] = `
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomInLeft 1`] = `
 "/* layer: default */
-
-      .animation-zoom-in-left {
-        animation-name: unAnimationZoomInLeft;
-        
+.animation-zoom-in-left {
+         animation-name: unAnimationZoomInLeft;
+          
       }
-      @keyframes unAnimationZoomInLeft {
+@keyframes unAnimationZoomInLeft {
         
     from {
       opacity: 0;
@@ -4981,18 +4620,16 @@ exports[`animation selectors > animation zoomInLeft 1`] = `
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomInLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-zoom-in-left {
-        animation-name: unAnimationZoomInLeft;
-        
+.animation-zoom-in-left {
+         animation-name: unAnimationZoomInLeft;
+          
       }
-      @keyframes unAnimationZoomInLeft {
+@keyframes unAnimationZoomInLeft {
         
     from {
       opacity: 0;
@@ -5006,18 +4643,16 @@ exports[`animation selectors > animation zoomInLeft with variablePrefix 1`] = `
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomInRight 1`] = `
 "/* layer: default */
-
-      .animation-zoom-in-right {
-        animation-name: unAnimationZoomInRight;
-        
+.animation-zoom-in-right {
+         animation-name: unAnimationZoomInRight;
+          
       }
-      @keyframes unAnimationZoomInRight {
+@keyframes unAnimationZoomInRight {
         
     from {
       opacity: 0;
@@ -5031,18 +4666,16 @@ exports[`animation selectors > animation zoomInRight 1`] = `
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomInRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-zoom-in-right {
-        animation-name: unAnimationZoomInRight;
-        
+.animation-zoom-in-right {
+         animation-name: unAnimationZoomInRight;
+          
       }
-      @keyframes unAnimationZoomInRight {
+@keyframes unAnimationZoomInRight {
         
     from {
       opacity: 0;
@@ -5056,18 +4689,16 @@ exports[`animation selectors > animation zoomInRight with variablePrefix 1`] = `
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomInUp 1`] = `
 "/* layer: default */
-
-      .animation-zoom-in-up {
-        animation-name: unAnimationZoomInUp;
-        
+.animation-zoom-in-up {
+         animation-name: unAnimationZoomInUp;
+          
       }
-      @keyframes unAnimationZoomInUp {
+@keyframes unAnimationZoomInUp {
         
     from {
       opacity: 0;
@@ -5081,18 +4712,16 @@ exports[`animation selectors > animation zoomInUp 1`] = `
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomInUp with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-zoom-in-up {
-        animation-name: unAnimationZoomInUp;
-        
+.animation-zoom-in-up {
+         animation-name: unAnimationZoomInUp;
+          
       }
-      @keyframes unAnimationZoomInUp {
+@keyframes unAnimationZoomInUp {
         
     from {
       opacity: 0;
@@ -5106,18 +4735,16 @@ exports[`animation selectors > animation zoomInUp with variablePrefix 1`] = `
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomOut 1`] = `
 "/* layer: default */
-
-      .animation-zoom-out {
-        animation-name: unAnimationZoomOut;
-        
+.animation-zoom-out {
+         animation-name: unAnimationZoomOut;
+          
       }
-      @keyframes unAnimationZoomOut {
+@keyframes unAnimationZoomOut {
         
     from {
       opacity: 1;
@@ -5132,18 +4759,16 @@ exports[`animation selectors > animation zoomOut 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomOut with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-zoom-out {
-        animation-name: unAnimationZoomOut;
-        
+.animation-zoom-out {
+         animation-name: unAnimationZoomOut;
+          
       }
-      @keyframes unAnimationZoomOut {
+@keyframes unAnimationZoomOut {
         
     from {
       opacity: 1;
@@ -5158,18 +4783,16 @@ exports[`animation selectors > animation zoomOut with variablePrefix 1`] = `
       opacity: 0;
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomOutDown 1`] = `
 "/* layer: default */
-
-      .animation-zoom-out-down {
-        animation-name: unAnimationZoomOutDown;
-        transform-origin: center bottom;
+.animation-zoom-out-down {
+         animation-name: unAnimationZoomOutDown;
+          transform-origin: center bottom;
       }
-      @keyframes unAnimationZoomOutDown {
+@keyframes unAnimationZoomOutDown {
         
     40% {
       opacity: 1;
@@ -5183,18 +4806,16 @@ exports[`animation selectors > animation zoomOutDown 1`] = `
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomOutDown with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-zoom-out-down {
-        animation-name: unAnimationZoomOutDown;
-        transform-origin: center bottom;
+.animation-zoom-out-down {
+         animation-name: unAnimationZoomOutDown;
+          transform-origin: center bottom;
       }
-      @keyframes unAnimationZoomOutDown {
+@keyframes unAnimationZoomOutDown {
         
     40% {
       opacity: 1;
@@ -5208,18 +4829,16 @@ exports[`animation selectors > animation zoomOutDown with variablePrefix 1`] = `
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomOutLeft 1`] = `
 "/* layer: default */
-
-      .animation-zoom-out-left {
-        animation-name: unAnimationZoomOutLeft;
-        transform-origin: left center;
+.animation-zoom-out-left {
+         animation-name: unAnimationZoomOutLeft;
+          transform-origin: left center;
       }
-      @keyframes unAnimationZoomOutLeft {
+@keyframes unAnimationZoomOutLeft {
         
     40% {
       opacity: 1;
@@ -5231,18 +4850,16 @@ exports[`animation selectors > animation zoomOutLeft 1`] = `
       transform: scale(0.1) translate3d(-2000px, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomOutLeft with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-zoom-out-left {
-        animation-name: unAnimationZoomOutLeft;
-        transform-origin: left center;
+.animation-zoom-out-left {
+         animation-name: unAnimationZoomOutLeft;
+          transform-origin: left center;
       }
-      @keyframes unAnimationZoomOutLeft {
+@keyframes unAnimationZoomOutLeft {
         
     40% {
       opacity: 1;
@@ -5254,18 +4871,16 @@ exports[`animation selectors > animation zoomOutLeft with variablePrefix 1`] = `
       transform: scale(0.1) translate3d(-2000px, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomOutRight 1`] = `
 "/* layer: default */
-
-      .animation-zoom-out-right {
-        animation-name: unAnimationZoomOutRight;
-        transform-origin: right center;
+.animation-zoom-out-right {
+         animation-name: unAnimationZoomOutRight;
+          transform-origin: right center;
       }
-      @keyframes unAnimationZoomOutRight {
+@keyframes unAnimationZoomOutRight {
         
     40% {
       opacity: 1;
@@ -5277,18 +4892,16 @@ exports[`animation selectors > animation zoomOutRight 1`] = `
       transform: scale(0.1) translate3d(2000px, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomOutRight with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-zoom-out-right {
-        animation-name: unAnimationZoomOutRight;
-        transform-origin: right center;
+.animation-zoom-out-right {
+         animation-name: unAnimationZoomOutRight;
+          transform-origin: right center;
       }
-      @keyframes unAnimationZoomOutRight {
+@keyframes unAnimationZoomOutRight {
         
     40% {
       opacity: 1;
@@ -5300,18 +4913,16 @@ exports[`animation selectors > animation zoomOutRight with variablePrefix 1`] = 
       transform: scale(0.1) translate3d(2000px, 0, 0);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomOutUp 1`] = `
 "/* layer: default */
-
-      .animation-zoom-out-up {
-        animation-name: unAnimationZoomOutUp;
-        transform-origin: center bottom;
+.animation-zoom-out-up {
+         animation-name: unAnimationZoomOutUp;
+          transform-origin: center bottom;
       }
-      @keyframes unAnimationZoomOutUp {
+@keyframes unAnimationZoomOutUp {
         
     40% {
       opacity: 1;
@@ -5325,18 +4936,16 @@ exports[`animation selectors > animation zoomOutUp 1`] = `
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
   
-      }
-    "
+      }"
 `;
 
 exports[`animation selectors > animation zoomOutUp with variablePrefix 1`] = `
 "/* layer: default */
-
-      .animation-zoom-out-up {
-        animation-name: unAnimationZoomOutUp;
-        transform-origin: center bottom;
+.animation-zoom-out-up {
+         animation-name: unAnimationZoomOutUp;
+          transform-origin: center bottom;
       }
-      @keyframes unAnimationZoomOutUp {
+@keyframes unAnimationZoomOutUp {
         
     40% {
       opacity: 1;
@@ -5350,6 +4959,5 @@ exports[`animation selectors > animation zoomOutUp with variablePrefix 1`] = `
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
     }
   
-      }
-    "
+      }"
 `;

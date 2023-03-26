@@ -16,11 +16,17 @@ export const createBaseRules = (options: PresetAnimateOptions) => {
         'animation-duration': `var(--${options.variablePrefix}duration)`,
         'animation-fill-mode': 'both',
       },
+      {
+        autocomplete: ['animated'],
+      },
     ],
     [
       'animate-infinate',
       {
         'animation-iteration-count': 'infinite',
+      },
+      {
+        autocomplete: ['animate-infinate'],
       },
     ],
     [
@@ -32,6 +38,9 @@ export const createBaseRules = (options: PresetAnimateOptions) => {
           })`,
         }
       },
+      {
+        autocomplete: ['animate-(fast|faster|slow|slower)'],
+      },
     ],
     [
       /^animate-repeat-(\d+)$/,
@@ -39,6 +48,9 @@ export const createBaseRules = (options: PresetAnimateOptions) => {
         return {
           'animation-iteration-count': `calc(var(--${options.variablePrefix}repeat) * ${n})`,
         }
+      },
+      {
+        autocomplete: ['animated-repeat-<num>'],
       },
     ],
     [
@@ -48,6 +60,9 @@ export const createBaseRules = (options: PresetAnimateOptions) => {
           'animation-delay': `calc(var(--${options.variablePrefix}delay) * ${n})`,
         }
       },
+      {
+        autocomplete: ['animated-delay-$duration'],
+      },
     ],
     [
       /^animate-duration-(\d+(\.\d+)?)$/,
@@ -55,6 +70,9 @@ export const createBaseRules = (options: PresetAnimateOptions) => {
         return {
           'animation-duration': `calc(var(--${options.variablePrefix}duration) * ${n})`,
         }
+      },
+      {
+        autocomplete: ['animated-duration-$duration'],
       },
     ],
   ]
