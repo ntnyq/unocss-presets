@@ -1,5 +1,11 @@
 # unocss-preset-animate
 
+## 0.2.3
+
+### Patch Changes
+
+- [`2b4dbb4`](https://github.com/ntnyq/unocss-preset/commit/2b4dbb4310fa3d4bdf93b439f59f4f04a6f09f6e) Thanks [@ntnyq](https://github.com/ntnyq)! - fix: add missing autocomplete
+
 ## 0.2.2
 
 ### Patch Changes
