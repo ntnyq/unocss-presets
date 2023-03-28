@@ -1,5 +1,11 @@
 # unocss-preset-animate
 
+## 0.2.4
+
+### Patch Changes
+
+- [`a79d06c`](https://github.com/ntnyq/unocss-preset/commit/a79d06cc010ab7be1ad72517d0928e2d03ed0471) Thanks [@ntnyq](https://github.com/ntnyq)! - fix: add missing bounceOutRight"
+
 ## 0.2.3
 
 ### Patch Changes
