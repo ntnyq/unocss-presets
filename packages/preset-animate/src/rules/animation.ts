@@ -1,10 +1,11 @@
 import { capitalize, kekabCase } from '@ntnyq/utils'
-import { animations as builtInAnimations } from '../animations'
+import { animations as animationMap } from '../animations'
 import type { PresetAnimateOptions } from '../types'
 import type { DynamicRule } from '@unocss/core'
 
 export const createAnimationRules = (options: PresetAnimateOptions) => {
   const extendAnimations = Array.isArray(options.extendAnimations) ? options.extendAnimations : []
+  const builtInAnimations = Object.values(animationMap)
   const animations = [...builtInAnimations, ...extendAnimations]
   const normalizedAnimation = animations.map(animation =>
     typeof animation === 'function' ? animation(options) : animation,

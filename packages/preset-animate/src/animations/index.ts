@@ -21,6 +21,7 @@ import { bounceInUp } from './bounceInUp'
 import { bounceOut } from './bounceOut'
 import { bounceOutDown } from './bounceOutDown'
 import { bounceOutLeft } from './bounceOutLeft'
+import { bounceOutRight } from './bounceOutRight'
 import { bounceOutUp } from './bounceOutUp'
 import { fadeIn } from './fadeIn'
 import { fadeInBottomLeft } from './fadeInBottomLeft'
@@ -101,8 +102,9 @@ import { zoomOutDown } from './zoomOutDown'
 import { zoomOutLeft } from './zoomOutLeft'
 import { zoomOutRight } from './zoomOutRight'
 import { zoomOutUp } from './zoomOutUp'
+import type { Animation } from '../types'
 
-export const animations = [
+export const animations: Record<string, Animation> = {
   // Attention_seekers
   bounce,
   flash,
@@ -141,7 +143,7 @@ export const animations = [
   bounceOut,
   bounceOutDown,
   bounceOutLeft,
-  bounceInRight,
+  bounceOutRight,
   bounceOutUp,
 
   // Fading entrances
@@ -232,4 +234,4 @@ export const animations = [
   slideOutLeft,
   slideOutRight,
   slideOutUp,
-]
+}

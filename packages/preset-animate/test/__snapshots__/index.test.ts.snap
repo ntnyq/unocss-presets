@@ -793,89 +793,7 @@ exports[`animation selectors > animation bounceInRight 1`] = `
       }"
 `;
 
-exports[`animation selectors > animation bounceInRight 2`] = `
-"/* layer: default */
-.animation-bounce-in-right {
-         animation-name: unAnimationBounceInRight;
-          
-      }
-@keyframes unAnimationBounceInRight {
-        
-    from,
-    60%,
-    75%,
-    90%,
-    to {
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-
-    from {
-      opacity: 0;
-      transform: translate3d(3000px, 0, 0) scaleX(3);
-    }
-
-    60% {
-      opacity: 1;
-      transform: translate3d(-25px, 0, 0) scaleX(1);
-    }
-
-    75% {
-      transform: translate3d(10px, 0, 0) scaleX(0.98);
-    }
-
-    90% {
-      transform: translate3d(-5px, 0, 0) scaleX(0.995);
-    }
-
-    to {
-      transform: translate3d(0, 0, 0);
-    }
-  
-      }"
-`;
-
 exports[`animation selectors > animation bounceInRight with variablePrefix 1`] = `
-"/* layer: default */
-.animation-bounce-in-right {
-         animation-name: unAnimationBounceInRight;
-          
-      }
-@keyframes unAnimationBounceInRight {
-        
-    from,
-    60%,
-    75%,
-    90%,
-    to {
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-
-    from {
-      opacity: 0;
-      transform: translate3d(3000px, 0, 0) scaleX(3);
-    }
-
-    60% {
-      opacity: 1;
-      transform: translate3d(-25px, 0, 0) scaleX(1);
-    }
-
-    75% {
-      transform: translate3d(10px, 0, 0) scaleX(0.98);
-    }
-
-    90% {
-      transform: translate3d(-5px, 0, 0) scaleX(0.995);
-    }
-
-    to {
-      transform: translate3d(0, 0, 0);
-    }
-  
-      }"
-`;
-
-exports[`animation selectors > animation bounceInRight with variablePrefix 2`] = `
 "/* layer: default */
 .animation-bounce-in-right {
          animation-name: unAnimationBounceInRight;
@@ -1139,6 +1057,48 @@ exports[`animation selectors > animation bounceOutLeft with variablePrefix 1`] =
     to {
       opacity: 0;
       transform: translate3d(-2000px, 0, 0) scaleX(2);
+    }
+  
+      }"
+`;
+
+exports[`animation selectors > animation bounceOutRight 1`] = `
+"/* layer: default */
+.animation-bounce-out-right {
+         animation-name: unAnimationBounceOutRight;
+          
+      }
+@keyframes unAnimationBounceOutRight {
+        
+    20% {
+      opacity: 1;
+      transform: translate3d(-20px, 0, 0) scaleX(0.9);
+    }
+
+    to {
+      opacity: 0;
+      transform: translate3d(2000px, 0, 0) scaleX(2);
+    }
+  
+      }"
+`;
+
+exports[`animation selectors > animation bounceOutRight with variablePrefix 1`] = `
+"/* layer: default */
+.animation-bounce-out-right {
+         animation-name: unAnimationBounceOutRight;
+          
+      }
+@keyframes unAnimationBounceOutRight {
+        
+    20% {
+      opacity: 1;
+      transform: translate3d(-20px, 0, 0) scaleX(0.9);
+    }
+
+    to {
+      opacity: 0;
+      transform: translate3d(2000px, 0, 0) scaleX(2);
     }
   
       }"
