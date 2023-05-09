@@ -8,9 +8,9 @@
   },
   "devDependencies": {
     "typescript": "^5.0.4",
-    "unocss": "^0.51.4",
+    "unocss": "^0.51.12",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
-    "vite": "^4.2.1"
+    "vite": "^4.3.5"
   }
 }
