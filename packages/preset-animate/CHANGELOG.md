@@ -1,5 +1,11 @@
 # unocss-preset-animate
 
+## 0.2.5
+
+### Patch Changes
+
+- [`c59382a`](https://github.com/ntnyq/unocss-preset/commit/c59382a53a6b668b793540d714c03e05cfaad3ed) Thanks [@ntnyq](https://github.com/ntnyq)! - fix(deps): update all non-major dependencies
+
 ## 0.2.4
 
 ### Patch Changes
