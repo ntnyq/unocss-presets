@@ -1,5 +1,11 @@
 # unocss-preset-easing
 
+## 0.1.3
+
+### Patch Changes
+
+- [`f5f6d31`](https://github.com/ntnyq/unocss-preset/commit/f5f6d318516e639de6e550fb060c723e6e754f06) Thanks [@ntnyq](https://github.com/ntnyq)! - fix(deps): update all non-major dependencies
+
 ## 0.1.2
 
 ### Patch Changes
