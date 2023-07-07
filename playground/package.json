@@ -7,10 +7,10 @@
     "dev": "vite"
   },
   "devDependencies": {
-    "typescript": "^5.1.5",
+    "typescript": "^5.1.6",
     "unocss": "^0.53.4",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
-    "vite": "^4.3.9"
+    "vite": "^4.4.1"
   }
 }
