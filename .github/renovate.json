@@ -1,24 +1,3 @@
 {
-  "extends": ["config:base", "schedule:weekly", "group:allNonMajor"],
-  "labels": ["dependencies"],
-  "ignorePaths": ["**/__tests__/**"],
-  "pin": false,
-  "rangeStrategy": "bump",
-  "node": false,
-  "packageRules": [
-    {
-      "depTypeList": ["peerDependencies"],
-      "enabled": false
-    },
-    {
-      "packageNames": ["node"],
-      "enabled": false
-    },
-    {
-      "matchUpdateTypes": ["major"],
-      "matchPackageNames": [],
-      "enabled": false
-    }
-  ],
-  "ignoreDeps": []
+  "extends": ["github>ntnyq/configs//packages/renovate-config/default.json"]
 }
