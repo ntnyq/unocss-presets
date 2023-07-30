@@ -52,6 +52,6 @@
   },
   "dependencies": {
     "@ntnyq/utils": "^0.0.1",
-    "@unocss/core": "^0.53.5"
+    "@unocss/core": "^0.54.0"
   }
 }
