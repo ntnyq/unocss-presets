@@ -25,8 +25,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
     },
     "./*": "./*"
   },
@@ -51,7 +51,7 @@
     "dev": "unbuild --stub"
   },
   "dependencies": {
-    "@ntnyq/utils": "^0.0.1",
-    "@unocss/core": "^0.54.0"
+    "@ntnyq/utils": "^0.0.2",
+    "@unocss/core": "^0.55.2"
   }
 }
