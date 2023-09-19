@@ -1,5 +1,11 @@
 # unocss-preset-easing
 
+## 0.1.4
+
+### Patch Changes
+
+- [`ec84326`](https://github.com/ntnyq/unocss-preset/commit/ec843262b64eb66e4c0fe1217fa29acbc0511122) Thanks [@ntnyq](https://github.com/ntnyq)! - feat: support mts and cts dts files
+
 ## 0.1.3
 
 ### Patch Changes

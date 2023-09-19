@@ -1,6 +1,6 @@
 {
   "name": "unocss-preset-easing",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "unocss preset for easing transition cubic-bezier function",
   "keywords": [
     "unocss",
