@@ -56,7 +56,7 @@
     "dev": "unbuild --stub"
   },
   "dependencies": {
-    "@ntnyq/utils": "^0.0.2",
-    "@unocss/core": "^0.56.4"
+    "@ntnyq/utils": "^0.0.3",
+    "@unocss/core": "^0.57.7"
   }
 }
