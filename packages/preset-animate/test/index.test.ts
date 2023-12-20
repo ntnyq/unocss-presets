@@ -86,7 +86,7 @@ describe('base selectors', () => {
       .animated{animation-duration:var(--un-animate-duration);animation-fill-mode:both;}
       .animate-fast{animation-duration:calc(var(--un-animate-duration) * 0.8);}
       .animate-repeat-2{animation-iteration-count:calc(var(--un-animate-repeat) * 2);}
-      .animate-delay-0\\\\.5{animation-delay:calc(var(--un-animate-delay) * 0.5);}"
+      .animate-delay-0\\.5{animation-delay:calc(var(--un-animate-delay) * 0.5);}"
     `)
   })
 
