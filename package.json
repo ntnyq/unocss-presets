@@ -23,7 +23,7 @@
     "@ntnyq/eslint-config": "^1.20.0",
     "@ntnyq/prettier-config": "^1.20.0",
     "@types/fs-extra": "^11.0.4",
-    "@vitest/coverage-v8": "^0.34.6",
+    "@vitest/coverage-v8": "^1.1.0",
     "eslint": "^8.56.0",
     "fs-extra": "^11.2.0",
     "husky": "^8.0.3",
@@ -35,7 +35,7 @@
     "rimraf": "^5.0.5",
     "typescript": "^5.3.3",
     "unbuild": "^2.0.0",
-    "vitest": "^0.34.6"
+    "vitest": "^1.1.0"
   },
   "prettier": "@ntnyq/prettier-config",
   "nano-staged": {
