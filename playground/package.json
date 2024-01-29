@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "typescript": "^5.3.3",
-    "unocss": "^0.58.3",
+    "unocss": "^0.58.4",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
     "vite": "^5.0.12"
