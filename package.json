@@ -34,7 +34,7 @@
     "pnpm": "^8.15.5",
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
-    "typescript": "^5.4.2",
+    "typescript": "^5.4.3",
     "unbuild": "^2.0.0",
     "vitest": "^1.4.0"
   },
