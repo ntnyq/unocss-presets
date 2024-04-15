@@ -8,8 +8,8 @@
     "dev": "vite"
   },
   "devDependencies": {
-    "typescript": "^5.4.4",
-    "unocss": "^0.59.0",
+    "typescript": "^5.4.5",
+    "unocss": "^0.59.2",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
     "vite": "^5.2.8"
