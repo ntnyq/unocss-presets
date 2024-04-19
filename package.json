@@ -2,7 +2,7 @@
   "name": "@ntnyq/unocss-preset",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.0.1",
+  "packageManager": "pnpm@9.0.4",
   "license": "MIT",
   "scripts": {
     "build": "run-s clean build:lib",
@@ -31,7 +31,7 @@
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^6.1.2",
     "picocolors": "^1.0.0",
-    "pnpm": "^9.0.1",
+    "pnpm": "^9.0.4",
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
     "typescript": "^5.4.5",
