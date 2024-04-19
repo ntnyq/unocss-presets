@@ -28,9 +28,7 @@ import { defineConfig } from 'unocss'
 import { presetAnimate } from 'unocss-preset-animate'
 
 export default defineConfig({
-  presets: [
-    presetAnimate()
-  ],
+  presets: [presetAnimate()],
 })
 ```
 

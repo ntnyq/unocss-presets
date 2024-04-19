@@ -14,13 +14,13 @@
     "name": "ntnyq",
     "email": "ntnyq13@gmail.com"
   },
-  "homepage": "https://github.com/ntnyq/unocss-preset/tree/main/packages/preset-easing#readme",
+  "homepage": "https://github.com/ntnyq/unocss-presets/tree/main/packages/preset-easing#readme",
   "bugs": {
-    "url": "https://github.com/ntnyq/unocss-preset/issues"
+    "url": "https://github.com/ntnyq/unocss-presets/issues"
   },
   "repository": {
     "type": "github",
-    "url": "ntnyq/unocss-preset",
+    "url": "ntnyq/unocss-presets",
     "directory": "packages/preset-easing"
   },
   "exports": {
@@ -48,8 +48,8 @@
     }
   },
   "files": [
-    "dist",
-    "*.css"
+    "*.css",
+    "dist"
   ],
   "sideEffects": false,
   "scripts": {

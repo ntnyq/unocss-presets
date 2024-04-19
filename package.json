@@ -1,5 +1,5 @@
 {
-  "name": "@ntnyq/unocss-preset",
+  "name": "@ntnyq/unocss-presets",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@9.0.4",
@@ -13,7 +13,7 @@
     "dev": "pnpm -r --filter=./packages/* run dev",
     "lint": "eslint . --cache",
     "play": "pnpm -C playground run dev",
-    "prepare": "husky install",
+    "prepare": "husky",
     "publish": "pnpm build && changeset publish",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
@@ -21,7 +21,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.1",
-    "@ntnyq/eslint-config": "^1.21.2",
+    "@ntnyq/eslint-config": "2.0.0-beta.26",
     "@ntnyq/prettier-config": "^1.21.2",
     "@types/fs-extra": "^11.0.4",
     "@vitest/coverage-v8": "^1.5.0",

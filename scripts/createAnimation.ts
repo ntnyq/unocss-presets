@@ -34,6 +34,4 @@ export const ${animationName}: Animation = {
   console.log(c.green('\n created successfully'))
 }
 
-main().catch(err => {
-  console.log(err)
-})
+await main()

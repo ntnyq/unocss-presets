@@ -1,9 +1,9 @@
 {
-  "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
+  "$schema": "https://unpkg.com/@changesets/config/schema.json",
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "ntnyq/unocss-preset"
+      "repo": "ntnyq/unocss-presets"
     }
   ],
   "commit": false,

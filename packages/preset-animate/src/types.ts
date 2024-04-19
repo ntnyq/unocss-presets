@@ -1,3 +1,24 @@
+export interface AnimationObject {
+  /**
+   * animationName
+   */
+  name: string
+
+  /**
+   * extra animation style e.g. `transform-origin`
+   */
+  extraStyle?: string
+
+  /**
+   * keyframes content
+   */
+  keyframes: string
+}
+
+export type AnimationCreator = (options: PresetAnimateOptions) => AnimationObject
+
+export type Animation = AnimationObject | AnimationCreator
+
 export interface PresetAnimateOptions {
   /**
    * css variables prefix
@@ -27,24 +48,3 @@ export interface PresetAnimateOptions {
    */
   extendAnimations?: Animation[]
 }
-
-export interface AnimationObject {
-  /**
-   * animationName
-   */
-  name: string
-
-  /**
-   * extra animation style e.g. `transform-origin`
-   */
-  extraStyle?: string
-
-  /**
-   * keyframes content
-   */
-  keyframes: string
-}
-
-export type AnimationCreator = (options: PresetAnimateOptions) => AnimationObject
-
-export type Animation = AnimationObject | AnimationCreator
