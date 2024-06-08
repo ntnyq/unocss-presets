@@ -12,6 +12,6 @@
     "unocss": "^0.60.4",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
-    "vite": "^5.2.12"
+    "vite": "^5.2.13"
   }
 }
