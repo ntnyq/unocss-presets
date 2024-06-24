@@ -7,11 +7,15 @@
     "build": "vite build",
     "dev": "vite"
   },
+  "dependencies": {
+    "@unocss/reset": "^0.61.0"
+  },
   "devDependencies": {
     "typescript": "^5.5.2",
     "unocss": "^0.61.0",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
+    "unocss-preset-filter": "workspace:*",
     "vite": "^5.3.1"
   }
 }

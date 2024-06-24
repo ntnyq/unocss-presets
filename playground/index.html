@@ -5,13 +5,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Playground</title>
+  <title>UnoCSS presets</title>
 </head>
 
 <body class="m-0">
   <div id="app">
-    <div class="h-screen flex justify-center items-center">
-      <div class="w-100px h-100px bg-red animated animation-foo-bar animate-infinate"></div>
+    <div class="max-w-2xl py-8 px-4 mx-auto">
+      <h1 class="text-2xl mb-8 font-bold text-center">UnoCSS presets</h1>
+      <div class="relative flex flex-col gap-4">
+        <div class="relative flex min-h-[300px] border rounded-xl justify-center items-center">
+          <h2 class="absolute right-4 top-4">
+            <a class="hover:underline text-blue font-500 text-md hover:text-blue-800" href="https://github.com/ntnyq/unocss-presets/tree/main/packages/preset-animate" rel="noopener noreferrer" target="_blank">preset-animate</a>
+          </h2>
+          <div class="w-100px h-100px bg-red animated animation-foo-bar animate-infinate"></div>
+        </div>
+
+        <div class="relative flex min-h-[300px] border rounded-xl justify-center items-center">
+          <h2 class="absolute right-4 top-4">
+            <a class="hover:underline text-blue font-500 text-md hover:text-blue-800" href="https://github.com/ntnyq/unocss-presets/tree/main/packages/preset-filter" rel="noopener noreferrer" target="_blank">preset-filter</a>
+          </h2>
+          <div class="filter-1977">
+            <img class="block w-[150px]" src="/images/instagram.jpg" alt="Dog">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <script type="module" src="./src/main.ts"></script>

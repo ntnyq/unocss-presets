@@ -81,7 +81,20 @@ importers:
         specifier: ^0.61.0
         version: 0.61.0
 
+  packages/preset-filter:
+    dependencies:
+      '@ntnyq/utils':
+        specifier: ^0.0.3
+        version: 0.0.3
+      '@unocss/core':
+        specifier: ^0.61.0
+        version: 0.61.0
+
   playground:
+    dependencies:
+      '@unocss/reset':
+        specifier: ^0.61.0
+        version: 0.61.0
     devDependencies:
       typescript:
         specifier: ^5.5.2
@@ -95,6 +108,9 @@ importers:
       unocss-preset-easing:
         specifier: workspace:*
         version: link:../packages/preset-easing
+      unocss-preset-filter:
+        specifier: workspace:*
+        version: link:../packages/preset-filter
       vite:
         specifier: ^5.3.1
         version: 5.3.1(@types/node@20.12.7)

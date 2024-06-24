@@ -1,6 +1,7 @@
 import { defineConfig, presetUno } from 'unocss'
 import { presetAnimate } from 'unocss-preset-animate'
 import { presetEasing } from 'unocss-preset-easing'
+import { presetFilter } from 'unocss-preset-filter'
 
 export default defineConfig({
   presets: [
@@ -24,5 +25,6 @@ export default defineConfig({
     presetEasing({
       prefix: 'e-',
     }),
+    presetFilter(),
   ],
 })
