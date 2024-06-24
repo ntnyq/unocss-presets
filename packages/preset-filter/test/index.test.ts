@@ -28,7 +28,7 @@ describe('selectors', () => {
             
       /* layer: default */
       .filter-1977 {
-                 filter: filter: sepia(.5) hue-rotate(-30deg) saturate(1.4)
+                 filter: sepia(.5) hue-rotate(-30deg) saturate(1.4)
               }
       .filter-aden {
                  filter: sepia(.2) brightness(1.15) saturate(1.4)
@@ -394,7 +394,7 @@ describe('selectors', () => {
             
       /* layer: default */
       .f-1977 {
-                 filter: filter: sepia(.5) hue-rotate(-30deg) saturate(1.4)
+                 filter: sepia(.5) hue-rotate(-30deg) saturate(1.4)
               }
       .f-aden {
                  filter: sepia(.2) brightness(1.15) saturate(1.4)
