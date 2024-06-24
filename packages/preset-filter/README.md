@@ -32,7 +32,7 @@ export default defineConfig({
 })
 ```
 
-Then use `easing-<filter-name-in-kekab-case>`
+Then use `filter-<filter-name-in-kekab-case>`
 
 ```html
 <div class="filter-aden"></div>
