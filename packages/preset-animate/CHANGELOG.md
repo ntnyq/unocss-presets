@@ -1,5 +1,11 @@
 # unocss-preset-animate
 
+## 0.2.8
+
+### Patch Changes
+
+- [`ab4c3cc`](https://github.com/ntnyq/unocss-presets/commit/ab4c3ccdf5f1f27499c2c96d074bf3f1bf7c2b03) Thanks [@ntnyq](https://github.com/ntnyq)! - fix: fix broken important syntax"
+
 ## 0.2.7
 
 ### Patch Changes
