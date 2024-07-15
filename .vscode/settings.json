@@ -1,6 +1,5 @@
 {
   "editor.formatOnSave": true,
-  "eslint.experimental.useFlatConfig": true,
   "eslint.validate": [
     "vue",
     "yaml",
@@ -15,6 +14,7 @@
     "typescriptreact"
   ],
   "cSpell.words": [
+    "Attributify",
     "bezier",
     "bumpp",
     "changelogithub",
@@ -22,16 +22,22 @@
     "easings",
     "ginza",
     "hefe",
+    "iconify",
     "kekab",
     "lcov",
     "lofi",
+    "nocheck",
     "perpetua",
     "pnpm",
     "stinson",
     "sutro",
+    "tabler",
     "tada",
+    "unplugin",
     "vite",
     "vitest",
+    "vueuse",
+    "xingtong",
     "xpro"
   ],
   "cSpell.allowCompoundWords": true

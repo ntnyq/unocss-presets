@@ -1,0 +1,46 @@
+:root {
+  --c-bg-base: #fff;
+  --c-text-base: #232323;
+  --c-border: #ccc;
+
+  --h-navbar: 60px;
+}
+
+:root.dark {
+  color-scheme: dark;
+  --c-bg-base: #1e1e1e;
+  --c-text-base: #fff;
+  --c-border: #666;
+}
+
+body {
+  background-color: var(--c-bg-base);
+  font-size: 16px;
+  color: var(--c-text-base);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Color Mode transition */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  z-index: 1;
+}
+
+::view-transition-new(root) {
+  z-index: 2147483646;
+}
+
+.dark::view-transition-old(root) {
+  z-index: 2147483646;
+}
+
+.dark::view-transition-new(root) {
+  z-index: 1;
+}

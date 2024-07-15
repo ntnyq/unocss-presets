@@ -13,6 +13,7 @@
     "./test/**/*.ts",
     "./scripts/**/*.ts",
     "./packages/**/*.ts",
-    "./playground/**/*.ts"
+    "./playground/**/*.ts",
+    "*.config.ts"
   ]
 }
