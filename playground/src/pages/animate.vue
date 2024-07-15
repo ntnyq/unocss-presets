@@ -138,8 +138,8 @@ async function onCopyClass() {
 
     <div class="p-4 flex items-center">
       <select
-        class="py-2 px-4 border-base border rounded-md shadow-sm outline-none focus:ring-2 focus:ring-blue-500"
         v-model="activeAnimation"
+        class="py-2 px-4 border-base border rounded-md shadow-sm outline-none focus:ring-2 focus:ring-blue-500"
       >
         <option
           v-for="animation in animations"

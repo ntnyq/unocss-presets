@@ -36,7 +36,6 @@
     "rimraf": "^6.0.1",
     "typescript": "^5.5.3",
     "unbuild": "^3.0.0-rc.6",
-    "unocss": "^0.61.3",
     "vitest": "^2.0.2"
   },
   "prettier": "@ntnyq/prettier-config",

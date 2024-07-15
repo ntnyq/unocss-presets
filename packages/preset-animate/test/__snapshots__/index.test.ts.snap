@@ -2334,7 +2334,7 @@ exports[`animation selectors > animation flipInX 1`] = `
 "/* layer: default */
 .animation-flip-in-x {
          animation-name: unAnimationFlipInX;
-          backface-visibility: visible; !important
+          backface-visibility: visible !important;
       }
 @keyframes unAnimationFlipInX {
         
@@ -2369,7 +2369,7 @@ exports[`animation selectors > animation flipInX with variablePrefix 1`] = `
 "/* layer: default */
 .animation-flip-in-x {
          animation-name: unAnimationFlipInX;
-          backface-visibility: visible; !important
+          backface-visibility: visible !important;
       }
 @keyframes unAnimationFlipInX {
         
@@ -2404,7 +2404,7 @@ exports[`animation selectors > animation flipInY 1`] = `
 "/* layer: default */
 .animation-flip-in-y {
          animation-name: unAnimationFlipInY;
-          backface-visibility: visible; !important
+          backface-visibility: visible !important;
       }
 @keyframes unAnimationFlipInY {
         
@@ -2439,7 +2439,7 @@ exports[`animation selectors > animation flipInY with variablePrefix 1`] = `
 "/* layer: default */
 .animation-flip-in-y {
          animation-name: unAnimationFlipInY;
-          backface-visibility: visible; !important
+          backface-visibility: visible !important;
       }
 @keyframes unAnimationFlipInY {
         
@@ -2476,7 +2476,7 @@ exports[`animation selectors > animation flipOutX 1`] = `
          animation-name: unAnimationFlipOutX;
           
     animation-duration: calc(var(--un-animate-duration) * 0.75);
-    backface-visibility: visible; !important
+    backface-visibility: visible !important;
   
       }
 @keyframes unAnimationFlipOutX {
@@ -2504,7 +2504,7 @@ exports[`animation selectors > animation flipOutX with variablePrefix 1`] = `
          animation-name: unAnimationFlipOutX;
           
     animation-duration: calc(var(--foo-bar-duration) * 0.75);
-    backface-visibility: visible; !important
+    backface-visibility: visible !important;
   
       }
 @keyframes unAnimationFlipOutX {
@@ -2532,7 +2532,7 @@ exports[`animation selectors > animation flipOutY 1`] = `
          animation-name: unAnimationFlipOutY;
           
     animation-duration: calc(var(--un-animate-duration) * 0.75);
-    backface-visibility: visible; !important
+    backface-visibility: visible !important;
   
       }
 @keyframes unAnimationFlipOutY {
@@ -2560,7 +2560,7 @@ exports[`animation selectors > animation flipOutY with variablePrefix 1`] = `
          animation-name: unAnimationFlipOutY;
           
     animation-duration: calc(var(--foo-bar-duration) * 0.75);
-    backface-visibility: visible; !important
+    backface-visibility: visible !important;
   
       }
 @keyframes unAnimationFlipOutY {

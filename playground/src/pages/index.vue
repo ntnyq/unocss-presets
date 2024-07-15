@@ -31,7 +31,7 @@ const presets = [
 
     <div class="p-4 md:p-10">
       <div class="grid gap-4 grid-cols-1">
-        <router-link
+        <RouterLink
           v-for="preset in presets"
           :key="preset.link"
           :to="preset.link"
@@ -39,8 +39,8 @@ const presets = [
         >
           <div class="flex h-full items-center justify-center">
             <div
-              class="mr-4 text-4xl"
               :class="preset.icon"
+              class="mr-4 text-4xl"
             />
             <div class="flex-1">
               <div class="text-2xl font-medium">
@@ -51,7 +51,7 @@ const presets = [
               </div>
             </div>
           </div>
-        </router-link>
+        </RouterLink>
       </div>
     </div>
   </div>
