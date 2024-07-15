@@ -15,8 +15,8 @@
   },
   "devDependencies": {
     "@iconify-json/fluent-emoji-flat": "^1.1.16",
-    "@iconify-json/ri": "^1.1.20",
-    "@iconify-json/tabler": "^1.1.108",
+    "@iconify-json/ri": "^1.1.21",
+    "@iconify-json/tabler": "^1.1.117",
     "@vitejs/plugin-vue": "^5.0.5",
     "typescript": "^5.5.3",
     "unocss": "^0.61.3",
