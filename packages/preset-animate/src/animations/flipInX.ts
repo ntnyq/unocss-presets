@@ -2,7 +2,7 @@ import type { AnimationObject } from '../types'
 
 export const flipInX: AnimationObject = {
   name: 'flipInX',
-  extraStyle: 'backface-visibility: visible; !important',
+  extraStyle: 'backface-visibility: visible !important;',
   keyframes: `
     from {
       transform: perspective(400px) rotate3d(1, 0, 0, 90deg);

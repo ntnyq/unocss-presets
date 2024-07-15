@@ -7,12 +7,12 @@
   "scripts": {
     "build": "run-s clean build:lib",
     "build:lib": "pnpm -r --filter=./packages/* run build",
-    "build:play": "pnpm -C playground run build",
     "clean": "rimraf packages/*/dist",
     "coverage": "vitest --coverage",
     "dev": "pnpm -r --filter=./packages/* run dev",
     "lint": "eslint . --cache",
     "play": "pnpm -C playground run dev",
+    "play:build": "pnpm -C playground run build",
     "prepare": "husky",
     "publish": "pnpm build && changeset publish",
     "test": "vitest",

@@ -4,7 +4,7 @@ export const flipOutY: AnimationCreator = options => ({
   name: 'flipOutY',
   extraStyle: `
     animation-duration: calc(var(--${options.variablePrefix}duration) * 0.75);
-    backface-visibility: visible; !important
+    backface-visibility: visible !important;
   `,
   keyframes: `
     from {
