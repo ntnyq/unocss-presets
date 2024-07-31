@@ -1,5 +1,11 @@
 # unocss-preset-filter
 
+## 0.2.0
+
+### Minor Changes
+
+- [`4955a4f`](https://github.com/ntnyq/unocss-presets/commit/4955a4f60544feae988d4411e4d9d582fc84954f) Thanks [@ntnyq](https://github.com/ntnyq)! - feat: default to esm
+
 ## 0.1.0
 
 ### Minor Changes
