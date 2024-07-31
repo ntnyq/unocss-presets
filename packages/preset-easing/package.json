@@ -39,16 +39,7 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "typesVersions": {
-    "*": {
-      "*": [
-        "./dist/*",
-        "./dist/index.d.ts"
-      ]
-    }
-  },
   "files": [
-    "*.css",
     "dist"
   ],
   "sideEffects": false,
@@ -57,7 +48,7 @@
     "dev": "unbuild --stub"
   },
   "dependencies": {
-    "@ntnyq/utils": "^0.0.3",
-    "@unocss/core": "^0.61.9"
+    "@ntnyq/utils": "catalog:",
+    "@unocss/core": "catalog:"
   }
 }

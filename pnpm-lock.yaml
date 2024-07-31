@@ -4,6 +4,15 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    '@ntnyq/utils':
+      specifier: ^0.0.3
+      version: 0.0.3
+    '@unocss/core':
+      specifier: ^0.61.9
+      version: 0.61.9
+
 importers:
 
   .:
@@ -66,28 +75,28 @@ importers:
   packages/preset-animate:
     dependencies:
       '@ntnyq/utils':
-        specifier: ^0.0.3
+        specifier: 'catalog:'
         version: 0.0.3
       '@unocss/core':
-        specifier: ^0.61.9
+        specifier: 'catalog:'
         version: 0.61.9
 
   packages/preset-easing:
     dependencies:
       '@ntnyq/utils':
-        specifier: ^0.0.3
+        specifier: 'catalog:'
         version: 0.0.3
       '@unocss/core':
-        specifier: ^0.61.9
+        specifier: 'catalog:'
         version: 0.61.9
 
   packages/preset-filter:
     dependencies:
       '@ntnyq/utils':
-        specifier: ^0.0.3
+        specifier: 'catalog:'
         version: 0.0.3
       '@unocss/core':
-        specifier: ^0.61.9
+        specifier: 'catalog:'
         version: 0.61.9
 
   playground:
