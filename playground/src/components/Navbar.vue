@@ -16,7 +16,7 @@ import { toggleDark } from '../composables/useDark'
         type="button"
         role="button"
       >
-        <div class="i-ri-sun-line dark:i-ri-moon-line" />
+        <div class="i-ri:sun-line dark:i-ri:moon-line" />
       </button>
       <a
         href="https://github.com/ntnyq/unocss-presets"
@@ -25,7 +25,7 @@ import { toggleDark } from '../composables/useDark'
         class="btn-icon"
         role="button"
       >
-        <div class="i-ri-github-fill" />
+        <div class="i-ri:github-fill" />
       </a>
     </div>
   </div>
