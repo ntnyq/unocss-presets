@@ -2,7 +2,7 @@
   "name": "@ntnyq/unocss-presets",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.9.0",
+  "packageManager": "pnpm@9.10.0",
   "license": "MIT",
   "scripts": {
     "build": "run-s clean build:lib",
@@ -21,7 +21,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.8",
-    "@ntnyq/eslint-config": "^3.0.0-beta.7",
+    "@ntnyq/eslint-config": "^3.0.0-beta.8",
     "@ntnyq/prettier-config": "^1.21.2",
     "@types/fs-extra": "^11.0.4",
     "@vitest/coverage-v8": "^2.0.5",
@@ -31,15 +31,15 @@
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^6.2.2",
     "picocolors": "^1.1.0",
-    "pnpm": "^9.9.0",
+    "pnpm": "^9.10.0",
     "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
-    "typescript": "^5.5.4",
+    "typescript": "^5.6.2",
     "unbuild": "^3.0.0-rc.7",
     "vitest": "^2.0.5"
   },
   "prettier": "@ntnyq/prettier-config",
   "nano-staged": {
-    "*.{js,ts,cjs,mjs,json,md,yml,yaml}": "eslint --fix"
+    "*.{js,ts,cjs,mjs,vue,json,md,yml,yaml}": "eslint --fix"
   }
 }
