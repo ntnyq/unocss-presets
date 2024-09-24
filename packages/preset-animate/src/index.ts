@@ -1,7 +1,7 @@
 import { createPreflights } from './preflight'
 import { createAnimationRules, createBaseRules } from './rules'
-import type { PresetAnimateOptions } from './types'
 import type { Preset } from '@unocss/core'
+import type { PresetAnimateOptions } from './types'
 
 export const presetAnimate = (options: PresetAnimateOptions = {}): Preset => {
   options.preflight = options.preflight ?? true

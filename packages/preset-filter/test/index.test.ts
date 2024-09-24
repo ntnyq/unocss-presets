@@ -1,11 +1,11 @@
+import { kebabCase } from '@ntnyq/utils'
 import { createGenerator } from '@unocss/core'
 import { describe, expect, it } from 'vitest'
-import { kekabCase } from '@ntnyq/utils'
 import { filters, presetFilter } from '../src'
 
 describe('selectors', () => {
   it('base selectors', async () => {
-    const inputs = filters.map(filter => `filter-${kekabCase(filter.name)}`)
+    const inputs = filters.map(filter => `filter-${kebabCase(filter.name)}`)
     const generator = createGenerator({
       presets: [presetFilter()],
     })
@@ -371,7 +371,7 @@ describe('selectors', () => {
   })
 
   it('selectors when custom prefix', async () => {
-    const inputs = filters.map(filter => `f-${kekabCase(filter.name)}`)
+    const inputs = filters.map(filter => `f-${kebabCase(filter.name)}`)
     const generator = createGenerator({
       presets: [presetFilter({ prefix: 'f-' })],
     })

@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { ref } from 'vue'
 import { useClipboard } from '@vueuse/core'
+import { ref } from 'vue'
 
 const { copy, copied } = useClipboard()
 

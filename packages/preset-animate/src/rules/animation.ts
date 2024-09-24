@@ -1,7 +1,7 @@
-import { capitalize, kekabCase } from '@ntnyq/utils'
+import { kebabCase, upperFirst } from '@ntnyq/utils'
 import { animations as animationMap } from '../animations'
-import type { PresetAnimateOptions } from '../types'
 import type { DynamicRule } from '@unocss/core'
+import type { PresetAnimateOptions } from '../types'
 
 export const createAnimationRules = (options: PresetAnimateOptions) => {
   const extendAnimations = Array.isArray(options.extendAnimations) ? options.extendAnimations : []
@@ -11,18 +11,18 @@ export const createAnimationRules = (options: PresetAnimateOptions) => {
     typeof animation === 'function' ? animation(options) : animation,
   )
   const rules = normalizedAnimation.map<DynamicRule>(animation => [
-    new RegExp(`^animation-${kekabCase(animation.name)}$`),
+    new RegExp(`^animation-${kebabCase(animation.name)}$`),
     () => [
-      `.animation-${kekabCase(animation.name)} {
-         animation-name: unAnimation${capitalize(animation.name)};
+      `.animation-${kebabCase(animation.name)} {
+         animation-name: unAnimation${upperFirst(animation.name)};
           ${animation.extraStyle ?? ''}
       }`,
-      `@keyframes unAnimation${capitalize(animation.name)} {
+      `@keyframes unAnimation${upperFirst(animation.name)} {
         ${animation.keyframes}
       }`,
     ],
     {
-      autocomplete: [`animation-${kekabCase(animation.name)}`],
+      autocomplete: [`animation-${kebabCase(animation.name)}`],
     },
   ])
   return rules

@@ -1,6 +1,6 @@
+import { kebabCase } from '@ntnyq/utils'
 import { createGenerator } from '@unocss/core'
 import { describe, expect, it } from 'vitest'
-import { kekabCase } from '@ntnyq/utils'
 import { animations, presetAnimate } from '../src'
 
 describe('default', () => {
@@ -159,13 +159,13 @@ describe('animation selectors', () => {
 
   Object.keys(animations).forEach(animation => {
     it(`animation ${animation}`, async () => {
-      const { css } = await generator.generate(`animation-${kekabCase(animation)}`)
+      const { css } = await generator.generate(`animation-${kebabCase(animation)}`)
       expect(css).toMatchSnapshot()
     })
 
     it(`animation ${animation} with variablePrefix`, async () => {
       const { css } = await generatorWithVariablePrefix.generate(
-        `animation-${kekabCase(animation)}`,
+        `animation-${kebabCase(animation)}`,
       )
       expect(css).toMatchSnapshot()
     })

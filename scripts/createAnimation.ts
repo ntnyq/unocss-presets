@@ -1,7 +1,7 @@
-import process from 'node:process'
 import { resolve } from 'node:path'
-import c from 'picocolors'
+import process from 'node:process'
 import { exists, writeFile } from 'fs-extra'
+import c from 'picocolors'
 
 async function main() {
   const animationName = process.argv[2]

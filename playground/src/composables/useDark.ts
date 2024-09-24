@@ -2,15 +2,14 @@
  * @file useDark
  */
 
-import { nextTick } from 'vue'
 import { useDark } from '@vueuse/core'
+import { nextTick } from 'vue'
 
 export const isDark = useDark()
 
 const isAppearanceTransition =
   typeof document !== 'undefined' &&
-  // @ts-expect-error experimental feature
-  document.startViewTransition &&
+  !!document.startViewTransition &&
   !window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
 /**

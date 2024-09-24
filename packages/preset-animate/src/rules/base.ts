@@ -1,5 +1,5 @@
-import type { PresetAnimateOptions } from '../types'
 import type { Rule } from '@unocss/core'
+import type { PresetAnimateOptions } from '../types'
 
 const durationShortcuts = {
   faster: 0.5,

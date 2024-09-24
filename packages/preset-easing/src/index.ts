@@ -1,11 +1,11 @@
-import { camelCase, kekabCase } from '@ntnyq/utils'
+import { camelCase, kebabCase } from '@ntnyq/utils'
 import { easings } from './easings'
-import type { PresetEasingOptions } from './types'
 import type { Preset } from '@unocss/core'
+import type { PresetEasingOptions } from './types'
 
 export const presetEasing = ({ prefix = 'easing-' }: PresetEasingOptions = {}): Preset => {
   const selectorPattern = `${prefix}(${Object.keys(easings)
-    .map(name => kekabCase(name))
+    .map(name => kebabCase(name))
     .join('|')})`
 
   return {

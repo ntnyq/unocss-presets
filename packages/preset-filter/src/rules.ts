@@ -1,31 +1,31 @@
-import { kekabCase } from '@ntnyq/utils'
+import { kebabCase } from '@ntnyq/utils'
 import { filters } from './filters'
-import type { PresetFilterOptions } from './types'
 import type { DynamicRule } from '@unocss/core'
+import type { PresetFilterOptions } from './types'
 
 export const createFilterRules = (options: PresetFilterOptions) => {
   const rules = filters.map<DynamicRule>(filter => [
-    new RegExp(`^${options.prefix}${kekabCase(filter.name)}$`),
+    new RegExp(`^${options.prefix}${kebabCase(filter.name)}$`),
     () => {
       const styles = [
-        `.${options.prefix}${kekabCase(filter.name)} {
+        `.${options.prefix}${kebabCase(filter.name)} {
            ${filter.style}
         }`,
       ]
       if (filter.beforeStyle) {
-        styles.push(`.${options.prefix}${kekabCase(filter.name)}:before {
+        styles.push(`.${options.prefix}${kebabCase(filter.name)}:before {
            ${filter.beforeStyle}
         }`)
       }
       if (filter.afterStyle) {
-        styles.push(`.${options.prefix}${kekabCase(filter.name)}:after {
+        styles.push(`.${options.prefix}${kebabCase(filter.name)}:after {
            ${filter.afterStyle}
         }`)
       }
       return styles
     },
     {
-      autocomplete: [`${options.prefix}${kekabCase(filter.name)}`],
+      autocomplete: [`${options.prefix}${kebabCase(filter.name)}`],
     },
   ])
   return rules

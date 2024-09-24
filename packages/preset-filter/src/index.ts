@@ -1,6 +1,6 @@
 import { resolveOptions } from './options'
-import { createFilterRules } from './rules'
 import { createPreflights } from './preflight'
+import { createFilterRules } from './rules'
 import type { Preset } from '@unocss/core'
 import type { PresetFilterOptions } from './types'
 
