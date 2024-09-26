@@ -1,21 +1,22 @@
-import { resolve } from 'node:path'
+import { writeFile } from 'node:fs/promises'
+import { relative } from 'node:path'
 import process from 'node:process'
-import { exists, writeFile } from 'fs-extra'
-import c from 'picocolors'
+import { consola } from 'consola'
+import pc from 'picocolors'
+import { exists, resolve } from './utils'
+
+const ROOT = process.cwd()
 
 async function main() {
   const animationName = process.argv[2]
 
   if (typeof animationName !== 'string') {
-    console.log(c.red('\nExpect an animationName'))
+    consola.error('Expect an animationName')
     process.exit(1)
   }
 
-  const filePath = resolve(
-    __dirname,
-    '../packages/preset-animate/src/animations',
-    `${animationName}.ts`,
-  )
+  const filePath = resolve('packages/preset-animate/src/animations', `${animationName}.ts`)
+  const relativePath = relative(ROOT, filePath)
   const fileContent = `import type { Animation } from '../types'
 
 export const ${animationName}: Animation = {
@@ -26,12 +27,12 @@ export const ${animationName}: Animation = {
 }`
 
   if (await exists(filePath)) {
-    console.log(c.red('\n file already exists'))
+    return consola.warn(`${pc.cyan(relativePath)} already exists`)
   }
 
   await writeFile(filePath, fileContent, 'utf8')
 
-  console.log(c.green('\n created successfully'))
+  consola.success(`${pc.cyan(relativePath)} created successfully`)
 }
 
 await main()
