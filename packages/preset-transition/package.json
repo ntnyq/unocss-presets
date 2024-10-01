@@ -1,7 +1,7 @@
 {
   "name": "unocss-preset-transition",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "unocss preset for transition.css",
   "keywords": [
     "unocss",
