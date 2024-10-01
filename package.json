@@ -7,7 +7,7 @@
   "scripts": {
     "build": "run-s clean build:lib",
     "build:lib": "pnpm -r --filter=./packages/* run build",
-    "clean": "rimraf packages/*/dist node_modules packages/*/node_modules",
+    "clean": "rimraf packages/*/dist",
     "coverage": "vitest --coverage",
     "dev": "pnpm -r --filter=./packages/* run dev",
     "lint": "eslint . --cache",
@@ -21,7 +21,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.8",
-    "@ntnyq/eslint-config": "^3.0.0-beta.17",
+    "@ntnyq/eslint-config": "^3.0.0-beta.18",
     "@ntnyq/prettier-config": "^1.21.3",
     "@vitest/coverage-v8": "^2.1.1",
     "consola": "^3.2.3",

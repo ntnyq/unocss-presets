@@ -18,6 +18,12 @@ const presets = [
     icon: 'i-fluent-emoji-flat:magnifying-glass-tilted-right',
     description: 'UnoCSS preset for pure CSS filters.',
   },
+  {
+    name: 'unocss-preset-transition',
+    link: '/transition',
+    icon: 'i-fluent-emoji-flat:hourglass-done',
+    description: 'UnoCSS preset for transition.css.',
+  },
 ]
 </script>
 

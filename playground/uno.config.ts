@@ -8,6 +8,7 @@ import {
 import { presetAnimate } from 'unocss-preset-animate'
 import { presetEasing } from 'unocss-preset-easing'
 import { presetFilter } from 'unocss-preset-filter'
+import { presetTransition } from 'unocss-preset-transition'
 
 export default defineConfig({
   shortcuts: {
@@ -45,6 +46,7 @@ export default defineConfig({
     }),
     presetEasing(),
     presetFilter(),
+    presetTransition(),
   ],
 
   transformers: [transformerDirectives(), transformerVariantGroup()],
