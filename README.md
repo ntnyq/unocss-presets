@@ -10,6 +10,7 @@
 - [unocss-preset-animate](./packages/preset-animate)
 - [unocss-preset-easing](./packages/preset-easing)
 - [unocss-preset-filter](./packages/preset-filter)
+- [unocss-preset-transition](./packages/preset-transition)
 
 ## License
 
