@@ -8,23 +8,23 @@
     "dev": "vite"
   },
   "dependencies": {
-    "@unocss/reset": "^0.63.4",
+    "@unocss/reset": "^0.63.6",
     "@vueuse/core": "^11.1.0",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@iconify-json/fluent-emoji-flat": "^1.2.1",
-    "@iconify-json/ri": "^1.2.1",
-    "@iconify-json/tabler": "^1.2.5",
+    "@iconify-json/ri": "^1.2.2",
+    "@iconify-json/tabler": "^1.2.6",
     "@vitejs/plugin-vue": "^5.1.4",
     "typescript": "^5.6.3",
-    "unocss": "^0.63.4",
+    "unocss": "^0.63.6",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
     "unocss-preset-filter": "workspace:*",
     "unocss-preset-transition": "workspace:*",
     "unplugin-vue-router": "^0.10.8",
-    "vite": "^5.4.9"
+    "vite": "^5.4.10"
   }
 }
