@@ -1,5 +1,11 @@
 # unocss-preset-animate
 
+## 0.3.1
+
+### Patch Changes
+
+- [#91](https://github.com/ntnyq/unocss-presets/pull/91) [`e772b9f`](https://github.com/ntnyq/unocss-presets/commit/e772b9fe1fab2ffef424db37b51271db96cf1b00) Thanks [@ntnyq](https://github.com/ntnyq)! - fix: upgrade \`@unocss/core\` to v0.63.6"
+
 ## 0.3.0
 
 ### Minor Changes
