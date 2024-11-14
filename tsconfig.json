@@ -4,6 +4,8 @@
     "lib": ["DOM", "ESNext"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "types": [],
+    "resolveJsonModule": true,
     "esModuleInterop": true,
     "strict": true,
     "skipLibCheck": true
@@ -14,6 +16,7 @@
     "./scripts/**/*.ts",
     "./packages/**/*.ts",
     "./playground/**/*.ts",
+    "./playground/**/*.vue",
     "*.config.ts"
   ]
 }

@@ -15,13 +15,13 @@
     "email": "ntnyq13@gmail.com"
   },
   "homepage": "https://github.com/ntnyq/unocss-presets/tree/main/packages/preset-filter#readme",
-  "bugs": {
-    "url": "https://github.com/ntnyq/unocss-presets/issues"
-  },
   "repository": {
     "type": "github",
     "url": "ntnyq/unocss-presets",
     "directory": "packages/preset-filter"
+  },
+  "bugs": {
+    "url": "https://github.com/ntnyq/unocss-presets/issues"
   },
   "exports": {
     "./package.json": "./package.json",
