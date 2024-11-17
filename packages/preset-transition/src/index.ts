@@ -1,10 +1,10 @@
+import { definePreset } from '@unocss/core'
 import { resolveOptions } from './options'
 import { createPreflights } from './preflight'
 import { createBaseRules, createTransitionRules } from './rules'
-import type { Preset } from '@unocss/core'
 import type { PresetTransitionOptions } from './types'
 
-export const presetTransition = (options: PresetTransitionOptions = {}): Preset => {
+export const presetTransition = definePreset<PresetTransitionOptions>((options = {}) => {
   const resolvedOptions = resolveOptions(options)
 
   return {
@@ -14,7 +14,7 @@ export const presetTransition = (options: PresetTransitionOptions = {}): Preset 
 
     preflights: createPreflights(resolvedOptions),
   }
-}
+})
 
 export * from './utils'
 export * from './types'

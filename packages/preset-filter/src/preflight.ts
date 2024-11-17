@@ -1,7 +1,7 @@
 import type { Preflight } from '@unocss/core'
 import type { PresetFilterOptions } from './types'
 
-export const createPreflights = (options: PresetFilterOptions): Preflight[] => [
+export const createPreflights = (options: Required<PresetFilterOptions>): Preflight[] => [
   {
     getCSS: () => `
       [class^="${options.prefix}"] {

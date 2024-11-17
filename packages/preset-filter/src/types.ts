@@ -26,5 +26,5 @@ export interface PresetFilterOptions {
    *
    * @default 'filter-'
    */
-  prefix: string
+  prefix?: string
 }

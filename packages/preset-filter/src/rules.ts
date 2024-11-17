@@ -3,7 +3,7 @@ import { filters } from './filters'
 import type { DynamicRule } from '@unocss/core'
 import type { PresetFilterOptions } from './types'
 
-export const createFilterRules = (options: PresetFilterOptions) => {
+export const createFilterRules = (options: Required<PresetFilterOptions>) => {
   const rules = filters.map<DynamicRule>(filter => [
     new RegExp(`^${options.prefix}${kebabCase(filter.name)}$`),
     () => {

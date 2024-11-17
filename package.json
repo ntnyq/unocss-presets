@@ -2,7 +2,7 @@
   "name": "@ntnyq/unocss-presets",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.13.1",
+  "packageManager": "pnpm@9.13.2",
   "license": "MIT",
   "scripts": {
     "build": "run-s clean build:lib",
@@ -10,7 +10,7 @@
     "clean": "rimraf packages/*/dist",
     "coverage": "vitest --coverage",
     "dev": "pnpm -r --filter=./packages/* run dev",
-    "lint": "eslint . --cache",
+    "lint": "eslint .",
     "play": "pnpm -C playground run dev",
     "play:build": "pnpm -C playground run build",
     "prepare": "husky",
@@ -25,7 +25,7 @@
     "@ntnyq/prettier-config": "^1.21.3",
     "@vitest/coverage-v8": "^2.1.5",
     "consola": "^3.2.3",
-    "eslint": "^9.14.0",
+    "eslint": "^9.15.0",
     "husky": "^9.1.6",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^7.0.1",
@@ -35,6 +35,11 @@
     "typescript": "^5.6.3",
     "unbuild": "^3.0.0-rc.11",
     "vitest": "^2.1.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "@rollup/plugin-commonjs": "^28.0.1"
+    }
   },
   "prettier": "@ntnyq/prettier-config",
   "nano-staged": {
