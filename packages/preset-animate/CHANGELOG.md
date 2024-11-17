@@ -1,5 +1,15 @@
 # unocss-preset-animate
 
+## 0.4.0
+
+### Minor Changes
+
+- [`d28cebd`](https://github.com/ntnyq/unocss-presets/commit/d28cebddaa7c8d5c170e4d1124ae1c9e0757da08) Thanks [@ntnyq](https://github.com/ntnyq)! - feat: bump unocss to v0.64.0
+
+### Patch Changes
+
+- [`6d41aa5`](https://github.com/ntnyq/unocss-presets/commit/6d41aa5501369fd01cd9f065b07010f94fe8a3e5) Thanks [@ntnyq](https://github.com/ntnyq)! - fix: use `definePreset` to create preset
+
 ## 0.3.1
 
 ### Patch Changes
