@@ -119,9 +119,9 @@ customize `animation-delay` based on `var(--un-animate-delay)`.
 
 ## Animations
 
-All animation from [animate.css](https://github.com/animate-css/animate.css) are supported.
+All animations from [animate.css](https://github.com/animate-css/animate.css) are supported.
 
-Just use add the class `animation-<animation-name-in-kekab-case>` to element.
+Just use add the class `animation-<animation-name-in-kebab-case>` to element.
 
 e.g. `animation-rubber-band`, `animation-jack-in-the-box`.
 

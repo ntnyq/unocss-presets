@@ -1,5 +1,5 @@
 catalog:
-  '@ntnyq/utils': ^0.3.0
+  '@ntnyq/utils': ^0.3.1
   '@unocss/core': ^0.64.1
 packages:
   - packages/*

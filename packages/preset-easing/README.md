@@ -32,7 +32,7 @@ export default defineConfig({
 })
 ```
 
-Then use `easing-<easing-name-in-kekab-case>`
+Then use `easing-<easing-name-in-kebab-case>`
 
 ```html
 <div class="easing-in-back"></div>
