@@ -18,7 +18,7 @@
     "@iconify-json/ri": "^1.2.3",
     "@iconify-json/tabler": "^1.2.8",
     "@vitejs/plugin-vue": "^5.2.0",
-    "typescript": "^5.6.3",
+    "typescript": "^5.7.2",
     "unocss": "^0.64.1",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
