@@ -20,17 +20,8 @@ export function createTransitionRules(options: ResolvedOptions) {
     () => {
       const animationName = camelCase(options.prefix + transition.name)
       return [
-        `
-        .${options.prefix}${kebabCase(transition.name)} {
-          animation-name: ${animationName};
-          ${transition.extraStyle ?? ''}
-        }
-        `,
-        `
-        @keyframes ${animationName} {
-          ${transition.keyframes}
-        }
-        `,
+        `.${options.prefix}${kebabCase(transition.name)} { animation-name: ${animationName}; ${transition.extraStyle ?? ''} }`,
+        `@keyframes ${animationName} { ${transition.keyframes} }`,
       ]
     },
     {

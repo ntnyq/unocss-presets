@@ -2,7 +2,7 @@
   "name": "@ntnyq/unocss-presets",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.14.2",
+  "packageManager": "pnpm@9.14.4",
   "license": "MIT",
   "scripts": {
     "build": "run-s clean build:lib",
@@ -21,20 +21,20 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.10",
-    "@ntnyq/eslint-config": "^3.3.1",
+    "@ntnyq/eslint-config": "^3.6.0",
     "@ntnyq/prettier-config": "^1.22.0",
-    "@vitest/coverage-v8": "^2.1.5",
+    "@vitest/coverage-v8": "^2.1.6",
     "consola": "^3.2.3",
     "eslint": "^9.15.0",
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^7.0.1",
     "picocolors": "^1.1.1",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.1",
     "rimraf": "^6.0.1",
     "typescript": "^5.7.2",
     "unbuild": "^3.0.0-rc.11",
-    "vitest": "^2.1.5"
+    "vitest": "^2.1.6"
   },
   "pnpm": {
     "overrides": {

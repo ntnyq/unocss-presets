@@ -13,11 +13,6 @@ export interface Filter {
    * pseudo element before style
    */
   beforeStyle?: string
-
-  /**
-   * pseudo element after style
-   */
-  afterStyle?: string
 }
 
 export interface PresetFilterOptions {

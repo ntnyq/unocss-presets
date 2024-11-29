@@ -5,24 +5,17 @@ import { animations, presetAnimate } from '../src'
 
 describe('default', () => {
   it('default preflight', async () => {
-    const generator = createGenerator({
+    const generator = await createGenerator({
       presets: [presetAnimate()],
     })
     const { css } = await generator.generate('')
-    expect(css).toMatchInlineSnapshot(`
-      "/* layer: preflights */
-      :root { --un-animate-duration: 1s; --un-animate-delay: 1s; --un-animate-repeat: 1; }
-      @media print, (prefers-reduced-motion: reduce) {
-              .animated { animation-duration: 1ms !important; transition-duration: 1ms !important; animation-iteration-count: 1 !important; }
-              .animated[class*='out'] { opacity: 0; }
-            }"
-    `)
+    expect(css).toMatchSnapshot()
   })
 })
 
 describe('preset-animate options', () => {
   it('disable preflight', async () => {
-    const generator = createGenerator({
+    const generator = await createGenerator({
       presets: [
         presetAnimate({
           preflight: false,
@@ -34,7 +27,7 @@ describe('preset-animate options', () => {
   })
 
   it('disable injectMediaQuery', async () => {
-    const generator = createGenerator({
+    const generator = await createGenerator({
       presets: [
         presetAnimate({
           injectMediaQuery: false,
@@ -42,14 +35,11 @@ describe('preset-animate options', () => {
       ],
     })
     const { css } = await generator.generate('')
-    expect(css).toMatchInlineSnapshot(`
-      "/* layer: preflights */
-      :root { --un-animate-duration: 1s; --un-animate-delay: 1s; --un-animate-repeat: 1; }"
-    `)
+    expect(css).toMatchSnapshot()
   })
 
   it('customize variablePrefix', async () => {
-    const generator = createGenerator({
+    const generator = await createGenerator({
       presets: [
         presetAnimate({
           variablePrefix: 'foo-bar-',
@@ -57,42 +47,23 @@ describe('preset-animate options', () => {
       ],
     })
     const { css } = await generator.generate('')
-    expect(css).toMatchInlineSnapshot(`
-      "/* layer: preflights */
-      :root { --foo-bar-duration: 1s; --foo-bar-delay: 1s; --foo-bar-repeat: 1; }
-      @media print, (prefers-reduced-motion: reduce) {
-              .animated { animation-duration: 1ms !important; transition-duration: 1ms !important; animation-iteration-count: 1 !important; }
-              .animated[class*='out'] { opacity: 0; }
-            }"
-    `)
+    expect(css).toMatchSnapshot()
   })
 })
 
 describe('base selectors', () => {
   it('base selectors', async () => {
     const targets = ['animated', 'animate-fast', 'animate-repeat-2', 'animate-delay-0.5']
-    const generator = createGenerator({
+    const generator = await createGenerator({
       presets: [presetAnimate()],
     })
     const { css } = await generator.generate(targets.join('\n'))
-    expect(css).toMatchInlineSnapshot(`
-      "/* layer: preflights */
-      :root { --un-animate-duration: 1s; --un-animate-delay: 1s; --un-animate-repeat: 1; }
-      @media print, (prefers-reduced-motion: reduce) {
-              .animated { animation-duration: 1ms !important; transition-duration: 1ms !important; animation-iteration-count: 1 !important; }
-              .animated[class*='out'] { opacity: 0; }
-            }
-      /* layer: default */
-      .animated{animation-duration:var(--un-animate-duration);animation-fill-mode:both;}
-      .animate-fast{animation-duration:calc(var(--un-animate-duration) * 0.8);}
-      .animate-repeat-2{animation-iteration-count:calc(var(--un-animate-repeat) * 2);}
-      .animate-delay-0\\.5{animation-delay:calc(var(--un-animate-delay) * 0.5);}"
-    `)
+    expect(css).toMatchSnapshot()
   })
 
   it('base selectors with variablePrefix', async () => {
     const targets = ['animated', 'animate-duration-2', 'animate-repeat-2', 'animate-delay-2']
-    const generator = createGenerator({
+    const generator = await createGenerator({
       presets: [
         presetAnimate({
           variablePrefix: 'foo-bar-',
@@ -100,19 +71,7 @@ describe('base selectors', () => {
       ],
     })
     const { css } = await generator.generate(targets.join('\n'))
-    expect(css).toMatchInlineSnapshot(`
-      "/* layer: preflights */
-      :root { --foo-bar-duration: 1s; --foo-bar-delay: 1s; --foo-bar-repeat: 1; }
-      @media print, (prefers-reduced-motion: reduce) {
-              .animated { animation-duration: 1ms !important; transition-duration: 1ms !important; animation-iteration-count: 1 !important; }
-              .animated[class*='out'] { opacity: 0; }
-            }
-      /* layer: default */
-      .animated{animation-duration:var(--foo-bar-duration);animation-fill-mode:both;}
-      .animate-repeat-2{animation-iteration-count:calc(var(--foo-bar-repeat) * 2);}
-      .animate-delay-2{animation-delay:calc(var(--foo-bar-delay) * 2);}
-      .animate-duration-2{animation-duration:calc(var(--foo-bar-duration) * 2);}"
-    `)
+    expect(css).toMatchSnapshot()
   })
 
   it('invalid selectors', async () => {
@@ -123,32 +82,23 @@ describe('base selectors', () => {
       'animate-delay-bar',
       'animate-duration-baz',
     ]
-    const generator = createGenerator({
+    const generator = await createGenerator({
       presets: [presetAnimate()],
     })
     const { css } = await generator.generate(targets.join('\n'))
-    expect(css).toMatchInlineSnapshot(`
-      "/* layer: preflights */
-      :root { --un-animate-duration: 1s; --un-animate-delay: 1s; --un-animate-repeat: 1; }
-      @media print, (prefers-reduced-motion: reduce) {
-              .animated { animation-duration: 1ms !important; transition-duration: 1ms !important; animation-iteration-count: 1 !important; }
-              .animated[class*='out'] { opacity: 0; }
-            }
-      /* layer: default */
-      .animated{animation-duration:var(--un-animate-duration);animation-fill-mode:both;}"
-    `)
+    expect(css).toMatchSnapshot()
   })
 })
 
-describe('animation selectors', () => {
-  const generator = createGenerator({
+describe('animation selectors', async () => {
+  const generator = await createGenerator({
     presets: [
       presetAnimate({
         preflight: false,
       }),
     ],
   })
-  const generatorWithVariablePrefix = createGenerator({
+  const generatorWithVariablePrefix = await createGenerator({
     presets: [
       presetAnimate({
         preflight: false,

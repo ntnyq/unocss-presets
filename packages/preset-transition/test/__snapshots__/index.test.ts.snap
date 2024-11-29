@@ -1,148 +1,243 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
+exports[`base selectors > base selectors 1`] = `
+"/* layer: default */
+.styled-transition{animation-delay:var(--st-transition-delay, 0);animation-duration:var(--st-transition-duration, 2.5s);animation-timing-function:var(--st-transition-easing, cubic-bezier(0.25, 1, 0.3, 1));animation-fill-mode:both;will-change:clip-path;}"
+`;
+
+exports[`base selectors > base selectors with prefix 1`] = `
+"/* layer: default */
+.styled-transition{animation-delay:var(--styled-transitiontransition-delay, 0);animation-duration:var(--styled-transitiontransition-duration, 2.5s);animation-timing-function:var(--styled-transitiontransition-easing, cubic-bezier(0.25, 1, 0.3, 1));animation-fill-mode:both;will-change:clip-path;}"
+`;
+
+exports[`default > default preflight 1`] = `
+"/* layer: preflights */
+:root {
+        --st-circle-center-center-out: circle(0%);
+        --st-circle-center-center-in: circle(125%);
+        --st-circle-hesitate: circle(40%);
+        --st-circle-top-left-out: circle(0% at top left);
+        --st-circle-top-right-out: circle(0% at top right);
+        --st-circle-bottom-right-out: circle(0% at bottom right);
+        --st-circle-bottom-left-out: circle(0% at bottom left);
+        --st-circle-top-left-in: circle(150% at top left);
+        --st-circle-top-right-in: circle(150% at top right);
+        --st-circle-bottom-right-in: circle(150% at bottom right);
+        --st-circle-bottom-left-in: circle(150% at bottom left);
+        --st-wipe-in: inset(0 0 0 0);
+        --st-wipe-bottom: inset(100% 0 0 0);
+        --st-wipe-left: inset(0 100% 0 0);
+        --st-wipe-top: inset(0 0 100% 0);
+        --st-wipe-right: inset(0 0 0 100%);
+        --st-wipe-top-left-in: polygon(50% -50%, 150% 50%, 50% 150%, -50% 50%);
+        --st-wipe-top-right-in: polygon(50% -50%, 150% 50%, 50% 150%, -50% 50%);
+        --st-wipe-bottom-left-in: polygon(50% -50%, 150% 50%, 50% 150%, -50% 50%);
+        --st-wipe-bottom-right-in: polygon(-50% 0%, 200% 0, 0 200%, 0 -50%);
+        --st-wipe-top-left-out: polygon(0 0, 0 0, 0 0, 0 50%);
+        --st-wipe-top-right-out: polygon(50% -50%, 150% 50%, 150% 50%, 50% -50%);
+        --st-wipe-bottom-left-out: polygon(-50% 50%, 50% 150%, 50% 150%, -50% 50%);
+        --st-wipe-bottom-right-out: polygon(150% 50%, 150% 50%, 50% 150%, 50% 150%);
+        --st-wipe-cinematic-out: inset(100% 0 100% 0);
+        --st-wipe-cinematic-mid: inset(10% 0 10% 0);
+        --st-square-hesitate: inset(33% 33% 33% 33%);
+        --st-square-out: inset(100% 100% 100% 100%);
+        --st-square-in: var(--st-wipe-in);
+        --st-square-top-left-out: inset(0 100% 100% 0);
+        --st-square-top-right-out: inset(0 0 100% 100%);
+        --st-square-bottom-left-out: inset(100% 100% 0 0);
+        --st-square-bottom-right-out: inset(100% 0 0 100%);
+        --st-diamond-center-in: polygon(-50% 50%, 50% -50%, 150% 50%, 50% 150%);
+        --st-diamond-center-out: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+        --st-diamond-hesitate: polygon(45% 50%, 50% 25%, 55% 50%, 50% 75%);
+        --st-opposing-corners-in: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+        --st-opposing-corners-out: polygon(0 0, 50% 50%, 100% 100%, 50% 50%);
+      }
+@media (prefers-reduced-motion: reduce), print {
+        .styled-transition {
+          animation-duration: 1ms !important;
+          transition-duration: 1ms !important;
+          animation-iteration-count: 1 !important;
+        }
+      }"
+`;
+
+exports[`preset-animate options > customize prefix 1`] = `
+"/* layer: preflights */
+:root {
+        --styled-transitioncircle-center-center-out: circle(0%);
+        --styled-transitioncircle-center-center-in: circle(125%);
+        --styled-transitioncircle-hesitate: circle(40%);
+        --styled-transitioncircle-top-left-out: circle(0% at top left);
+        --styled-transitioncircle-top-right-out: circle(0% at top right);
+        --styled-transitioncircle-bottom-right-out: circle(0% at bottom right);
+        --styled-transitioncircle-bottom-left-out: circle(0% at bottom left);
+        --styled-transitioncircle-top-left-in: circle(150% at top left);
+        --styled-transitioncircle-top-right-in: circle(150% at top right);
+        --styled-transitioncircle-bottom-right-in: circle(150% at bottom right);
+        --styled-transitioncircle-bottom-left-in: circle(150% at bottom left);
+        --styled-transitionwipe-in: inset(0 0 0 0);
+        --styled-transitionwipe-bottom: inset(100% 0 0 0);
+        --styled-transitionwipe-left: inset(0 100% 0 0);
+        --styled-transitionwipe-top: inset(0 0 100% 0);
+        --styled-transitionwipe-right: inset(0 0 0 100%);
+        --styled-transitionwipe-top-left-in: polygon(50% -50%, 150% 50%, 50% 150%, -50% 50%);
+        --styled-transitionwipe-top-right-in: polygon(50% -50%, 150% 50%, 50% 150%, -50% 50%);
+        --styled-transitionwipe-bottom-left-in: polygon(50% -50%, 150% 50%, 50% 150%, -50% 50%);
+        --styled-transitionwipe-bottom-right-in: polygon(-50% 0%, 200% 0, 0 200%, 0 -50%);
+        --styled-transitionwipe-top-left-out: polygon(0 0, 0 0, 0 0, 0 50%);
+        --styled-transitionwipe-top-right-out: polygon(50% -50%, 150% 50%, 150% 50%, 50% -50%);
+        --styled-transitionwipe-bottom-left-out: polygon(-50% 50%, 50% 150%, 50% 150%, -50% 50%);
+        --styled-transitionwipe-bottom-right-out: polygon(150% 50%, 150% 50%, 50% 150%, 50% 150%);
+        --styled-transitionwipe-cinematic-out: inset(100% 0 100% 0);
+        --styled-transitionwipe-cinematic-mid: inset(10% 0 10% 0);
+        --styled-transitionsquare-hesitate: inset(33% 33% 33% 33%);
+        --styled-transitionsquare-out: inset(100% 100% 100% 100%);
+        --styled-transitionsquare-in: var(--styled-transitionwipe-in);
+        --styled-transitionsquare-top-left-out: inset(0 100% 100% 0);
+        --styled-transitionsquare-top-right-out: inset(0 0 100% 100%);
+        --styled-transitionsquare-bottom-left-out: inset(100% 100% 0 0);
+        --styled-transitionsquare-bottom-right-out: inset(100% 0 0 100%);
+        --styled-transitiondiamond-center-in: polygon(-50% 50%, 50% -50%, 150% 50%, 50% 150%);
+        --styled-transitiondiamond-center-out: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+        --styled-transitiondiamond-hesitate: polygon(45% 50%, 50% 25%, 55% 50%, 50% 75%);
+        --styled-transitionopposing-corners-in: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+        --styled-transitionopposing-corners-out: polygon(0 0, 50% 50%, 100% 100%, 50% 50%);
+      }
+@media (prefers-reduced-motion: reduce), print {
+        .styled-transition {
+          animation-duration: 1ms !important;
+          transition-duration: 1ms !important;
+          animation-iteration-count: 1 !important;
+        }
+      }"
+`;
+
+exports[`preset-animate options > disable injectMediaQuery 1`] = `
+"/* layer: preflights */
+:root {
+        --st-circle-center-center-out: circle(0%);
+        --st-circle-center-center-in: circle(125%);
+        --st-circle-hesitate: circle(40%);
+        --st-circle-top-left-out: circle(0% at top left);
+        --st-circle-top-right-out: circle(0% at top right);
+        --st-circle-bottom-right-out: circle(0% at bottom right);
+        --st-circle-bottom-left-out: circle(0% at bottom left);
+        --st-circle-top-left-in: circle(150% at top left);
+        --st-circle-top-right-in: circle(150% at top right);
+        --st-circle-bottom-right-in: circle(150% at bottom right);
+        --st-circle-bottom-left-in: circle(150% at bottom left);
+        --st-wipe-in: inset(0 0 0 0);
+        --st-wipe-bottom: inset(100% 0 0 0);
+        --st-wipe-left: inset(0 100% 0 0);
+        --st-wipe-top: inset(0 0 100% 0);
+        --st-wipe-right: inset(0 0 0 100%);
+        --st-wipe-top-left-in: polygon(50% -50%, 150% 50%, 50% 150%, -50% 50%);
+        --st-wipe-top-right-in: polygon(50% -50%, 150% 50%, 50% 150%, -50% 50%);
+        --st-wipe-bottom-left-in: polygon(50% -50%, 150% 50%, 50% 150%, -50% 50%);
+        --st-wipe-bottom-right-in: polygon(-50% 0%, 200% 0, 0 200%, 0 -50%);
+        --st-wipe-top-left-out: polygon(0 0, 0 0, 0 0, 0 50%);
+        --st-wipe-top-right-out: polygon(50% -50%, 150% 50%, 150% 50%, 50% -50%);
+        --st-wipe-bottom-left-out: polygon(-50% 50%, 50% 150%, 50% 150%, -50% 50%);
+        --st-wipe-bottom-right-out: polygon(150% 50%, 150% 50%, 50% 150%, 50% 150%);
+        --st-wipe-cinematic-out: inset(100% 0 100% 0);
+        --st-wipe-cinematic-mid: inset(10% 0 10% 0);
+        --st-square-hesitate: inset(33% 33% 33% 33%);
+        --st-square-out: inset(100% 100% 100% 100%);
+        --st-square-in: var(--st-wipe-in);
+        --st-square-top-left-out: inset(0 100% 100% 0);
+        --st-square-top-right-out: inset(0 0 100% 100%);
+        --st-square-bottom-left-out: inset(100% 100% 0 0);
+        --st-square-bottom-right-out: inset(100% 0 0 100%);
+        --st-diamond-center-in: polygon(-50% 50%, 50% -50%, 150% 50%, 50% 150%);
+        --st-diamond-center-out: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+        --st-diamond-hesitate: polygon(45% 50%, 50% 25%, 55% 50%, 50% 75%);
+        --st-opposing-corners-in: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+        --st-opposing-corners-out: polygon(0 0, 50% 50%, 100% 100%, 50% 50%);
+      }"
+`;
+
 exports[`transition selectors > transition circleInBottomLeft 1`] = `
 "/* layer: default */
-
-        .st-circle-in-bottom-left {
-          animation-name: stCircleInBottomLeft;
-          
-        }
-        
-
-        @keyframes stCircleInBottomLeft {
-          
+.st-circle-in-bottom-left { animation-name: stCircleInBottomLeft;  }
+@keyframes stCircleInBottomLeft { 
     0% {
       clip-path: var(--st-circle-center-center-out);
     }
     100% {
       clip-path: var(--st-circle-bottom-left-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleInBottomLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-circle-in-bottom-left {
-          animation-name: styledTransitionCircleInBottomLeft;
-          
-        }
-        
-
-        @keyframes styledTransitionCircleInBottomLeft {
-          
+.styled-transition-circle-in-bottom-left { animation-name: styledTransitionCircleInBottomLeft;  }
+@keyframes styledTransitionCircleInBottomLeft { 
     0% {
       clip-path: var(--styled-transition-circle-center-center-out);
     }
     100% {
       clip-path: var(--styled-transition-circle-bottom-left-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleInBottomRight 1`] = `
 "/* layer: default */
-
-        .st-circle-in-bottom-right {
-          animation-name: stCircleInBottomRight;
-          
-        }
-        
-
-        @keyframes stCircleInBottomRight {
-          
+.st-circle-in-bottom-right { animation-name: stCircleInBottomRight;  }
+@keyframes stCircleInBottomRight { 
     0% {
       clip-path: var(--st-circle-center-center-out);
     }
     100% {
       clip-path: var(--st-circle-bottom-right-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleInBottomRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-circle-in-bottom-right {
-          animation-name: styledTransitionCircleInBottomRight;
-          
-        }
-        
-
-        @keyframes styledTransitionCircleInBottomRight {
-          
+.styled-transition-circle-in-bottom-right { animation-name: styledTransitionCircleInBottomRight;  }
+@keyframes styledTransitionCircleInBottomRight { 
     0% {
       clip-path: var(--styled-transition-circle-center-center-out);
     }
     100% {
       clip-path: var(--styled-transition-circle-bottom-right-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleInCenter 1`] = `
 "/* layer: default */
-
-        .st-circle-in-center {
-          animation-name: stCircleInCenter;
-          
-        }
-        
-
-        @keyframes stCircleInCenter {
-          
+.st-circle-in-center { animation-name: stCircleInCenter;  }
+@keyframes stCircleInCenter { 
     0% {
       clip-path: var(--st-circle-center-center-out);
     }
     100% {
       clip-path: var(--st-circle-center-center-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleInCenter with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-circle-in-center {
-          animation-name: styledTransitionCircleInCenter;
-          
-        }
-        
-
-        @keyframes styledTransitionCircleInCenter {
-          
+.styled-transition-circle-in-center { animation-name: styledTransitionCircleInCenter;  }
+@keyframes styledTransitionCircleInCenter { 
     0% {
       clip-path: var(--styled-transition-circle-center-center-out);
     }
     100% {
       clip-path: var(--styled-transition-circle-center-center-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleInHesitate 1`] = `
 "/* layer: default */
-
-        .st-circle-in-hesitate {
-          animation-name: stCircleInHesitate;
-          
-        }
-        
-
-        @keyframes stCircleInHesitate {
-          
+.st-circle-in-hesitate { animation-name: stCircleInHesitate;  }
+@keyframes stCircleInHesitate { 
     0% {
       clip-path: var(--st-circle-center-center-out);
     }
@@ -152,22 +247,13 @@ exports[`transition selectors > transition circleInHesitate 1`] = `
     100% {
       clip-path: var(--st-circle-center-center-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleInHesitate with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-circle-in-hesitate {
-          animation-name: styledTransitionCircleInHesitate;
-          
-        }
-        
-
-        @keyframes styledTransitionCircleInHesitate {
-          
+.styled-transition-circle-in-hesitate { animation-name: styledTransitionCircleInHesitate;  }
+@keyframes styledTransitionCircleInHesitate { 
     0% {
       clip-path: var(--styled-transition-circle-center-center-out);
     }
@@ -177,250 +263,151 @@ exports[`transition selectors > transition circleInHesitate with prefix 1`] = `
     100% {
       clip-path: var(--styled-transition-circle-center-center-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleInTopLeft 1`] = `
 "/* layer: default */
-
-        .st-circle-in-top-left {
-          animation-name: stCircleInTopLeft;
-          
-        }
-        
-
-        @keyframes stCircleInTopLeft {
-          
+.st-circle-in-top-left { animation-name: stCircleInTopLeft;  }
+@keyframes stCircleInTopLeft { 
     0% {
       clip-path: var(--st-circle-center-center-out);
     }
     100% {
       clip-path: var(--st-circle-top-left-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleInTopLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-circle-in-top-left {
-          animation-name: styledTransitionCircleInTopLeft;
-          
-        }
-        
-
-        @keyframes styledTransitionCircleInTopLeft {
-          
+.styled-transition-circle-in-top-left { animation-name: styledTransitionCircleInTopLeft;  }
+@keyframes styledTransitionCircleInTopLeft { 
     0% {
       clip-path: var(--styled-transition-circle-center-center-out);
     }
     100% {
       clip-path: var(--styled-transition-circle-top-left-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleInTopRight 1`] = `
 "/* layer: default */
-
-        .st-circle-in-top-right {
-          animation-name: stCircleInTopRight;
-          
-        }
-        
-
-        @keyframes stCircleInTopRight {
-          
+.st-circle-in-top-right { animation-name: stCircleInTopRight;  }
+@keyframes stCircleInTopRight { 
     0% {
       clip-path: var(--st-circle-center-center-out);
     }
     100% {
       clip-path: var(--st-circle-top-right-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleInTopRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-circle-in-top-right {
-          animation-name: styledTransitionCircleInTopRight;
-          
-        }
-        
-
-        @keyframes styledTransitionCircleInTopRight {
-          
+.styled-transition-circle-in-top-right { animation-name: styledTransitionCircleInTopRight;  }
+@keyframes styledTransitionCircleInTopRight { 
     0% {
       clip-path: var(--styled-transition-circle-center-center-out);
     }
     100% {
       clip-path: var(--styled-transition-circle-top-right-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleOutBottomLeft 1`] = `
 "/* layer: default */
-
-        .st-circle-out-bottom-left {
-          animation-name: stCircleOutBottomLeft;
-          
+.st-circle-out-bottom-left { animation-name: stCircleOutBottomLeft; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stCircleOutBottomLeft {
-          
+   }
+@keyframes stCircleOutBottomLeft { 
     0% {
       clip-path: var(--st-circle-center-center-in);
     }
     100% {
       clip-path: var(--st-circle-bottom-left-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleOutBottomLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-circle-out-bottom-left {
-          animation-name: styledTransitionCircleOutBottomLeft;
-          
+.styled-transition-circle-out-bottom-left { animation-name: styledTransitionCircleOutBottomLeft; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionCircleOutBottomLeft {
-          
+   }
+@keyframes styledTransitionCircleOutBottomLeft { 
     0% {
       clip-path: var(--styled-transition-circle-center-center-in);
     }
     100% {
       clip-path: var(--styled-transition-circle-bottom-left-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleOutBottomRight 1`] = `
 "/* layer: default */
-
-        .st-circle-out-bottom-right {
-          animation-name: stCircleOutBottomRight;
-          
+.st-circle-out-bottom-right { animation-name: stCircleOutBottomRight; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stCircleOutBottomRight {
-          
+   }
+@keyframes stCircleOutBottomRight { 
     0% {
       clip-path: var(--st-circle-center-center-in);
     }
     100% {
       clip-path: var(--st-circle-bottom-right-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleOutBottomRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-circle-out-bottom-right {
-          animation-name: styledTransitionCircleOutBottomRight;
-          
+.styled-transition-circle-out-bottom-right { animation-name: styledTransitionCircleOutBottomRight; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionCircleOutBottomRight {
-          
+   }
+@keyframes styledTransitionCircleOutBottomRight { 
     0% {
       clip-path: var(--styled-transition-circle-center-center-in);
     }
     100% {
       clip-path: var(--styled-transition-circle-bottom-right-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleOutCenter 1`] = `
 "/* layer: default */
-
-        .st-circle-out-center {
-          animation-name: stCircleOutCenter;
-          
-        }
-        
-
-        @keyframes stCircleOutCenter {
-          
+.st-circle-out-center { animation-name: stCircleOutCenter;  }
+@keyframes stCircleOutCenter { 
     0% {
       clip-path: var(--st-circle-center-center-in);
     }
     100% {
       clip-path: var(--st-circle-center-center-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleOutCenter with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-circle-out-center {
-          animation-name: styledTransitionCircleOutCenter;
-          
-        }
-        
-
-        @keyframes styledTransitionCircleOutCenter {
-          
+.styled-transition-circle-out-center { animation-name: styledTransitionCircleOutCenter;  }
+@keyframes styledTransitionCircleOutCenter { 
     0% {
       clip-path: var(--styled-transition-circle-center-center-in);
     }
     100% {
       clip-path: var(--styled-transition-circle-center-center-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleOutHesitate 1`] = `
 "/* layer: default */
-
-        .st-circle-out-hesitate {
-          animation-name: stCircleOutHesitate;
-          
-        }
-        
-
-        @keyframes stCircleOutHesitate {
-          
+.st-circle-out-hesitate { animation-name: stCircleOutHesitate;  }
+@keyframes stCircleOutHesitate { 
     0% {
       clip-path: var(--st-circle-center-center-in);
     }
@@ -430,22 +417,13 @@ exports[`transition selectors > transition circleOutHesitate 1`] = `
     100% {
       clip-path: var(--st-circle-center-center-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleOutHesitate with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-circle-out-hesitate {
-          animation-name: styledTransitionCircleOutHesitate;
-          
-        }
-        
-
-        @keyframes styledTransitionCircleOutHesitate {
-          
+.styled-transition-circle-out-hesitate { animation-name: styledTransitionCircleOutHesitate;  }
+@keyframes styledTransitionCircleOutHesitate { 
     0% {
       clip-path: var(--styled-transition-circle-center-center-in);
     }
@@ -455,168 +433,105 @@ exports[`transition selectors > transition circleOutHesitate with prefix 1`] = `
     100% {
       clip-path: var(--styled-transition-circle-center-center-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleOutTopLeft 1`] = `
 "/* layer: default */
-
-        .st-circle-out-top-left {
-          animation-name: stCircleOutTopLeft;
-          
+.st-circle-out-top-left { animation-name: stCircleOutTopLeft; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stCircleOutTopLeft {
-          
+   }
+@keyframes stCircleOutTopLeft { 
     0% {
       clip-path: var(--st-circle-center-center-in);
     }
     100% {
       clip-path: var(--st-circle-top-left-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleOutTopLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-circle-out-top-left {
-          animation-name: styledTransitionCircleOutTopLeft;
-          
+.styled-transition-circle-out-top-left { animation-name: styledTransitionCircleOutTopLeft; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionCircleOutTopLeft {
-          
+   }
+@keyframes styledTransitionCircleOutTopLeft { 
     0% {
       clip-path: var(--styled-transition-circle-center-center-in);
     }
     100% {
       clip-path: var(--styled-transition-circle-top-left-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleOutTopRight 1`] = `
 "/* layer: default */
-
-        .st-circle-out-top-right {
-          animation-name: stCircleOutTopRight;
-          
+.st-circle-out-top-right { animation-name: stCircleOutTopRight; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stCircleOutTopRight {
-          
+   }
+@keyframes stCircleOutTopRight { 
     0% {
       clip-path: var(--st-circle-center-center-in);
     }
     100% {
       clip-path: var(--st-circle-top-right-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition circleOutTopRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-circle-out-top-right {
-          animation-name: styledTransitionCircleOutTopRight;
-          
+.styled-transition-circle-out-top-right { animation-name: styledTransitionCircleOutTopRight; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionCircleOutTopRight {
-          
+   }
+@keyframes styledTransitionCircleOutTopRight { 
     0% {
       clip-path: var(--styled-transition-circle-center-center-in);
     }
     100% {
       clip-path: var(--styled-transition-circle-top-right-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition diamondInCenter 1`] = `
 "/* layer: default */
-
-        .st-diamond-in-center {
-          animation-name: stDiamondInCenter;
-          
+.st-diamond-in-center { animation-name: stDiamondInCenter; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stDiamondInCenter {
-          
+   }
+@keyframes stDiamondInCenter { 
     0% {
       clip-path: var(--st-diamond-center-out);
     }
     100% {
       clip-path: var(--st-diamond-center-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition diamondInCenter with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-diamond-in-center {
-          animation-name: styledTransitionDiamondInCenter;
-          
+.styled-transition-diamond-in-center { animation-name: styledTransitionDiamondInCenter; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionDiamondInCenter {
-          
+   }
+@keyframes styledTransitionDiamondInCenter { 
     0% {
       clip-path: var(--styled-transition-diamond-center-out);
     }
     100% {
       clip-path: var(--styled-transition-diamond-center-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition diamondInDoubleScale 1`] = `
 "/* layer: default */
-
-        .st-diamond-in-double-scale {
-          animation-name: stDiamondInDoubleScale;
-          
+.st-diamond-in-double-scale { animation-name: stDiamondInDoubleScale; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stDiamondInDoubleScale {
-          
+   }
+@keyframes stDiamondInDoubleScale { 
     0% {
       clip-path: var(--st-diamond-center-out);
     }
@@ -626,24 +541,15 @@ exports[`transition selectors > transition diamondInDoubleScale 1`] = `
     100% {
       clip-path: var(--st-diamond-center-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition diamondInDoubleScale with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-diamond-in-double-scale {
-          animation-name: styledTransitionDiamondInDoubleScale;
-          
+.styled-transition-diamond-in-double-scale { animation-name: styledTransitionDiamondInDoubleScale; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionDiamondInDoubleScale {
-          
+   }
+@keyframes styledTransitionDiamondInDoubleScale { 
     0% {
       clip-path: var(--styled-transition-diamond-center-out);
     }
@@ -653,72 +559,45 @@ exports[`transition selectors > transition diamondInDoubleScale with prefix 1`] 
     100% {
       clip-path: var(--styled-transition-diamond-center-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition diamondOutCenter 1`] = `
 "/* layer: default */
-
-        .st-diamond-out-center {
-          animation-name: stDiamondOutCenter;
-          
+.st-diamond-out-center { animation-name: stDiamondOutCenter; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stDiamondOutCenter {
-          
+   }
+@keyframes stDiamondOutCenter { 
     0% {
       clip-path: var(--st-diamond-center-in);
     }
     100% {
       clip-path: var(--st-diamond-center-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition diamondOutCenter with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-diamond-out-center {
-          animation-name: styledTransitionDiamondOutCenter;
-          
+.styled-transition-diamond-out-center { animation-name: styledTransitionDiamondOutCenter; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionDiamondOutCenter {
-          
+   }
+@keyframes styledTransitionDiamondOutCenter { 
     0% {
       clip-path: var(--styled-transition-diamond-center-in);
     }
     100% {
       clip-path: var(--styled-transition-diamond-center-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition diamondOutDoubleScale 1`] = `
 "/* layer: default */
-
-        .st-diamond-out-double-scale {
-          animation-name: stDiamondOutDoubleScale;
-          
+.st-diamond-out-double-scale { animation-name: stDiamondOutDoubleScale; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stDiamondOutDoubleScale {
-          
+   }
+@keyframes stDiamondOutDoubleScale { 
     0% {
       clip-path: var(--st-diamond-center-in);
     }
@@ -728,24 +607,15 @@ exports[`transition selectors > transition diamondOutDoubleScale 1`] = `
     100% {
       clip-path: var(--st-diamond-center-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition diamondOutDoubleScale with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-diamond-out-double-scale {
-          animation-name: styledTransitionDiamondOutDoubleScale;
-          
+.styled-transition-diamond-out-double-scale { animation-name: styledTransitionDiamondOutDoubleScale; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionDiamondOutDoubleScale {
-          
+   }
+@keyframes styledTransitionDiamondOutDoubleScale { 
     0% {
       clip-path: var(--styled-transition-diamond-center-in);
     }
@@ -755,250 +625,151 @@ exports[`transition selectors > transition diamondOutDoubleScale with prefix 1`]
     100% {
       clip-path: var(--styled-transition-diamond-center-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition polygonInOpposingCorners 1`] = `
 "/* layer: default */
-
-        .st-polygon-in-opposing-corners {
-          animation-name: stPolygonInOpposingCorners;
-          
+.st-polygon-in-opposing-corners { animation-name: stPolygonInOpposingCorners; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stPolygonInOpposingCorners {
-          
+   }
+@keyframes stPolygonInOpposingCorners { 
     0% {
       clip-path: var(--st-opposing-corners-out);
     }
     100% {
       clip-path: var(--st-opposing-corners-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition polygonInOpposingCorners with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-polygon-in-opposing-corners {
-          animation-name: styledTransitionPolygonInOpposingCorners;
-          
+.styled-transition-polygon-in-opposing-corners { animation-name: styledTransitionPolygonInOpposingCorners; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionPolygonInOpposingCorners {
-          
+   }
+@keyframes styledTransitionPolygonInOpposingCorners { 
     0% {
       clip-path: var(--styled-transition-opposing-corners-out);
     }
     100% {
       clip-path: var(--styled-transition-opposing-corners-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition polygonOutOpposingCorners 1`] = `
 "/* layer: default */
-
-        .st-polygon-out-opposing-corners {
-          animation-name: stPolygonOutOpposingCorners;
-          
+.st-polygon-out-opposing-corners { animation-name: stPolygonOutOpposingCorners; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stPolygonOutOpposingCorners {
-          
+   }
+@keyframes stPolygonOutOpposingCorners { 
     0% {
       clip-path: var(--st-opposing-corners-in);
     }
     100% {
       clip-path: var(--st-opposing-corners-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition polygonOutOpposingCorners with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-polygon-out-opposing-corners {
-          animation-name: styledTransitionPolygonOutOpposingCorners;
-          
+.styled-transition-polygon-out-opposing-corners { animation-name: styledTransitionPolygonOutOpposingCorners; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionPolygonOutOpposingCorners {
-          
+   }
+@keyframes styledTransitionPolygonOutOpposingCorners { 
     0% {
       clip-path: var(--styled-transition-opposing-corners-in);
     }
     100% {
       clip-path: var(--styled-transition-opposing-corners-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareInBottomLeft 1`] = `
 "/* layer: default */
-
-        .st-square-in-bottom-left {
-          animation-name: stSquareInBottomLeft;
-          
-        }
-        
-
-        @keyframes stSquareInBottomLeft {
-          
+.st-square-in-bottom-left { animation-name: stSquareInBottomLeft;  }
+@keyframes stSquareInBottomLeft { 
     0% {
       clip-path: var(--st-square-top-right-out);
     }
     100% {
       clip-path: var(--st-square-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareInBottomLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-square-in-bottom-left {
-          animation-name: styledTransitionSquareInBottomLeft;
-          
-        }
-        
-
-        @keyframes styledTransitionSquareInBottomLeft {
-          
+.styled-transition-square-in-bottom-left { animation-name: styledTransitionSquareInBottomLeft;  }
+@keyframes styledTransitionSquareInBottomLeft { 
     0% {
       clip-path: var(--styled-transition-square-top-right-out);
     }
     100% {
       clip-path: var(--styled-transition-square-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareInBottomRight 1`] = `
 "/* layer: default */
-
-        .st-square-in-bottom-right {
-          animation-name: stSquareInBottomRight;
-          
-        }
-        
-
-        @keyframes stSquareInBottomRight {
-          
+.st-square-in-bottom-right { animation-name: stSquareInBottomRight;  }
+@keyframes stSquareInBottomRight { 
     0% {
       clip-path: var(--st-square-top-left-out);
     }
     100% {
       clip-path: var(--st-square-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareInBottomRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-square-in-bottom-right {
-          animation-name: styledTransitionSquareInBottomRight;
-          
-        }
-        
-
-        @keyframes styledTransitionSquareInBottomRight {
-          
+.styled-transition-square-in-bottom-right { animation-name: styledTransitionSquareInBottomRight;  }
+@keyframes styledTransitionSquareInBottomRight { 
     0% {
       clip-path: var(--styled-transition-square-top-left-out);
     }
     100% {
       clip-path: var(--styled-transition-square-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareInCenter 1`] = `
 "/* layer: default */
-
-        .st-square-in-center {
-          animation-name: stSquareInCenter;
-          
-        }
-        
-
-        @keyframes stSquareInCenter {
-          
+.st-square-in-center { animation-name: stSquareInCenter;  }
+@keyframes stSquareInCenter { 
     0% {
       clip-path: var(--st-square-out);
     }
     100% {
       clip-path: var(--st-square-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareInCenter with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-square-in-center {
-          animation-name: styledTransitionSquareInCenter;
-          
-        }
-        
-
-        @keyframes styledTransitionSquareInCenter {
-          
+.styled-transition-square-in-center { animation-name: styledTransitionSquareInCenter;  }
+@keyframes styledTransitionSquareInCenter { 
     0% {
       clip-path: var(--styled-transition-square-out);
     }
     100% {
       clip-path: var(--styled-transition-square-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareInHesitate 1`] = `
 "/* layer: default */
-
-        .st-square-in-hesitate {
-          animation-name: stSquareInHesitate;
-          
-        }
-        
-
-        @keyframes stSquareInHesitate {
-          
+.st-square-in-hesitate { animation-name: stSquareInHesitate;  }
+@keyframes stSquareInHesitate { 
     0% {
       clip-path: var(--st-square-out);
     }
@@ -1008,22 +779,13 @@ exports[`transition selectors > transition squareInHesitate 1`] = `
     100% {
       clip-path: var(--st-square-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareInHesitate with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-square-in-hesitate {
-          animation-name: styledTransitionSquareInHesitate;
-          
-        }
-        
-
-        @keyframes styledTransitionSquareInHesitate {
-          
+.styled-transition-square-in-hesitate { animation-name: styledTransitionSquareInHesitate;  }
+@keyframes styledTransitionSquareInHesitate { 
     0% {
       clip-path: var(--styled-transition-square-out);
     }
@@ -1033,250 +795,151 @@ exports[`transition selectors > transition squareInHesitate with prefix 1`] = `
     100% {
       clip-path: var(--styled-transition-square-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareInTopLeft 1`] = `
 "/* layer: default */
-
-        .st-square-in-top-left {
-          animation-name: stSquareInTopLeft;
-          
-        }
-        
-
-        @keyframes stSquareInTopLeft {
-          
+.st-square-in-top-left { animation-name: stSquareInTopLeft;  }
+@keyframes stSquareInTopLeft { 
     0% {
       clip-path: var(--st-square-bottom-right-out);
     }
     100% {
       clip-path: var(--st-square-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareInTopLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-square-in-top-left {
-          animation-name: styledTransitionSquareInTopLeft;
-          
-        }
-        
-
-        @keyframes styledTransitionSquareInTopLeft {
-          
+.styled-transition-square-in-top-left { animation-name: styledTransitionSquareInTopLeft;  }
+@keyframes styledTransitionSquareInTopLeft { 
     0% {
       clip-path: var(--styled-transition-square-bottom-right-out);
     }
     100% {
       clip-path: var(--styled-transition-square-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareInTopRight 1`] = `
 "/* layer: default */
-
-        .st-square-in-top-right {
-          animation-name: stSquareInTopRight;
-          
-        }
-        
-
-        @keyframes stSquareInTopRight {
-          
+.st-square-in-top-right { animation-name: stSquareInTopRight;  }
+@keyframes stSquareInTopRight { 
     0% {
       clip-path: var(--st-square-bottom-left-out);
     }
     100% {
       clip-path: var(--st-square-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareInTopRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-square-in-top-right {
-          animation-name: styledTransitionSquareInTopRight;
-          
-        }
-        
-
-        @keyframes styledTransitionSquareInTopRight {
-          
+.styled-transition-square-in-top-right { animation-name: styledTransitionSquareInTopRight;  }
+@keyframes styledTransitionSquareInTopRight { 
     0% {
       clip-path: var(--styled-transition-square-bottom-left-out);
     }
     100% {
       clip-path: var(--styled-transition-square-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareOutBottomLeft 1`] = `
 "/* layer: default */
-
-        .st-square-out-bottom-left {
-          animation-name: stSquareOutBottomLeft;
-          
+.st-square-out-bottom-left { animation-name: stSquareOutBottomLeft; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stSquareOutBottomLeft {
-          
+   }
+@keyframes stSquareOutBottomLeft { 
     0% {
       clip-path: var(--st-square-in);
     }
     100% {
       clip-path: var(--st-square-bottom-left-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareOutBottomLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-square-out-bottom-left {
-          animation-name: styledTransitionSquareOutBottomLeft;
-          
+.styled-transition-square-out-bottom-left { animation-name: styledTransitionSquareOutBottomLeft; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionSquareOutBottomLeft {
-          
+   }
+@keyframes styledTransitionSquareOutBottomLeft { 
     0% {
       clip-path: var(--styled-transition-square-in);
     }
     100% {
       clip-path: var(--styled-transition-square-bottom-left-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareOutBottomRight 1`] = `
 "/* layer: default */
-
-        .st-square-out-bottom-right {
-          animation-name: stSquareOutBottomRight;
-          
+.st-square-out-bottom-right { animation-name: stSquareOutBottomRight; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stSquareOutBottomRight {
-          
+   }
+@keyframes stSquareOutBottomRight { 
     0% {
       clip-path: var(--st-square-in);
     }
     100% {
       clip-path: var(--st-square-bottom-right-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareOutBottomRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-square-out-bottom-right {
-          animation-name: styledTransitionSquareOutBottomRight;
-          
+.styled-transition-square-out-bottom-right { animation-name: styledTransitionSquareOutBottomRight; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionSquareOutBottomRight {
-          
+   }
+@keyframes styledTransitionSquareOutBottomRight { 
     0% {
       clip-path: var(--styled-transition-square-in);
     }
     100% {
       clip-path: var(--styled-transition-square-bottom-right-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareOutCenter 1`] = `
 "/* layer: default */
-
-        .st-square-out-center {
-          animation-name: stSquareOutCenter;
-          
-        }
-        
-
-        @keyframes stSquareOutCenter {
-          
+.st-square-out-center { animation-name: stSquareOutCenter;  }
+@keyframes stSquareOutCenter { 
     0% {
       clip-path: var(--st-square-in);
     }
     100% {
       clip-path: var(--st-square-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareOutCenter with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-square-out-center {
-          animation-name: styledTransitionSquareOutCenter;
-          
-        }
-        
-
-        @keyframes styledTransitionSquareOutCenter {
-          
+.styled-transition-square-out-center { animation-name: styledTransitionSquareOutCenter;  }
+@keyframes styledTransitionSquareOutCenter { 
     0% {
       clip-path: var(--styled-transition-square-in);
     }
     100% {
       clip-path: var(--styled-transition-square-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareOutHesitate 1`] = `
 "/* layer: default */
-
-        .st-square-out-hesitate {
-          animation-name: stSquareOutHesitate;
-          
-        }
-        
-
-        @keyframes stSquareOutHesitate {
-          
+.st-square-out-hesitate { animation-name: stSquareOutHesitate;  }
+@keyframes stSquareOutHesitate { 
     0% {
       clip-path: var(--st-square-in);
     }
@@ -1286,22 +949,13 @@ exports[`transition selectors > transition squareOutHesitate 1`] = `
     100% {
       clip-path: var(--st-square-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareOutHesitate with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-square-out-hesitate {
-          animation-name: styledTransitionSquareOutHesitate;
-          
-        }
-        
-
-        @keyframes styledTransitionSquareOutHesitate {
-          
+.styled-transition-square-out-hesitate { animation-name: styledTransitionSquareOutHesitate;  }
+@keyframes styledTransitionSquareOutHesitate { 
     0% {
       clip-path: var(--styled-transition-square-in);
     }
@@ -1311,118 +965,73 @@ exports[`transition selectors > transition squareOutHesitate with prefix 1`] = `
     100% {
       clip-path: var(--styled-transition-square-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareOutTopLeft 1`] = `
 "/* layer: default */
-
-        .st-square-out-top-left {
-          animation-name: stSquareOutTopLeft;
-          
+.st-square-out-top-left { animation-name: stSquareOutTopLeft; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stSquareOutTopLeft {
-          
+   }
+@keyframes stSquareOutTopLeft { 
     0% {
       clip-path: var(--st-square-in);
     }
     100% {
       clip-path: var(--st-square-top-left-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareOutTopLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-square-out-top-left {
-          animation-name: styledTransitionSquareOutTopLeft;
-          
+.styled-transition-square-out-top-left { animation-name: styledTransitionSquareOutTopLeft; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionSquareOutTopLeft {
-          
+   }
+@keyframes styledTransitionSquareOutTopLeft { 
     0% {
       clip-path: var(--styled-transition-square-in);
     }
     100% {
       clip-path: var(--styled-transition-square-top-left-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareOutTopRight 1`] = `
 "/* layer: default */
-
-        .st-square-out-top-right {
-          animation-name: stSquareOutTopRight;
-          
+.st-square-out-top-right { animation-name: stSquareOutTopRight; 
     --st-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes stSquareOutTopRight {
-          
+   }
+@keyframes stSquareOutTopRight { 
     0% {
       clip-path: var(--st-square-in);
     }
     100% {
       clip-path: var(--st-square-top-right-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition squareOutTopRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-square-out-top-right {
-          animation-name: styledTransitionSquareOutTopRight;
-          
+.styled-transition-square-out-top-right { animation-name: styledTransitionSquareOutTopRight; 
     --styled-transition-transition-duration: 1.5s;
-  
-        }
-        
-
-        @keyframes styledTransitionSquareOutTopRight {
-          
+   }
+@keyframes styledTransitionSquareOutTopRight { 
     0% {
       clip-path: var(--styled-transition-square-in);
     }
     100% {
       clip-path: var(--styled-transition-square-top-right-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeCinematicIn 1`] = `
 "/* layer: default */
-
-        .st-wipe-cinematic-in {
-          animation-name: stWipeCinematicIn;
-          
-        }
-        
-
-        @keyframes stWipeCinematicIn {
-          
+.st-wipe-cinematic-in { animation-name: stWipeCinematicIn;  }
+@keyframes stWipeCinematicIn { 
     0% {
       clip-path: var(--st-wipe-cinematic-out);
     }
@@ -1433,22 +1042,13 @@ exports[`transition selectors > transition wipeCinematicIn 1`] = `
     100% {
       clip-path: var(--st-wipe-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeCinematicIn with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-cinematic-in {
-          animation-name: styledTransitionWipeCinematicIn;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeCinematicIn {
-          
+.styled-transition-wipe-cinematic-in { animation-name: styledTransitionWipeCinematicIn;  }
+@keyframes styledTransitionWipeCinematicIn { 
     0% {
       clip-path: var(--styled-transition-wipe-cinematic-out);
     }
@@ -1459,22 +1059,13 @@ exports[`transition selectors > transition wipeCinematicIn with prefix 1`] = `
     100% {
       clip-path: var(--styled-transition-wipe-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeCinematicOut 1`] = `
 "/* layer: default */
-
-        .st-wipe-cinematic-out {
-          animation-name: stWipeCinematicOut;
-          
-        }
-        
-
-        @keyframes stWipeCinematicOut {
-          
+.st-wipe-cinematic-out { animation-name: stWipeCinematicOut;  }
+@keyframes stWipeCinematicOut { 
     0% {
       clip-path: var(--st-wipe-in);
     }
@@ -1485,22 +1076,13 @@ exports[`transition selectors > transition wipeCinematicOut 1`] = `
     100% {
       clip-path: var(--st-wipe-cinematic-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeCinematicOut with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-cinematic-out {
-          animation-name: styledTransitionWipeCinematicOut;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeCinematicOut {
-          
+.styled-transition-wipe-cinematic-out { animation-name: styledTransitionWipeCinematicOut;  }
+@keyframes styledTransitionWipeCinematicOut { 
     0% {
       clip-path: var(--styled-transition-wipe-in);
     }
@@ -1511,711 +1093,421 @@ exports[`transition selectors > transition wipeCinematicOut with prefix 1`] = `
     100% {
       clip-path: var(--styled-transition-wipe-cinematic-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInBottom 1`] = `
 "/* layer: default */
-
-        .st-wipe-in-bottom {
-          animation-name: stWipeInBottom;
-          
-        }
-        
-
-        @keyframes stWipeInBottom {
-          
+.st-wipe-in-bottom { animation-name: stWipeInBottom;  }
+@keyframes stWipeInBottom { 
     0% {
       clip-path: var(--st-wipe-bottom);
     }
     100% {
       clip-path: var(--st-wipe-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInBottom with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-in-bottom {
-          animation-name: styledTransitionWipeInBottom;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeInBottom {
-          
+.styled-transition-wipe-in-bottom { animation-name: styledTransitionWipeInBottom;  }
+@keyframes styledTransitionWipeInBottom { 
     0% {
       clip-path: var(--styled-transition-wipe-bottom);
     }
     100% {
       clip-path: var(--styled-transition-wipe-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInBottomLeft 1`] = `
 "/* layer: default */
-
-        .st-wipe-in-bottom-left {
-          animation-name: stWipeInBottomLeft;
-          
-        }
-        
-
-        @keyframes stWipeInBottomLeft {
-          
+.st-wipe-in-bottom-left { animation-name: stWipeInBottomLeft;  }
+@keyframes stWipeInBottomLeft { 
     0% {
       clip-path: var(--st-wipe-top-right-out);
     }
     100% {
       clip-path: var(--st-wipe-bottom-left-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInBottomLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-in-bottom-left {
-          animation-name: styledTransitionWipeInBottomLeft;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeInBottomLeft {
-          
+.styled-transition-wipe-in-bottom-left { animation-name: styledTransitionWipeInBottomLeft;  }
+@keyframes styledTransitionWipeInBottomLeft { 
     0% {
       clip-path: var(--styled-transition-wipe-top-right-out);
     }
     100% {
       clip-path: var(--styled-transition-wipe-bottom-left-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInBottomRight 1`] = `
 "/* layer: default */
-
-        .st-wipe-in-bottom-right {
-          animation-name: stWipeInBottomRight;
-          
-        }
-        
-
-        @keyframes stWipeInBottomRight {
-          
+.st-wipe-in-bottom-right { animation-name: stWipeInBottomRight;  }
+@keyframes stWipeInBottomRight { 
     0% {
       clip-path: var(--st-wipe-top-left-out);
     }
     100% {
       clip-path: var(--st-wipe-bottom-right-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInBottomRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-in-bottom-right {
-          animation-name: styledTransitionWipeInBottomRight;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeInBottomRight {
-          
+.styled-transition-wipe-in-bottom-right { animation-name: styledTransitionWipeInBottomRight;  }
+@keyframes styledTransitionWipeInBottomRight { 
     0% {
       clip-path: var(--styled-transition-wipe-top-left-out);
     }
     100% {
       clip-path: var(--styled-transition-wipe-bottom-right-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInLeft 1`] = `
 "/* layer: default */
-
-        .st-wipe-in-left {
-          animation-name: stWipeInLeft;
-          
-        }
-        
-
-        @keyframes stWipeInLeft {
-          
+.st-wipe-in-left { animation-name: stWipeInLeft;  }
+@keyframes stWipeInLeft { 
     0% {
       clip-path: var(--st-wipe-left);
     }
     100% {
       clip-path: var(--st-wipe-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-in-left {
-          animation-name: styledTransitionWipeInLeft;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeInLeft {
-          
+.styled-transition-wipe-in-left { animation-name: styledTransitionWipeInLeft;  }
+@keyframes styledTransitionWipeInLeft { 
     0% {
       clip-path: var(--styled-transition-wipe-left);
     }
     100% {
       clip-path: var(--styled-transition-wipe-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInRight 1`] = `
 "/* layer: default */
-
-        .st-wipe-in-right {
-          animation-name: stWipeInRight;
-          
-        }
-        
-
-        @keyframes stWipeInRight {
-          
+.st-wipe-in-right { animation-name: stWipeInRight;  }
+@keyframes stWipeInRight { 
     0% {
       clip-path: var(--st-wipe-right);
     }
     100% {
       clip-path: var(--st-wipe-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-in-right {
-          animation-name: styledTransitionWipeInRight;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeInRight {
-          
+.styled-transition-wipe-in-right { animation-name: styledTransitionWipeInRight;  }
+@keyframes styledTransitionWipeInRight { 
     0% {
       clip-path: var(--styled-transition-wipe-right);
     }
     100% {
       clip-path: var(--styled-transition-wipe-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInTop 1`] = `
 "/* layer: default */
-
-        .st-wipe-in-top {
-          animation-name: stWipeInTop;
-          
-        }
-        
-
-        @keyframes stWipeInTop {
-          
+.st-wipe-in-top { animation-name: stWipeInTop;  }
+@keyframes stWipeInTop { 
     0% {
       clip-path: var(--st-wipe-top);
     }
     100% {
       clip-path: var(--st-wipe-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInTop with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-in-top {
-          animation-name: styledTransitionWipeInTop;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeInTop {
-          
+.styled-transition-wipe-in-top { animation-name: styledTransitionWipeInTop;  }
+@keyframes styledTransitionWipeInTop { 
     0% {
       clip-path: var(--styled-transition-wipe-top);
     }
     100% {
       clip-path: var(--styled-transition-wipe-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInTopLeft 1`] = `
 "/* layer: default */
-
-        .st-wipe-in-top-left {
-          animation-name: stWipeInTopLeft;
-          
-        }
-        
-
-        @keyframes stWipeInTopLeft {
-          
+.st-wipe-in-top-left { animation-name: stWipeInTopLeft;  }
+@keyframes stWipeInTopLeft { 
     0% {
       clip-path: var(--st-wipe-bottom-right-out);
     }
     100% {
       clip-path: var(--st-wipe-top-left-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInTopLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-in-top-left {
-          animation-name: styledTransitionWipeInTopLeft;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeInTopLeft {
-          
+.styled-transition-wipe-in-top-left { animation-name: styledTransitionWipeInTopLeft;  }
+@keyframes styledTransitionWipeInTopLeft { 
     0% {
       clip-path: var(--styled-transition-wipe-bottom-right-out);
     }
     100% {
       clip-path: var(--styled-transition-wipe-top-left-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInTopRight 1`] = `
 "/* layer: default */
-
-        .st-wipe-in-top-right {
-          animation-name: stWipeInTopRight;
-          
-        }
-        
-
-        @keyframes stWipeInTopRight {
-          
+.st-wipe-in-top-right { animation-name: stWipeInTopRight;  }
+@keyframes stWipeInTopRight { 
     0% {
       clip-path: var(--st-wipe-bottom-left-out);
     }
     100% {
       clip-path: var(--st-wipe-top-right-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeInTopRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-in-top-right {
-          animation-name: styledTransitionWipeInTopRight;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeInTopRight {
-          
+.styled-transition-wipe-in-top-right { animation-name: styledTransitionWipeInTopRight;  }
+@keyframes styledTransitionWipeInTopRight { 
     0% {
       clip-path: var(--styled-transition-wipe-bottom-left-out);
     }
     100% {
       clip-path: var(--styled-transition-wipe-top-right-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutBottom 1`] = `
 "/* layer: default */
-
-        .st-wipe-out-bottom {
-          animation-name: stWipeOutBottom;
-          
-        }
-        
-
-        @keyframes stWipeOutBottom {
-          
+.st-wipe-out-bottom { animation-name: stWipeOutBottom;  }
+@keyframes stWipeOutBottom { 
     0% {
       clip-path: var(--st-wipe-in);
     }
     100% {
       clip-path: var(--st-wipe-bottom);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutBottom with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-out-bottom {
-          animation-name: styledTransitionWipeOutBottom;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeOutBottom {
-          
+.styled-transition-wipe-out-bottom { animation-name: styledTransitionWipeOutBottom;  }
+@keyframes styledTransitionWipeOutBottom { 
     0% {
       clip-path: var(--styled-transition-wipe-in);
     }
     100% {
       clip-path: var(--styled-transition-wipe-bottom);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutBottomLeft 1`] = `
 "/* layer: default */
-
-        .st-wipe-out-bottom-left {
-          animation-name: stWipeOutBottomLeft;
-          
-        }
-        
-
-        @keyframes stWipeOutBottomLeft {
-          
+.st-wipe-out-bottom-left { animation-name: stWipeOutBottomLeft;  }
+@keyframes stWipeOutBottomLeft { 
     0% {
       clip-path: var(--st-wipe-top-right-in);
     }
     100% {
       clip-path: var(--st-wipe-bottom-left-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutBottomLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-out-bottom-left {
-          animation-name: styledTransitionWipeOutBottomLeft;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeOutBottomLeft {
-          
+.styled-transition-wipe-out-bottom-left { animation-name: styledTransitionWipeOutBottomLeft;  }
+@keyframes styledTransitionWipeOutBottomLeft { 
     0% {
       clip-path: var(--styled-transition-wipe-top-right-in);
     }
     100% {
       clip-path: var(--styled-transition-wipe-bottom-left-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutBottomRight 1`] = `
 "/* layer: default */
-
-        .st-wipe-out-bottom-right {
-          animation-name: stWipeOutBottomRight;
-          
-        }
-        
-
-        @keyframes stWipeOutBottomRight {
-          
+.st-wipe-out-bottom-right { animation-name: stWipeOutBottomRight;  }
+@keyframes stWipeOutBottomRight { 
     0% {
       clip-path: var(--st-wipe-top-left-in);
     }
     100% {
       clip-path: var(--st-wipe-bottom-right-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutBottomRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-out-bottom-right {
-          animation-name: styledTransitionWipeOutBottomRight;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeOutBottomRight {
-          
+.styled-transition-wipe-out-bottom-right { animation-name: styledTransitionWipeOutBottomRight;  }
+@keyframes styledTransitionWipeOutBottomRight { 
     0% {
       clip-path: var(--styled-transition-wipe-top-left-in);
     }
     100% {
       clip-path: var(--styled-transition-wipe-bottom-right-out);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutLeft 1`] = `
 "/* layer: default */
-
-        .st-wipe-out-left {
-          animation-name: stWipeOutLeft;
-          
-        }
-        
-
-        @keyframes stWipeOutLeft {
-          
+.st-wipe-out-left { animation-name: stWipeOutLeft;  }
+@keyframes stWipeOutLeft { 
     0% {
       clip-path: var(--st-wipe-in);
     }
     100% {
       clip-path: var(--st-wipe-left);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-out-left {
-          animation-name: styledTransitionWipeOutLeft;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeOutLeft {
-          
+.styled-transition-wipe-out-left { animation-name: styledTransitionWipeOutLeft;  }
+@keyframes styledTransitionWipeOutLeft { 
     0% {
       clip-path: var(--styled-transition-wipe-in);
     }
     100% {
       clip-path: var(--styled-transition-wipe-left);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutRight 1`] = `
 "/* layer: default */
-
-        .st-wipe-out-right {
-          animation-name: stWipeOutRight;
-          
-        }
-        
-
-        @keyframes stWipeOutRight {
-          
+.st-wipe-out-right { animation-name: stWipeOutRight;  }
+@keyframes stWipeOutRight { 
     0% {
       clip-path: var(--st-wipe-in);
     }
     100% {
       clip-path: var(--st-wipe-right);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-out-right {
-          animation-name: styledTransitionWipeOutRight;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeOutRight {
-          
+.styled-transition-wipe-out-right { animation-name: styledTransitionWipeOutRight;  }
+@keyframes styledTransitionWipeOutRight { 
     0% {
       clip-path: var(--styled-transition-wipe-in);
     }
     100% {
       clip-path: var(--styled-transition-wipe-right);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutTop 1`] = `
 "/* layer: default */
-
-        .st-wipe-out-top {
-          animation-name: stWipeOutTop;
-          
-        }
-        
-
-        @keyframes stWipeOutTop {
-          
+.st-wipe-out-top { animation-name: stWipeOutTop;  }
+@keyframes stWipeOutTop { 
     0% {
       clip-path: var(--st-wipe-in);
     }
     100% {
       clip-path: var(--st-wipe-top);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutTop with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-out-top {
-          animation-name: styledTransitionWipeOutTop;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeOutTop {
-          
+.styled-transition-wipe-out-top { animation-name: styledTransitionWipeOutTop;  }
+@keyframes styledTransitionWipeOutTop { 
     0% {
       clip-path: var(--styled-transition-wipe-in);
     }
     100% {
       clip-path: var(--styled-transition-wipe-top);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutTopLeft 1`] = `
 "/* layer: default */
-
-        .st-wipe-out-top-left {
-          animation-name: stWipeOutTopLeft;
-          
-        }
-        
-
-        @keyframes stWipeOutTopLeft {
-          
+.st-wipe-out-top-left { animation-name: stWipeOutTopLeft;  }
+@keyframes stWipeOutTopLeft { 
     0% {
       clip-path: var(--st-wipe-top-right-out);
     }
     100% {
       clip-path: var(--st-wipe-bottom-left-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutTopLeft with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-out-top-left {
-          animation-name: styledTransitionWipeOutTopLeft;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeOutTopLeft {
-          
+.styled-transition-wipe-out-top-left { animation-name: styledTransitionWipeOutTopLeft;  }
+@keyframes styledTransitionWipeOutTopLeft { 
     0% {
       clip-path: var(--styled-transition-wipe-top-right-out);
     }
     100% {
       clip-path: var(--styled-transition-wipe-bottom-left-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutTopRight 1`] = `
 "/* layer: default */
-
-        .st-wipe-out-top-right {
-          animation-name: stWipeOutTopRight;
-          
-        }
-        
-
-        @keyframes stWipeOutTopRight {
-          
+.st-wipe-out-top-right { animation-name: stWipeOutTopRight;  }
+@keyframes stWipeOutTopRight { 
     0% {
       clip-path: var(--st-wipe-top-left-out);
     }
     100% {
       clip-path: var(--st-wipe-bottom-right-in);
     }
-  
-        }
-        "
+   }"
 `;
 
 exports[`transition selectors > transition wipeOutTopRight with prefix 1`] = `
 "/* layer: default */
-
-        .styled-transition-wipe-out-top-right {
-          animation-name: styledTransitionWipeOutTopRight;
-          
-        }
-        
-
-        @keyframes styledTransitionWipeOutTopRight {
-          
+.styled-transition-wipe-out-top-right { animation-name: styledTransitionWipeOutTopRight;  }
+@keyframes styledTransitionWipeOutTopRight { 
     0% {
       clip-path: var(--styled-transition-wipe-top-left-out);
     }
     100% {
       clip-path: var(--styled-transition-wipe-bottom-right-in);
     }
-  
-        }
-        "
+   }"
 `;

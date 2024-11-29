@@ -4,11 +4,11 @@
   "version": "0.3.0",
   "description": "unocss preset for easing transition cubic-bezier function",
   "keywords": [
+    "cubic-bezier",
+    "transition",
     "unocss",
     "unocss-preset",
-    "unocss-preset-easing",
-    "transition",
-    "cubic-bezier"
+    "unocss-preset-easing"
   ],
   "license": "MIT",
   "author": {

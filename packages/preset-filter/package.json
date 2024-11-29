@@ -4,10 +4,10 @@
   "version": "0.3.0",
   "description": "unocss preset for pure CSS filters",
   "keywords": [
+    "filter",
     "unocss",
     "unocss-preset",
-    "unocss-preset-filter",
-    "filter"
+    "unocss-preset-filter"
   ],
   "license": "MIT",
   "author": {

@@ -4,10 +4,10 @@
   "version": "0.2.0",
   "description": "unocss preset for transition.css",
   "keywords": [
+    "transition.css",
     "unocss",
     "unocss-preset",
-    "unocss-preset-transition",
-    "transition.css"
+    "unocss-preset-transition"
   ],
   "license": "MIT",
   "author": {
