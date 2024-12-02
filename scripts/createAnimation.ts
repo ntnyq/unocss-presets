@@ -2,9 +2,10 @@ import { writeFile } from 'node:fs/promises'
 import { relative } from 'node:path'
 import process from 'node:process'
 import { consola } from 'consola'
-import pc from 'picocolors'
+import { getColor } from 'consola/utils'
 import { exists, resolve } from './utils'
 
+const cyan = getColor('cyan')
 const ROOT = process.cwd()
 
 async function main() {
@@ -27,12 +28,12 @@ export const ${animationName}: Animation = {
 }`
 
   if (await exists(filePath)) {
-    return consola.warn(`${pc.cyan(relativePath)} already exists`)
+    return consola.warn(`${cyan(relativePath)} already exists`)
   }
 
   await writeFile(filePath, fileContent, 'utf8')
 
-  consola.success(`${pc.cyan(relativePath)} created successfully`)
+  consola.success(`${cyan(relativePath)} created successfully`)
 }
 
 await main()
