@@ -1,5 +1,11 @@
 # unocss-preset-easing
 
+## 0.3.1
+
+### Patch Changes
+
+- [`e0d1742`](https://github.com/ntnyq/unocss-presets/commit/e0d1742a7a9567e6cecb194129ee0e7cff4fa31e) Thanks [@ntnyq](https://github.com/ntnyq)! - docs: add link to unocss playground
+
 ## 0.3.0
 
 ### Minor Changes
