@@ -1,9 +1,13 @@
 # unocss-preset-transition
 
-> Unocss preset ships [transition.css](https://github.com/argyleink/transition.css).
-
 [![NPM VERSION](https://img.shields.io/npm/v/unocss-preset-transition.svg)](https://www.npmjs.com/package/unocss-preset-transition)
 [![NPM DOWNLOADS](https://img.shields.io/npm/dy/unocss-preset-transition.svg)](https://www.npmjs.com/package/unocss-preset-transition)
+
+> Unocss preset ships [transition.css](https://github.com/argyleink/transition.css).
+
+## Online demo
+
+[Try it online](https://unocss.dev/play/#html=DwWwhglgdgBAxgGzAZ2QXgEQAsC0y4BOApkbAGYJEAeMAVgK7IAuEZAnjnKU0QTBDxDJO3XhgB8AKBgxgAEwgA3eElSYA7jgBMABh0AHGrl0GaAIwDmOYnJjM2lOTiYEwUZAIgB7WM04QCRCIcaBwzLyYmLxAcSjImCWAAegVFKWTwaHEgA&config=JYWwDg9gTgLgBAbwFBzgEwKYDNgDsMDCEuOA5gDQpxhQYDOGMAqrhJQL5xZQQhwDkAV1YBjOnX5JQkWImq0GMACpQAhrjrAYwYnE7deA4RDF0AtDXqMzMNRq07ckpBgAeM%2BJiyrBAG0-YeITEZAAUyKiWinQAXHAA2lSRCowsEKEAlJSoyVbKdpraxJnZcAC6HBlIQA&css=PQKgBA6gTglgLgUzAYwK4Gc4HsC2YDCAyoWABYJQIA0YAhgHYAmYcUD6AZllDhWOqgAOg7nAB0YAGLcwCAB60cggDYIAXGBDAAUKDBi0mXGADe2sGC704AWgDuCGAHNScDQFYADJ4Dc5sAACtMLKAJ5gggCMLPK2ABR2pPBIcsoAlH4WAEa0yADWTlBYqEw2yFjK3Bpw5LxxAOTllVDoYpSMYgAs3vUZ2gC%2BmsBAA&options=N4XyA)
 
 ## Install
 

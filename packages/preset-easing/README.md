@@ -1,9 +1,9 @@
 # unocss-preset-easing
 
-> Unocss preset for easing transition cubic-bezier function.
-
 [![NPM VERSION](https://img.shields.io/npm/v/unocss-preset-easing.svg)](https://www.npmjs.com/package/unocss-preset-easing)
 [![NPM DOWNLOADS](https://img.shields.io/npm/dy/unocss-preset-easing.svg)](https://www.npmjs.com/package/unocss-preset-easing)
+
+> Unocss preset for easing transition cubic-bezier function.
 
 ## Install
 

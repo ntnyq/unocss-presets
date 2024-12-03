@@ -1,9 +1,13 @@
 # unocss-preset-animate
 
-> Unocss preset ships [animate.css](https://github.com/animate-css/animate.css).
-
 [![NPM VERSION](https://img.shields.io/npm/v/unocss-preset-animate.svg)](https://www.npmjs.com/package/unocss-preset-animate)
 [![NPM DOWNLOADS](https://img.shields.io/npm/dy/unocss-preset-animate.svg)](https://www.npmjs.com/package/unocss-preset-animate)
+
+> Unocss preset ships [animate.css](https://github.com/animate-css/animate.css).
+
+## Online demo
+
+[Try it online](https://unocss.dev/play/#html=DwWwhglgdgBAxgGzAZ2QXgEQAsC0y4BOApkbAGYJEAeMAVgK7IAuEZAnjnKU0QTBDxDJO3XhgB8AKBgxgAEwgA3eElSYA7jgBMABh0AHGrl0GaAIwDmOYnJhgoEcD1v3HYHjmhlo7onYdOEAD2UDhmQfRQXBLAAPQKilJx4NDiQA&config=JYWwDg9gTgLgBAbwFBzgEwKYDNgDsMDCEuOA5gDQpxhQYDOGMAqrhJQL5xZQQhwDkAV1YBjOnX5JQkWImq0GMAIK5QAQxgY4nbrwHCIYugFoa9RsbWqQGjJKQYAHjPiYsawQBtX2PIWJkABTIqGaKdABccADaVKEKjCwQgQCUlKjx5srWtqnpcAC6HClIQA&css=PQKgBA6gTglgLgUzAYwK4Gc4HsC2YDCAyoWABYJQIA0YAhgHYAmYcUD6AZllDhWOqgAOg7nAB0YAGLcwCAB60cggDYIAXGBDAAUKDBi0mXGADe2sGC704AWgDuCGAHNScDQFYADJ4Dc5sAACtMLKAJ5gggCMLPK2ABR2pPBIcsoAlH4WAEa0yADWTlBYqEw2yFjK3Bpw5LxxAOTllVDoYpSMYgAs3vUZ2gC%2BmsBAA&options=N4XyA)
 
 ## Install
 

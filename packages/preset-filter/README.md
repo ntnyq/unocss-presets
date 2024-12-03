@@ -1,9 +1,13 @@
 # unocss-preset-filter
 
-> Unocss preset for pure CSS filters from [instagram.css](https://github.com/picturepan2/instagram.css).
-
 [![NPM VERSION](https://img.shields.io/npm/v/unocss-preset-filter.svg)](https://www.npmjs.com/package/unocss-preset-filter)
 [![NPM DOWNLOADS](https://img.shields.io/npm/dy/unocss-preset-filter.svg)](https://www.npmjs.com/package/unocss-preset-filter)
+
+> Unocss preset for pure CSS filters from [instagram.css](https://github.com/picturepan2/instagram.css).
+
+## Online demo
+
+[Try it online](https://unocss.dev/play/#html=DwWwhglgdgBAxgGzAZ2QXgEQAsC0y4BOApkbAGYJEAeMAVgK7IAuEZAnjnKU0QTBDxDJO3XhgB8AKBgxgEEAHMY0mTGQE4mLEyYAHZAC4A9EfpQA9nFQ5dxZESbIAdFCZQ2ARydxzII-LAFImQjKmgFJnMoBSddaIxlVXgkVEwAdxwAJgAGbN0aACMESwBrGDIIBB4CHDAAE1IElSMpYCNwaHEgA&config=JYWwDg9gTgLgBAbwFBzgEwKYDNgDsMDCEuOA5gDQpxhQYDOGMAqrhJQL5xZQQhwDkAV1YBjOnX5JQkWImq0GMAGLAANjAxQ4nbrwHCIYugFoa9RsZzrNkpBgAeM%2BJiwBDQevTY8hYmQAUyKhminQAXHAA2lTBCowsEP4AlJSosebKahpQyalwALocSUhAA&css=PQKgBA6gTglgLgUzAYwK4Gc4HsC2YDCAyoWABYJQIA0YAhgHYAmYcUD6AZllDhWOqgAOg7nAB0YAGLcwCAB60cggDYIAXGBDAAUKDBi0mXGADe2sGC704AWgDuCGAHNScDQFYADJ4Dc5sAACtMLKAJ5gggCMLPK2ABR2pPBIcsoAlH4WAEa0yADWTlBYqEw2yFjK3Bpw5LxxAOTllVDoYpSMYgAs3vUZ2gC%2BmsBAA&options=N4XyA)
 
 ## Install
 
