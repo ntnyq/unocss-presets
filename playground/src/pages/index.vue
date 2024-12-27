@@ -19,6 +19,12 @@ const presets = [
     description: 'UnoCSS preset for pure CSS filters.',
   },
   {
+    name: 'unocss-preset-shape',
+    link: '/shape',
+    icon: 'i-fluent-emoji-flat:star',
+    description: 'UnoCSS preset for CSS shapes.',
+  },
+  {
     name: 'unocss-preset-transition',
     link: '/transition',
     icon: 'i-fluent-emoji-flat:hourglass-done',

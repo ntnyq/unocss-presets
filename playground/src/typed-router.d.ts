@@ -22,6 +22,7 @@ declare module 'vue-router/auto-routes' {
     '/animate': RouteRecordInfo<'/animate', '/animate', Record<never, never>, Record<never, never>>,
     '/easing': RouteRecordInfo<'/easing', '/easing', Record<never, never>, Record<never, never>>,
     '/filter': RouteRecordInfo<'/filter', '/filter', Record<never, never>, Record<never, never>>,
+    '/shape': RouteRecordInfo<'/shape', '/shape', Record<never, never>, Record<never, never>>,
     '/transition': RouteRecordInfo<'/transition', '/transition', Record<never, never>, Record<never, never>>,
   }
 }

@@ -1,0 +1,54 @@
+{
+  "name": "unocss-preset-shape",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "unocss preset for CSS shapes",
+  "keywords": [
+    "filter",
+    "unocss",
+    "unocss-preset",
+    "unocss-preset-shape"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "ntnyq",
+    "email": "ntnyq13@gmail.com"
+  },
+  "homepage": "https://github.com/ntnyq/unocss-presets/tree/main/packages/preset-shape#readme",
+  "repository": {
+    "type": "github",
+    "url": "ntnyq/unocss-presets",
+    "directory": "packages/preset-shape"
+  },
+  "bugs": {
+    "url": "https://github.com/ntnyq/unocss-presets/issues"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub"
+  },
+  "dependencies": {
+    "@ntnyq/utils": "catalog:",
+    "@unocss/core": "catalog:"
+  }
+}

@@ -8,6 +8,7 @@ import {
 import { presetAnimate } from 'unocss-preset-animate'
 import { presetEasing } from 'unocss-preset-easing'
 import { presetFilter } from 'unocss-preset-filter'
+import { presetShape } from 'unocss-preset-shape'
 import { presetTransition } from 'unocss-preset-transition'
 
 export default defineConfig({
@@ -35,6 +36,7 @@ export default defineConfig({
         },
       ],
     }),
+    presetShape(),
     presetEasing(),
     presetFilter(),
     presetTransition(),
