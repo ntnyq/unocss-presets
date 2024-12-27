@@ -23,6 +23,7 @@
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
     "unocss-preset-filter": "workspace:*",
+    "unocss-preset-shape": "workspace:*",
     "unocss-preset-transition": "workspace:*",
     "unplugin-vue-router": "^0.10.9",
     "vite": "^6.0.6"

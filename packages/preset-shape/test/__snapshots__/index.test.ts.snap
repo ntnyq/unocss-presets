@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`custom prefix > should match snapshot 1`] = `
+"/* layer: preflights */
+:root {
+--s-star-clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%);
+--s-triangle-clip-path: polygon(50% 0,100% 100%,0 100%);
+--s-rhombus-clip-path: polygon(50% 0,100% 50%,50% 100%,0 50%);
+}
+/* layer: default */
+.s-star-100px{width:100px;aspect-ratio:1;clip-path:var(--s-star-clip-path);}
+.s-triangle-100px{width:100px;aspect-ratio:1/cos(30deg);clip-path:var(--s-triangle-clip-path);}
+.s-rhombus-100px{height:100px;aspect-ratio:1;clip-path:var(--s-rhombus-clip-path);}"
+`;
+
+exports[`default > should match snapshot 1`] = `
+"/* layer: preflights */
+:root {
+--shape-star-clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%);
+--shape-triangle-clip-path: polygon(50% 0,100% 100%,0 100%);
+--shape-rhombus-clip-path: polygon(50% 0,100% 50%,50% 100%,0 50%);
+}
+/* layer: default */
+.shape-star-100px{width:100px;aspect-ratio:1;clip-path:var(--shape-star-clip-path);}
+.shape-triangle-100px{width:100px;aspect-ratio:1/cos(30deg);clip-path:var(--shape-triangle-clip-path);}
+.shape-rhombus-100px{height:100px;aspect-ratio:1;clip-path:var(--shape-rhombus-clip-path);}"
+`;
