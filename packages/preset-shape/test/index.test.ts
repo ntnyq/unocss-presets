@@ -2,7 +2,15 @@ import { createGenerator } from '@unocss/core'
 import { describe, expect, it } from 'vitest'
 import { presetShape } from '../src'
 
-const shapes = ['star-100px', 'triangle-100px', 'rhombus-100px']
+const shapes = [
+  'star-100px',
+  'triangle-100px',
+  'rhombus-100px',
+  'hexagon-100px',
+  'octagon-100px',
+  'heart-100px',
+  'parallelogram-100px',
+]
 
 describe('default', () => {
   it('should match snapshot', async () => {

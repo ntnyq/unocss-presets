@@ -7,7 +7,7 @@
 
 ## Online demo
 
-[Try it online](https://unocss.dev/play/)
+[Try it online](https://unocss.dev/play/#html=DwWwhglgdgBAxgGzAZ2QXgEQAsC0y4BOApkbAGYJEAeMAVgK7IAuEZAnjnKU0QTBDxDJO3XhgB8AKBgxgAEwgA3eElSZkWMAAcieJmAI4ATAAYTWmgCMA5jjZEECAPYB3CcAD0CxVM-ho4kA&config=JYWwDg9gTgLgBAbwFBzgEwKYDNgDsMDCEuOA5gDQpxhQYDOGMAqrhJQL5xZQQhwDkAV1YBjOnX5JQkWImq0GMAMoALAIZgMcTt14DhEMXQC0Neo2N11myUgwAPGfExY1ggDbPseQsTIAKZFQzRToALjgAbSpghUYWCH8ASkpUWPNlawxk1LgAXQ4kpCA&css=PQKgBA6gTglgLgUzAYwK4Gc4HsC2YDCAyoWABYJQIA0YAhgHYAmYcUD6AZllDhWOqgAOg7nAB0YAGLcwCAB60cggDYIAXGBDAAUKDBi0mXGADe2sGC704AWgDuCGAHNScDQFYADJ4Dc5sAACtMLKAJ5gggCMLPK2ABR2pPBIcsoAlH4WAEa0yADWTlBYqEw2yFjK3Bpw5LxxAOTllVDoYpSMYgAs3vUZ2gC%2BmsBAA&options=N4XyA)
 
 ## Install
 
@@ -60,6 +60,10 @@ export interface PresetShapeOptions {
 - star
 - triangle
 - rhombus
+- hexagon
+- octagon
+- heart
+- parallelogram
 
 ## Credits
 

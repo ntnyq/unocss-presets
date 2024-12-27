@@ -17,6 +17,22 @@ const shapes: Array<{ shape: string; extra: string }> = [
     shape: 'shape-rhombus-200px',
     extra: 'bg-blue',
   },
+  {
+    shape: 'shape-hexagon-200px',
+    extra: 'bg-indigo',
+  },
+  {
+    shape: 'shape-octagon-200px',
+    extra: 'bg-orange',
+  },
+  {
+    shape: 'shape-heart-200px',
+    extra: 'bg-gradient-to-r from-red-400 to-red-600',
+  },
+  {
+    shape: 'shape-parallelogram-200px',
+    extra: 'bg-black',
+  },
 ]
 
 const activeShape = ref(shapes[0])

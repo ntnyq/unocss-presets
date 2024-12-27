@@ -40,6 +40,56 @@ export const createShapeRules = (options: Required<PresetShapeOptions>) => {
         autocomplete: `${options.prefix}rhombus-$size`,
       },
     ],
+
+    [
+      new RegExp(`^${options.prefix}hexagon-?(.+)$`),
+      ([_, s]) => ({
+        height: s,
+        'aspect-ratio': '1/cos(30deg)',
+        'clip-path': cssVarUse('hexagon-clip-path'),
+      }),
+      {
+        autocomplete: `${options.prefix}hexagon-$size`,
+      },
+    ],
+
+    [
+      new RegExp(`^${options.prefix}octagon-?(.+)$`),
+      ([_, s]) => ({
+        width: s,
+        'aspect-ratio': 1,
+        'clip-path': cssVarUse('octagon-clip-path'),
+      }),
+      {
+        autocomplete: `${options.prefix}octagon-$size`,
+      },
+    ],
+
+    [
+      new RegExp(`^${options.prefix}heart-?(.+)$`),
+      ([_, s]) => ({
+        height: s,
+        'aspect-ratio': 1,
+        '-webkit-mask-box-image': cssVarUse('heart-gradient-mask'),
+        'mask-border': cssVarUse('heart-gradient-mask'),
+        'clip-path': cssVarUse('heart-clip-path'),
+      }),
+      {
+        autocomplete: `${options.prefix}heart-$size`,
+      },
+    ],
+
+    [
+      new RegExp(`^${options.prefix}parallelogram-?(.+)$`),
+      ([_, s]) => ({
+        height: s,
+        'aspect-ratio': '3/2',
+        'clip-path': cssVarUse('parallelogram-clip-path'),
+      }),
+      {
+        autocomplete: `${options.prefix}parallelogram-$size`,
+      },
+    ],
   ]
   return rules
 }
