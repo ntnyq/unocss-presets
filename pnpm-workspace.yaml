@@ -1,6 +1,8 @@
 catalog:
   '@ntnyq/utils': ^0.4.5
-  '@unocss/core': ^65.4.3
+  unocss: &unocss ^65.4.3
+  '@unocss/core': *unocss
+  '@unocss/reset': *unocss
 packages:
   - packages/*
   - playground

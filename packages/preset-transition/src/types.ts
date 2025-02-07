@@ -7,18 +7,18 @@ export interface PresetTransitionOptions {
   class?: string
 
   /**
-   * prefix for css variables, transition class and animation name
-   *
-   * @default 'st-'
-   */
-  prefix?: string
-
-  /**
    * inject media query rule to disable animation for print and `prefers-reduced-motion`
    *
    * @default true
    */
   injectMediaQuery?: boolean
+
+  /**
+   * prefix for css variables, transition class and animation name
+   *
+   * @default 'st-'
+   */
+  prefix?: string
 }
 export type ResolvedOptions = Required<PresetTransitionOptions>
 
@@ -33,22 +33,22 @@ export interface TransitionCreatorOptions {
 }
 export interface TransitionObject {
   /**
-   * transition style name
-   */
-  name: string
-
-  /**
-   * Extra transition style e.g. overrides css variables
-   */
-  extraStyle?: string
-
-  /**
    * keyframes content
    */
   keyframes: string
 
   /**
+   * transition style name
+   */
+  name: string
+
+  /**
    * Alias for transition style name
    */
   alias?: string | string[]
+
+  /**
+   * Extra transition style e.g. overrides css variables
+   */
+  extraStyle?: string
 }
