@@ -3,7 +3,9 @@
  */
 export type Animation = AnimationCreator | AnimationObject
 
-export type AnimationCreator = (options: PresetAnimateOptions) => AnimationObject
+export type AnimationCreator = (
+  options: PresetAnimateOptions,
+) => AnimationObject
 export interface AnimationObject {
   /**
    * keyframes content

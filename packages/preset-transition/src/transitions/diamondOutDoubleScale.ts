@@ -1,6 +1,9 @@
 import type { TransitionCreator } from '../types'
 
-export const diamondOutDoubleScale: TransitionCreator = ({ cssVar, cssVarUse }) => ({
+export const diamondOutDoubleScale: TransitionCreator = ({
+  cssVar,
+  cssVarUse,
+}) => ({
   name: 'diamondOutDoubleScale',
   extraStyle: `
     ${cssVar('transition-duration')}: 1.5s;

@@ -10,7 +10,10 @@ export function createBaseRules(options: ResolvedOptions) {
       {
         'animation-delay': cssVar('transition-delay', '0'),
         'animation-duration': cssVar('transition-duration', '2.5s'),
-        'animation-timing-function': cssVar('transition-easing', 'cubic-bezier(0.25, 1, 0.3, 1)'),
+        'animation-timing-function': cssVar(
+          'transition-easing',
+          'cubic-bezier(0.25, 1, 0.3, 1)',
+        ),
         'animation-fill-mode': 'both',
         'will-change': 'clip-path',
       },

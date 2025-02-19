@@ -1,5 +1,5 @@
-import { kebabCase } from '@ntnyq/utils'
 import { createGenerator } from '@unocss/core'
+import { kebabCase } from 'uncase'
 import { describe, expect, it } from 'vitest'
 import { filters, presetFilter } from '../src'
 

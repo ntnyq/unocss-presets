@@ -1,4 +1,4 @@
-import { camelCase, kebabCase } from '@ntnyq/utils'
+import { camelCase, kebabCase } from 'uncase'
 import { transitions as transitionMap } from '../transitions'
 import { createCSSVar } from '../utils'
 import type { DynamicRule } from '@unocss/core'

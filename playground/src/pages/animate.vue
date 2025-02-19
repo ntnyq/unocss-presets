@@ -123,7 +123,9 @@ async function onCopyClass() {
       unocss-preset-animate
     </h2>
     <div class="p-4 md:p-10 w-full">
-      <div class="h-400px of-hidden w-full relative flex justify-center items-center">
+      <div
+        class="h-400px of-hidden w-full relative flex justify-center items-center"
+      >
         <div
           :class="activeAnimation"
           class="w-200px animated animate-infinate"

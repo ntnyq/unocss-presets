@@ -1,11 +1,13 @@
-import { kebabCase } from '@ntnyq/utils'
 import { createGenerator } from '@unocss/core'
+import { kebabCase } from 'uncase'
 import { describe, expect, it } from 'vitest'
 import { easings, presetEasing } from '../src'
 
 describe('selectors', () => {
   it('base selectors', async () => {
-    const targets = Object.keys(easings).map(name => `easing-${kebabCase(name)}`)
+    const targets = Object.keys(easings).map(
+      name => `easing-${kebabCase(name)}`,
+    )
     const generator = await createGenerator({
       presets: [presetEasing()],
     })

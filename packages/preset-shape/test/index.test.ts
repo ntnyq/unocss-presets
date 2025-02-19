@@ -17,7 +17,9 @@ describe('default', () => {
     const generator = await createGenerator({
       presets: [presetShape()],
     })
-    const { css } = await generator.generate(shapes.map(s => `shape-${s}`).join('\n'))
+    const { css } = await generator.generate(
+      shapes.map(s => `shape-${s}`).join('\n'),
+    )
     expect(css).toMatchSnapshot()
   })
 })
@@ -27,7 +29,9 @@ describe('custom prefix', () => {
     const generator = await createGenerator({
       presets: [presetShape({ prefix: 's-' })],
     })
-    const { css } = await generator.generate(shapes.map(s => `s-${s}`).join('\n'))
+    const { css } = await generator.generate(
+      shapes.map(s => `s-${s}`).join('\n'),
+    )
     expect(css).toMatchSnapshot()
   })
 })

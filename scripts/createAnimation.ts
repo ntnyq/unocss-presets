@@ -16,7 +16,10 @@ async function main() {
     process.exit(1)
   }
 
-  const filePath = resolve('packages/preset-animate/src/animations', `${animationName}.ts`)
+  const filePath = resolve(
+    'packages/preset-animate/src/animations',
+    `${animationName}.ts`,
+  )
   const relativePath = relative(ROOT, filePath)
   const fileContent = `import type { Animation } from '../types'
 

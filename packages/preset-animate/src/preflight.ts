@@ -1,7 +1,9 @@
 import type { Preflight } from '@unocss/core'
 import type { PresetAnimateOptions } from './types'
 
-export const createPreflights = (options: PresetAnimateOptions): Preflight[] => {
+export const createPreflights = (
+  options: PresetAnimateOptions,
+): Preflight[] => {
   const preflights: Preflight[] = [
     {
       getCSS: () =>

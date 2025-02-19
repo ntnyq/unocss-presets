@@ -2,7 +2,7 @@
   "name": "@ntnyq/unocss-presets",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.2.1",
+  "packageManager": "pnpm@10.4.1",
   "license": "MIT",
   "scripts": {
     "build": "pnpm -r --filter=./packages/* run build",
@@ -18,23 +18,28 @@
     "update:readme": "tsx scripts/updateReadme.ts"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.12",
-    "@ntnyq/eslint-config": "^4.0.0-beta.2",
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.28.0",
+    "@ntnyq/eslint-config": "^4.0.0-beta.8",
     "@ntnyq/prettier-config": "^2.0.0",
-    "@types/node": "^22.13.1",
-    "@vitest/coverage-v8": "^3.0.5",
+    "@types/node": "^22.13.4",
+    "@vitest/coverage-v8": "^3.0.6",
     "consola": "^3.4.0",
-    "eslint": "^9.20.0",
+    "eslint": "^9.20.1",
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^7.0.2",
-    "prettier": "^3.5.0",
+    "prettier": "^3.5.1",
     "tinyexec": "^0.3.2",
-    "tsx": "^4.19.2",
+    "tsx": "^4.19.3",
     "typescript": "^5.7.3",
     "unbuild": "^3.3.1",
-    "vitest": "^3.0.5"
+    "vitest": "^3.0.6"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   },
   "nano-staged": {
     "*.{js,ts,cjs,mjs,vue,json,md,yml,yaml}": "eslint --fix",

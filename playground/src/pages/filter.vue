@@ -64,7 +64,9 @@ const filters = [
       unocss-preset-filter
     </h2>
     <div class="p-4 md:p-10 max-w-1200px">
-      <div class="grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+      <div
+        class="grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+      >
         <div
           v-for="(filter, idx) in filters"
           :key="filter"

@@ -10,7 +10,9 @@ interface PackageJson {
 type TableRow = [string, string, string, string]
 
 export async function updateReadme() {
-  const packages = (await readdir(resolve('packages'))).filter(v => !v.startsWith('.'))
+  const packages = (await readdir(resolve('packages'))).filter(
+    v => !v.startsWith('.'),
+  )
 
   const table: {
     header: TableRow

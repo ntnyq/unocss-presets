@@ -26,7 +26,9 @@ export type ResolvedOptions = Required<PresetTransitionOptions>
  * Transition creator
  */
 export type Transition = TransitionCreator | TransitionObject
-export type TransitionCreator = (options: TransitionCreatorOptions) => TransitionObject
+export type TransitionCreator = (
+  options: TransitionCreatorOptions,
+) => TransitionObject
 export interface TransitionCreatorOptions {
   cssVar: (value: string) => string
   cssVarUse: (value: string, defaultValue?: string) => string

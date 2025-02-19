@@ -1,6 +1,9 @@
 import type { TransitionCreator } from '../types'
 
-export const circleOutTopRight: TransitionCreator = ({ cssVar, cssVarUse }) => ({
+export const circleOutTopRight: TransitionCreator = ({
+  cssVar,
+  cssVarUse,
+}) => ({
   name: 'circleOutTopRight',
   extraStyle: `
     ${cssVar('transition-duration')}: 1.5s;

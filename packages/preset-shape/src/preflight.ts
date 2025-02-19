@@ -2,7 +2,9 @@ import { createCSSVar } from '../utils'
 import type { Preflight } from '@unocss/core'
 import type { PresetShapeOptions } from './types'
 
-export const createPreflights = (options: Required<PresetShapeOptions>): Preflight[] => {
+export const createPreflights = (
+  options: Required<PresetShapeOptions>,
+): Preflight[] => {
   const cssVar = createCSSVar(options.prefix)
   const cssVarUse = createCSSVar(options.prefix, { use: true })
   return [

@@ -49,6 +49,7 @@
   },
   "dependencies": {
     "@ntnyq/utils": "catalog:",
-    "@unocss/core": "catalog:"
+    "@unocss/core": "catalog:",
+    "uncase": "catalog:"
   }
 }

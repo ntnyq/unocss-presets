@@ -30,7 +30,8 @@ export const filters = [
 
   defineFilter({
     name: 'brannan',
-    style: 'filter: sepia(.4) contrast(1.25) brightness(1.1) saturate(.9) hue-rotate(-2deg)',
+    style:
+      'filter: sepia(.4) contrast(1.25) brightness(1.1) saturate(.9) hue-rotate(-2deg)',
   }),
 
   defineFilter({
@@ -41,19 +42,22 @@ export const filters = [
 
   defineFilter({
     name: 'charmes',
-    style: 'filter: sepia(.25) contrast(1.25) brightness(1.25) saturate(1.35) hue-rotate(-5deg)',
+    style:
+      'filter: sepia(.25) contrast(1.25) brightness(1.25) saturate(1.35) hue-rotate(-5deg)',
     beforeStyle: `background: rgba(125, 105, 24, .25); mix-blend-mode: darken;`,
   }),
 
   defineFilter({
     name: 'clarendon',
-    style: 'filter: sepia(.15) contrast(1.25) brightness(1.25) hue-rotate(5deg)',
+    style:
+      'filter: sepia(.15) contrast(1.25) brightness(1.25) hue-rotate(5deg)',
     beforeStyle: `background: rgba(127, 187, 227, .4); mix-blend-mode: overlay;`,
   }),
 
   defineFilter({
     name: 'crema',
-    style: 'filter: sepia(.5) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-2deg)',
+    style:
+      'filter: sepia(.5) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-2deg)',
     beforeStyle: `background: rgba(125, 105, 24, .2); mix-blend-mode: multiply;`,
   }),
 
@@ -64,7 +68,8 @@ export const filters = [
 
   defineFilter({
     name: 'earlybird',
-    style: 'filter: sepia(.25) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-5deg)',
+    style:
+      'filter: sepia(.25) contrast(1.25) brightness(1.15) saturate(.9) hue-rotate(-5deg)',
     beforeStyle: `background: radial-gradient(circle closest-corner, transparent 0, rgba(125, 105, 24, .2) 100%); mix-blend-mode: multiply;`,
   }),
 
@@ -76,13 +81,15 @@ export const filters = [
 
   defineFilter({
     name: 'ginza',
-    style: 'filter: sepia(.25) contrast(1.15) brightness(1.2) saturate(1.35) hue-rotate(-5deg)',
+    style:
+      'filter: sepia(.25) contrast(1.15) brightness(1.2) saturate(1.35) hue-rotate(-5deg)',
     beforeStyle: `background: rgba(125, 105, 24, .15); mix-blend-mode: darken;`,
   }),
 
   defineFilter({
     name: 'hefe',
-    style: 'filter: sepia(.4) contrast(1.5) brightness(1.2) saturate(1.4) hue-rotate(-10deg)',
+    style:
+      'filter: sepia(.4) contrast(1.5) brightness(1.2) saturate(1.4) hue-rotate(-10deg)',
     beforeStyle: `background: radial-gradient(circle closest-corner, transparent 0, rgba(0, 0, 0, .25) 100%); mix-blend-mode: multiply;`,
   }),
 
@@ -94,7 +101,8 @@ export const filters = [
 
   defineFilter({
     name: 'hudson',
-    style: 'filter: sepia(.25) contrast(1.2) brightness(1.2) saturate(1.05) hue-rotate(-15deg)',
+    style:
+      'filter: sepia(.25) contrast(1.2) brightness(1.2) saturate(1.05) hue-rotate(-15deg)',
     beforeStyle: `background: radial-gradient(circle closest-corner, transparent 25%, rgba(25, 62, 167, .25) 100%); mix-blend-mode: multiply;`,
   }),
 
@@ -111,7 +119,8 @@ export const filters = [
 
   defineFilter({
     name: 'kelvin',
-    style: 'filter: sepia(.15) contrast(1.5) brightness(1.1) hue-rotate(-10deg)',
+    style:
+      'filter: sepia(.15) contrast(1.5) brightness(1.1) hue-rotate(-10deg)',
     beforeStyle: `background: radial-gradient(circle closest-corner, rgba(128, 78, 15, .25) 0, rgba(128, 78, 15, .5) 100%); mix-blend-mode: overlay;`,
   }),
 
@@ -202,13 +211,15 @@ export const filters = [
 
   defineFilter({
     name: 'sutro',
-    style: 'filter: sepia(.4) contrast(1.2) brightness(.9) saturate(1.4) hue-rotate(-10deg)',
+    style:
+      'filter: sepia(.4) contrast(1.2) brightness(.9) saturate(1.4) hue-rotate(-10deg)',
     beforeStyle: `background: radial-gradient(circle closest-corner, transparent 50%, rgba(0, 0, 0, .5) 90%); mix-blend-mode: darken;`,
   }),
 
   defineFilter({
     name: 'toaster',
-    style: 'filter: sepia(.25) contrast(1.5) brightness(.95) hue-rotate(-15deg)',
+    style:
+      'filter: sepia(.25) contrast(1.5) brightness(.95) hue-rotate(-15deg)',
     beforeStyle: `background: radial-gradient(circle, #804e0f, rgba(0, 0, 0, .25)); mix-blend-mode: screen;`,
   }),
 
@@ -237,7 +248,8 @@ export const filters = [
 
   defineFilter({
     name: 'xpro-ii',
-    style: 'filter: sepia(.45) contrast(1.25) brightness(1.75) saturate(1.3) hue-rotate(-5deg)',
+    style:
+      'filter: sepia(.45) contrast(1.25) brightness(1.75) saturate(1.3) hue-rotate(-5deg)',
     beforeStyle: `background: radial-gradient(circle closest-corner, rgba(0, 91, 154, .35) 0, rgba(0, 0, 0, .65) 100%); mix-blend-mode: multiply;`,
   }),
 ]

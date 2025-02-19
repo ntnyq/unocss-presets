@@ -1,6 +1,9 @@
 import type { TransitionCreator } from '../types'
 
-export const squareOutTopRight: TransitionCreator = ({ cssVar, cssVarUse }) => ({
+export const squareOutTopRight: TransitionCreator = ({
+  cssVar,
+  cssVarUse,
+}) => ({
   name: 'squareOutTopRight',
   extraStyle: `
     ${cssVar('transition-duration')}: 1.5s;

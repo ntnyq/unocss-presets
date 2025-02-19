@@ -1,4 +1,4 @@
-import { kebabCase } from '@ntnyq/utils'
+import { kebabCase } from 'uncase'
 import { filters } from './filters'
 import type { DynamicRule } from '@unocss/core'
 import type { PresetFilterOptions } from './types'

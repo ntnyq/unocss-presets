@@ -1,6 +1,9 @@
 import type { TransitionCreator } from '../types'
 
-export const polygonInOpposingCorners: TransitionCreator = ({ cssVar, cssVarUse }) => ({
+export const polygonInOpposingCorners: TransitionCreator = ({
+  cssVar,
+  cssVarUse,
+}) => ({
   name: 'polygonInOpposingCorners',
   extraStyle: `
     ${cssVar('transition-duration')}: 1.5s;

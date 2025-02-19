@@ -1,4 +1,4 @@
-import { kebabCase } from '@ntnyq/utils'
+import { kebabCase } from 'uncase'
 
 interface CreateCSSVarOptions {
   use?: boolean
