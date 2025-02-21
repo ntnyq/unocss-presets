@@ -1,5 +1,4 @@
 catalog:
-  '@ntnyq/utils': ^0.6.0
   unocss: &unocss ^66.0.0
   '@unocss/core': *unocss
   '@unocss/reset': *unocss

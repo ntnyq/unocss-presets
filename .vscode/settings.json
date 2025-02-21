@@ -22,6 +22,8 @@
     "javascriptreact",
     "typescriptreact"
   ],
+  "cSpell.useGitignore": true,
+  "cSpell.allowCompoundWords": true,
   "cSpell.words": [
     "attributify",
     "bezier",
@@ -48,6 +50,5 @@
     "vueuse",
     "xingtong",
     "xpro"
-  ],
-  "cSpell.allowCompoundWords": true
+  ]
 }

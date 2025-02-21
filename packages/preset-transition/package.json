@@ -48,7 +48,6 @@
     "dev": "unbuild --stub"
   },
   "dependencies": {
-    "@ntnyq/utils": "catalog:",
     "@unocss/core": "catalog:",
     "uncase": "catalog:"
   }

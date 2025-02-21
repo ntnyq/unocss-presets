@@ -26,6 +26,6 @@
     "unocss-preset-shape": "workspace:*",
     "unocss-preset-transition": "workspace:*",
     "unplugin-vue-router": "^0.11.2",
-    "vite": "^6.1.0"
+    "vite": "^6.1.1"
   }
 }
