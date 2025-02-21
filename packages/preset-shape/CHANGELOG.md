@@ -1,5 +1,11 @@
 # unocss-preset-shape
 
+## 0.1.0
+
+### Minor Changes
+
+- [`0311bf0`](https://github.com/ntnyq/unocss-presets/commit/0311bf07a5e88163a87d52d5bb901df22940c5c1) Thanks [@ntnyq](https://github.com/ntnyq)! - feat!: drop CJS build, now it's ESM only
+
 ## 0.0.1
 
 ### Patch Changes
