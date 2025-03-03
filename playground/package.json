@@ -18,7 +18,7 @@
     "@iconify-json/ri": "^1.2.5",
     "@iconify-json/tabler": "^1.2.16",
     "@vitejs/plugin-vue": "^5.2.1",
-    "typescript": "^5.7.3",
+    "typescript": "^5.8.2",
     "unocss": "catalog:",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
@@ -26,6 +26,6 @@
     "unocss-preset-shape": "workspace:*",
     "unocss-preset-transition": "workspace:*",
     "unplugin-vue-router": "^0.11.2",
-    "vite": "^6.1.1"
+    "vite": "^6.2.0"
   }
 }
