@@ -21,9 +21,9 @@ export const presetTransition = definePreset<PresetTransitionOptions>(
   },
 )
 
-export * from './utils'
-export * from './types'
 export * from './rules'
+export * from './types'
+export * from './utils'
 export * from './options'
 export * from './transitions'
 
