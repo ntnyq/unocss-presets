@@ -16,7 +16,7 @@ export const presetFilter = definePreset<PresetFilterOptions>(
 )
 
 export * from './types'
-export * from './options'
 export * from './filters'
+export * from './options'
 
 export default presetFilter

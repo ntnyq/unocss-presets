@@ -1,8 +1,8 @@
+packages:
+  - packages/*
+  - playground
 catalog:
   unocss: &unocss ^66.0.0
   '@unocss/core': *unocss
   '@unocss/reset': *unocss
   uncase: ^0.0.4
-packages:
-  - packages/*
-  - playground
