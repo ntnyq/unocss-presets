@@ -43,7 +43,7 @@
     "dev": "unbuild --stub"
   },
   "dependencies": {
-    "@unocss/core": "catalog:",
-    "uncase": "catalog:"
+    "@unocss/core": "catalog:prod",
+    "uncase": "catalog:prod"
   }
 }

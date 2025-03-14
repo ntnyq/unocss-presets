@@ -2,13 +2,13 @@
   "name": "@ntnyq/unocss-presets",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.6.1",
+  "packageManager": "pnpm@10.6.3",
   "license": "MIT",
   "scripts": {
     "build": "pnpm -r --filter=./packages/* run build",
     "coverage": "vitest --coverage",
     "dev": "pnpm -r --filter=./packages/* run dev",
-    "lint": "eslint .",
+    "lint": "eslint",
     "play": "pnpm -C playground run dev",
     "play:build": "pnpm -C playground run build",
     "prepare": "husky",
@@ -18,31 +18,26 @@
     "update:readme": "tsx scripts/updateReadme.ts"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "^0.5.1",
-    "@changesets/cli": "^2.28.1",
-    "@ntnyq/eslint-config": "^4.0.0",
-    "@ntnyq/prettier-config": "^2.0.0",
-    "@types/node": "^22.13.10",
-    "@vitest/coverage-v8": "^3.0.8",
-    "consola": "^3.4.0",
-    "eslint": "^9.22.0",
-    "husky": "^9.1.7",
-    "nano-staged": "^0.8.0",
-    "npm-run-all2": "^7.0.2",
-    "prettier": "^3.5.3",
-    "tinyexec": "^0.3.2",
-    "tsx": "^4.19.3",
-    "typescript": "^5.8.2",
-    "unbuild": "^3.5.0",
-    "vitest": "^3.0.8"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ]
+    "@changesets/changelog-github": "catalog:dev",
+    "@changesets/cli": "catalog:dev",
+    "@ntnyq/eslint-config": "catalog:dev",
+    "@ntnyq/prettier-config": "catalog:dev",
+    "@types/node": "catalog:dev",
+    "@vitest/coverage-v8": "catalog:test",
+    "consola": "catalog:dev",
+    "eslint": "catalog:dev",
+    "husky": "catalog:dev",
+    "nano-staged": "catalog:dev",
+    "npm-run-all2": "catalog:dev",
+    "prettier": "catalog:dev",
+    "tinyexec": "catalog:dev",
+    "tsx": "catalog:dev",
+    "typescript": "catalog:dev",
+    "unbuild": "catalog:dev",
+    "vitest": "catalog:test"
   },
   "nano-staged": {
-    "*.{js,ts,cjs,mjs,vue,json,md,yml,yaml}": "eslint --fix",
+    "*.{js,ts,cjs,mjs,vue,md,yml,yaml,json}": "eslint --fix",
     "*.{css,scss,html}": "prettier -uw"
   }
 }

@@ -8,24 +8,24 @@
     "dev": "vite"
   },
   "dependencies": {
-    "@unocss/reset": "catalog:",
-    "@vueuse/core": "^12.8.2",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "@unocss/reset": "catalog:play",
+    "@vueuse/core": "catalog:play",
+    "vue": "catalog:play",
+    "vue-router": "catalog:play"
   },
   "devDependencies": {
-    "@iconify-json/fluent-emoji-flat": "^1.2.3",
-    "@iconify-json/ri": "^1.2.5",
-    "@iconify-json/tabler": "^1.2.17",
-    "@vitejs/plugin-vue": "^5.2.1",
-    "typescript": "^5.8.2",
-    "unocss": "catalog:",
+    "@iconify-json/fluent-emoji-flat": "catalog:play",
+    "@iconify-json/ri": "catalog:play",
+    "@iconify-json/tabler": "catalog:play",
+    "@vitejs/plugin-vue": "catalog:play",
+    "typescript": "catalog:dev",
+    "unocss": "catalog:play",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
     "unocss-preset-filter": "workspace:*",
     "unocss-preset-shape": "workspace:*",
     "unocss-preset-transition": "workspace:*",
-    "unplugin-vue-router": "^0.12.0",
-    "vite": "^6.2.1"
+    "unplugin-vue-router": "catalog:play",
+    "vite": "catalog:play"
   }
 }
