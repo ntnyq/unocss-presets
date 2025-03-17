@@ -3,7 +3,7 @@ packages:
   - playground
 catalogs:
   dev:
-    '@ntnyq/eslint-config': ^4.0.1
+    '@ntnyq/eslint-config': ^4.0.2
     '@ntnyq/prettier-config': ^2.0.0
     '@types/node': ^22.13.10
     consola: ^3.4.0
@@ -23,7 +23,7 @@ catalogs:
     '@iconify-json/ri': ^1.2.5
     '@iconify-json/tabler': ^1.2.17
     '@unocss/reset': ^66.1.0-beta.5
-    '@vitejs/plugin-vue': ^5.2.1
+    '@vitejs/plugin-vue': ^5.2.2
     '@vueuse/core': ^13.0.0
     unocss: ^66.1.0-beta.5
     unplugin-vue-router: ^0.12.0
