@@ -116,16 +116,14 @@ async function onCopyClass() {
 </script>
 
 <template>
-  <div class="h-full flex flex-col justify-center items-center">
+  <div class="h-full flex-col flex-center">
     <h2
-      class="text-2xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-indigo-500 dark:to-yellow-200 my-4"
+      class="text-2xl md:text-4xl font-bold text-transparent bg-clip-text bg-linear-to-r from-teal-400 to-indigo-500 dark:to-yellow-200 my-4"
     >
       unocss-preset-animate
     </h2>
     <div class="p-4 md:p-10 w-full">
-      <div
-        class="h-400px of-hidden w-full relative flex justify-center items-center"
-      >
+      <div class="h-400px of-hidden w-full relative flex-center">
         <div
           :class="activeAnimation"
           class="w-200px animated animate-infinate"

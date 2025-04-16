@@ -34,9 +34,9 @@ const presets = [
 </script>
 
 <template>
-  <div class="h-full flex flex-col justify-center items-center">
+  <div class="h-full flex-col flex-center">
     <h1
-      class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-indigo-500 dark:to-yellow-200 text-4xl font-bold mb-4"
+      class="text-transparent bg-clip-text bg-linear-to-r from-teal-400 to-indigo-500 dark:to-yellow-200 text-4xl font-bold mb-4"
     >
       UnoCSS Presets
     </h1>
@@ -49,7 +49,7 @@ const presets = [
           :to="preset.link"
           class="px-4 py-3 rounded-md bg-gray-50 transition-colors decoration-none hover:bg-gray-100 dark:bg-gray-50/10 dark:hover:bg-gray-50/20"
         >
-          <div class="flex h-full items-center justify-center">
+          <div class="h-full flex-center">
             <div
               :class="preset.icon"
               class="mr-4 text-4xl"

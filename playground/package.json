@@ -8,7 +8,6 @@
     "dev": "vite"
   },
   "dependencies": {
-    "@unocss/reset": "catalog:play",
     "@vueuse/core": "catalog:play",
     "vue": "catalog:play",
     "vue-router": "catalog:play"

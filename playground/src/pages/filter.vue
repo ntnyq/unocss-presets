@@ -59,7 +59,7 @@ const filters = [
 <template>
   <div class="h-full flex flex-col items-center of-y-auto">
     <h2
-      class="text-2xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-indigo-500 dark:to-yellow-200 my-4"
+      class="text-2xl md:text-4xl font-bold text-transparent bg-clip-text bg-linear-to-r from-teal-400 to-indigo-500 dark:to-yellow-200 my-4"
     >
       unocss-preset-filter
     </h2>
