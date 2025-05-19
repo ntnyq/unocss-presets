@@ -16,8 +16,8 @@ catalogs:
       specifier: ^4.3.0
       version: 4.3.0
     '@ntnyq/prettier-config':
-      specifier: ^2.0.0
-      version: 2.0.0
+      specifier: ^2.1.0
+      version: 2.1.0
     '@types/node':
       specifier: ^22.15.19
       version: 22.15.19
@@ -115,7 +115,7 @@ importers:
         version: 4.3.0(@types/eslint@9.6.1)(@typescript-eslint/utils@8.32.1(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.14)(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.3(@types/debug@4.1.12)(@types/node@22.15.19)(jiti@2.4.2)(tsx@4.19.4)(yaml@2.7.1))
       '@ntnyq/prettier-config':
         specifier: catalog:dev
-        version: 2.0.0
+        version: 2.1.0
       '@types/node':
         specifier: catalog:dev
         version: 22.15.19
@@ -699,8 +699,9 @@ packages:
       eslint-plugin-unused-imports:
         optional: true
 
-  '@ntnyq/prettier-config@2.0.0':
-    resolution: {integrity: sha512-cgb+VCW8+BJzZBSURgDEjMNt0JNiZ+Kx4k2rC54Igs+VmRiI2J8jPTVVqEKG2urhGLcUA2IuCE6ZDMMKuibN3Q==}
+  '@ntnyq/prettier-config@2.1.0':
+    resolution: {integrity: sha512-tmBfcQjzAPHavJRvsvuHUWAZBdBZXbmPbghbmkQGSyLhR+1r9nBp106R0DLlKyj7zVU1y7YTJ+irz1owJPZZ9Q==}
+    engines: {node: '>=18.18.0'}
 
   '@ntnyq/utils@0.6.5':
     resolution: {integrity: sha512-sjCzIYGXvRRuwN37twCVjszeDTfPtDE3hQ+vT/orH9Xo0ubKQDEA+HsyTewN1vo3ao0Kl3DGpsgPJ4nxy+nyvQ==}
@@ -4032,7 +4033,7 @@ snapshots:
       - typescript
       - vitest
 
-  '@ntnyq/prettier-config@2.0.0': {}
+  '@ntnyq/prettier-config@2.1.0': {}
 
   '@ntnyq/utils@0.6.5': {}
 
