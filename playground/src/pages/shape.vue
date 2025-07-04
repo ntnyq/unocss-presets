@@ -43,7 +43,9 @@ const shapeClass = computed({
   set(shape) {
     const matched = shapes.find(s => s.shape === shape)
 
-    if (!matched) return
+    if (!matched) {
+      return
+    }
     activeShape.value = matched
   },
 })

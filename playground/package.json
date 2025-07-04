@@ -7,24 +7,22 @@
     "build": "vite build",
     "dev": "vite"
   },
-  "dependencies": {
-    "@vueuse/core": "catalog:play",
-    "vue": "catalog:play",
-    "vue-router": "catalog:play"
-  },
   "devDependencies": {
-    "@iconify-json/fluent-emoji-flat": "catalog:play",
-    "@iconify-json/ri": "catalog:play",
-    "@iconify-json/tabler": "catalog:play",
-    "@vitejs/plugin-vue": "catalog:play",
-    "typescript": "catalog:dev",
-    "unocss": "catalog:play",
+    "@iconify-json/fluent-emoji-flat": "^1.2.3",
+    "@iconify-json/ri": "^1.2.5",
+    "@iconify-json/tabler": "^1.2.19",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vueuse/core": "^13.5.0",
+    "typescript": "^5.8.3",
+    "unocss": "^66.3.3",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
     "unocss-preset-filter": "workspace:*",
     "unocss-preset-shape": "workspace:*",
     "unocss-preset-transition": "workspace:*",
-    "unplugin-vue-router": "catalog:play",
-    "vite": "catalog:play"
+    "unplugin-vue-router": "^0.14.0",
+    "vite": "^7.0.4",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
   }
 }

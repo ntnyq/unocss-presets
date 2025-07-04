@@ -1,11 +1,8 @@
 import { access } from 'node:fs/promises'
 import path from 'node:path'
-import { fileURLToPath, URL } from 'node:url'
-
-const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
 export const resolve = (...args: string[]) =>
-  path.resolve(__dirname, '..', ...args)
+  path.resolve(import.meta.dirname, '..', ...args)
 
 /**
  * Check if a file or directory exists
