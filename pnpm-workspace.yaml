@@ -4,7 +4,7 @@ packages:
 
 catalogs:
   dev:
-    '@ntnyq/eslint-config': ^4.3.0
+    '@ntnyq/eslint-config': ^5.0.0
     '@ntnyq/prettier-config': ^3.0.1
     '@types/node': ^22.16.3
     consola: ^3.4.2
