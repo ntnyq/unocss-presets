@@ -26,4 +26,56 @@ declare module 'vue-router/auto-routes' {
     '/shape': RouteRecordInfo<'/shape', '/shape', Record<never, never>, Record<never, never>>,
     '/transition': RouteRecordInfo<'/transition', '/transition', Record<never, never>, Record<never, never>>,
   }
+
+  /**
+   * Route file to route info map by unplugin-vue-router.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * Each key is a file path relative to the project root with 2 properties:
+   * - routes: union of route names of the possible routes when in this page (passed to useRoute<...>())
+   * - views: names of nested views (can be passed to <RouterView name="...">)
+   *
+   * @internal
+   */
+  export interface _RouteFileInfoMap {
+    'src/pages/index.vue': {
+      routes: '/'
+      views: never
+    }
+    'src/pages/[...path].vue': {
+      routes: '/[...path]'
+      views: never
+    }
+    'src/pages/animate.vue': {
+      routes: '/animate'
+      views: never
+    }
+    'src/pages/easing.vue': {
+      routes: '/easing'
+      views: never
+    }
+    'src/pages/filter.vue': {
+      routes: '/filter'
+      views: never
+    }
+    'src/pages/shape.vue': {
+      routes: '/shape'
+      views: never
+    }
+    'src/pages/transition.vue': {
+      routes: '/transition'
+      views: never
+    }
+  }
+
+  /**
+   * Get a union of possible route names in a certain route component file.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * @internal
+   */
+  export type _RouteNamesForFilePath<FilePath extends string> =
+    _RouteFileInfoMap extends Record<FilePath, infer Info>
+      ? Info['routes']
+      : keyof RouteNamedMap
 }
