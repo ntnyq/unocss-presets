@@ -42,7 +42,7 @@
     "dev": "tsdown --watch"
   },
   "dependencies": {
-    "@unocss/core": "^66.5.2",
+    "@unocss/core": "^66.5.3",
     "uncase": "^0.2.0"
   }
 }
