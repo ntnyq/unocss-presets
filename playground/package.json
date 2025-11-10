@@ -20,7 +20,7 @@
     "unocss-preset-filter": "workspace:*",
     "unocss-preset-shape": "workspace:*",
     "unocss-preset-transition": "workspace:*",
-    "unplugin-vue-router": "^0.16.0",
+    "unplugin-vue-router": "^0.16.1",
     "vite": "^7.1.12",
     "vue": "^3.5.22",
     "vue-router": "^4.6.3"
