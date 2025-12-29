@@ -2,7 +2,7 @@
   "name": "@ntnyq/unocss-presets",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.25.0",
+  "packageManager": "pnpm@10.26.1",
   "license": "MIT",
   "scripts": {
     "build": "pnpm -r --filter=./packages/* run build",
@@ -29,10 +29,10 @@
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.7.4",
     "tinyexec": "^1.0.2",
-    "tsdown": "^0.17.2",
+    "tsdown": "^0.18.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.15"
+    "vitest": "^4.0.16"
   },
   "nano-staged": {
     "*.{js,ts,cjs,mjs,vue,md,yml,yaml,json}": "eslint --fix",
