@@ -1,7 +1,7 @@
 {
   "name": "unocss-preset-animate",
   "type": "module",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "unocss preset for animate.css",
   "keywords": [
     "animate.css",
