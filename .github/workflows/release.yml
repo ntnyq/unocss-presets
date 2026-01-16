@@ -10,6 +10,13 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      # Used for create the release and push tags
+      contents: write
+      # Used for npm provenance
+      id-token: write
+      # Used for changeset PR
+      pull-requests: write
     steps:
       - uses: actions/checkout@v6
         with:
@@ -29,6 +36,6 @@ jobs:
           commit: 'chore: bump versions'
           title: 'chore: bump versions'
           publish: pnpm run publish
+          version: pnpm run version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

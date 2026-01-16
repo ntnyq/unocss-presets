@@ -14,7 +14,8 @@
     "publish": "pnpm build && changeset publish",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "update:readme": "tsx scripts/updateReadme.ts"
+    "update:readme": "tsx scripts/updateReadme.ts",
+    "version": "changeset version"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.2",
