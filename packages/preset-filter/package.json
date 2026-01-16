@@ -1,7 +1,7 @@
 {
   "name": "unocss-preset-filter",
   "type": "module",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "unocss preset for pure CSS filters",
   "keywords": [
     "filter",

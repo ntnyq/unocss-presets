@@ -1,5 +1,11 @@
 # unocss-preset-animate
 
+## 0.6.0
+
+### Minor Changes
+
+- [`1fb2a22`](https://github.com/ntnyq/unocss-presets/commit/1fb2a22ff4d7c1657a660c0d03fea20770b39ba5) Thanks [@ntnyq](https://github.com/ntnyq)! - feat: bump unocss to v66.6.0
+
 ## 0.5.0
 
 ### Minor Changes
