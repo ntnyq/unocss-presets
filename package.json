@@ -2,7 +2,7 @@
   "name": "@ntnyq/unocss-presets",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.28.1",
+  "packageManager": "pnpm@10.28.2",
   "license": "MIT",
   "scripts": {
     "build": "pnpm -r --filter=./packages/* run build",
@@ -22,7 +22,7 @@
     "@changesets/cli": "^2.29.8",
     "@ntnyq/eslint-config": "^5.9.0",
     "@ntnyq/prettier-config": "^3.0.1",
-    "@types/node": "^25.0.10",
+    "@types/node": "^25.2.0",
     "consola": "^3.4.2",
     "eslint": "^9.39.2",
     "husky": "^9.1.7",
