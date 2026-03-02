@@ -1,7 +1,3 @@
-<script lang="ts" setup>
-defineProps<{}>()
-</script>
-
 <template>
   <div class="h-full flex-center">
     <div class="flex-center flex-col gap-20px">

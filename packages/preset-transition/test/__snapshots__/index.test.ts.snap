@@ -2,12 +2,12 @@
 
 exports[`base selectors > base selectors 1`] = `
 "/* layer: default */
-.styled-transition{animation-delay:var(--st-transition-delay, 0);animation-duration:var(--st-transition-duration, 2.5s);animation-timing-function:var(--st-transition-easing, cubic-bezier(0.25, 1, 0.3, 1));animation-fill-mode:both;will-change:clip-path;}"
+.styled-transition{animation-delay:var(--st-transition-delay, 0);animation-duration:var(--st-transition-duration, 2.5s);animation-fill-mode:both;animation-timing-function:var(--st-transition-easing, cubic-bezier(0.25, 1, 0.3, 1));will-change:clip-path;}"
 `;
 
 exports[`base selectors > base selectors with prefix 1`] = `
 "/* layer: default */
-.styled-transition{animation-delay:var(--styled-transitiontransition-delay, 0);animation-duration:var(--styled-transitiontransition-duration, 2.5s);animation-timing-function:var(--styled-transitiontransition-easing, cubic-bezier(0.25, 1, 0.3, 1));animation-fill-mode:both;will-change:clip-path;}"
+.styled-transition{animation-delay:var(--styled-transitiontransition-delay, 0);animation-duration:var(--styled-transitiontransition-duration, 2.5s);animation-fill-mode:both;animation-timing-function:var(--styled-transitiontransition-easing, cubic-bezier(0.25, 1, 0.3, 1));will-change:clip-path;}"
 `;
 
 exports[`default > default preflight 1`] = `

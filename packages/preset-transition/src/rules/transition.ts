@@ -1,8 +1,8 @@
+import type { DynamicRule } from '@unocss/core'
 import { camelCase, kebabCase } from 'uncase'
 import { transitions as transitionMap } from '../transitions'
-import { createCSSVar } from '../utils'
-import type { DynamicRule } from '@unocss/core'
 import type { ResolvedOptions } from '../types'
+import { createCSSVar } from '../utils'
 
 export function createTransitionRules(options: ResolvedOptions) {
   const builtInTransitions = Object.values(transitionMap)

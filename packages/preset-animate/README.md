@@ -37,7 +37,9 @@ export default defineConfig({
 ```
 
 ```html
-<div class="w-100px h-100px bg-red animated animate-infinate animation-heart-beat"></div>
+<div
+  class="w-100px h-100px bg-red animated animate-infinate animation-heart-beat"
+></div>
 ```
 
 ## Options
@@ -98,7 +100,9 @@ export interface AnimationObject {
   keyframes: string
 }
 
-export type AnimationCreator = (options: PresetAnimateOptions) => AnimationObject
+export type AnimationCreator = (
+  options: PresetAnimateOptions,
+) => AnimationObject
 
 export type Animation = AnimationObject | AnimationCreator
 ```

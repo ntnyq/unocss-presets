@@ -31,46 +31,38 @@ export const createBaseRules = (options: PresetAnimateOptions) => {
     ],
     [
       /^animate-(fast|faster|slow|slower)$/,
-      ([, shortcut]) => {
-        return {
-          'animation-duration': `calc(var(--${options.variablePrefix}duration) * ${
-            durationShortcuts[shortcut as keyof typeof durationShortcuts]
-          })`,
-        }
-      },
+      ([, shortcut]) => ({
+        'animation-duration': `calc(var(--${options.variablePrefix}duration) * ${
+          durationShortcuts[shortcut as keyof typeof durationShortcuts]
+        })`,
+      }),
       {
         autocomplete: ['animate-(fast|faster|slow|slower)'],
       },
     ],
     [
       /^animate-repeat-(\d+)$/,
-      ([, n]) => {
-        return {
-          'animation-iteration-count': `calc(var(--${options.variablePrefix}repeat) * ${n})`,
-        }
-      },
+      ([, n]) => ({
+        'animation-iteration-count': `calc(var(--${options.variablePrefix}repeat) * ${n})`,
+      }),
       {
         autocomplete: ['animated-repeat-<num>'],
       },
     ],
     [
       /^animate-delay-(\d+(\.\d+)?)$/,
-      ([, n]) => {
-        return {
-          'animation-delay': `calc(var(--${options.variablePrefix}delay) * ${n})`,
-        }
-      },
+      ([, n]) => ({
+        'animation-delay': `calc(var(--${options.variablePrefix}delay) * ${n})`,
+      }),
       {
         autocomplete: ['animated-delay-$duration'],
       },
     ],
     [
       /^animate-duration-(\d+(\.\d+)?)$/,
-      ([, n]) => {
-        return {
-          'animation-duration': `calc(var(--${options.variablePrefix}duration) * ${n})`,
-        }
-      },
+      ([, n]) => ({
+        'animation-duration': `calc(var(--${options.variablePrefix}duration) * ${n})`,
+      }),
       {
         autocomplete: ['animated-duration-$duration'],
       },

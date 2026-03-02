@@ -37,7 +37,9 @@ export default defineConfig({
 ```
 
 ```html
-<div class="w-100px h-100px bg-red styled-transition st-circle-in-bottom-left"></div>
+<div
+  class="w-100px h-100px bg-red styled-transition st-circle-in-bottom-left"
+></div>
 ```
 
 ## Options

@@ -6,10 +6,10 @@ export const resolve = (...args: string[]) =>
 
 /**
  * Check if a file or directory exists
- * @param path - The path to the file or directory
+ * @param urlOrPath - The path to the file or directory
  * @returns A promise that resolves to a boolean
  */
-export const exists = async (path: string) =>
-  access(path)
+export const exists = async (urlOrPath: string) =>
+  access(urlOrPath)
     .then(() => true)
     .catch(() => false)

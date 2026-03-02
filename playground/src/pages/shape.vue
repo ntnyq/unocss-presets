@@ -4,7 +4,12 @@ import { computed, ref } from 'vue'
 
 const { copy, copied } = useClipboard()
 
-const shapes: Array<{ shape: string; extra: string }> = [
+interface ShapExample {
+  shape: string
+  extra?: string
+}
+
+const shapes: ShapExample[] = [
   {
     shape: 'shape-star-200px',
     extra: 'bg-yellow',
@@ -41,7 +46,7 @@ const shapeClass = computed({
     return activeShape.value.shape
   },
   set(shape) {
-    const matched = shapes.find(s => s.shape === shape)
+    const matched = shapes.find(v => v.shape === shape)
 
     if (!matched) {
       return

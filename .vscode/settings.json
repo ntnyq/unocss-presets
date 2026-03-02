@@ -1,27 +1,12 @@
 {
-  "eslint.enable": true,
-  "prettier.enable": true,
+  "oxc.enable": true,
+  "eslint.enable": false,
+  "prettier.enable": false,
   "editor.formatOnSave": true,
-  "prettier.configPath": "./prettier.config.mjs",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "oxc.oxc-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "never",
-    "source.sortImports": "never"
+    "source.fixAll.oxc": "explicit"
   },
-  "eslint.validate": [
-    "vue",
-    "yaml",
-    "toml",
-    "json",
-    "jsonc",
-    "json5",
-    "markdown",
-    "javascript",
-    "typescript",
-    "javascriptreact",
-    "typescriptreact"
-  ],
   "cSpell.useGitignore": true,
   "cSpell.allowCompoundWords": true,
   "cSpell.words": [
@@ -39,6 +24,8 @@
     "lcov",
     "lofi",
     "nocheck",
+    "oxfmt",
+    "oxlint",
     "perpetua",
     "pnpm",
     "stinson",

@@ -1,6 +1,6 @@
-import { createCSSVar } from './utils'
 import type { Preflight } from '@unocss/core'
 import type { ResolvedOptions } from './types'
+import { createCSSVar } from './utils'
 
 export const createPreflights = (options: ResolvedOptions): Preflight[] => {
   const cssVar = createCSSVar(options.prefix)

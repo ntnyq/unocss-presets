@@ -1,12 +1,12 @@
 import Vue from '@vitejs/plugin-vue'
 import UnoCSS from 'unocss/vite'
-import VueRouter from 'unplugin-vue-router/vite'
 import { defineConfig } from 'vite'
+import VueRouter from 'vue-router/vite'
 
 export default defineConfig(({ mode }) => ({
   plugins: [
     VueRouter({
-      dts: 'src/typed-router.d.ts',
+      dts: 'src/routes.d.ts',
     }),
 
     Vue(),

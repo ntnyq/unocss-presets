@@ -1,6 +1,5 @@
 {
   "name": "unocss-preset-filter",
-  "type": "module",
   "version": "0.5.0",
   "description": "unocss preset for pure CSS filters",
   "keywords": [
@@ -9,20 +8,27 @@
     "unocss-preset",
     "unocss-preset-filter"
   ],
+  "homepage": "https://github.com/ntnyq/unocss-presets/tree/main/packages/preset-filter#readme",
+  "bugs": {
+    "url": "https://github.com/ntnyq/unocss-presets/issues"
+  },
   "license": "MIT",
   "author": {
     "name": "ntnyq",
     "email": "ntnyq13@gmail.com"
   },
-  "homepage": "https://github.com/ntnyq/unocss-presets/tree/main/packages/preset-filter#readme",
   "repository": {
     "type": "github",
     "url": "ntnyq/unocss-presets",
     "directory": "packages/preset-filter"
   },
-  "bugs": {
-    "url": "https://github.com/ntnyq/unocss-presets/issues"
-  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
     ".": {
@@ -30,18 +36,12 @@
       "default": "./dist/index.js"
     }
   },
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "sideEffects": false,
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch"
   },
   "dependencies": {
-    "@unocss/core": "^66.6.0",
+    "@unocss/core": "^66.6.2",
     "uncase": "^0.2.0"
   }
 }

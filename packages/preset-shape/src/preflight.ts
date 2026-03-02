@@ -1,5 +1,5 @@
-import { createCSSVar } from '../utils'
 import type { Preflight } from '@unocss/core'
+import { createCSSVar } from '../utils'
 import type { PresetShapeOptions } from './types'
 
 export const createPreflights = (

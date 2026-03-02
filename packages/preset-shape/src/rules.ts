@@ -1,5 +1,5 @@
-import { createCSSVar } from '../utils'
 import type { Rule } from '@unocss/core'
+import { createCSSVar } from '../utils'
 import type { PresetShapeOptions } from './types'
 
 export const createShapeRules = (options: Required<PresetShapeOptions>) => {

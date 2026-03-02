@@ -4,6 +4,7 @@
  * @see https://github.com/argyleink/transition.css
  */
 
+import type { TransitionCreator } from '../types'
 import { circleInBottomLeft } from './circleInBottomLeft'
 import { circleInBottomRight } from './circleInBottomRight'
 import { circleInCenter } from './circleInCenter'
@@ -52,7 +53,6 @@ import { wipeOutRight } from './wipeOutRight'
 import { wipeOutTop } from './wipeOutTop'
 import { wipeOutTopLeft } from './wipeOutTopLeft'
 import { wipeOutTopRight } from './wipeOutTopRight'
-import type { TransitionCreator } from '../types'
 
 export const transitions: Record<string, TransitionCreator> = {
   // circles

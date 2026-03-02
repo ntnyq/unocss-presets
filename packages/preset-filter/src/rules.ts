@@ -1,6 +1,6 @@
+import type { DynamicRule } from '@unocss/core'
 import { kebabCase } from 'uncase'
 import { filters } from './filters'
-import type { DynamicRule } from '@unocss/core'
 import type { PresetFilterOptions } from './types'
 
 export const createFilterRules = (options: Required<PresetFilterOptions>) => {

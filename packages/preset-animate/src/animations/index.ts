@@ -4,6 +4,7 @@
  * @see https://github.com/animate-css/animate.css/blob/main/source/animate.css
  */
 
+import type { Animation } from '../types'
 import { backInDown } from './backInDown'
 import { backInLeft } from './backInLeft'
 import { backInRight } from './backInRight'
@@ -102,7 +103,6 @@ import { zoomOutDown } from './zoomOutDown'
 import { zoomOutLeft } from './zoomOutLeft'
 import { zoomOutRight } from './zoomOutRight'
 import { zoomOutUp } from './zoomOutUp'
-import type { Animation } from '../types'
 
 export const animations: Record<string, Animation> = {
   // Attention_seekers

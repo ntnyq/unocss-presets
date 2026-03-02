@@ -1,6 +1,6 @@
+import type { DynamicRule } from '@unocss/core'
 import { kebabCase, pascalCase } from 'uncase'
 import { animations as animationMap } from '../animations'
-import type { DynamicRule } from '@unocss/core'
 import type { PresetAnimateOptions } from '../types'
 
 export const createAnimationRules = (options: PresetAnimateOptions) => {

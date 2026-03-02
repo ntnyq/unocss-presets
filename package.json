@@ -1,13 +1,14 @@
 {
   "name": "@ntnyq/unocss-presets",
-  "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.29.3",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "build": "pnpm -r --filter=./packages/* run build",
     "dev": "pnpm -r --filter=./packages/* run dev",
-    "lint": "eslint",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "lint": "oxlint",
     "play": "pnpm -C playground run dev",
     "play:build": "pnpm -C playground run build",
     "prepare": "husky",
@@ -20,15 +21,13 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.2",
     "@changesets/cli": "^2.29.8",
-    "@ntnyq/eslint-config": "^5.9.0",
-    "@ntnyq/prettier-config": "^3.0.1",
-    "@types/node": "^25.2.3",
+    "@types/node": "^25.3.3",
     "consola": "^3.4.2",
-    "eslint": "^9.39.2",
     "husky": "^9.1.7",
     "nano-staged": "^0.9.0",
     "npm-run-all2": "^8.0.4",
-    "prettier": "^3.8.1",
+    "oxfmt": "^0.35.0",
+    "oxlint": "^1.50.0",
     "tinyexec": "^1.0.2",
     "tsdown": "^0.20.3",
     "tsx": "^4.21.0",
@@ -36,7 +35,8 @@
     "vitest": "^4.0.18"
   },
   "nano-staged": {
-    "*.{js,ts,cjs,mjs,vue,md,yml,yaml,json}": "eslint --fix",
-    "*.{css,scss,html}": "prettier -uw"
-  }
+    "*.{js,ts,tsx,mjs,vue}": "oxlint --fix",
+    "*": "oxfmt --no-error-on-unmatched-pattern"
+  },
+  "packageManager": "pnpm@10.30.3"
 }
