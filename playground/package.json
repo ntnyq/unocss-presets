@@ -10,7 +10,7 @@
   "devDependencies": {
     "@iconify-json/fluent-emoji-flat": "^1.2.5",
     "@iconify-json/ri": "^1.2.10",
-    "@iconify-json/tabler": "^1.2.26",
+    "@iconify-json/tabler": "^1.2.27",
     "@vitejs/plugin-vue": "^6.0.4",
     "@vueuse/core": "^14.2.1",
     "typescript": "^5.9.3",
@@ -23,6 +23,6 @@
     "unplugin-vue-router": "^0.19.2",
     "vite": "^7.3.1",
     "vue": "^3.5.28",
-    "vue-router": "^5.0.2"
+    "vue-router": "^5.0.3"
   }
 }
