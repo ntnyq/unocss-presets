@@ -1,0 +1,8 @@
+# git-blame ignored revisions
+# To configure, run
+#   git config blame.ignoreRevsFile .git-blame-ignore-revs
+# Requires Git > 2.23
+# See https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt
+
+# Migrate to oxlint and oxfmt
+62d3821411ee15b4d064568fe10dc76575f7505a
