@@ -10,11 +10,11 @@
   "devDependencies": {
     "@iconify-json/fluent-emoji-flat": "^1.2.5",
     "@iconify-json/ri": "^1.2.10",
-    "@iconify-json/tabler": "^1.2.28",
+    "@iconify-json/tabler": "^1.2.30",
     "@vitejs/plugin-vue": "^6.0.4",
     "@vueuse/core": "^14.2.1",
     "typescript": "^5.9.3",
-    "unocss": "^66.6.2",
+    "unocss": "^66.6.6",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
     "unocss-preset-filter": "workspace:*",
