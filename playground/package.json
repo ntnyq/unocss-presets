@@ -13,15 +13,15 @@
     "@iconify-json/tabler": "^1.2.33",
     "@vitejs/plugin-vue": "^6.0.5",
     "@vueuse/core": "^14.2.1",
-    "typescript": "^5.9.3",
-    "unocss": "^66.6.7",
+    "typescript": "^6.0.2",
+    "unocss": "^66.6.8",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
     "unocss-preset-filter": "workspace:*",
     "unocss-preset-shape": "workspace:*",
     "unocss-preset-transition": "workspace:*",
-    "vite": "^8.0.3",
-    "vue": "^3.5.31",
+    "vite": "^8.0.8",
+    "vue": "^3.5.32",
     "vue-router": "^5.0.4"
   }
 }
