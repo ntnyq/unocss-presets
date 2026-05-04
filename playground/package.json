@@ -20,8 +20,8 @@
     "unocss-preset-filter": "workspace:*",
     "unocss-preset-shape": "workspace:*",
     "unocss-preset-transition": "workspace:*",
-    "vite": "^8.0.9",
-    "vue": "^3.5.32",
-    "vue-router": "^5.0.4"
+    "vite": "^8.0.10",
+    "vue": "^3.5.33",
+    "vue-router": "^5.0.6"
   }
 }
