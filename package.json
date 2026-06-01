@@ -25,7 +25,7 @@
     "consola": "^3.4.2",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
-    "npm-run-all2": "^8.0.4",
+    "npm-run-all2": "^9.0.1",
     "oxfmt": "^0.50.0",
     "oxlint": "^1.65.0",
     "tinyexec": "^1.1.2",
