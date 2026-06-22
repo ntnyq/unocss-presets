@@ -21,13 +21,13 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.7.0",
     "@changesets/cli": "^2.31.0",
-    "@types/node": "^25.9.2",
+    "@types/node": "^25.9.3",
     "consola": "^3.4.2",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
-    "npm-run-all2": "^9.0.1",
-    "oxfmt": "^0.53.0",
-    "oxlint": "^1.68.0",
+    "npm-run-all2": "^9.0.2",
+    "oxfmt": "^0.54.0",
+    "oxlint": "^1.69.0",
     "tinyexec": "^1.2.4",
     "tsdown": "^0.22.2",
     "tsx": "^4.22.4",
@@ -38,5 +38,5 @@
     "*.{js,ts,tsx,mjs,vue}": "oxlint --fix",
     "*": "oxfmt --no-error-on-unmatched-pattern"
   },
-  "packageManager": "pnpm@10.34.1"
+  "packageManager": "pnpm@10.34.3"
 }
