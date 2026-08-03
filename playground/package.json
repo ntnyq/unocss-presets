@@ -13,7 +13,7 @@
     "@iconify-json/tabler": "^1.2.37",
     "@vitejs/plugin-vue": "^6.0.8",
     "@vueuse/core": "^14.3.0",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "unocss": "^66.7.5",
     "unocss-preset-animate": "workspace:*",
     "unocss-preset-easing": "workspace:*",
