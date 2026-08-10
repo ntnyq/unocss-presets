@@ -43,6 +43,6 @@
   },
   "dependencies": {
     "@unocss/core": "^66.7.5",
-    "uncase": "^0.2.0"
+    "uncase": "^0.3.0"
   }
 }
