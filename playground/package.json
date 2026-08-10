@@ -10,9 +10,9 @@
   "devDependencies": {
     "@iconify-json/fluent-emoji-flat": "^1.2.5",
     "@iconify-json/ri": "^1.2.10",
-    "@iconify-json/tabler": "^1.2.37",
+    "@iconify-json/tabler": "^1.2.38",
     "@vitejs/plugin-vue": "^6.0.8",
-    "@vueuse/core": "^14.3.0",
+    "@vueuse/core": "^14.4.0",
     "typescript": "^7.0.2",
     "unocss": "^66.7.5",
     "unocss-preset-animate": "workspace:*",
@@ -20,7 +20,7 @@
     "unocss-preset-filter": "workspace:*",
     "unocss-preset-shape": "workspace:*",
     "unocss-preset-transition": "workspace:*",
-    "vite": "^8.1.5",
+    "vite": "^8.2.0",
     "vue": "^3.5.40",
     "vue-router": "^5.2.0"
   }
