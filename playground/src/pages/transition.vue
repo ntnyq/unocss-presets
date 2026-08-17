@@ -2,9 +2,9 @@
 import { useClipboard } from '@vueuse/core'
 import { ref } from 'vue'
 
-const { copy, copied } = useClipboard()
+const { copy, copied } = useClipboard(),
 
-const builtinTransitions = [
+ builtinTransitions = [
   'st-circle-in-center',
   'st-circle-in-hesitate',
   'st-circle-in-top-left',
@@ -53,10 +53,10 @@ const builtinTransitions = [
   'st-wipe-out-bottom-right',
   'st-wipe-cinematic-in',
   'st-wipe-cinematic-out',
-]
-const transitions = [...builtinTransitions]
+],
+ transitions = [...builtinTransitions],
 
-const activeTransition = ref(transitions[0])
+ activeTransition = ref(transitions[0])
 
 async function onCopyClass() {
   await copy(activeTransition.value)

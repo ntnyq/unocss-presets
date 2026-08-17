@@ -5,8 +5,8 @@ import type { PresetEasingOptions } from './types'
 
 export const presetEasing = definePreset<PresetEasingOptions>(
   (options = {}) => {
-    const { prefix = 'easing-' } = options
-    const selectorPattern = `${prefix}(${Object.keys(easings)
+    const { prefix = 'easing-' } = options,
+     selectorPattern = `${prefix}(${Object.keys(easings)
       .map(name => kebabCase(name))
       .join('|')})`
 

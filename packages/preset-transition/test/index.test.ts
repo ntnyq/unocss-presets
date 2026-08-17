@@ -7,8 +7,8 @@ describe('default', () => {
   it('default preflight', async () => {
     const generator = await createGenerator({
       presets: [presetTransition()],
-    })
-    const { css } = await generator.generate('')
+    }),
+     { css } = await generator.generate('')
     expect(css).toMatchSnapshot()
   })
 })
@@ -21,8 +21,8 @@ describe('preset-animate options', () => {
           injectMediaQuery: false,
         }),
       ],
-    })
-    const { css } = await generator.generate('')
+    }),
+     { css } = await generator.generate('')
     expect(css).toMatchSnapshot()
   })
 
@@ -33,34 +33,34 @@ describe('preset-animate options', () => {
           prefix: 'styled-transition',
         }),
       ],
-    })
-    const { css } = await generator.generate('')
+    }),
+     { css } = await generator.generate('')
     expect(css).toMatchSnapshot()
   })
 })
 
 describe('base selectors', () => {
   it('base selectors', async () => {
-    const targets = ['styled-transition']
-    const generator = await createGenerator({
+    const targets = ['styled-transition'],
+     generator = await createGenerator({
       presets: [presetTransition()],
-    })
-    const { css } = await generator.generate(targets.join('\n'), {
+    }),
+     { css } = await generator.generate(targets.join('\n'), {
       preflights: false,
     })
     expect(css).toMatchSnapshot()
   })
 
   it('base selectors with prefix', async () => {
-    const targets = ['styled-transition']
-    const generator = await createGenerator({
+    const targets = ['styled-transition'],
+     generator = await createGenerator({
       presets: [
         presetTransition({
           prefix: 'styled-transition',
         }),
       ],
-    })
-    const { css } = await generator.generate(targets.join('\n'), {
+    }),
+     { css } = await generator.generate(targets.join('\n'), {
       preflights: false,
     })
     expect(css).toMatchSnapshot()
@@ -70,8 +70,8 @@ describe('base selectors', () => {
 describe('transition selectors', async () => {
   const generator = await createGenerator({
     presets: [presetTransition({})],
-  })
-  const generatorWithPrefix = await createGenerator({
+  }),
+   generatorWithPrefix = await createGenerator({
     presets: [
       presetTransition({
         prefix: 'styled-transition-',

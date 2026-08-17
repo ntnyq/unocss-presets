@@ -5,8 +5,8 @@ import { consola } from 'consola'
 import { getColor } from 'consola/utils'
 import { exists, resolve } from './utils'
 
-const cyan = getColor('cyan')
-const ROOT = process.cwd()
+const cyan = getColor('cyan'),
+ ROOT = process.cwd()
 
 async function main() {
   const animationName = process.argv[2]
@@ -19,9 +19,9 @@ async function main() {
   const filePath = resolve(
     'packages/preset-animate/src/animations',
     `${animationName}.ts`,
-  )
-  const relativePath = relative(ROOT, filePath)
-  const fileContent = `import type { Animation } from '../types'
+  ),
+   relativePath = relative(ROOT, filePath),
+   fileContent = `import type { Animation } from '../types'
 
 export const ${animationName}: Animation = {
   name: '${animationName}',

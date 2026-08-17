@@ -3,8 +3,8 @@ import type { ResolvedOptions } from '../types'
 import { createCSSVar } from '../utils'
 
 export function createBaseRules(options: ResolvedOptions) {
-  const cssVar = createCSSVar(options.prefix, { use: true })
-  const rules: Rule[] = [
+  const cssVar = createCSSVar(options.prefix, { use: true }),
+   rules: Rule[] = [
     [
       options.class,
       {

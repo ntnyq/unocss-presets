@@ -10,10 +10,10 @@ interface PackageJson {
 type TableRow = [string, string, string, string]
 
 export async function updateReadme() {
-  const dirs = await readdir(resolve('packages'))
-  const packages = dirs.filter(v => !v.startsWith('.'))
+  const dirs = await readdir(resolve('packages')),
+   packages = dirs.filter(v => !v.startsWith('.')),
 
-  const table: {
+   table: {
     header: TableRow
     separator: TableRow
     body: TableRow[]
@@ -40,10 +40,10 @@ export async function updateReadme() {
 | ${table.header.join(' | ')} |
 | ${table.separator.join(' | ')} |
 ${table.body.map(row => `| ${row.join(' | ')} |`).join('\n')}
-  `.trim()
+  `.trim(),
 
-  const rawReadme = await readFile(resolve('README.md'), 'utf8')
-  const content = rawReadme.replace(
+   rawReadme = await readFile(resolve('README.md'), 'utf8'),
+   content = rawReadme.replace(
     /<!-- packages -->[\s\S]*<!-- packages -->/,
     `<!-- packages -->\n\n${markdownTable}\n\n<!-- packages -->`,
   )
