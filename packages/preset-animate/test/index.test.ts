@@ -1,7 +1,13 @@
 import { createGenerator } from '@unocss/core'
+import { presetMini } from '@unocss/preset-mini'
 import { kebabCase } from 'uncase'
 import { describe, expect, it } from 'vitest'
-import { animations, presetAnimate } from '../src'
+import {
+  animations,
+  DEFAULT_OPTIONS,
+  presetAnimate,
+  resolveOptions,
+} from '../src'
 
 describe('default', () => {
   it('default preflight', async () => {
@@ -14,6 +20,21 @@ describe('default', () => {
 })
 
 describe('preset-animate options', () => {
+  it('does not mutate readonly options', () => {
+    expect(() => presetAnimate(Object.freeze({}))).not.toThrow()
+  })
+
+  it('uses defaults for undefined options', () => {
+    expect(
+      resolveOptions({
+        extendAnimations: undefined,
+        injectMediaQuery: undefined,
+        preflight: undefined,
+        variablePrefix: undefined,
+      }),
+    ).toStrictEqual(DEFAULT_OPTIONS)
+  })
+
   it('disable preflight', async () => {
     const generator = await createGenerator({
       presets: [
@@ -55,6 +76,8 @@ describe('base selectors', () => {
   it('base selectors', async () => {
     const targets = [
       'animated',
+      'animate-infinite',
+      'animate-infinate',
       'animate-fast',
       'animate-repeat-2',
       'animate-delay-0.5',
@@ -97,6 +120,50 @@ describe('base selectors', () => {
     })
     const { css } = await generator.generate(targets.join('\n'))
     expect(css).toMatchSnapshot()
+  })
+})
+
+describe('animation compatibility', () => {
+  it('supports the canonical fade-in-up names', async () => {
+    const generator = await createGenerator({
+      presets: [presetAnimate({ preflight: false })],
+    })
+    const { css } = await generator.generate(
+      'animation-fade-in-up animation-fade-in-up-big',
+    )
+
+    expect(css).toContain(
+      '.animation-fade-in-up{animation-name: unAnimationFadeInUp;',
+    )
+    expect(css).toContain(
+      '.animation-fade-in-up-big{animation-name: unAnimationFadeInUpBig;',
+    )
+  })
+
+  it('keeps the legacy fade-in-right-up names', async () => {
+    const generator = await createGenerator({
+      presets: [presetAnimate({ preflight: false })],
+    })
+    const { css } = await generator.generate(
+      'animation-fade-in-right-up animation-fade-in-right-up-big',
+    )
+
+    expect(css).toContain('unAnimationFadeInRightUp')
+    expect(css).toContain('unAnimationFadeInRightUpBig')
+  })
+})
+
+describe('variants', () => {
+  it('applies variants to animation selectors', async () => {
+    const generator = await createGenerator({
+      presets: [presetMini(), presetAnimate({ preflight: false })],
+    })
+    const { css } = await generator.generate('hover:animation-bounce')
+
+    expect(css).toContain(
+      String.raw`.hover\:animation-bounce:hover{animation-name: unAnimationBounce;`,
+    )
+    expect(css).not.toMatch(/(?<lineStart>^|\n)\.animation-bounce\{/u)
   })
 })
 

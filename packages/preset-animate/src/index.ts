@@ -1,26 +1,30 @@
 import { definePreset } from '@unocss/core'
+import { resolveOptions } from './options'
 import { createPreflights } from './preflight'
 import { createAnimationRules, createBaseRules } from './rules'
 import type { PresetAnimateOptions } from './types'
 
 export const presetAnimate = definePreset<PresetAnimateOptions>(
   (options = {}) => {
-    options.preflight = options.preflight ?? true
-    options.injectMediaQuery = options.injectMediaQuery ?? true
-    options.variablePrefix = options.variablePrefix ?? 'un-animate-'
-    options.extendAnimations = options.extendAnimations ?? []
+    const resolvedOptions = resolveOptions(options)
 
     return {
       name: 'unocss-preset-animate',
 
-      rules: [...createBaseRules(options), ...createAnimationRules(options)],
+      rules: [
+        ...createBaseRules(resolvedOptions),
+        ...createAnimationRules(resolvedOptions),
+      ],
 
-      preflights: options.preflight ? createPreflights(options) : [],
+      preflights: resolvedOptions.preflight
+        ? createPreflights(resolvedOptions)
+        : [],
     }
   },
 )
 
 export * from './types'
 export * from './animations'
+export * from './options'
 
 export default presetAnimate

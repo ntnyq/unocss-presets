@@ -1,10 +1,10 @@
 <script lang="ts" setup>
 import { useClipboard } from '@vueuse/core'
-import { ref } from 'vue'
+import { shallowRef } from 'vue'
 
 const { copy, copied } = useClipboard()
 
-const copiedIdx = ref(-1)
+const copiedIdx = shallowRef(-1)
 
 async function onCopyClass(className: string, idx: number) {
   await copy(className)
@@ -74,16 +74,19 @@ const filters = [
         >
           <div class="mb-6 flex items-center">
             <h4 class="font-semibold text-md">{{ filter }}</h4>
-            <div
+            <button
               @click="onCopyClass(filter, idx)"
               :class="{
                 'i-tabler:copy-check': copied && idx === copiedIdx,
               }"
-              class="ml-2 i-tabler:copy cursor-pointer"
+              :aria-label="`Copy ${filter}`"
+              class="ml-2 border-0 bg-transparent p-0 i-tabler:copy cursor-pointer"
+              type="button"
             />
           </div>
           <div :class="filter">
             <img
+              :alt="`${filter} filter preview`"
               class="block w-full"
               src="/images/xingtong.png"
             />

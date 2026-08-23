@@ -1,16 +1,8 @@
 import type { AnimationObject } from '../types'
+import { fadeInUpBig } from './fadeInUpBig'
 
+/** @deprecated Use `fadeInUpBig` instead. */
 export const fadeInRightUpBig: AnimationObject = {
+  ...fadeInUpBig,
   name: 'fadeInRightUpBig',
-  keyframes: `
-    from {
-      opacity: 0;
-      transform: translate3d(0, 2000px, 0);
-    }
-
-    to {
-      opacity: 1;
-      transform: translate3d(0, 0, 0);
-    }
-  `,
 }

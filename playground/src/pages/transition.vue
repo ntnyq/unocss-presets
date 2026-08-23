@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { useClipboard } from '@vueuse/core'
-import { ref } from 'vue'
+import { shallowRef } from 'vue'
 
 const { copy, copied } = useClipboard()
 
@@ -56,7 +56,7 @@ const builtinTransitions = [
 ]
 const transitions = [...builtinTransitions]
 
-const activeTransition = ref(transitions[0])
+const activeTransition = shallowRef(transitions[0])
 
 async function onCopyClass() {
   await copy(activeTransition.value)
@@ -77,6 +77,7 @@ async function onCopyClass() {
           class="w-200px styled-transition"
         >
           <img
+            alt="Transition preview"
             class="block w-full"
             src="/images/xingtong.png"
           />
@@ -87,6 +88,7 @@ async function onCopyClass() {
     <div class="p-4 flex items-center">
       <select
         v-model="activeTransition"
+        aria-label="Select a transition"
         class="py-2 px-4 border-base border rounded-md shadow-sm outline-none focus:ring-2 focus:ring-blue-500"
       >
         <option
@@ -97,12 +99,14 @@ async function onCopyClass() {
           {{ transition }}
         </option>
       </select>
-      <div
+      <button
         @click="onCopyClass"
         :class="{
           'i-tabler:copy-check': copied,
         }"
-        class="ml-4 text-xl i-tabler:copy cursor-pointer"
+        :aria-label="`Copy ${activeTransition}`"
+        class="ml-4 border-0 bg-transparent p-0 text-xl i-tabler:copy cursor-pointer"
+        type="button"
       />
     </div>
   </div>

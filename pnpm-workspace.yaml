@@ -1,8 +1,13 @@
 packages:
   - packages/*
   - playground
+
 overrides:
-  esbuild: ^0.28.1
-onlyBuiltDependencies:
-  - esbuild
-  - unrs-resolver
+  esbuild: ^0.28.2
+
+allowBuilds:
+  esbuild: true
+
+minimumReleaseAge: 0
+ignoreWorkspaceRootCheck: true
+pmOnFail: warn

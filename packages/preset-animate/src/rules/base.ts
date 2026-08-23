@@ -1,5 +1,5 @@
 import type { Rule } from '@unocss/core'
-import type { PresetAnimateOptions } from '../types'
+import type { ResolvedOptions } from '../types'
 
 const durationShortcuts = {
   faster: 0.5,
@@ -8,7 +8,7 @@ const durationShortcuts = {
   slower: 3,
 }
 
-export const createBaseRules = (options: PresetAnimateOptions) => {
+export const createBaseRules = (options: ResolvedOptions) => {
   const rules: Rule[] = [
     [
       'animated',
@@ -21,16 +21,23 @@ export const createBaseRules = (options: PresetAnimateOptions) => {
       },
     ],
     [
-      'animate-infinate',
+      'animate-infinite',
       {
         'animation-iteration-count': 'infinite',
       },
       {
-        autocomplete: ['animate-infinate'],
+        autocomplete: ['animate-infinite'],
+      },
+    ],
+    // Keep the misspelled selector for backwards compatibility.
+    [
+      'animate-infinate',
+      {
+        'animation-iteration-count': 'infinite',
       },
     ],
     [
-      /^animate-(fast|faster|slow|slower)$/,
+      /^animate-(?<shortcut>fast|faster|slow|slower)$/u,
       ([, shortcut]) => ({
         'animation-duration': `calc(var(--${options.variablePrefix}duration) * ${
           durationShortcuts[shortcut as keyof typeof durationShortcuts]
@@ -41,30 +48,30 @@ export const createBaseRules = (options: PresetAnimateOptions) => {
       },
     ],
     [
-      /^animate-repeat-(\d+)$/,
+      /^animate-repeat-(?<count>\d+)$/u,
       ([, n]) => ({
         'animation-iteration-count': `calc(var(--${options.variablePrefix}repeat) * ${n})`,
       }),
       {
-        autocomplete: ['animated-repeat-<num>'],
+        autocomplete: ['animate-repeat-<num>'],
       },
     ],
     [
-      /^animate-delay-(\d+(\.\d+)?)$/,
+      /^animate-delay-(?<duration>\d+(?:\.\d+)?)$/u,
       ([, n]) => ({
         'animation-delay': `calc(var(--${options.variablePrefix}delay) * ${n})`,
       }),
       {
-        autocomplete: ['animated-delay-$duration'],
+        autocomplete: ['animate-delay-$duration'],
       },
     ],
     [
-      /^animate-duration-(\d+(\.\d+)?)$/,
+      /^animate-duration-(?<duration>\d+(?:\.\d+)?)$/u,
       ([, n]) => ({
         'animation-duration': `calc(var(--${options.variablePrefix}duration) * ${n})`,
       }),
       {
-        autocomplete: ['animated-duration-$duration'],
+        autocomplete: ['animate-duration-$duration'],
       },
     ],
   ]

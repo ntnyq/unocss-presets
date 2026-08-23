@@ -1,9 +1,9 @@
 import type { DynamicRule } from '@unocss/core'
 import { kebabCase, pascalCase } from 'uncase'
 import { animations as animationMap } from '../animations'
-import type { PresetAnimateOptions } from '../types'
+import type { ResolvedOptions } from '../types'
 
-export const createAnimationRules = (options: PresetAnimateOptions) => {
+export const createAnimationRules = (options: ResolvedOptions) => {
   const extendAnimations = Array.isArray(options.extendAnimations)
     ? options.extendAnimations
     : []
@@ -12,27 +12,33 @@ export const createAnimationRules = (options: PresetAnimateOptions) => {
   const normalizedAnimations = animations.map(animation =>
     typeof animation === 'function' ? animation(options) : animation,
   )
-  const rules = normalizedAnimations.map<DynamicRule>(animation => [
-    new RegExp(`^animation-${kebabCase(animation.name)}$`),
-    () => {
-      const animationName = `unAnimation${pascalCase(animation.name)}`
-      return [
-        `
-        .animation-${kebabCase(animation.name)} {
-          animation-name: ${animationName};
-          ${animation.extraStyle ?? ''}
-        }
-        `,
-        `
-        @keyframes ${animationName} {
-          ${animation.keyframes}
-        }
-        `,
-      ]
-    },
-    {
-      autocomplete: [`animation-${kebabCase(animation.name)}`],
-    },
-  ])
+  const rules = normalizedAnimations.map<DynamicRule>(animation => {
+    const selector = `animation-${kebabCase(animation.name)}`
+
+    return [
+      new RegExp(`^${selector}$`, 'u'),
+      (_match, { symbols }) => {
+        const animationName = `unAnimation${pascalCase(animation.name)}`
+        const animationStyle = [
+          `animation-name: ${animationName};`,
+          animation.extraStyle?.trim(),
+        ]
+          .filter(Boolean)
+          .join(' ')
+
+        return [
+          {
+            [symbols.body]: animationStyle,
+          },
+          `@keyframes ${animationName} {
+${animation.keyframes.trim()}
+}`,
+        ]
+      },
+      {
+        autocomplete: [selector],
+      },
+    ]
+  })
   return rules
 }

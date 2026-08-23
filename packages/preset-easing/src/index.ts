@@ -15,7 +15,7 @@ export const presetEasing = definePreset<PresetEasingOptions>(
 
       rules: [
         [
-          new RegExp(`^${selectorPattern}$`),
+          new RegExp(`^${selectorPattern}$`, 'u'),
           ([, name]) => ({
             'transition-timing-function':
               easings[camelCase(name) as keyof typeof easings],

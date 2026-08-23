@@ -14,10 +14,15 @@ import type {
   ParamValueZeroOrMore,
   ParamValueZeroOrOne,
 } from 'vue-router'
+import type {
+  _ExtractParamParserType,
+} from 'vue-router/experimental'
 
 declare module 'vue-router' {
   interface TypesConfig {
-    ParamParsers: never
+    _ParamParsers: {}
+    RouteNamedMap: import('vue-router/auto-routes').RouteNamedMap
+    _RouteFileInfoMap: import('vue-router/auto-routes')._RouteFileInfoMap
   }
 }
 
@@ -31,50 +36,50 @@ declare module 'vue-router/auto-routes' {
       '/',
       Record<never, never>,
       Record<never, never>,
-      never
-    >
+      | never
+    >,
     '/[...path]': RouteRecordInfo<
       '/[...path]',
       '/:path(.*)',
       { path: ParamValue<true> },
       { path: ParamValue<false> },
-      never
-    >
+      | never
+    >,
     '/animate': RouteRecordInfo<
       '/animate',
       '/animate',
       Record<never, never>,
       Record<never, never>,
-      never
-    >
+      | never
+    >,
     '/easing': RouteRecordInfo<
       '/easing',
       '/easing',
       Record<never, never>,
       Record<never, never>,
-      never
-    >
+      | never
+    >,
     '/filter': RouteRecordInfo<
       '/filter',
       '/filter',
       Record<never, never>,
       Record<never, never>,
-      never
-    >
+      | never
+    >,
     '/shape': RouteRecordInfo<
       '/shape',
       '/shape',
       Record<never, never>,
       Record<never, never>,
-      never
-    >
+      | never
+    >,
     '/transition': RouteRecordInfo<
       '/transition',
       '/transition',
       Record<never, never>,
       Record<never, never>,
-      never
-    >
+      | never
+    >,
   }
 
   /**
@@ -89,32 +94,60 @@ declare module 'vue-router/auto-routes' {
    */
   export interface _RouteFileInfoMap {
     'src/pages/index.vue': {
-      routes: '/'
-      views: never
+      routes:
+        | '/'
+      views:
+        | never
+      pathParamNames:
+        | never
     }
     'src/pages/[...path].vue': {
-      routes: '/[...path]'
-      views: never
+      routes:
+        | '/[...path]'
+      views:
+        | never
+      pathParamNames:
+        | 'path'
     }
     'src/pages/animate.vue': {
-      routes: '/animate'
-      views: never
+      routes:
+        | '/animate'
+      views:
+        | never
+      pathParamNames:
+        | never
     }
     'src/pages/easing.vue': {
-      routes: '/easing'
-      views: never
+      routes:
+        | '/easing'
+      views:
+        | never
+      pathParamNames:
+        | never
     }
     'src/pages/filter.vue': {
-      routes: '/filter'
-      views: never
+      routes:
+        | '/filter'
+      views:
+        | never
+      pathParamNames:
+        | never
     }
     'src/pages/shape.vue': {
-      routes: '/shape'
-      views: never
+      routes:
+        | '/shape'
+      views:
+        | never
+      pathParamNames:
+        | never
     }
     'src/pages/transition.vue': {
-      routes: '/transition'
-      views: never
+      routes:
+        | '/transition'
+      views:
+        | never
+      pathParamNames:
+        | never
     }
   }
 

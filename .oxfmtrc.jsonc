@@ -18,6 +18,7 @@
     "pnpm-lock.yaml",
     "**/*.min.*",
     "**/tests/fixtures/**",
+    "playground/src/routes.d.ts",
   ],
   "insertFinalNewline": true,
   "jsxSingleQuote": true,

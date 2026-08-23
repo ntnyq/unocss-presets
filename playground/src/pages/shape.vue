@@ -1,15 +1,15 @@
 <script lang="ts" setup>
 import { useClipboard } from '@vueuse/core'
-import { computed, ref } from 'vue'
+import { computed, shallowRef } from 'vue'
 
 const { copy, copied } = useClipboard()
 
-interface ShapExample {
+interface ShapeExample {
   shape: string
   extra?: string
 }
 
-const shapes: ShapExample[] = [
+const shapes: ShapeExample[] = [
   {
     shape: 'shape-star-200px',
     extra: 'bg-yellow',
@@ -40,7 +40,7 @@ const shapes: ShapExample[] = [
   },
 ]
 
-const activeShape = ref(shapes[0])
+const activeShape = shallowRef(shapes[0])
 const shapeClass = computed({
   get() {
     return activeShape.value.shape
@@ -76,6 +76,7 @@ async function onCopyClass() {
     <div class="p-4 flex items-center">
       <select
         v-model="shapeClass"
+        aria-label="Select a shape"
         class="py-2 px-4 border-base border rounded-md shadow-sm outline-none focus:ring-2 focus:ring-blue-500"
       >
         <option
@@ -86,12 +87,14 @@ async function onCopyClass() {
           {{ shape.shape }}
         </option>
       </select>
-      <div
+      <button
         @click="onCopyClass"
         :class="{
           'i-tabler:copy-check': copied,
         }"
-        class="ml-4 text-xl i-tabler:copy cursor-pointer"
+        :aria-label="`Copy ${shapeClass}`"
+        class="ml-4 border-0 bg-transparent p-0 text-xl i-tabler:copy cursor-pointer"
+        type="button"
       />
     </div>
   </div>

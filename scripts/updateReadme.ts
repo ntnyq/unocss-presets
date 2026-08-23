@@ -44,11 +44,11 @@ ${table.body.map(row => `| ${row.join(' | ')} |`).join('\n')}
 
   const rawReadme = await readFile(resolve('README.md'), 'utf8')
   const content = rawReadme.replace(
-    /<!-- packages -->[\s\S]*<!-- packages -->/,
+    /<!-- packages -->[\s\S]*<!-- packages -->/u,
     `<!-- packages -->\n\n${markdownTable}\n\n<!-- packages -->`,
   )
   await writeFile(resolve('README.md'), content)
-  await exec('prettier', ['--write', 'README.md'])
+  await exec('oxfmt', ['README.md'], { throwOnError: true })
 }
 
 ;(async () => {

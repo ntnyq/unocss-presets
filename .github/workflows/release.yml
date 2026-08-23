@@ -28,14 +28,22 @@ jobs:
           cache: pnpm
 
       - run: pnpm install --frozen-lockfile
+      - run: pnpm run format:check
+      - run: pnpm run build
+      - run: pnpm run play:build
+      - name: Verify generated files are current
+        run: git diff --exit-code
+      - run: pnpm run lint
+      - run: pnpm run typecheck
+      - run: pnpm run test
 
       - name: Create Release Pull Request or Publish to npm
         id: changesets
-        uses: changesets/action@v1
+        uses: changesets/action@v2.1.1
         with:
-          commit: 'chore: bump versions'
-          title: 'chore: bump versions'
-          publish: pnpm run publish
-          version: pnpm run version
+          commit-message: 'chore: bump versions'
+          pr-title: 'chore: bump versions'
+          publish-script: pnpm run publish
+          version-script: pnpm run version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

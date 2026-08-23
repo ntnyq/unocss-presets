@@ -51,3 +51,5 @@ export interface PresetAnimateOptions {
    */
   variablePrefix?: string
 }
+
+export type ResolvedOptions = Required<PresetAnimateOptions>

@@ -1,6 +1,5 @@
 import { definePreset } from '@unocss/core'
 import { resolveOptions } from './options'
-import { createPreflights } from './preflight'
 import { createFilterRules } from './rules'
 import type { PresetFilterOptions } from './types'
 
@@ -10,7 +9,6 @@ export const presetFilter = definePreset<PresetFilterOptions>(
     return {
       name: 'unocss-preset-filter',
       rules: [...createFilterRules(resolvedOptions)],
-      preflights: createPreflights(resolvedOptions),
     }
   },
 )

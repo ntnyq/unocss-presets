@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { useClipboard } from '@vueuse/core'
-import { ref } from 'vue'
+import { shallowRef } from 'vue'
 
 const { copy, copied } = useClipboard()
 
@@ -43,8 +43,8 @@ const builtinAnimations = [
   'animation-fade-in-left-big',
   'animation-fade-in-right',
   'animation-fade-in-right-big',
-  'animation-fade-in-right-up',
-  'animation-fade-in-right-up-big',
+  'animation-fade-in-up',
+  'animation-fade-in-up-big',
   'animation-fade-in-top-left',
   'animation-fade-in-top-right',
   'animation-fade-in-bottom-left',
@@ -108,7 +108,7 @@ const userAnimations = ['animation-foo-bar']
 
 const animations = [...builtinAnimations, ...userAnimations]
 
-const activeAnimation = ref(userAnimations[0])
+const activeAnimation = shallowRef(userAnimations[0])
 
 async function onCopyClass() {
   await copy(activeAnimation.value)
@@ -126,9 +126,10 @@ async function onCopyClass() {
       <div class="h-400px of-hidden w-full relative flex-center">
         <div
           :class="activeAnimation"
-          class="w-200px animated animate-infinate"
+          class="w-200px animated animate-infinite"
         >
           <img
+            alt="Animation preview"
             class="block w-full"
             src="/images/xingtong.png"
           />
@@ -139,6 +140,7 @@ async function onCopyClass() {
     <div class="p-4 flex items-center">
       <select
         v-model="activeAnimation"
+        aria-label="Select an animation"
         class="py-2 px-4 border-base border rounded-md shadow-sm outline-none focus:ring-2 focus:ring-blue-500"
       >
         <option
@@ -149,12 +151,14 @@ async function onCopyClass() {
           {{ animation }}
         </option>
       </select>
-      <div
+      <button
         @click="onCopyClass"
         :class="{
           'i-tabler:copy-check': copied,
         }"
-        class="ml-4 text-xl i-tabler:copy cursor-pointer"
+        :aria-label="`Copy ${activeAnimation}`"
+        class="ml-4 border-0 bg-transparent p-0 text-xl i-tabler:copy cursor-pointer"
+        type="button"
       />
     </div>
   </div>

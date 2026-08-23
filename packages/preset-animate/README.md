@@ -38,7 +38,7 @@ export default defineConfig({
 
 ```html
 <div
-  class="w-100px h-100px bg-red animated animate-infinate animation-heart-beat"
+  class="w-100px h-100px bg-red animated animate-infinite animation-heart-beat"
 ></div>
 ```
 
@@ -117,9 +117,11 @@ core selector
 
 customize `animation-duration` based on `var(--un-animate-duration)`.
 
-### `animate-repeat-<integer_number> | animate-infinate`
+### `animate-repeat-<integer_number> | animate-infinite`
 
 customize `animation-iteration-count` based on `var(--un-animate-repeat)`.
+
+The legacy misspelling `animate-infinate` remains available for compatibility.
 
 ### `animate-delay-<float_number>`
 
@@ -177,12 +179,14 @@ e.g. `animation-rubber-band`, `animation-jack-in-the-box`.
 - fadeInLeftBig
 - fadeInRight
 - fadeInRightBig
-- fadeInRightUp
-- fadeInRightUpBig
+- fadeInUp
+- fadeInUpBig
 - fadeInTopLeft
 - fadeInTopRight
 - fadeInBottomLeft
 - fadeInBottomRight
+
+The legacy names `fadeInRightUp` and `fadeInRightUpBig` remain available for compatibility.
 
 - fadeOut
 - fadeOutDown

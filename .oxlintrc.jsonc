@@ -8,7 +8,7 @@
     "promise",
     "oxc",
     "typescript",
-    "unicorn"
+    "unicorn",
   ],
   "categories": {
     "correctness": "error",
@@ -17,17 +17,17 @@
     "perf": "warn",
     "style": "warn",
     "restriction": "warn",
-    "nursery": "warn"
+    "nursery": "warn",
   },
   "ignorePatterns": [
     "**/dist/**",
     "**/node_modules/**",
     "**/tests/fixtures/**",
-    "playground/src/routes.d.ts"
+    "playground/src/routes.d.ts",
   ],
   "globals": {
     "document": "readonly",
-    "window": "readonly"
+    "window": "readonly",
   },
   "rules": {
     "capitalized-comments": "off",
@@ -61,11 +61,13 @@
     "unicorn/filename-case": "off",
     "unicorn/no-array-reverse": "off",
     "unicorn/no-process-exit": "off",
+    "unicorn/import-style": "off",
     "unicorn/no-array-for-each": "off",
     "unicorn/no-nested-ternary": "off",
     "unicorn/prefer-global-this": "off",
     "unicorn/prefer-module": "off",
     "unicorn/prefer-top-level-await": "off",
+    "one-var": ["error", "never"],
     "func-style": ["warn", "declaration", { "allowArrowFunctions": true }],
     "id-length": [
       "warn",
@@ -89,23 +91,23 @@
           "T",
           // Unused vars
           "_",
-          "$"
-        ]
-      }
+          "$",
+        ],
+      },
     ],
     "max-lines-per-function": [
       "warn",
       {
         "max": 200,
         "skipComments": true,
-        "skipBlankLines": true
-      }
+        "skipBlankLines": true,
+      },
     ],
     "max-statements": [
       "warn",
       {
-        "max": 50
-      }
+        "max": 50,
+      },
     ],
     "no-magic-numbers": [
       "warn",
@@ -113,9 +115,9 @@
         "ignore": [0, 1, -1],
         "ignoreArrayIndexes": true,
         "enforceConst": true,
-        "detectObjects": false
-      }
-    ]
+        "detectObjects": false,
+      },
+    ],
   },
   "overrides": [
     {
@@ -123,15 +125,15 @@
       "rules": {
         "import/no-nodejs-modules": "off",
         "import/prefer-default-export": "off",
-        "import/no-named-export": "off"
-      }
+        "import/no-named-export": "off",
+      },
     },
     {
       "files": ["**/*.config.{ts,mjs}"],
       "rules": {
         "new-cap": "off",
-        "import/no-default-export": "off"
-      }
+        "import/no-default-export": "off",
+      },
     },
     {
       "files": ["**/*.vue"],
@@ -140,12 +142,12 @@
         "defineProps": "readonly",
         "defineEmits": "readonly",
         "defineExpose": "readonly",
-        "withDefaults": "readonly"
+        "withDefaults": "readonly",
       },
       "rules": {
         "import/unambiguous": "off",
-        "vue/define-props-destructuring": "off"
-      }
+        "vue/define-props-destructuring": "off",
+      },
     },
     {
       "files": ["*.d.ts"],
@@ -156,8 +158,8 @@
         "typescript/no-empty-object-type": "off",
         "typescript/no-explicit-any": "off",
         // we need `export {}` to convert a file to a module
-        "unicorn/require-module-specifiers": "off"
-      }
+        "unicorn/require-module-specifiers": "off",
+      },
     },
     {
       "files": ["*.{spec,test}.{js,ts,tsx}", "*.{spec,test}-d.{ts,tsx}"],
@@ -176,9 +178,11 @@
         "typescript/no-non-null-assertion": "off",
         "typescript/prefer-ts-expect-error": "off",
         "typescript/require-array-sort-compare": "off",
+        "vitest/require-hook": "off",
         "vitest/no-importing-vitest-globals": "off",
-        "vitest/require-test-timeout": "off"
-      }
-    }
-  ]
+        "vitest/require-test-timeout": "off",
+        "vitest/prefer-expect-assertions": "off",
+      },
+    },
+  ],
 }

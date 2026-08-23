@@ -12,20 +12,26 @@ import { toggleDark } from '../composables/useDark'
     <div class="flex items-center gap-2">
       <button
         @click="toggleDark"
+        aria-label="Toggle color scheme"
         class="btn-icon"
         type="button"
-        role="button"
       >
-        <div class="i-ri:sun-line dark:i-ri:moon-line" />
+        <div
+          aria-hidden="true"
+          class="i-ri:sun-line dark:i-ri:moon-line"
+        />
       </button>
       <a
+        aria-label="Open the GitHub repository"
         href="https://github.com/ntnyq/unocss-presets"
         target="_blank"
         rel="noopener noreferrer"
         class="btn-icon"
-        role="button"
       >
-        <div class="i-ri:github-fill" />
+        <div
+          aria-hidden="true"
+          class="i-ri:github-fill"
+        />
       </a>
     </div>
   </div>

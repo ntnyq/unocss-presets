@@ -2,7 +2,7 @@ import type { TransitionCreator } from '../types'
 
 export const wipeInTop: TransitionCreator = ({ cssVarUse }) => ({
   name: 'wipeInTop',
-  alias: 'wipeInUp',
+  alias: 'wipeInDown',
   keyframes: `
     0% {
       clip-path: ${cssVarUse('wipe-top')};

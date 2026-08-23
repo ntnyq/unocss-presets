@@ -15,19 +15,41 @@ export function createTransitionRules(options: ResolvedOptions) {
         })
       : transition,
   )
-  const rules = normalizedTransitions.map<DynamicRule>(transition => [
-    new RegExp(`^${options.prefix}${kebabCase(transition.name)}$`),
-    () => {
-      const animationName = camelCase(options.prefix + transition.name)
-      return [
-        `.${options.prefix}${kebabCase(transition.name)} { animation-name: ${animationName}; ${transition.extraStyle ?? ''} }`,
-        `@keyframes ${animationName} { ${transition.keyframes} }`,
-      ]
-    },
-    {
-      autocomplete: [options.prefix + kebabCase(transition.name)],
-    },
-  ])
+  const rules = normalizedTransitions.map<DynamicRule>(transition => {
+    const aliases = Array.isArray(transition.alias)
+      ? transition.alias
+      : transition.alias
+        ? [transition.alias]
+        : []
+    const selectors = [transition.name, ...aliases].map(
+      name => options.prefix + kebabCase(name),
+    )
+
+    return [
+      new RegExp(`^(?:${selectors.join('|')})$`, 'u'),
+      (_match, { symbols }) => {
+        const animationName = camelCase(options.prefix + transition.name)
+        const animationStyle = [
+          `animation-name: ${animationName};`,
+          transition.extraStyle?.trim(),
+        ]
+          .filter(Boolean)
+          .join(' ')
+
+        return [
+          {
+            [symbols.body]: animationStyle,
+          },
+          `@keyframes ${animationName} {
+${transition.keyframes.trim()}
+}`,
+        ]
+      },
+      {
+        autocomplete: selectors,
+      },
+    ]
+  })
 
   return rules
 }

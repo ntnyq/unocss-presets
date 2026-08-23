@@ -6,8 +6,8 @@ export const createShapeRules = (options: Required<PresetShapeOptions>) => {
   const cssVarUse = createCSSVar(options.prefix, { use: true })
   const rules: Rule[] = [
     [
-      new RegExp(`^${options.prefix}star-?(.+)$`),
-      ([_, s]) => ({
+      new RegExp(`^${options.prefix}star-?(?<size>.+)$`, 'u'),
+      ([, s]) => ({
         width: s,
         'aspect-ratio': 1,
         'clip-path': cssVarUse('star-clip-path'),
@@ -18,8 +18,8 @@ export const createShapeRules = (options: Required<PresetShapeOptions>) => {
     ],
 
     [
-      new RegExp(`^${options.prefix}triangle-?(.+)$`),
-      ([_, s]) => ({
+      new RegExp(`^${options.prefix}triangle-?(?<size>.+)$`, 'u'),
+      ([, s]) => ({
         width: s,
         'aspect-ratio': '1/cos(30deg)',
         'clip-path': cssVarUse('triangle-clip-path'),
@@ -30,8 +30,8 @@ export const createShapeRules = (options: Required<PresetShapeOptions>) => {
     ],
 
     [
-      new RegExp(`^${options.prefix}rhombus-?(.+)$`),
-      ([_, s]) => ({
+      new RegExp(`^${options.prefix}rhombus-?(?<size>.+)$`, 'u'),
+      ([, s]) => ({
         height: s,
         'aspect-ratio': 1,
         'clip-path': cssVarUse('rhombus-clip-path'),
@@ -42,8 +42,8 @@ export const createShapeRules = (options: Required<PresetShapeOptions>) => {
     ],
 
     [
-      new RegExp(`^${options.prefix}hexagon-?(.+)$`),
-      ([_, s]) => ({
+      new RegExp(`^${options.prefix}hexagon-?(?<size>.+)$`, 'u'),
+      ([, s]) => ({
         height: s,
         'aspect-ratio': '1/cos(30deg)',
         'clip-path': cssVarUse('hexagon-clip-path'),
@@ -54,8 +54,8 @@ export const createShapeRules = (options: Required<PresetShapeOptions>) => {
     ],
 
     [
-      new RegExp(`^${options.prefix}octagon-?(.+)$`),
-      ([_, s]) => ({
+      new RegExp(`^${options.prefix}octagon-?(?<size>.+)$`, 'u'),
+      ([, s]) => ({
         width: s,
         'aspect-ratio': 1,
         'clip-path': cssVarUse('octagon-clip-path'),
@@ -66,8 +66,8 @@ export const createShapeRules = (options: Required<PresetShapeOptions>) => {
     ],
 
     [
-      new RegExp(`^${options.prefix}heart-?(.+)$`),
-      ([_, s]) => ({
+      new RegExp(`^${options.prefix}heart-?(?<size>.+)$`, 'u'),
+      ([, s]) => ({
         height: s,
         'aspect-ratio': 1,
         '-webkit-mask-box-image': cssVarUse('heart-gradient-mask'),
@@ -80,8 +80,8 @@ export const createShapeRules = (options: Required<PresetShapeOptions>) => {
     ],
 
     [
-      new RegExp(`^${options.prefix}parallelogram-?(.+)$`),
-      ([_, s]) => ({
+      new RegExp(`^${options.prefix}parallelogram-?(?<size>.+)$`, 'u'),
+      ([, s]) => ({
         height: s,
         'aspect-ratio': '3/2',
         'clip-path': cssVarUse('parallelogram-clip-path'),

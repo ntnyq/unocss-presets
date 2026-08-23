@@ -37,6 +37,8 @@ import { fadeInRightUp } from './fadeInRightUp'
 import { fadeInRightUpBig } from './fadeInRightUpBig'
 import { fadeInTopLeft } from './fadeInTopLeft'
 import { fadeInTopRight } from './fadeInTopRight'
+import { fadeInUp } from './fadeInUp'
+import { fadeInUpBig } from './fadeInUpBig'
 import { fadeOut } from './fadeOut'
 import { fadeOutBottomLeft } from './fadeOutBottomLeft'
 import { fadeOutBottomRight } from './fadeOutBottomRight'
@@ -154,6 +156,9 @@ export const animations: Record<string, Animation> = {
   fadeInLeftBig,
   fadeInRight,
   fadeInRightBig,
+  fadeInUp,
+  fadeInUpBig,
+  // Deprecated compatibility aliases.
   fadeInRightUp,
   fadeInRightUpBig,
   fadeInTopLeft,

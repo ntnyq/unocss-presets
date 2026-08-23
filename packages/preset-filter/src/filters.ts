@@ -36,7 +36,8 @@ export const filters = [
 
   defineFilter({
     name: 'brooklyn',
-    style: 'filter: sepia(.35) contrast(1.1) brightness(1.2) saturate(1.3)',
+    style:
+      'filter: sepia(.25) contrast(1.25) brightness(1.25) hue-rotate(5deg)',
     beforeStyle: `background: rgba(127, 187, 227, .2); mix-blend-mode: overlay;`,
   }),
 
@@ -205,7 +206,7 @@ export const filters = [
 
   defineFilter({
     name: 'stinson',
-    style: 'filter: sepia(.35) contrast(1.25) saturate(1.25)',
+    style: 'filter: sepia(.35) contrast(1.25) brightness(1.1) saturate(1.25)',
     beforeStyle: `background: rgba(125, 105, 24, .45); mix-blend-mode: lighten;`,
   }),
 
