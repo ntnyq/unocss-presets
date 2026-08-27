@@ -1,5 +1,11 @@
 # unocss-preset-animate
 
+## 0.7.0
+
+### Minor Changes
+
+- [`12c476b`](https://github.com/ntnyq/unocss-presets/commit/12c476b9e12bda6c688f4a2d4d7eebc7206f4c3a) Thanks [@ntnyq](https://github.com/ntnyq)! - Align preset output with upstream animation, filter, and transition sources, add canonical and compatibility selectors, and support UnoCSS variants for generated utilities.
+
 ## 0.6.0
 
 ### Minor Changes
