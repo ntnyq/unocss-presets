@@ -6,13 +6,13 @@ import type { PresetAnimateOptions } from '../types'
 export const createAnimationRules = (options: PresetAnimateOptions) => {
   const extendAnimations = Array.isArray(options.extendAnimations)
     ? options.extendAnimations
-    : []
-  const builtInAnimations = Object.values(animationMap)
-  const animations = [...builtInAnimations, ...extendAnimations]
-  const normalizedAnimations = animations.map(animation =>
+    : [],
+   builtInAnimations = Object.values(animationMap),
+   animations = [...builtInAnimations, ...extendAnimations],
+   normalizedAnimations = animations.map(animation =>
     typeof animation === 'function' ? animation(options) : animation,
-  )
-  const rules = normalizedAnimations.map<DynamicRule>(animation => [
+  ),
+   rules = normalizedAnimations.map<DynamicRule>(animation => [
     new RegExp(`^animation-${kebabCase(animation.name)}$`),
     () => {
       const animationName = `unAnimation${pascalCase(animation.name)}`

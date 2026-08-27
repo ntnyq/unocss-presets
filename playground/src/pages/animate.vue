@@ -2,9 +2,9 @@
 import { useClipboard } from '@vueuse/core'
 import { ref } from 'vue'
 
-const { copy, copied } = useClipboard()
+const { copy, copied } = useClipboard(),
 
-const builtinAnimations = [
+ builtinAnimations = [
   'animation-bounce',
   'animation-flash',
   'animation-head-shake',
@@ -103,12 +103,12 @@ const builtinAnimations = [
   'animation-slide-out-left',
   'animation-slide-out-right',
   'animation-slide-out-up',
-]
-const userAnimations = ['animation-foo-bar']
+],
+ userAnimations = ['animation-foo-bar'],
 
-const animations = [...builtinAnimations, ...userAnimations]
+ animations = [...builtinAnimations, ...userAnimations],
 
-const activeAnimation = ref(userAnimations[0])
+ activeAnimation = ref(userAnimations[0])
 
 async function onCopyClass() {
   await copy(activeAnimation.value)

@@ -38,10 +38,10 @@ const shapes: ShapExample[] = [
     shape: 'shape-parallelogram-200px',
     extra: 'bg-black',
   },
-]
+],
 
-const activeShape = ref(shapes[0])
-const shapeClass = computed({
+ activeShape = ref(shapes[0]),
+ shapeClass = computed({
   get() {
     return activeShape.value.shape
   },

@@ -5,17 +5,17 @@ import type { ResolvedOptions } from '../types'
 import { createCSSVar } from '../utils'
 
 export function createTransitionRules(options: ResolvedOptions) {
-  const builtInTransitions = Object.values(transitionMap)
-  const transitions = [...builtInTransitions]
-  const normalizedTransitions = transitions.map(transition =>
+  const builtInTransitions = Object.values(transitionMap),
+   transitions = [...builtInTransitions],
+   normalizedTransitions = transitions.map(transition =>
     typeof transition === 'function'
       ? transition({
           cssVar: createCSSVar(options.prefix),
           cssVarUse: createCSSVar(options.prefix, { use: true }),
         })
       : transition,
-  )
-  const rules = normalizedTransitions.map<DynamicRule>(transition => [
+  ),
+   rules = normalizedTransitions.map<DynamicRule>(transition => [
     new RegExp(`^${options.prefix}${kebabCase(transition.name)}$`),
     () => {
       const animationName = camelCase(options.prefix + transition.name)

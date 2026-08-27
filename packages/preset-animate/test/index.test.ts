@@ -7,8 +7,8 @@ describe('default', () => {
   it('default preflight', async () => {
     const generator = await createGenerator({
       presets: [presetAnimate()],
-    })
-    const { css } = await generator.generate('')
+    }),
+     { css } = await generator.generate('')
     expect(css).toMatchSnapshot()
   })
 })
@@ -21,8 +21,8 @@ describe('preset-animate options', () => {
           preflight: false,
         }),
       ],
-    })
-    const { css } = await generator.generate('')
+    }),
+     { css } = await generator.generate('')
     expect(css).toMatchInlineSnapshot('""')
   })
 
@@ -33,8 +33,8 @@ describe('preset-animate options', () => {
           injectMediaQuery: false,
         }),
       ],
-    })
-    const { css } = await generator.generate('')
+    }),
+     { css } = await generator.generate('')
     expect(css).toMatchSnapshot()
   })
 
@@ -45,8 +45,8 @@ describe('preset-animate options', () => {
           variablePrefix: 'foo-bar-',
         }),
       ],
-    })
-    const { css } = await generator.generate('')
+    }),
+     { css } = await generator.generate('')
     expect(css).toMatchSnapshot()
   })
 })
@@ -58,11 +58,11 @@ describe('base selectors', () => {
       'animate-fast',
       'animate-repeat-2',
       'animate-delay-0.5',
-    ]
-    const generator = await createGenerator({
+    ],
+     generator = await createGenerator({
       presets: [presetAnimate()],
-    })
-    const { css } = await generator.generate(targets.join('\n'))
+    }),
+     { css } = await generator.generate(targets.join('\n'))
     expect(css).toMatchSnapshot()
   })
 
@@ -72,15 +72,15 @@ describe('base selectors', () => {
       'animate-duration-2',
       'animate-repeat-2',
       'animate-delay-2',
-    ]
-    const generator = await createGenerator({
+    ],
+     generator = await createGenerator({
       presets: [
         presetAnimate({
           variablePrefix: 'foo-bar-',
         }),
       ],
-    })
-    const { css } = await generator.generate(targets.join('\n'))
+    }),
+     { css } = await generator.generate(targets.join('\n'))
     expect(css).toMatchSnapshot()
   })
 
@@ -91,11 +91,11 @@ describe('base selectors', () => {
       'animate-repeat-foo',
       'animate-delay-bar',
       'animate-duration-baz',
-    ]
-    const generator = await createGenerator({
+    ],
+     generator = await createGenerator({
       presets: [presetAnimate()],
-    })
-    const { css } = await generator.generate(targets.join('\n'))
+    }),
+     { css } = await generator.generate(targets.join('\n'))
     expect(css).toMatchSnapshot()
   })
 })
@@ -107,8 +107,8 @@ describe('animation selectors', async () => {
         preflight: false,
       }),
     ],
-  })
-  const generatorWithVariablePrefix = await createGenerator({
+  }),
+   generatorWithVariablePrefix = await createGenerator({
     presets: [
       presetAnimate({
         preflight: false,

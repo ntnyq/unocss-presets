@@ -22,13 +22,13 @@ export function toggleDark(event?: MouseEvent) {
     return
   }
 
-  const x = event.clientX
-  const y = event.clientY
-  const endRadius = Math.hypot(
+  const x = event.clientX,
+   y = event.clientY,
+   endRadius = Math.hypot(
     Math.max(x, window.innerWidth - x),
     Math.max(y, window.innerHeight - y),
-  )
-  const transition = document.startViewTransition(async () => {
+  ),
+   transition = document.startViewTransition(async () => {
     isDark.value = !isDark.value
     await nextTick()
   })

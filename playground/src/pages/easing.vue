@@ -2,9 +2,9 @@
 import { useClipboard } from '@vueuse/core'
 import { ref } from 'vue'
 
-const { copy, copied } = useClipboard()
+const { copy, copied } = useClipboard(),
 
-const copiedIdx = ref(-1)
+ copiedIdx = ref(-1)
 
 async function onCopyClass(className: string, idx: number) {
   await copy(className)

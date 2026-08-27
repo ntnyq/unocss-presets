@@ -3,8 +3,8 @@ import type { ResolvedOptions } from './types'
 import { createCSSVar } from './utils'
 
 export const createPreflights = (options: ResolvedOptions): Preflight[] => {
-  const cssVar = createCSSVar(options.prefix)
-  const preflights: Preflight[] = [
+  const cssVar = createCSSVar(options.prefix),
+   preflights: Preflight[] = [
     {
       getCSS: () => `:root {
         ${cssVar('circle-center-center-out')}: circle(0%);

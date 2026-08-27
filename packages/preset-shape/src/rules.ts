@@ -3,8 +3,8 @@ import { createCSSVar } from '../utils'
 import type { PresetShapeOptions } from './types'
 
 export const createShapeRules = (options: Required<PresetShapeOptions>) => {
-  const cssVarUse = createCSSVar(options.prefix, { use: true })
-  const rules: Rule[] = [
+  const cssVarUse = createCSSVar(options.prefix, { use: true }),
+   rules: Rule[] = [
     [
       new RegExp(`^${options.prefix}star-?(.+)$`),
       ([_, s]) => ({
