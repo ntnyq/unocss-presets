@@ -39,5 +39,5 @@
     "*.{js,ts,tsx,mjs,vue}": "oxlint --fix",
     "*": "oxfmt --no-error-on-unmatched-pattern"
   },
-  "packageManager": "pnpm@11.24.0"
+  "packageManager": "pnpm@12.1.0"
 }
